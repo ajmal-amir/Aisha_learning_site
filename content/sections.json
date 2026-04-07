@@ -1,0 +1,111 @@
+[
+  {
+    "id": "reading-comprehension",
+    "type": "Reading Comprehension",
+    "title": "The Lost Puppy",
+    "description": "Read the short story, then answer the questions below.",
+    "story": "One afternoon, Sara was walking home from school when she heard a small barking sound behind a tree. She looked and saw a tiny puppy shivering in the cold. The puppy had no collar and looked very hungry.\n\nSara gently picked up the puppy and took it home. She gave it some food and water. Later that evening, Sara and her father made posters to help find the puppy's owner.\n\nThe next day, a neighbor saw the poster and came to Sara's house. The puppy happily ran to the neighbor because it belonged to him. The neighbor thanked Sara for taking care of his puppy.\n\nSara felt happy because she helped someone in need.",
+    "questions": [
+      {
+        "prompt": "Who is the story mainly about?",
+        "acceptableAnswers": ["sara"]
+      },
+      {
+        "prompt": "What did Sara find behind the tree?",
+        "acceptableAnswers": ["a puppy", "tiny puppy", "lost puppy"]
+      },
+      {
+        "prompt": "How did Sara help solve the problem?",
+        "acceptableAnswers": ["she took the puppy home and made posters", "she cared for the puppy and made posters", "she helped find the owner"]
+      },
+      {
+        "prompt": "What lesson does the story teach?",
+        "acceptableAnswers": ["help others", "be kind", "kindness", "helping others is good"]
+      }
+    ]
+  },
+  {
+    "id": "vocabulary",
+    "type": "Vocabulary",
+    "title": "Prefix, Suffix, and Root Word Practice",
+    "description": "Answer each vocabulary question.",
+    "questions": [
+      {
+        "prompt": "What is the root word in 'teacher'?",
+        "acceptableAnswers": ["teach"]
+      },
+      {
+        "prompt": "What prefix is in 'unhappy'?",
+        "acceptableAnswers": ["un"]
+      },
+      {
+        "prompt": "What suffix is in 'helpful'?",
+        "acceptableAnswers": ["ful"]
+      },
+      {
+        "prompt": "What does the word 'careless' mean?",
+        "acceptableAnswers": ["without care", "not careful", "showing no care"]
+      }
+    ]
+  },
+  {
+    "id": "writing",
+    "type": "Writing",
+    "title": "Opinion and Informative Writing",
+    "description": "Write complete answers. Parent can review before emailing.",
+    "questions": [
+      {
+        "prompt": "Opinion: Should students have homework every day? Write your opinion and one reason.",
+        "acceptableAnswers": []
+      },
+      {
+        "prompt": "Informative: Explain how to brush your teeth in 3 or 4 steps.",
+        "acceptableAnswers": []
+      },
+      {
+        "prompt": "Narrative: Write 3 to 5 sentences about a day you found something exciting.",
+        "acceptableAnswers": []
+      }
+    ]
+  },
+  {
+    "id": "grammar",
+    "type": "Grammar",
+    "title": "Subject and Verb Agreement",
+    "description": "Choose the best answer and type it.",
+    "questions": [
+      {
+        "prompt": "The dog ___ barking loudly. (is / are)",
+        "acceptableAnswers": ["is"]
+      },
+      {
+        "prompt": "The students ___ reading a book. (is / are)",
+        "acceptableAnswers": ["are"]
+      },
+      {
+        "prompt": "She ___ going to school. (is / are)",
+        "acceptableAnswers": ["is"]
+      }
+    ]
+  },
+  {
+    "id": "speaking-listening",
+    "type": "Speaking and Listening",
+    "title": "Talk About the Story",
+    "description": "Use these questions for speaking practice. Type short notes after discussing.",
+    "questions": [
+      {
+        "prompt": "What was your favorite part of the story?",
+        "acceptableAnswers": []
+      },
+      {
+        "prompt": "If you were Sara, what would you do?",
+        "acceptableAnswers": []
+      },
+      {
+        "prompt": "Tell the story in your own words.",
+        "acceptableAnswers": []
+      }
+    ]
+  }
+]
