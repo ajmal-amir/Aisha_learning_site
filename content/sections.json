@@ -107,5 +107,85 @@
         "acceptableAnswers": []
       }
     ]
+  },
+  {
+    "id": "math",
+    "type": "Math",
+    "title": "Grade 3 Math Practice",
+    "description": "Answer each math question. Write just the number unless the question asks for more.",
+    "questions": [
+      {
+        "prompt": "What is 47 + 36?",
+        "acceptableAnswers": ["83"]
+      },
+      {
+        "prompt": "What is 92 − 58?",
+        "acceptableAnswers": ["34"]
+      },
+      {
+        "prompt": "What is 7 × 8?",
+        "acceptableAnswers": ["56"]
+      },
+      {
+        "prompt": "What is 6 × 9?",
+        "acceptableAnswers": ["54"]
+      },
+      {
+        "prompt": "Sara has 24 apples. She puts them equally into 4 bags. How many apples are in each bag?",
+        "acceptableAnswers": ["6"]
+      },
+      {
+        "prompt": "What is the value of the digit 5 in the number 352?",
+        "acceptableAnswers": ["50", "fifty", "5 tens"]
+      },
+      {
+        "prompt": "Round 67 to the nearest ten.",
+        "acceptableAnswers": ["70"]
+      },
+      {
+        "prompt": "A rectangle is 8 cm long and 3 cm wide. What is its area?",
+        "acceptableAnswers": ["24", "24 cm", "24 square cm", "24 sq cm"]
+      }
+    ]
+  },
+  {
+    "id": "quran",
+    "type": "Quran",
+    "title": "Surah Al-Fatiha and Basics",
+    "description": "Answer questions about Surah Al-Fatiha and basic Quran knowledge. Try your best — parent will review open questions.",
+    "questions": [
+      {
+        "prompt": "What is the name of the first Surah (chapter) in the Quran?",
+        "acceptableAnswers": ["al fatiha", "al-fatiha", "fatiha", "the opening"]
+      },
+      {
+        "prompt": "How many verses (ayat) are in Surah Al-Fatiha?",
+        "acceptableAnswers": ["7", "seven"]
+      },
+      {
+        "prompt": "What does 'Bismillah' mean in English?",
+        "acceptableAnswers": ["in the name of allah", "in the name of god", "in allah's name"]
+      },
+      {
+        "prompt": "What language is the Quran written in?",
+        "acceptableAnswers": ["arabic"]
+      },
+      {
+        "prompt": "What does 'Alhamdulillah' mean in English?",
+        "acceptableAnswers": ["all praise is for allah", "praise be to allah", "praise be to god", "all praise to allah"]
+      },
+      {
+        "prompt": "Who is the last Prophet of Islam?",
+        "acceptableAnswers": ["prophet muhammad", "muhammad", "mohammed"]
+      },
+      {
+        "prompt": "Recite or write the first verse of Surah Al-Fatiha (Arabic or transliteration).",
+        "acceptableAnswers": []
+      },
+      {
+        "prompt": "In your own words, what is Surah Al-Fatiha asking Allah for?",
+        "acceptableAnswers": []
+      }
+    ]
   }
 ]
