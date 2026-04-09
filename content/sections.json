@@ -6,22 +6,10 @@
     "description": "Read the short story, then answer the questions below.",
     "story": "One afternoon, Sara was walking home from school when she heard a small barking sound behind a tree. She looked and saw a tiny puppy shivering in the cold. The puppy had no collar and looked very hungry.\n\nSara gently picked up the puppy and took it home. She gave it some food and water. Later that evening, Sara and her father made posters to help find the puppy's owner.\n\nThe next day, a neighbor saw the poster and came to Sara's house. The puppy happily ran to the neighbor because it belonged to him. The neighbor thanked Sara for taking care of his puppy.\n\nSara felt happy because she helped someone in need.",
     "questions": [
-      {
-        "prompt": "Who is the story mainly about?",
-        "acceptableAnswers": ["sara"]
-      },
-      {
-        "prompt": "What did Sara find behind the tree?",
-        "acceptableAnswers": ["a puppy", "tiny puppy", "lost puppy"]
-      },
-      {
-        "prompt": "How did Sara help solve the problem?",
-        "acceptableAnswers": ["she took the puppy home and made posters", "she cared for the puppy and made posters", "she helped find the owner"]
-      },
-      {
-        "prompt": "What lesson does the story teach?",
-        "acceptableAnswers": ["help others", "be kind", "kindness", "helping others is good"]
-      }
+      { "prompt": "Who is the story mainly about?", "acceptableAnswers": ["sara"] },
+      { "prompt": "What did Sara find behind the tree?", "acceptableAnswers": ["a puppy", "tiny puppy", "lost puppy"] },
+      { "prompt": "How did Sara help solve the problem?", "acceptableAnswers": ["she took the puppy home and made posters", "she cared for the puppy and made posters", "she helped find the owner"] },
+      { "prompt": "What lesson does the story teach?", "acceptableAnswers": ["help others", "be kind", "kindness", "helping others is good"] }
     ]
   },
   {
@@ -30,22 +18,10 @@
     "title": "Prefix, Suffix, and Root Word Practice",
     "description": "Answer each vocabulary question.",
     "questions": [
-      {
-        "prompt": "What is the root word in 'teacher'?",
-        "acceptableAnswers": ["teach"]
-      },
-      {
-        "prompt": "What prefix is in 'unhappy'?",
-        "acceptableAnswers": ["un"]
-      },
-      {
-        "prompt": "What suffix is in 'helpful'?",
-        "acceptableAnswers": ["ful"]
-      },
-      {
-        "prompt": "What does the word 'careless' mean?",
-        "acceptableAnswers": ["without care", "not careful", "showing no care"]
-      }
+      { "prompt": "What is the root word in 'teacher'?", "acceptableAnswers": ["teach"] },
+      { "prompt": "What prefix is in 'unhappy'?", "acceptableAnswers": ["un"] },
+      { "prompt": "What suffix is in 'helpful'?", "acceptableAnswers": ["ful"] },
+      { "prompt": "What does the word 'careless' mean?", "acceptableAnswers": ["without care", "not careful", "showing no care"] }
     ]
   },
   {
@@ -54,18 +30,9 @@
     "title": "Opinion and Informative Writing",
     "description": "Write complete answers. Parent can review before emailing.",
     "questions": [
-      {
-        "prompt": "Opinion: Should students have homework every day? Write your opinion and one reason.",
-        "acceptableAnswers": []
-      },
-      {
-        "prompt": "Informative: Explain how to brush your teeth in 3 or 4 steps.",
-        "acceptableAnswers": []
-      },
-      {
-        "prompt": "Narrative: Write 3 to 5 sentences about a day you found something exciting.",
-        "acceptableAnswers": []
-      }
+      { "prompt": "Opinion: Should students have homework every day? Write your opinion and one reason.", "acceptableAnswers": [] },
+      { "prompt": "Informative: Explain how to brush your teeth in 3 or 4 steps.", "acceptableAnswers": [] },
+      { "prompt": "Narrative: Write 3 to 5 sentences about a day you found something exciting.", "acceptableAnswers": [] }
     ]
   },
   {
@@ -74,18 +41,9 @@
     "title": "Subject and Verb Agreement",
     "description": "Choose the best answer and type it.",
     "questions": [
-      {
-        "prompt": "The dog ___ barking loudly. (is / are)",
-        "acceptableAnswers": ["is"]
-      },
-      {
-        "prompt": "The students ___ reading a book. (is / are)",
-        "acceptableAnswers": ["are"]
-      },
-      {
-        "prompt": "She ___ going to school. (is / are)",
-        "acceptableAnswers": ["is"]
-      }
+      { "prompt": "The dog ___ barking loudly. (is / are)", "acceptableAnswers": ["is"] },
+      { "prompt": "The students ___ reading a book. (is / are)", "acceptableAnswers": ["are"] },
+      { "prompt": "She ___ going to school. (is / are)", "acceptableAnswers": ["is"] }
     ]
   },
   {
@@ -94,96 +52,173 @@
     "title": "Talk About the Story",
     "description": "Use these questions for speaking practice. Type short notes after discussing.",
     "questions": [
-      {
-        "prompt": "What was your favorite part of the story?",
-        "acceptableAnswers": []
-      },
-      {
-        "prompt": "If you were Sara, what would you do?",
-        "acceptableAnswers": []
-      },
-      {
-        "prompt": "Tell the story in your own words.",
-        "acceptableAnswers": []
-      }
+      { "prompt": "What was your favorite part of the story?", "acceptableAnswers": [] },
+      { "prompt": "If you were Sara, what would you do?", "acceptableAnswers": [] },
+      { "prompt": "Tell the story in your own words.", "acceptableAnswers": [] }
     ]
   },
   {
     "id": "math",
     "type": "Math",
-    "title": "Grade 3 Math Practice",
-    "description": "Answer each math question. Write just the number unless the question asks for more.",
+    "title": "NC Grade 3 — Numbers, Operations & Shapes",
+    "description": "These questions are based on your NC Rethink Education worksheets. Read the Key Vocabulary first, then answer each question.",
+    "story": "KEY VOCABULARY (from your worksheet):\n\nPlace Value — The value of where a digit is in a number.\n   Example: In 495 → 4 = Hundreds, 9 = Tens, 5 = Ones\n\nStandard Form — Writing a number using digits.\n   Example: two thousand forty = 2,040\n\nExpanded Form — Breaking a number to show the value of each digit.\n   Example: 356 = 300 + 50 + 6\n\nRounding — Changing a number to the nearest ten or hundred to make it simpler.\n   Example: 79 rounds UP to 80. 34 rounds DOWN to 30.\n\nFront-End Estimation — Estimate by keeping only the highest place value digit and making the rest zeros.\n   Example: 458 → 400.   311 → 300.\n\nUnknown Number — A missing number in an equation shown with a symbol (? or a letter).\n   Example: 24 + ? = 83   or   A − 42 = 200\n\nInverse Operation — The opposite operation that undoes another.\n   Addition ↔ Subtraction     Multiplication ↔ Division\n\n2-Dimensional Shape — A flat shape with only length and width (no depth).\n\nPolygon — A closed 2-D shape made of 3 or more straight sides with no curves and no crossing lines.\n\nAttribute — A property of a shape, like the number of sides or angles.\n\nCompose — To put parts or pieces together to make a shape.",
     "questions": [
       {
-        "prompt": "What is 47 + 36?",
-        "acceptableAnswers": ["83"]
+        "prompt": "PLACE VALUE: In the number 495, what is the value of the digit 4? (Hint: Is it in the ones, tens, or hundreds place?)",
+        "acceptableAnswers": ["400", "four hundred", "4 hundreds"]
       },
       {
-        "prompt": "What is 92 − 58?",
-        "acceptableAnswers": ["34"]
+        "prompt": "PLACE VALUE: In the number 495, what is the value of the digit 9?",
+        "acceptableAnswers": ["90", "ninety", "9 tens"]
       },
       {
-        "prompt": "What is 7 × 8?",
-        "acceptableAnswers": ["56"]
+        "prompt": "PLACE VALUE: In the number 495, what is the value of the digit 5?",
+        "acceptableAnswers": ["5", "five", "5 ones"]
       },
       {
-        "prompt": "What is 6 × 9?",
-        "acceptableAnswers": ["54"]
+        "prompt": "STANDARD FORM: Write 'three hundred fifty-six' in standard form.",
+        "acceptableAnswers": ["356"]
       },
       {
-        "prompt": "Sara has 24 apples. She puts them equally into 4 bags. How many apples are in each bag?",
-        "acceptableAnswers": ["6"]
+        "prompt": "STANDARD FORM: Write 'two thousand forty' in standard form.",
+        "acceptableAnswers": ["2040", "2,040"]
       },
       {
-        "prompt": "What is the value of the digit 5 in the number 352?",
-        "acceptableAnswers": ["50", "fifty", "5 tens"]
+        "prompt": "EXPANDED FORM: Write 356 in expanded form. (Example: 495 = 400 + 90 + 5)",
+        "acceptableAnswers": ["300 + 50 + 6", "300+50+6"]
       },
       {
-        "prompt": "Round 67 to the nearest ten.",
-        "acceptableAnswers": ["70"]
+        "prompt": "EXPANDED FORM: Write 731 in expanded form.",
+        "acceptableAnswers": ["700 + 30 + 1", "700+30+1"]
       },
       {
-        "prompt": "A rectangle is 8 cm long and 3 cm wide. What is its area?",
-        "acceptableAnswers": ["24", "24 cm", "24 square cm", "24 sq cm"]
+        "prompt": "ROUNDING: Round 79 to the nearest ten. Does it go up or down?",
+        "acceptableAnswers": ["80", "80 it goes up", "80 up"]
+      },
+      {
+        "prompt": "ROUNDING: Round 34 to the nearest ten.",
+        "acceptableAnswers": ["30"]
+      },
+      {
+        "prompt": "ROUNDING: Round 462 to the nearest hundred.",
+        "acceptableAnswers": ["500"]
+      },
+      {
+        "prompt": "FRONT-END ESTIMATION: Estimate 458 using front-end estimation. (Keep only the highest place value digit, make the rest zeros.)",
+        "acceptableAnswers": ["400"]
+      },
+      {
+        "prompt": "FRONT-END ESTIMATION: Estimate 311 using front-end estimation.",
+        "acceptableAnswers": ["300"]
+      },
+      {
+        "prompt": "UNKNOWN NUMBER: Solve: 24 + ? = 83. What is the missing number?",
+        "acceptableAnswers": ["59"]
+      },
+      {
+        "prompt": "UNKNOWN NUMBER: Solve: A − 42 = 200. What is A? (Hint: use inverse operations — what is the opposite of subtraction?)",
+        "acceptableAnswers": ["242"]
+      },
+      {
+        "prompt": "INVERSE OPERATIONS: What is the inverse (opposite) operation of addition?",
+        "acceptableAnswers": ["subtraction"]
+      },
+      {
+        "prompt": "INVERSE OPERATIONS: What is the inverse (opposite) operation of multiplication?",
+        "acceptableAnswers": ["division"]
+      },
+      {
+        "prompt": "INVERSE OPERATIONS: You solved 24 + 59 = 83. Write the subtraction problem you can use to CHECK your answer.",
+        "acceptableAnswers": ["83 - 59", "83 - 24", "83-59", "83-24"]
+      },
+      {
+        "prompt": "POLYGONS: Is a circle a polygon? Write YES or NO and give one reason why.",
+        "acceptableAnswers": ["no", "no it has curves", "no because it has no straight sides", "no it is curved"]
+      },
+      {
+        "prompt": "POLYGONS: A triangle has how many sides?",
+        "acceptableAnswers": ["3", "three"]
+      },
+      {
+        "prompt": "ATTRIBUTES: Name TWO attributes you can use to describe any polygon.",
+        "acceptableAnswers": ["sides and angles", "sides and corners", "angles and sides", "number of sides and angles"]
+      },
+      {
+        "prompt": "COMPOSE: If you put two triangles together, what new shape can you compose (make)?",
+        "acceptableAnswers": ["a square", "square", "a rectangle", "rectangle", "a parallelogram", "parallelogram", "rhombus"]
+      },
+      {
+        "prompt": "WORD PROBLEM: A rectangle is 8 cm long and 3 cm wide. What is its area? (Area = length × width)",
+        "acceptableAnswers": ["24", "24 cm", "24 sq cm", "24 square cm", "24 square centimeters"]
       }
     ]
   },
   {
     "id": "quran",
     "type": "Quran",
-    "title": "Surah Al-Fatiha and Basics",
-    "description": "Answer questions about Surah Al-Fatiha and basic Quran knowledge. Try your best — parent will review open questions.",
+    "title": "Surah An-Naba — Reading & Memorization (Ayat 1–26)",
+    "description": "Read Surah An-Naba from Ayah 1 to Ayah 26 with your parent. Then answer the questions. The last questions focus on memorizing Ayah 26 word by word.",
+    "story": "SURAH AN-NABA (The Great News) — Surah 78\nRead aloud with your parent. Arabic → Transliteration → English meaning.\n\nAyah 1:  عَمَّ يَتَسَاءَلُونَ\n         Amma yatasaa-aloon\n         About what are they asking one another?\n\nAyah 2:  عَنِ النَّبَإِ الْعَظِيمِ\n         Anil naba-il azeem\n         About the great news —\n\nAyah 3:  الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ\n         Allathee hum feehi mukhtalifoon\n         That over which they disagree.\n\nAyah 4:  كَلَّا سَيَعْلَمُونَ\n         Kalla saya'lamoon\n         No! They are going to know.\n\nAyah 5:  ثُمَّ كَلَّا سَيَعْلَمُونَ\n         Thumma kalla saya'lamoon\n         Then, no! They are going to know.\n\nAyah 6:  أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا\n         Alam naj'alil arda mihadaa\n         Have We not made the earth a resting place?\n\nAyah 7:  وَالْجِبَالَ أَوْتَادًا\n         Wal jibala awtadaa\n         And the mountains as stakes?\n\nAyah 8:  وَخَلَقْنَاكُمْ أَزْوَاجًا\n         Wa khalaqnakum azwajaa\n         And We created you in pairs.\n\nAyah 9:  وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا\n         Wa ja'alna nawmakum subataa\n         And made your sleep a means of rest.\n\nAyah 10: وَجَعَلْنَا اللَّيْلَ لِبَاسًا\n         Wa ja'alnal layla libasaa\n         And made the night as clothing.\n\nAyah 11: وَجَعَلْنَا النَّهَارَ مَعَاشًا\n         Wa ja'alnan nahara ma'ashaa\n         And made the day for livelihood.\n\nAyah 12: وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا\n         Wa banayna fawqakum sab'an shidadaa\n         And constructed above you seven strong heavens.\n\nAyah 13: وَجَعَلْنَا سِرَاجًا وَهَّاجًا\n         Wa ja'alna sirajan wahajaa\n         And made a blazing lamp (the sun).\n\nAyah 14: وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا\n         Wa anzalna minal mu'sirati ma-an thajjajaa\n         And sent down from the rain clouds pouring water.\n\nAyah 15: لِّنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا\n         Linukhrija bihi habban wa nabataa\n         That We may bring forth grain and vegetation.\n\nAyah 16: وَجَنَّاتٍ أَلْفَافًا\n         Wa jannatin alfafaa\n         And gardens of entwined growth.\n\nAyah 17: إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا\n         Inna yawmal fasli kana meqataa\n         Indeed, the Day of Judgment is an appointed time.\n\nAyah 18: يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا\n         Yawma yunfakhu fis suri fata'toona afwajaa\n         The Day the Horn is blown and you come forth in multitudes.\n\nAyah 19: وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا\n         Wa futihatil sama-u fakanat abwabaa\n         And the heaven is opened and becomes gateways.\n\nAyah 20: وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا\n         Wa suyyiratil jibalu fakanat sarabaa\n         And the mountains are removed and become a mirage.\n\nAyah 21: إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا\n         Inna jahannama kanat mirsadaa\n         Indeed, Hell has been lying in wait —\n\nAyah 22: لِّلطَّاغِينَ مَآبًا\n         Lil tagheena ma-abaa\n         For the transgressors, a place of return.\n\nAyah 23: لَّابِثِينَ فِيهَا أَحْقَابًا\n         Labiteena feeha ahqabaa\n         In which they will remain for ages unending.\n\nAyah 24: لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا\n         La yathooqoona feeha bardan wa la sharabaa\n         They will taste no coolness therein, nor any drink —\n\nAyah 25: إِلَّا حَمِيمًا وَغَسَّاقًا\n         Illa hameeman wa ghassaqaa\n         Except scalding water and foul purulence.\n\nAyah 26: جَزَاءً وِفَاقًا\n         Jaza-an Wifaqaa\n         A fitting recompense.\n\n★ MEMORIZE AYAH 26 — WORD BY WORD ★\n  This ayah has only TWO words:\n  Word 1: جَزَاءً  →  Jaza-an  →  Means: A recompense (a reward or punishment)\n  Word 2: وِفَاقًا  →  Wifaqaa  →  Means: Fitting / Appropriate\n  Full ayah: Jaza-an Wifaqaa = A fitting recompense.\n  Practice: Say Word 1 → say both words → close your eyes and say it alone.",
     "questions": [
       {
-        "prompt": "What is the name of the first Surah (chapter) in the Quran?",
-        "acceptableAnswers": ["al fatiha", "al-fatiha", "fatiha", "the opening"]
+        "prompt": "What is the name of Surah 78 and what does it mean in English?",
+        "acceptableAnswers": ["an naba the great news", "an-naba the great news", "naba great news", "an naba", "the great news"]
       },
       {
-        "prompt": "How many verses (ayat) are in Surah Al-Fatiha?",
+        "prompt": "Ayah 1 opens with a question. What is that question? (Write in English)",
+        "acceptableAnswers": ["about what are they asking one another", "what are they asking one another", "what are they asking about"]
+      },
+      {
+        "prompt": "According to Ayah 6, what did Allah make the earth into?",
+        "acceptableAnswers": ["a resting place", "resting place", "a bed", "mihadaa"]
+      },
+      {
+        "prompt": "According to Ayah 7, what did Allah place like stakes in the ground?",
+        "acceptableAnswers": ["mountains", "the mountains"]
+      },
+      {
+        "prompt": "According to Ayah 9, what did Allah make our sleep into?",
+        "acceptableAnswers": ["rest", "a means of rest", "subaata", "subat"]
+      },
+      {
+        "prompt": "How many strong heavens does Ayah 12 say Allah built above us?",
         "acceptableAnswers": ["7", "seven"]
       },
       {
-        "prompt": "What does 'Bismillah' mean in English?",
-        "acceptableAnswers": ["in the name of allah", "in the name of god", "in allah's name"]
+        "prompt": "What does Ayah 13 say Allah made as a blazing lamp?",
+        "acceptableAnswers": ["the sun", "sun", "a lamp", "siraj"]
       },
       {
-        "prompt": "What language is the Quran written in?",
-        "acceptableAnswers": ["arabic"]
+        "prompt": "What is the name of the Day mentioned in Ayah 17, and what does it mean?",
+        "acceptableAnswers": ["yawm al fasl", "day of judgment", "yawmal fasl", "the day of judgment", "day of decision", "the appointed time"]
       },
       {
-        "prompt": "What does 'Alhamdulillah' mean in English?",
-        "acceptableAnswers": ["all praise is for allah", "praise be to allah", "praise be to god", "all praise to allah"]
+        "prompt": "According to Ayah 21 and 22, for whom is Hell (Jahannam) waiting?",
+        "acceptableAnswers": ["the transgressors", "transgressors", "wrongdoers", "the wrongdoers", "tagheen"]
       },
       {
-        "prompt": "Who is the last Prophet of Islam?",
-        "acceptableAnswers": ["prophet muhammad", "muhammad", "mohammed"]
+        "prompt": "According to Ayah 24, what two things will the people of Hell NOT taste?",
+        "acceptableAnswers": ["coolness and drink", "cold and drink", "coolness and water", "no coolness or drink"]
       },
       {
-        "prompt": "Recite or write the first verse of Surah Al-Fatiha (Arabic or transliteration).",
+        "prompt": "MEMORIZE — Write the full transliteration of Ayah 26.",
+        "acceptableAnswers": ["jaza an wifaqa", "jaza-an wifaqaa", "jazaan wifaqaa", "jaza an wifaqaa", "jaza'an wifaqa"]
+      },
+      {
+        "prompt": "MEMORIZE — What is the meaning of the first word of Ayah 26: جَزَاءً (Jaza-an)?",
+        "acceptableAnswers": ["a recompense", "recompense", "a reward", "reward", "a punishment", "reward or punishment"]
+      },
+      {
+        "prompt": "MEMORIZE — What is the meaning of the second word of Ayah 26: وِفَاقًا (Wifaqaa)?",
+        "acceptableAnswers": ["fitting", "appropriate", "a fitting", "corresponding"]
+      },
+      {
+        "prompt": "MEMORIZE — Say Ayah 26 aloud to your parent 5 times. Then write it from memory (transliteration is fine).",
         "acceptableAnswers": []
       },
       {
-        "prompt": "In your own words, what is Surah Al-Fatiha asking Allah for?",
+        "prompt": "REFLECTION: Ayat 21–26 describe what will happen to those who did wrong. In your own words, write 1–2 sentences about what those ayat teach us.",
         "acceptableAnswers": []
       }
     ]
