@@ -1,226 +1,325 @@
 [
   {
-    "id": "reading-comprehension",
-    "type": "Reading Comprehension",
+    "id": "reading-1",
+    "type": "📖 Reading",
     "title": "The Lost Puppy",
-    "description": "Read the short story, then answer the questions below.",
+    "description": "Read the story, then answer the questions in your own words.",
     "story": "One afternoon, Sara was walking home from school when she heard a small barking sound behind a tree. She looked and saw a tiny puppy shivering in the cold. The puppy had no collar and looked very hungry.\n\nSara gently picked up the puppy and took it home. She gave it some food and water. Later that evening, Sara and her father made posters to help find the puppy's owner.\n\nThe next day, a neighbor saw the poster and came to Sara's house. The puppy happily ran to the neighbor because it belonged to him. The neighbor thanked Sara for taking care of his puppy.\n\nSara felt happy because she helped someone in need.",
     "questions": [
       { "prompt": "Who is the story mainly about?", "acceptableAnswers": ["sara"] },
       { "prompt": "What did Sara find behind the tree?", "acceptableAnswers": ["a puppy", "tiny puppy", "lost puppy"] },
-      { "prompt": "How did Sara help solve the problem?", "acceptableAnswers": ["she took the puppy home and made posters", "she cared for the puppy and made posters", "she helped find the owner"] },
-      { "prompt": "What lesson does the story teach?", "acceptableAnswers": ["help others", "be kind", "kindness", "helping others is good"] }
+      { "prompt": "Name TWO things Sara did to help the puppy.", "acceptableAnswers": ["gave it food and water", "food and water and made posters", "took it home and made posters"] },
+      { "prompt": "How did Sara find the puppy's owner?", "acceptableAnswers": ["she made posters", "posters", "her father helped make posters"] },
+      { "prompt": "What lesson does this story teach? Write a complete sentence.", "acceptableAnswers": ["helping others", "be kind", "kindness matters", "help others in need"] }
+    ]
+  },
+  {
+    "id": "reading-2",
+    "type": "📖 Reading",
+    "title": "The Ant and the Grasshopper",
+    "description": "Read the fable, then answer the questions below.",
+    "story": "All summer long, the ant worked hard. Every day she carried food to her nest underground. The grasshopper watched and laughed. Why do you work so hard? he sang. Come play with me instead! The ant shook her head. Winter is coming. I must prepare.\n\nWhen winter arrived, the grasshopper was cold and hungry. He had nothing stored away. He knocked on the ant's door and begged for food. The ant shared a little, but said kindly, Next summer, remember to work while the sun shines.\n\nThe grasshopper nodded and promised he would never forget that lesson again.",
+    "questions": [
+      { "prompt": "What was the ant doing all summer?", "acceptableAnswers": ["carrying food", "working", "storing food", "preparing for winter"] },
+      { "prompt": "What did the grasshopper do instead of working?", "acceptableAnswers": ["played", "sang", "laughed at the ant"] },
+      { "prompt": "What problem did the grasshopper have in winter?", "acceptableAnswers": ["he was cold and hungry", "he had no food", "nothing stored away"] },
+      { "prompt": "How did the ant respond when the grasshopper asked for help?", "acceptableAnswers": ["she shared a little food", "she shared and gave advice", "shared food and told him to prepare next time"] },
+      { "prompt": "What is the moral (lesson) of this fable?", "acceptableAnswers": ["work hard and prepare", "prepare for the future", "dont be lazy", "plan ahead"] }
     ]
   },
   {
     "id": "vocabulary",
-    "type": "Vocabulary",
-    "title": "Prefix, Suffix, and Root Word Practice",
-    "description": "Answer each vocabulary question.",
+    "type": "📝 Vocabulary",
+    "title": "Prefix, Suffix & Root Words",
+    "description": "Answer each vocabulary question. Think carefully about word parts!",
     "questions": [
-      { "prompt": "What is the root word in 'teacher'?", "acceptableAnswers": ["teach"] },
-      { "prompt": "What prefix is in 'unhappy'?", "acceptableAnswers": ["un"] },
-      { "prompt": "What suffix is in 'helpful'?", "acceptableAnswers": ["ful"] },
-      { "prompt": "What does the word 'careless' mean?", "acceptableAnswers": ["without care", "not careful", "showing no care"] }
+      { "prompt": "What is the ROOT word in 'teacher'?", "acceptableAnswers": ["teach"] },
+      { "prompt": "What is the ROOT word in 'happily'?", "acceptableAnswers": ["happy"] },
+      { "prompt": "What PREFIX is in 'unhappy'? What does it mean?", "acceptableAnswers": ["un means not", "un not", "un"] },
+      { "prompt": "What PREFIX is in 'redo'? What does it mean?", "acceptableAnswers": ["re means again", "re again", "re"] },
+      { "prompt": "What SUFFIX is in 'helpful'?", "acceptableAnswers": ["ful"] },
+      { "prompt": "What SUFFIX is in 'careless'?", "acceptableAnswers": ["less"] },
+      { "prompt": "What does 'careless' mean? Use the suffix to help you.", "acceptableAnswers": ["without care", "not careful", "showing no care"] },
+      { "prompt": "What does 'hopeful' mean? Use the suffix to help you.", "acceptableAnswers": ["full of hope", "having hope"] },
+      { "prompt": "Make a new word by adding 'un' to the word 'safe'. What does it mean?", "acceptableAnswers": ["unsafe means not safe", "unsafe not safe", "unsafe"] },
+      { "prompt": "Which word means the OPPOSITE of 'kind'? (unkind / reskind / kindless)", "acceptableAnswers": ["unkind"] }
     ]
   },
   {
     "id": "writing",
-    "type": "Writing",
-    "title": "Opinion and Informative Writing",
-    "description": "Write complete answers. Parent can review before emailing.",
+    "type": "✏️ Writing",
+    "title": "Opinion, Informative & Narrative Writing",
+    "description": "Write complete sentences. Use your best spelling and punctuation. Parent will review open answers.",
     "questions": [
-      { "prompt": "Opinion: Should students have homework every day? Write your opinion and one reason.", "acceptableAnswers": [] },
-      { "prompt": "Informative: Explain how to brush your teeth in 3 or 4 steps.", "acceptableAnswers": [] },
-      { "prompt": "Narrative: Write 3 to 5 sentences about a day you found something exciting.", "acceptableAnswers": [] }
+      { "prompt": "OPINION: Should students have homework every day? Write your opinion and TWO reasons.", "acceptableAnswers": [] },
+      { "prompt": "OPINION: Is it better to have one good friend or many friends? Give a reason.", "acceptableAnswers": [] },
+      { "prompt": "INFORMATIVE: Explain how to brush your teeth in 4 steps. Use first, next, then, and finally.", "acceptableAnswers": [] },
+      { "prompt": "INFORMATIVE: Explain what an ant does during summer. Use facts from the story.", "acceptableAnswers": [] },
+      { "prompt": "NARRATIVE: Write 4 to 6 sentences about a day you helped someone. Tell what happened and how you felt.", "acceptableAnswers": [] },
+      { "prompt": "NARRATIVE: Write a short story starting with: One morning I opened my backpack and found a tiny glowing box...", "acceptableAnswers": [] }
     ]
   },
   {
     "id": "grammar",
-    "type": "Grammar",
-    "title": "Subject and Verb Agreement",
-    "description": "Choose the best answer and type it.",
+    "type": "🔤 Grammar",
+    "title": "Grammar Practice",
+    "description": "Choose the correct word and type your answer.",
     "questions": [
       { "prompt": "The dog ___ barking loudly. (is / are)", "acceptableAnswers": ["is"] },
       { "prompt": "The students ___ reading a book. (is / are)", "acceptableAnswers": ["are"] },
-      { "prompt": "She ___ going to school. (is / are)", "acceptableAnswers": ["is"] }
+      { "prompt": "She ___ going to school every day. (is / are)", "acceptableAnswers": ["is"] },
+      { "prompt": "They ___ playing outside. (was / were)", "acceptableAnswers": ["were"] },
+      { "prompt": "He ___ eating lunch. (was / were)", "acceptableAnswers": ["was"] },
+      { "prompt": "Which is a COMPLETE sentence? A) The big dog. B) The big dog ran fast.", "acceptableAnswers": ["b", "the big dog ran fast"] },
+      { "prompt": "Add the correct punctuation mark at the end: Where is my pencil", "acceptableAnswers": ["?", "question mark"] },
+      { "prompt": "Which word is a NOUN in: The happy puppy ran home.", "acceptableAnswers": ["puppy", "home"] },
+      { "prompt": "Which word is a VERB in: Sara found a lost puppy.", "acceptableAnswers": ["found"] },
+      { "prompt": "Rewrite correctly: the ant worked hard all summer", "acceptableAnswers": ["the ant worked hard all summer.", "The ant worked hard all summer."] }
     ]
   },
   {
-    "id": "speaking-listening",
-    "type": "Speaking and Listening",
-    "title": "Talk About the Story",
-    "description": "Use these questions for speaking practice. Type short notes after discussing.",
+    "id": "speaking",
+    "type": "🗣️ Speaking",
+    "title": "Speaking & Listening Practice",
+    "description": "Say your answer OUT LOUD to your parent first, then write short notes below.",
     "questions": [
-      { "prompt": "What was your favorite part of the story?", "acceptableAnswers": [] },
-      { "prompt": "If you were Sara, what would you do?", "acceptableAnswers": [] },
-      { "prompt": "Tell the story in your own words.", "acceptableAnswers": [] }
+      { "prompt": "Retell The Lost Puppy in your own words. Say at least 4 sentences out loud.", "acceptableAnswers": [] },
+      { "prompt": "Tell your parent: What would YOU do if you found a lost animal? Give at least 2 steps.", "acceptableAnswers": [] },
+      { "prompt": "Discuss: What lesson did the grasshopper learn? Do you think he really changed? Why?", "acceptableAnswers": [] },
+      { "prompt": "Practice reading Ayah 26 of Surah An-Naba aloud 3 times, then tell your parent what it means.", "acceptableAnswers": [] },
+      { "prompt": "Ask your parent to give you any number. Write it in expanded form AND round it to the nearest ten.", "acceptableAnswers": [] }
     ]
   },
   {
-    "id": "math",
-    "type": "Math",
-    "title": "NC Grade 3 — Numbers, Operations & Shapes",
-    "description": "These questions are based on your NC Rethink Education worksheets. Read the Key Vocabulary first, then answer each question.",
-    "story": "KEY VOCABULARY (from your worksheet):\n\nPlace Value — The value of where a digit is in a number.\n   Example: In 495 → 4 = Hundreds, 9 = Tens, 5 = Ones\n\nStandard Form — Writing a number using digits.\n   Example: two thousand forty = 2,040\n\nExpanded Form — Breaking a number to show the value of each digit.\n   Example: 356 = 300 + 50 + 6\n\nRounding — Changing a number to the nearest ten or hundred to make it simpler.\n   Example: 79 rounds UP to 80. 34 rounds DOWN to 30.\n\nFront-End Estimation — Estimate by keeping only the highest place value digit and making the rest zeros.\n   Example: 458 → 400.   311 → 300.\n\nUnknown Number — A missing number in an equation shown with a symbol (? or a letter).\n   Example: 24 + ? = 83   or   A − 42 = 200\n\nInverse Operation — The opposite operation that undoes another.\n   Addition ↔ Subtraction     Multiplication ↔ Division\n\n2-Dimensional Shape — A flat shape with only length and width (no depth).\n\nPolygon — A closed 2-D shape made of 3 or more straight sides with no curves and no crossing lines.\n\nAttribute — A property of a shape, like the number of sides or angles.\n\nCompose — To put parts or pieces together to make a shape.",
+    "id": "math-day1",
+    "type": "🔢 Math Day 1",
+    "title": "Place Value, Standard Form, Expanded Form & Rounding",
+    "description": "Read the key vocabulary below, then answer the questions. Take your time!",
+    "story": "TODAY'S 4 TOPICS\n\n1. PLACE VALUE: The value of where a digit sits in a number.\n   In 495: 4=Hundreds(400), 9=Tens(90), 5=Ones(5)\n\n2. STANDARD FORM: Writing a number using digits.\n   two thousand forty = 2,040\n\n3. EXPANDED FORM: Break the number apart to show each digit's value.\n   356 = 300 + 50 + 6\n   495 = 400 + 90 + 5\n\n4. ROUNDING: Make a number simpler by rounding to the nearest ten or hundred.\n   RULE: Look at the digit to the RIGHT of where you round.\n   5 or more = round UP. 4 or less = round DOWN.\n   79 rounds UP to 80. 34 rounds DOWN to 30. 462 rounds to 500.",
     "questions": [
-      {
-        "prompt": "PLACE VALUE: In the number 495, what is the value of the digit 4? (Hint: Is it in the ones, tens, or hundreds place?)",
-        "acceptableAnswers": ["400", "four hundred", "4 hundreds"]
-      },
-      {
-        "prompt": "PLACE VALUE: In the number 495, what is the value of the digit 9?",
-        "acceptableAnswers": ["90", "ninety", "9 tens"]
-      },
-      {
-        "prompt": "PLACE VALUE: In the number 495, what is the value of the digit 5?",
-        "acceptableAnswers": ["5", "five", "5 ones"]
-      },
-      {
-        "prompt": "STANDARD FORM: Write 'three hundred fifty-six' in standard form.",
-        "acceptableAnswers": ["356"]
-      },
-      {
-        "prompt": "STANDARD FORM: Write 'two thousand forty' in standard form.",
-        "acceptableAnswers": ["2040", "2,040"]
-      },
-      {
-        "prompt": "EXPANDED FORM: Write 356 in expanded form. (Example: 495 = 400 + 90 + 5)",
-        "acceptableAnswers": ["300 + 50 + 6", "300+50+6"]
-      },
-      {
-        "prompt": "EXPANDED FORM: Write 731 in expanded form.",
-        "acceptableAnswers": ["700 + 30 + 1", "700+30+1"]
-      },
-      {
-        "prompt": "ROUNDING: Round 79 to the nearest ten. Does it go up or down?",
-        "acceptableAnswers": ["80", "80 it goes up", "80 up"]
-      },
-      {
-        "prompt": "ROUNDING: Round 34 to the nearest ten.",
-        "acceptableAnswers": ["30"]
-      },
-      {
-        "prompt": "ROUNDING: Round 462 to the nearest hundred.",
-        "acceptableAnswers": ["500"]
-      },
-      {
-        "prompt": "FRONT-END ESTIMATION: Estimate 458 using front-end estimation. (Keep only the highest place value digit, make the rest zeros.)",
-        "acceptableAnswers": ["400"]
-      },
-      {
-        "prompt": "FRONT-END ESTIMATION: Estimate 311 using front-end estimation.",
-        "acceptableAnswers": ["300"]
-      },
-      {
-        "prompt": "UNKNOWN NUMBER: Solve: 24 + ? = 83. What is the missing number?",
-        "acceptableAnswers": ["59"]
-      },
-      {
-        "prompt": "UNKNOWN NUMBER: Solve: A − 42 = 200. What is A? (Hint: use inverse operations — what is the opposite of subtraction?)",
-        "acceptableAnswers": ["242"]
-      },
-      {
-        "prompt": "INVERSE OPERATIONS: What is the inverse (opposite) operation of addition?",
-        "acceptableAnswers": ["subtraction"]
-      },
-      {
-        "prompt": "INVERSE OPERATIONS: What is the inverse (opposite) operation of multiplication?",
-        "acceptableAnswers": ["division"]
-      },
-      {
-        "prompt": "INVERSE OPERATIONS: You solved 24 + 59 = 83. Write the subtraction problem you can use to CHECK your answer.",
-        "acceptableAnswers": ["83 - 59", "83 - 24", "83-59", "83-24"]
-      },
-      {
-        "prompt": "POLYGONS: Is a circle a polygon? Write YES or NO and give one reason why.",
-        "acceptableAnswers": ["no", "no it has curves", "no because it has no straight sides", "no it is curved"]
-      },
-      {
-        "prompt": "POLYGONS: A triangle has how many sides?",
-        "acceptableAnswers": ["3", "three"]
-      },
-      {
-        "prompt": "ATTRIBUTES: Name TWO attributes you can use to describe any polygon.",
-        "acceptableAnswers": ["sides and angles", "sides and corners", "angles and sides", "number of sides and angles"]
-      },
-      {
-        "prompt": "COMPOSE: If you put two triangles together, what new shape can you compose (make)?",
-        "acceptableAnswers": ["a square", "square", "a rectangle", "rectangle", "a parallelogram", "parallelogram", "rhombus"]
-      },
-      {
-        "prompt": "WORD PROBLEM: A rectangle is 8 cm long and 3 cm wide. What is its area? (Area = length × width)",
-        "acceptableAnswers": ["24", "24 cm", "24 sq cm", "24 square cm", "24 square centimeters"]
-      }
+      { "prompt": "PLACE VALUE: In 495, what is the value of the digit 4?", "acceptableAnswers": ["400", "four hundred"] },
+      { "prompt": "PLACE VALUE: In 495, what is the value of the digit 9?", "acceptableAnswers": ["90", "ninety"] },
+      { "prompt": "STANDARD FORM: Write three hundred fifty-six in standard form.", "acceptableAnswers": ["356"] },
+      { "prompt": "STANDARD FORM: Write two thousand forty in standard form.", "acceptableAnswers": ["2040", "2,040"] },
+      { "prompt": "EXPANDED FORM: Write 356 in expanded form.", "acceptableAnswers": ["300 + 50 + 6", "300+50+6"] },
+      { "prompt": "EXPANDED FORM: Write 731 in expanded form.", "acceptableAnswers": ["700 + 30 + 1", "700+30+1"] },
+      { "prompt": "ROUNDING: Round 79 to the nearest ten.", "acceptableAnswers": ["80"] },
+      { "prompt": "ROUNDING: Round 34 to the nearest ten.", "acceptableAnswers": ["30"] },
+      { "prompt": "ROUNDING: Round 462 to the nearest hundred.", "acceptableAnswers": ["500"] },
+      { "prompt": "CHALLENGE: Write 2,040 in expanded form.", "acceptableAnswers": ["2000 + 40", "2,000 + 40"] }
     ]
   },
   {
-    "id": "quran",
-    "type": "Quran",
-    "title": "Surah An-Naba — Reading & Memorization (Ayat 1–26)",
-    "description": "Read Surah An-Naba from Ayah 1 to Ayah 26 with your parent. Then answer the questions. The last questions focus on memorizing Ayah 26 word by word.",
-    "story": "SURAH AN-NABA (The Great News) — Surah 78\nRead aloud with your parent. Arabic → Transliteration → English meaning.\n\nAyah 1:  عَمَّ يَتَسَاءَلُونَ\n         Amma yatasaa-aloon\n         About what are they asking one another?\n\nAyah 2:  عَنِ النَّبَإِ الْعَظِيمِ\n         Anil naba-il azeem\n         About the great news —\n\nAyah 3:  الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ\n         Allathee hum feehi mukhtalifoon\n         That over which they disagree.\n\nAyah 4:  كَلَّا سَيَعْلَمُونَ\n         Kalla saya'lamoon\n         No! They are going to know.\n\nAyah 5:  ثُمَّ كَلَّا سَيَعْلَمُونَ\n         Thumma kalla saya'lamoon\n         Then, no! They are going to know.\n\nAyah 6:  أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا\n         Alam naj'alil arda mihadaa\n         Have We not made the earth a resting place?\n\nAyah 7:  وَالْجِبَالَ أَوْتَادًا\n         Wal jibala awtadaa\n         And the mountains as stakes?\n\nAyah 8:  وَخَلَقْنَاكُمْ أَزْوَاجًا\n         Wa khalaqnakum azwajaa\n         And We created you in pairs.\n\nAyah 9:  وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا\n         Wa ja'alna nawmakum subataa\n         And made your sleep a means of rest.\n\nAyah 10: وَجَعَلْنَا اللَّيْلَ لِبَاسًا\n         Wa ja'alnal layla libasaa\n         And made the night as clothing.\n\nAyah 11: وَجَعَلْنَا النَّهَارَ مَعَاشًا\n         Wa ja'alnan nahara ma'ashaa\n         And made the day for livelihood.\n\nAyah 12: وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا\n         Wa banayna fawqakum sab'an shidadaa\n         And constructed above you seven strong heavens.\n\nAyah 13: وَجَعَلْنَا سِرَاجًا وَهَّاجًا\n         Wa ja'alna sirajan wahajaa\n         And made a blazing lamp (the sun).\n\nAyah 14: وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا\n         Wa anzalna minal mu'sirati ma-an thajjajaa\n         And sent down from the rain clouds pouring water.\n\nAyah 15: لِّنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا\n         Linukhrija bihi habban wa nabataa\n         That We may bring forth grain and vegetation.\n\nAyah 16: وَجَنَّاتٍ أَلْفَافًا\n         Wa jannatin alfafaa\n         And gardens of entwined growth.\n\nAyah 17: إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا\n         Inna yawmal fasli kana meqataa\n         Indeed, the Day of Judgment is an appointed time.\n\nAyah 18: يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا\n         Yawma yunfakhu fis suri fata'toona afwajaa\n         The Day the Horn is blown and you come forth in multitudes.\n\nAyah 19: وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا\n         Wa futihatil sama-u fakanat abwabaa\n         And the heaven is opened and becomes gateways.\n\nAyah 20: وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا\n         Wa suyyiratil jibalu fakanat sarabaa\n         And the mountains are removed and become a mirage.\n\nAyah 21: إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا\n         Inna jahannama kanat mirsadaa\n         Indeed, Hell has been lying in wait —\n\nAyah 22: لِّلطَّاغِينَ مَآبًا\n         Lil tagheena ma-abaa\n         For the transgressors, a place of return.\n\nAyah 23: لَّابِثِينَ فِيهَا أَحْقَابًا\n         Labiteena feeha ahqabaa\n         In which they will remain for ages unending.\n\nAyah 24: لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا\n         La yathooqoona feeha bardan wa la sharabaa\n         They will taste no coolness therein, nor any drink —\n\nAyah 25: إِلَّا حَمِيمًا وَغَسَّاقًا\n         Illa hameeman wa ghassaqaa\n         Except scalding water and foul purulence.\n\nAyah 26: جَزَاءً وِفَاقًا\n         Jaza-an Wifaqaa\n         A fitting recompense.\n\n★ MEMORIZE AYAH 26 — WORD BY WORD ★\n  This ayah has only TWO words:\n  Word 1: جَزَاءً  →  Jaza-an  →  Means: A recompense (a reward or punishment)\n  Word 2: وِفَاقًا  →  Wifaqaa  →  Means: Fitting / Appropriate\n  Full ayah: Jaza-an Wifaqaa = A fitting recompense.\n  Practice: Say Word 1 → say both words → close your eyes and say it alone.",
+    "id": "math-day2",
+    "type": "🔢 Math Day 2",
+    "title": "Estimation, Unknown Numbers & Inverse Operations",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. FRONT-END ESTIMATION: Keep only the highest place value digit, make the rest zeros.\n   458 becomes 400. 678 becomes 700. 311 becomes 300.\n\n2. UNKNOWN NUMBER: A missing number shown as ? or a letter.\n   24 + ? = 83. Think: 83 - 24 = 59, so ? = 59\n   A - 42 = 200. Think: 200 + 42 = 242, so A = 242\n\n3. INVERSE OPERATIONS: The OPPOSITE operation that UNDOES another.\n   Addition undoes Subtraction. Multiplication undoes Division.\n\n4. DECOMPOSE (Expanded Subtraction):\n   678 - 548 = ? Break apart first!\n   600+70+8 minus 500+40+8 = 100+30+0 = 130",
     "questions": [
-      {
-        "prompt": "What is the name of Surah 78 and what does it mean in English?",
-        "acceptableAnswers": ["an naba the great news", "an-naba the great news", "naba great news", "an naba", "the great news"]
-      },
-      {
-        "prompt": "Ayah 1 opens with a question. What is that question? (Write in English)",
-        "acceptableAnswers": ["about what are they asking one another", "what are they asking one another", "what are they asking about"]
-      },
-      {
-        "prompt": "According to Ayah 6, what did Allah make the earth into?",
-        "acceptableAnswers": ["a resting place", "resting place", "a bed", "mihadaa"]
-      },
-      {
-        "prompt": "According to Ayah 7, what did Allah place like stakes in the ground?",
-        "acceptableAnswers": ["mountains", "the mountains"]
-      },
-      {
-        "prompt": "According to Ayah 9, what did Allah make our sleep into?",
-        "acceptableAnswers": ["rest", "a means of rest", "subaata", "subat"]
-      },
-      {
-        "prompt": "How many strong heavens does Ayah 12 say Allah built above us?",
-        "acceptableAnswers": ["7", "seven"]
-      },
-      {
-        "prompt": "What does Ayah 13 say Allah made as a blazing lamp?",
-        "acceptableAnswers": ["the sun", "sun", "a lamp", "siraj"]
-      },
-      {
-        "prompt": "What is the name of the Day mentioned in Ayah 17, and what does it mean?",
-        "acceptableAnswers": ["yawm al fasl", "day of judgment", "yawmal fasl", "the day of judgment", "day of decision", "the appointed time"]
-      },
-      {
-        "prompt": "According to Ayah 21 and 22, for whom is Hell (Jahannam) waiting?",
-        "acceptableAnswers": ["the transgressors", "transgressors", "wrongdoers", "the wrongdoers", "tagheen"]
-      },
-      {
-        "prompt": "According to Ayah 24, what two things will the people of Hell NOT taste?",
-        "acceptableAnswers": ["coolness and drink", "cold and drink", "coolness and water", "no coolness or drink"]
-      },
-      {
-        "prompt": "MEMORIZE — Write the full transliteration of Ayah 26.",
-        "acceptableAnswers": ["jaza an wifaqa", "jaza-an wifaqaa", "jazaan wifaqaa", "jaza an wifaqaa", "jaza'an wifaqa"]
-      },
-      {
-        "prompt": "MEMORIZE — What is the meaning of the first word of Ayah 26: جَزَاءً (Jaza-an)?",
-        "acceptableAnswers": ["a recompense", "recompense", "a reward", "reward", "a punishment", "reward or punishment"]
-      },
-      {
-        "prompt": "MEMORIZE — What is the meaning of the second word of Ayah 26: وِفَاقًا (Wifaqaa)?",
-        "acceptableAnswers": ["fitting", "appropriate", "a fitting", "corresponding"]
-      },
-      {
-        "prompt": "MEMORIZE — Say Ayah 26 aloud to your parent 5 times. Then write it from memory (transliteration is fine).",
-        "acceptableAnswers": []
-      },
-      {
-        "prompt": "REFLECTION: Ayat 21–26 describe what will happen to those who did wrong. In your own words, write 1–2 sentences about what those ayat teach us.",
-        "acceptableAnswers": []
-      }
+      { "prompt": "ESTIMATION: Use front-end estimation on 458.", "acceptableAnswers": ["400"] },
+      { "prompt": "ESTIMATION: Use front-end estimation on 678.", "acceptableAnswers": ["700"] },
+      { "prompt": "UNKNOWN NUMBER: 24 + ? = 83. What is the missing number?", "acceptableAnswers": ["59"] },
+      { "prompt": "UNKNOWN NUMBER: A - 42 = 200. What is A?", "acceptableAnswers": ["242"] },
+      { "prompt": "INVERSE: What is the inverse operation of addition?", "acceptableAnswers": ["subtraction"] },
+      { "prompt": "INVERSE: What is the inverse operation of multiplication?", "acceptableAnswers": ["division"] },
+      { "prompt": "CHECK: You solved 24 + 59 = 83. Write a subtraction equation to check it.", "acceptableAnswers": ["83 - 59 = 24", "83 - 24 = 59"] },
+      { "prompt": "DECOMPOSE: Solve 678 - 548 using expanded form. What is the answer?", "acceptableAnswers": ["130"] },
+      { "prompt": "WORD PROBLEM: The gym has 548 members and can hold 678. How many more can join?", "acceptableAnswers": ["130"] }
+    ]
+  },
+  {
+    "id": "math-day3",
+    "type": "🔢 Math Day 3",
+    "title": "Multiplication: Arrays, Repeated Addition & Doubles",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. MULTIPLICATION: Adding the same number over and over, but faster!\n   3 x 4 = 12 means 3 groups of 4.\n\n2. REPEATED ADDITION: 3 x 4 = 4 + 4 + 4 = 12\n\n3. ARRAY: Objects in ROWS (left to right) and COLUMNS (up and down).\n   A 3x4 array = 3 rows, 4 columns = 12 total\n\n4. DOUBLES: Multiplying by 2, or adding a number to itself.\n   8 + 8 = 16 AND 8 x 2 = 16",
+    "questions": [
+      { "prompt": "REPEATED ADDITION: Write 5 x 3 as repeated addition.", "acceptableAnswers": ["3+3+3+3+3", "3 + 3 + 3 + 3 + 3"] },
+      { "prompt": "MULTIPLICATION: What is 6 x 7?", "acceptableAnswers": ["42"] },
+      { "prompt": "MULTIPLICATION: What is 8 x 9?", "acceptableAnswers": ["72"] },
+      { "prompt": "ARRAY: An array has 3 rows and 4 columns. Write the multiplication equation and answer.", "acceptableAnswers": ["3 x 4 = 12", "12"] },
+      { "prompt": "ARRAY: A classroom has 5 rows of 6 chairs. How many chairs total?", "acceptableAnswers": ["30"] },
+      { "prompt": "DOUBLES: What is 7 doubled?", "acceptableAnswers": ["14"] },
+      { "prompt": "DOUBLES: What is 9 x 2?", "acceptableAnswers": ["18"] },
+      { "prompt": "MULTIPLE: List the first 5 multiples of 6.", "acceptableAnswers": ["6 12 18 24 30", "6, 12, 18, 24, 30"] },
+      { "prompt": "WORD PROBLEM: Sara plants 4 rows with 8 seeds each. How many seeds total?", "acceptableAnswers": ["32"] }
+    ]
+  },
+  {
+    "id": "math-day4",
+    "type": "🔢 Math Day 4",
+    "title": "Multiplication Properties",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. COMMUTATIVE PROPERTY: Order does NOT matter.\n   3 x 4 = 12 AND 4 x 3 = 12 (same answer!)\n\n2. ZERO PROPERTY: Any number x 0 = 0.\n   5 x 0 = 0. 999 x 0 = 0.\n\n3. IDENTITY PROPERTY: Any number x 1 = that number.\n   225 x 1 = 225. 7 x 1 = 7.\n\n4. DISTRIBUTIVE PROPERTY: Break one factor into a sum of two numbers.\n   6 x 4 = (3 x 4) + (3 x 4) = 12 + 12 = 24",
+    "questions": [
+      { "prompt": "COMMUTATIVE: If 6 x 7 = 42, what is 7 x 6?", "acceptableAnswers": ["42"] },
+      { "prompt": "COMMUTATIVE: Write the commutative partner of 8 x 3 = 24.", "acceptableAnswers": ["3 x 8 = 24", "3x8=24"] },
+      { "prompt": "ZERO PROPERTY: What is 99 x 0?", "acceptableAnswers": ["0", "zero"] },
+      { "prompt": "IDENTITY PROPERTY: What is 256 x 1?", "acceptableAnswers": ["256"] },
+      { "prompt": "IDENTITY PROPERTY: What number can you multiply by ANY number and always get that number back?", "acceptableAnswers": ["1", "one"] },
+      { "prompt": "DISTRIBUTIVE: Use the distributive property to break apart 6 x 4. Show your work.", "acceptableAnswers": ["24", "(3x4)+(3x4)=24", "3x4+3x4=24"] },
+      { "prompt": "EXPRESSION vs EQUATION: Is 7 x n an expression or an equation?", "acceptableAnswers": ["expression"] },
+      { "prompt": "EQUATION: Solve: 7 x n = 14. What is n?", "acceptableAnswers": ["2"] }
+    ]
+  },
+  {
+    "id": "math-day5",
+    "type": "🔢 Math Day 5",
+    "title": "Division: Groups, Fact Families & Repeated Subtraction",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. DIVISION: Separating a whole amount into EQUAL parts.\n   20 divided by 4 = 5 (20 split into 4 groups = 5 in each)\n\n2. DIVIDEND / DIVISOR / QUOTIENT:\n   20 / 4 = 5\n   20 = DIVIDEND (number being split)\n   4 = DIVISOR (number of groups)\n   5 = QUOTIENT (number in each group)\n\n3. FACT FAMILY: All related x and / facts for the same 3 numbers.\n   2 x 4 = 8 | 4 x 2 = 8 | 8 / 4 = 2 | 8 / 2 = 4\n\n4. REPEATED SUBTRACTION: Subtract the same number over and over until you reach 0.\n   12 / 3: 12-3=9, 9-3=6, 6-3=3, 3-3=0. You subtracted 4 times, so answer = 4.",
+    "questions": [
+      { "prompt": "DIVISION: What is 24 divided by 6?", "acceptableAnswers": ["4"] },
+      { "prompt": "DIVISION: What is 36 divided by 4?", "acceptableAnswers": ["9"] },
+      { "prompt": "DIVIDEND: In 20 / 4 = 5, which number is the dividend?", "acceptableAnswers": ["20"] },
+      { "prompt": "DIVISOR: In 20 / 4 = 5, which number is the divisor?", "acceptableAnswers": ["4"] },
+      { "prompt": "QUOTIENT: In 20 / 4 = 5, which number is the quotient?", "acceptableAnswers": ["5"] },
+      { "prompt": "FACT FAMILY: Write all 4 facts for the numbers 3, 5, and 15.", "acceptableAnswers": ["3x5=15 5x3=15 15/5=3 15/3=5", "3x5=15"] },
+      { "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 12 / 3. How many times did you subtract?", "acceptableAnswers": ["4 times", "4"] },
+      { "prompt": "WORD PROBLEM: 28 stickers shared equally among 7 friends. How many does each friend get?", "acceptableAnswers": ["4"] }
+    ]
+  },
+  {
+    "id": "math-day6",
+    "type": "🔢 Math Day 6",
+    "title": "2D Shapes: Triangles, Quadrilaterals, Angles & Vertices",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. TRIANGLES: A 2-D closed shape with exactly 3 sides and 3 angles.\n   Equilateral Triangle = ALL 3 sides equal in length.\n\n2. QUADRILATERAL: Any polygon with FOUR sides.\n   Types: Square, Rectangle, Rhombus, Parallelogram, Trapezoid, Kite\n\n3. ANGLE & RIGHT ANGLE:\n   Angle = formed when two line segments meet at a vertex.\n   Right Angle = exactly 90 degrees (looks like a square corner).\n\n4. VERTEX (plural VERTICES):\n   The corner/endpoint where two or more line segments meet.\n   Triangle = 3 vertices. Square = 4 vertices.",
+    "questions": [
+      { "prompt": "TRIANGLE: How many sides does a triangle have?", "acceptableAnswers": ["3", "three"] },
+      { "prompt": "EQUILATERAL TRIANGLE: What is special about an equilateral triangle?", "acceptableAnswers": ["all sides equal", "all 3 sides are equal", "same length"] },
+      { "prompt": "QUADRILATERAL: How many sides does every quadrilateral have?", "acceptableAnswers": ["4", "four"] },
+      { "prompt": "QUADRILATERAL: Name THREE shapes that are quadrilaterals.", "acceptableAnswers": ["square rectangle rhombus", "square rectangle trapezoid"] },
+      { "prompt": "RIGHT ANGLE: How many degrees is a right angle?", "acceptableAnswers": ["90", "90 degrees"] },
+      { "prompt": "VERTICES: How many vertices does a triangle have?", "acceptableAnswers": ["3", "three"] },
+      { "prompt": "VERTICES: What is a vertex?", "acceptableAnswers": ["where two sides meet", "corner", "endpoint where two lines meet"] },
+      { "prompt": "WORD PROBLEM: Is a stop sign a polygon? How many sides does it have?", "acceptableAnswers": ["yes 8", "yes eight sides", "yes octagon 8"] }
+    ]
+  },
+  {
+    "id": "math-day7",
+    "type": "🔢 Math Day 7",
+    "title": "Special Quadrilaterals, Polygons & Parallel Lines",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. SPECIAL QUADRILATERALS:\n   Parallelogram = 2 pairs of parallel sides\n   Rhombus = parallelogram with 4 EQUAL sides\n   Square = 4 equal sides AND 4 right angles\n   Rectangle = 4 right angles\n   Trapezoid = only 1 pair of parallel sides\n   Kite = 2 pairs of adjacent equal sides\n\n2. REGULAR vs IRREGULAR POLYGON:\n   Regular = ALL equal sides AND all equal angles (e.g. equilateral triangle, square)\n   Irregular = sides or angles are NOT all equal\n\n3. CLASSIFY: Sort shapes into groups based on shared attributes.\n\n4. PARALLEL LINES: Lines that always stay the same distance apart and NEVER cross.\n   Like train tracks!",
+    "questions": [
+      { "prompt": "What makes a RHOMBUS special?", "acceptableAnswers": ["4 equal sides", "all sides are equal"] },
+      { "prompt": "What makes a RECTANGLE special?", "acceptableAnswers": ["4 right angles", "four right angles"] },
+      { "prompt": "How many pairs of parallel sides does a TRAPEZOID have?", "acceptableAnswers": ["1", "one"] },
+      { "prompt": "Is a square a REGULAR polygon? Give a reason.", "acceptableAnswers": ["yes all sides and angles are equal", "yes equal sides and right angles"] },
+      { "prompt": "Describe PARALLEL LINES in one sentence.", "acceptableAnswers": ["lines that never meet", "lines that stay the same distance apart", "lines that never cross"] },
+      { "prompt": "CLASSIFY: You have a circle, square, triangle, rectangle. Which are polygons?", "acceptableAnswers": ["square triangle rectangle", "triangle square and rectangle"] },
+      { "prompt": "What is the difference between a PARALLELOGRAM and a RHOMBUS?", "acceptableAnswers": ["rhombus has 4 equal sides", "rhombus sides all equal parallelogram not"] }
+    ]
+  },
+  {
+    "id": "math-day8",
+    "type": "🔢 Math Day 8",
+    "title": "Fractions: Numerator, Denominator & Equivalents",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. FRACTION: An amount broken into equal size pieces.\n   Written as numerator / denominator. Example: 1/2 (one-half)\n\n2. NUMERATOR: The TOP number. Tells HOW MANY parts we have.\n   In 3/6, the numerator is 3.\n\n3. DENOMINATOR: The BOTTOM number. Tells TOTAL equal parts in the whole.\n   In 3/6, the denominator is 6.\n\n4. EQUIVALENT FRACTIONS: Different fractions that are equal in value.\n   1/2 = 2/4 = 4/8 (all equivalent!)\n   Use > (greater than) or < (less than) to compare.",
+    "questions": [
+      { "prompt": "FRACTION: In 3/4, which number is the numerator?", "acceptableAnswers": ["3"] },
+      { "prompt": "FRACTION: In 3/4, which number is the denominator?", "acceptableAnswers": ["4"] },
+      { "prompt": "NUMERATOR: What does the numerator tell you?", "acceptableAnswers": ["how many parts", "the number of parts we have"] },
+      { "prompt": "DENOMINATOR: What does the denominator tell you?", "acceptableAnswers": ["total parts", "total number of equal parts in the whole"] },
+      { "prompt": "UNIT FRACTION: What is a unit fraction? Give an example.", "acceptableAnswers": ["numerator is 1", "fraction with 1 on top", "1/2 or 1/3 or 1/4"] },
+      { "prompt": "EQUIVALENT: Are 1/2 and 2/4 equivalent? Write YES or NO and explain.", "acceptableAnswers": ["yes they are equal", "yes same value", "yes"] },
+      { "prompt": "COMPARE: Use > or < : 3/4 ___ 1/4", "acceptableAnswers": [">", "3/4 > 1/4"] },
+      { "prompt": "COMPARE: Use > or < : 1/2 ___ 3/4", "acceptableAnswers": ["<", "1/2 < 3/4"] },
+      { "prompt": "WORD PROBLEM: A pizza has 8 slices. You eat 3. Write the fraction of pizza you ate.", "acceptableAnswers": ["3/8", "three eighths"] }
+    ]
+  },
+  {
+    "id": "math-day9",
+    "type": "🔢 Math Day 9",
+    "title": "Measurement: Length & Time",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. LENGTH UNITS:\n   Inches (in) = 12 inches = 1 foot\n   Quarter inch = 1/4 of an inch\n   Half inch = 1/2 of an inch\n   Feet (ft) = 12 inches\n   Yards (yd) = 3 feet (a football field is 100 yards!)\n\n2. PERIMETER: The distance AROUND a shape. Add all sides.\n   Rectangle 15cm x 5cm: 15+5+15+5 = 40 cm\n\n3. TIME:\n   Minute = 60 seconds\n   Hour = 60 minutes\n   1 day = 24 hours\n\n4. ELAPSED TIME: How much time has passed.\n   Start 3:30 PM, End 4:05 PM = 35 minutes elapsed.",
+    "questions": [
+      { "prompt": "LENGTH: How many inches are in 1 foot?", "acceptableAnswers": ["12", "twelve"] },
+      { "prompt": "LENGTH: How many feet are in 1 yard?", "acceptableAnswers": ["3", "three"] },
+      { "prompt": "PERIMETER: A rectangle is 15 cm long and 5 cm wide. What is the perimeter?", "acceptableAnswers": ["40", "40 cm"] },
+      { "prompt": "PERIMETER: A square has sides of 6 cm. What is its perimeter?", "acceptableAnswers": ["24", "24 cm"] },
+      { "prompt": "UNKNOWN SIDE: A rectangle has perimeter 40 cm. Two sides are 15 cm each. What are the other two sides?", "acceptableAnswers": ["5 cm", "5", "each side is 5 cm"] },
+      { "prompt": "TIME: How many minutes are in 1 hour?", "acceptableAnswers": ["60", "sixty"] },
+      { "prompt": "TIME: How many hours are in 1 day?", "acceptableAnswers": ["24", "twenty-four"] },
+      { "prompt": "ELAPSED TIME: Practice starts at 3:30 PM and ends at 4:05 PM. How much time passed?", "acceptableAnswers": ["35 minutes", "35 mins", "35"] }
+    ]
+  },
+  {
+    "id": "math-day10",
+    "type": "🔢 Math Day 10",
+    "title": "Measurement: Capacity & Weight",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. CAPACITY (Liquid Measurement):\n   Cup = 8 fluid ounces (smallest)\n   Pint = 2 cups\n   Quart = 2 pints = 4 cups\n   Gallon = 4 quarts (LARGEST)\n   Memory trick: G has 4 Qs, each Q has 2 Ps, each P has 2 Cs!\n\n2. WEIGHT:\n   Ounces (oz) = small unit\n   Pounds (lb) = 16 ounces = 1 pound\n\n3. COMPARING: 1 gallon > 1 quart > 1 pint > 1 cup\n\n4. ESTIMATION: Think about which unit makes sense!\n   A can of soup = about 1 pound.\n   A water bottle = about 2 cups.",
+    "questions": [
+      { "prompt": "CAPACITY: How many cups are in 1 pint?", "acceptableAnswers": ["2", "two"] },
+      { "prompt": "CAPACITY: How many pints are in 1 quart?", "acceptableAnswers": ["2", "two"] },
+      { "prompt": "CAPACITY: How many quarts are in 1 gallon?", "acceptableAnswers": ["4", "four"] },
+      { "prompt": "CAPACITY: Which is larger: a pint or a quart?", "acceptableAnswers": ["quart"] },
+      { "prompt": "CAPACITY: You have 8 cups of juice. How many pints is that?", "acceptableAnswers": ["4", "four"] },
+      { "prompt": "WEIGHT: How many ounces are in 1 pound?", "acceptableAnswers": ["16", "sixteen"] },
+      { "prompt": "WEIGHT: Would you weigh a feather in ounces or pounds?", "acceptableAnswers": ["ounces", "oz"] },
+      { "prompt": "ESTIMATION: A large jug holds 1 gallon. How many quarts fill it?", "acceptableAnswers": ["4", "four"] }
+    ]
+  },
+  {
+    "id": "math-day11",
+    "type": "🔢 Math Day 11",
+    "title": "Area, Perimeter & Square Units",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. SQUARE UNIT: A square with an area of 1. Used to measure area.\n   Written as cm2, in2, ft2, etc.\n\n2. AREA: The SPACE INSIDE a shape.\n   Area of Rectangle = Length x Width\n   8 cm x 3 cm = 24 cm2\n\n3. PERIMETER (Review): Distance AROUND the outside.\n   P = L+W+L+W or P = 2L+2W\n   8 cm x 3 cm rectangle: P = 8+3+8+3 = 22 cm\n\n4. AREA MODEL: A rectangle drawn to show multiplication.\n   Used for distributive property too!\n   6 x 4 area model can be split as (3x4)+(3x4)=24",
+    "questions": [
+      { "prompt": "SQUARE UNIT: What is a square unit used for?", "acceptableAnswers": ["measuring area", "to measure area", "measuring the inside of a shape"] },
+      { "prompt": "AREA: What formula finds the area of a rectangle?", "acceptableAnswers": ["length x width", "l x w", "length times width"] },
+      { "prompt": "AREA: A rectangle is 8 cm long and 3 cm wide. What is its area?", "acceptableAnswers": ["24", "24 cm2", "24 sq cm"] },
+      { "prompt": "AREA: A square has sides of 5 cm. What is its area?", "acceptableAnswers": ["25", "25 cm2"] },
+      { "prompt": "PERIMETER: A rectangle is 8 cm long and 3 cm wide. What is its perimeter?", "acceptableAnswers": ["22", "22 cm"] },
+      { "prompt": "AREA vs PERIMETER: What is the difference between area and perimeter?", "acceptableAnswers": ["area is inside perimeter is around", "area is space inside perimeter is distance around"] },
+      { "prompt": "AREA: What is 6 x 7? (Use it like an area problem)", "acceptableAnswers": ["42"] },
+      { "prompt": "WORD PROBLEM: A garden is 9 feet long and 4 feet wide. What is its area? What is its perimeter?", "acceptableAnswers": ["area 36 perimeter 26", "36 sq ft and 26 ft"] }
+    ]
+  },
+  {
+    "id": "math-day12",
+    "type": "🔢 Math Day 12",
+    "title": "Data & Graphs",
+    "description": "Read the key vocabulary below, then answer the questions.",
+    "story": "TODAY'S 4 TOPICS\n\n1. TALLY MARKS & FREQUENCY TABLE:\n   Tally mark = way to count (4 lines + 1 crossing = 5)\n   Frequency table = organizes data and shows how many times something occurred.\n\n2. BAR GRAPH: Represents data with vertical or horizontal bars.\n   X Axis = the BOTTOM horizontal line of the graph\n   Y Axis = the SIDE vertical line of the graph\n\n3. PICTURE GRAPH: Uses pictures/symbols to show data.\n   Each picture has a KEY showing how many it represents.\n   Example: smiley face = 2 votes\n\n4. READING DATA:\n   HOW MANY MORE = subtract the two values\n   HOW MANY TOTAL = add all values\n   Example: Dogs=10, Cats=8, Snakes=5, Rabbits=2 Total = 10+8+5+2 = 25",
+    "questions": [
+      { "prompt": "TALLY: What does a tally mark with 4 lines crossed by 1 represent?", "acceptableAnswers": ["5", "five"] },
+      { "prompt": "FREQUENCY TABLE: What does a frequency table show?", "acceptableAnswers": ["how many times something happened", "organized data and how often things occurred"] },
+      { "prompt": "BAR GRAPH: What is the X Axis?", "acceptableAnswers": ["the bottom horizontal line", "bottom line", "horizontal line"] },
+      { "prompt": "BAR GRAPH: What is the Y Axis?", "acceptableAnswers": ["the side vertical line", "side line", "vertical line"] },
+      { "prompt": "PICTURE GRAPH: If 1 smiley face = 2 votes and Soccer shows 3 smileys, how many votes did Soccer get?", "acceptableAnswers": ["6", "six"] },
+      { "prompt": "READ DATA: Dogs=10, Cats=8, Snakes=5, Rabbits=2. What is the TOTAL?", "acceptableAnswers": ["25"] },
+      { "prompt": "READ DATA: How many MORE votes did Dogs get than Rabbits?", "acceptableAnswers": ["8"] },
+      { "prompt": "WORD PROBLEM: Winter=3, Spring=3, Summer=8, Fall=2 students voted for favorite seasons. How many total?", "acceptableAnswers": ["16"] }
+    ]
+  },
+  {
+    "id": "quran-naba",
+    "type": "☪️ Quran",
+    "title": "Surah An-Naba — Complete (All 40 Ayat)",
+    "description": "Read ALL 40 ayat with your parent. Read Arabic, then transliteration, then meaning. Then answer the questions!",
+    "story": "SURAH AN-NABA (The Great News) Surah 78 — All 40 Ayat\n\n── PART 1: THE QUESTION (Ayat 1-5) ──\n1. Amma yatasaa-aloon — About what are they asking one another?\n2. Anil naba-il azeem — About the great news\n3. Allathee hum feehi mukhtalifoon — That over which they disagree\n4. Kalla saya-lamoon — No! They are going to know.\n5. Thumma kalla saya-lamoon — Then, no! They are going to know.\n\n── PART 2: ALLAH'S SIGNS (Ayat 6-16) ──\n6. Alam naj-alil arda mihadaa — Have We not made the earth a resting place?\n7. Wal jibala awtadaa — And the mountains as stakes?\n8. Wa khalaqnakum azwajaa — And We created you in pairs.\n9. Wa ja-alna nawmakum subataa — And made your sleep a means of rest.\n10. Wa ja-alnal layla libasaa — And made the night as clothing.\n11. Wa ja-alnan nahara ma-ashaa — And made the day for livelihood.\n12. Wa banayna fawqakum sab-an shidadaa — And built above you seven strong heavens.\n13. Wa ja-alna sirajan wahajaa — And made a blazing lamp (the sun).\n14. Wa anzalna minal mu-sirati ma-an thajjajaa — And sent down from the rain clouds pouring water.\n15. Linukhrija bihi habban wa nabataa — That We may bring forth grain and vegetation.\n16. Wa jannatin alfafaa — And gardens of entwined growth.\n\n── PART 3: THE DAY OF JUDGMENT (Ayat 17-20) ──\n17. Inna yawmal fasli kana meqataa — Indeed, the Day of Judgment is an appointed time.\n18. Yawma yunfakhu fis suri fata-toona afwajaa — The Day the Horn is blown and you come in multitudes.\n19. Wa futihatil sama-u fakanat abwabaa — And the heaven is opened and becomes gateways.\n20. Wa suyyiratil jibalu fakanat sarabaa — And the mountains are removed and become a mirage.\n\n── PART 4: THE PUNISHMENT (Ayat 21-30) ──\n21. Inna jahannama kanat mirsadaa — Indeed, Hell has been lying in wait\n22. Lil tagheena ma-abaa — For the transgressors, a place of return.\n23. Labiteena feeha ahqabaa — In which they will remain for ages unending.\n24. La yathooqoona feeha bardan wa la sharabaa — They will taste no coolness therein, nor any drink\n25. Illa hameeman wa ghassaqaa — Except scalding water and foul purulence.\n26. Jaza-an Wifaqaa — A fitting recompense.\n   MEMORIZE AYAH 26: Word 1 = Jaza-an (recompense) + Word 2 = Wifaqaa (fitting)\n27. Innahum kaanu la yarjoona hisabaa — Indeed, they were not expecting an account.\n28. Wa kaththabu bi-ayatina kiththabaa — And denied Our signs with emphatic denial.\n29. Wa kulla shay-in ahsaynahu kitabaa — But all things We have enumerated in writing.\n30. Fathooqoo falan nazeedakum illa ataabaa — So taste the penalty, and We will increase only your torment.\n\n── PART 5: REWARD FOR THE RIGHTEOUS (Ayat 31-36) ──\n31. Inna lil muttaqeena mafazaa — Indeed, for the righteous is attainment\n32. Hada-iqa wa a-naabaa — Gardens and grapevines.\n33. Wa kawa-iba atrabaa — And companions of equal age.\n34. Wa ka-san dihaqaa — And a full cup.\n35. La yasma-oona feeha laghwan wa la kiththabaa — No ill speech or falsehood will they hear therein.\n36. Jaza-am mir rabbika ataa-an hisabaa — As a generous reward from your Lord.\n\n── PART 6: THE FINAL TRUTH (Ayat 37-40) ──\n37. Rabb is-samawati wal ardi wa ma baynahuma ar-rahmani la yamlikoona minhu khitabaa — Lord of the heavens and earth and what is between them, the Most Merciful. None can speak to Him without permission.\n38. Yawma yaqoomur roohu wal mala-ikatu saffan — The Day the Spirit and angels stand in rows — none speak except whom the Most Merciful permits.\n39. Thalikal yawmul haqq — That is the True Day; so whoever wills may return to his Lord.\n40. Inna antharnakum ataaban qareeban yawma yanthorul mar-o ma qaddamat yadahu wa yaqoolul kafiru ya laytani kuntu turabaa — We warned you of a near punishment. On that Day, a man will see what his hands have done, and the disbeliever will say: Oh, I wish I were dust!",
+    "questions": [
+      { "prompt": "What is the name of Surah 78 and what does it mean?", "acceptableAnswers": ["an naba the great news", "surah an-naba the great news", "an-naba great news"] },
+      { "prompt": "AYAT 1-2: What great news are people asking about?", "acceptableAnswers": ["the day of judgment", "resurrection", "yawm al fasl"] },
+      { "prompt": "AYAT 6-7: Name TWO of Allah's signs in these ayat.", "acceptableAnswers": ["earth as resting place and mountains as stakes", "earth and mountains"] },
+      { "prompt": "AYAH 9: What did Allah make our sleep into?", "acceptableAnswers": ["a means of rest", "rest", "subaata"] },
+      { "prompt": "AYAH 12: How many heavens did Allah build above us?", "acceptableAnswers": ["7", "seven"] },
+      { "prompt": "AYAH 13: What is described as a blazing lamp?", "acceptableAnswers": ["the sun", "sun"] },
+      { "prompt": "AYAH 17: What is Yawm Al-Fasl?", "acceptableAnswers": ["the day of judgment", "day of judgment", "the day of decision"] },
+      { "prompt": "AYAT 21-22: Who is Hell (Jahannam) waiting for?", "acceptableAnswers": ["the transgressors", "wrongdoers", "those who did wrong"] },
+      { "prompt": "AYAH 26 MEMORIZE: Write the full transliteration of Ayah 26.", "acceptableAnswers": ["jaza an wifaqa", "jaza-an wifaqaa", "jazaan wifaqaa"] },
+      { "prompt": "AYAH 26 MEMORIZE: What does Jaza-an mean?", "acceptableAnswers": ["a recompense", "recompense", "reward or punishment", "a reward"] },
+      { "prompt": "AYAH 26 MEMORIZE: What does Wifaqaa mean?", "acceptableAnswers": ["fitting", "appropriate"] },
+      { "prompt": "AYAT 31-32: What will the righteous (muttaqeen) receive?", "acceptableAnswers": ["gardens and grapevines", "gardens", "paradise"] },
+      { "prompt": "AYAH 40: What will the disbeliever wish on the Day of Judgment?", "acceptableAnswers": ["to be dust", "that he were dust", "i wish i were dust"] },
+      { "prompt": "REFLECTION: Which part of Surah An-Naba was most meaningful to you and why? Write 2-3 sentences.", "acceptableAnswers": [] },
+      { "prompt": "RECITATION: Say Ayah 26 five times from memory to your parent, then write it here.", "acceptableAnswers": [] }
     ]
   }
 ]
