@@ -1,51 +1,61 @@
 // === CONFIGURATION ===
-// Replace with the parent's real email address to receive practice reports.
 const CONTENT_URL = './content/sections.json';
 const FORM_SUBMIT_TARGET = 'qasim.aimal@gmail.com';
 
 // === DOM REFERENCES ===
-// All elements are grabbed once at startup. If any ID changes in index.html, update here too.
-const sectionGrid       = document.getElementById('section-grid');
-const practiceArea      = document.getElementById('practice-area');
-const activeSectionType = document.getElementById('active-section-type');
-const activeSectionTitle= document.getElementById('active-section-title');
-const sectionDescription= document.getElementById('section-description');
-const sectionContent    = document.getElementById('section-content');
-const practiceForm      = document.getElementById('practice-form');
-const scoreOutput       = document.getElementById('score-output');
-const backButton        = document.getElementById('back-button');
-const checkAnswersButton= document.getElementById('check-answers');
-const submitBtn         = document.getElementById('send-results');
+const sectionGrid        = document.getElementById('section-grid');
+const practiceArea       = document.getElementById('practice-area');
+const activeSectionType  = document.getElementById('active-section-type');
+const activeSectionTitle = document.getElementById('active-section-title');
+const sectionDescription = document.getElementById('section-description');
+const sectionContent     = document.getElementById('section-content');
+const practiceForm       = document.getElementById('practice-form');
+const scoreOutput        = document.getElementById('score-output');
+const backButton         = document.getElementById('back-button');
+const checkAnswersButton = document.getElementById('check-answers');
+const submitBtn          = document.getElementById('send-results');
 
 // === STATE ===
-let sections = [];       // All loaded section objects from JSON
-let currentSection = null; // The section the student currently has open
-let currentScore = null;   // { correct, total } set after grading, used in email
+let sections = [];
+let currentSection = null;
+let currentScore = null;
 
 // ─────────────────────────────────────────────
-// LOAD & RENDER SECTIONS
+// LOAD & RENDER
 // ─────────────────────────────────────────────
 
-// loadSections: fetches sections.json and builds the card grid.
-// Algorithm: fetch → parse JSON → call renderSectionCards()
 async function loadSections() {
   const response = await fetch(CONTENT_URL);
   sections = await response.json();
   renderSectionCards();
 }
 
-// renderSectionCards: clears the grid and rebuilds one <article> card per section.
-// Each card's button is wired to openSection() with that section's id.
+// Map section type string to a friendly background icon for cards
+function getCardIcon(type) {
+  if (type.includes('Reading'))  return '📖';
+  if (type.includes('Vocab'))    return '📝';
+  if (type.includes('Writing'))  return '✏️';
+  if (type.includes('Grammar'))  return '🔤';
+  if (type.includes('Speaking')) return '🗣️';
+  if (type.includes('Math'))     return '🔢';
+  if (type.includes('Quran'))    return '☪️';
+  return '📚';
+}
+
 function renderSectionCards() {
   sectionGrid.innerHTML = '';
   sections.forEach((section) => {
+    const icon = getCardIcon(section.type);
     const card = document.createElement('article');
     card.className = 'practice-card';
+    card.setAttribute('data-type', section.type);
+
     card.innerHTML = `
+      <span class="card-icon">${icon}</span>
       <p class="eyebrow">${section.type}</p>
       <h3>${section.title}</h3>
-      <p>${section.description}</p>
-      <button class="btn primary" type="button">Open Section</button>
+      <p>${section.description.slice(0, 80)}${section.description.length > 80 ? '…' : ''}</p>
+      <button class="btn primary open-btn" type="button">Open Section ▶</button>
     `;
     card.querySelector('button').addEventListener('click', () => openSection(section.id));
     sectionGrid.appendChild(card);
@@ -53,64 +63,71 @@ function renderSectionCards() {
 }
 
 // ─────────────────────────────────────────────
-// OPEN A SECTION
+// OPEN SECTION
 // ─────────────────────────────────────────────
 
-// openSection: switches from the section grid view to the practice area for one section.
-// Builds a textarea input for each question and resets any previous score.
 function openSection(sectionId) {
-  currentSection = sections.find((item) => item.id === sectionId);
+  currentSection = sections.find((s) => s.id === sectionId);
   if (!currentSection) return;
 
-  // Populate the header labels
   activeSectionType.textContent  = currentSection.type;
   activeSectionTitle.textContent = currentSection.title;
 
-  // Render the description and optional reading passage
-  sectionDescription.innerHTML = `
-    <p>${currentSection.description}</p>
-    ${currentSection.story
-      ? `<div class="question-block"><h4>Reading Passage</h4><p>${currentSection.story.replace(/\n\n/g, '</p><p>')}</p></div>`
-      : ''}
-  `;
+  // Build description + optional reading passage
+  let storyHTML = '';
+  if (currentSection.story) {
+    // Use <pre> style rendering to preserve whitespace/formatting
+    storyHTML = `<div class="question-block">
+      <h4>📖 Reading Passage / Key Vocabulary</h4>
+      <pre class="story-pre">${currentSection.story}</pre>
+    </div>`;
+  }
 
-  // Build one question block per question in the section
+  sectionDescription.innerHTML = `<p>${currentSection.description}</p>${storyHTML}`;
+
+  // Build question blocks
   sectionContent.innerHTML = '';
   currentSection.questions.forEach((question, index) => {
     const block = document.createElement('div');
     block.className = 'question-block';
     block.innerHTML = `
-      <h4>Question ${index + 1}</h4>
+      <h4>Question ${index + 1} of ${currentSection.questions.length}</h4>
       <p>${question.prompt}</p>
-      <textarea rows="3" data-question-index="${index}" placeholder="Type your answer here"></textarea>
+      <textarea rows="3" data-question-index="${index}" placeholder="Type your answer here…"></textarea>
       <div class="feedback" id="feedback-${index}"></div>
     `;
     sectionContent.appendChild(block);
   });
 
-  // Reset score state and form fields
   scoreOutput.textContent = 'Not checked yet';
   currentScore = null;
   practiceForm.reset();
 
-  // Show the practice area and scroll to it
+  // Restore submit button if it was replaced by confirmation banner
+  const emailBox = submitBtn ? submitBtn.closest('.email-box') : document.querySelector('.email-box');
+  if (emailBox && !emailBox.contains(submitBtn)) {
+    emailBox.innerHTML = `
+      <div class="email-info">
+        <span class="email-icon">📬</span>
+        <p>When you click <strong>Submit</strong>, your answers and score are automatically emailed to your parent!</p>
+      </div>
+      <button id="send-results" class="btn primary send-btn" type="submit">📤 Submit & Email Results</button>
+    `;
+    // Re-attach submit listener is handled by form submit event
+  }
+
   practiceArea.classList.remove('hidden');
   practiceArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // ─────────────────────────────────────────────
-// ANSWER GRADING
+// GRADING
 // ─────────────────────────────────────────────
 
-// normalize: strips punctuation, collapses whitespace, lowercases — so
-// "Teach!" matches "teach" and "A puppy" matches "a puppy".
 function normalize(text) {
   return text.trim().toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ');
 }
 
-// checkAnswers: grades every question in the current section and updates
-// feedback elements + scoreOutput.  Returns { correct, total } for use by the
-// email builder so the auto-submit path can call this before sending.
 function checkAnswers() {
   if (!currentSection) return null;
 
@@ -118,50 +135,42 @@ function checkAnswers() {
   let correct = 0;
 
   currentSection.questions.forEach((question, index) => {
-    const textarea  = sectionContent.querySelector(`[data-question-index="${index}"]`);
-    const feedback  = document.getElementById(`feedback-${index}`);
-    const value     = textarea.value.trim();
+    const textarea   = sectionContent.querySelector(`[data-question-index="${index}"]`);
+    const feedback   = document.getElementById(`feedback-${index}`);
+    const value      = textarea.value.trim();
     const acceptable = question.acceptableAnswers || [];
 
-    // Open-ended questions (empty acceptableAnswers) are flagged for parent review
     if (!acceptable.length) {
-      feedback.innerHTML = '<span>This response needs parent review.</span>';
+      feedback.innerHTML = '<span>👀 Parent review needed for this answer.</span>';
       return;
     }
 
-    // A correct answer: the student's input contains an acceptable answer OR
-    // an acceptable answer contains the student's input (handles short answers).
     total += 1;
     const isCorrect = acceptable.some(
-      (answer) =>
-        normalize(value).includes(normalize(answer)) ||
-        normalize(answer).includes(normalize(value))
+      (a) => normalize(value).includes(normalize(a)) || normalize(a).includes(normalize(value))
     );
 
     if (isCorrect) {
       correct += 1;
-      feedback.innerHTML = '<span class="correct">✓ Correct</span>';
+      feedback.innerHTML = '<span class="correct">✅ Correct!</span>';
     } else {
-      feedback.innerHTML = `<span class="incorrect">✗ Try again</span> <div>Suggested answer: ${acceptable.join(', ')}</div>`;
+      feedback.innerHTML = `<span class="incorrect">❌ Try again</span><div>Suggested: ${acceptable.join(', ')}</div>`;
     }
   });
 
-  // Store and display the score
   currentScore = { correct, total };
-  scoreOutput.textContent = total ? `${correct} / ${total}` : 'Reviewed by parent';
+  scoreOutput.textContent = total ? `${correct} / ${total}` : '👀 Parent review';
   return currentScore;
 }
 
 // ─────────────────────────────────────────────
-// EMAIL PAYLOAD BUILDER
+// EMAIL
 // ─────────────────────────────────────────────
 
-// buildEmailPayload: assembles the subject line and plain-text body
-// that will be POSTed to FormSubmit and forwarded to the parent's inbox.
 function buildEmailPayload(formData) {
-  const answers = currentSection.questions.map((question, index) => {
-    const textarea = sectionContent.querySelector(`[data-question-index="${index}"]`);
-    return `Q${index + 1}: ${question.prompt}\nAnswer: ${textarea.value.trim() || '(blank)'}`;
+  const answers = currentSection.questions.map((q, i) => {
+    const ta = sectionContent.querySelector(`[data-question-index="${i}"]`);
+    return `Q${i + 1}: ${q.prompt}\nAnswer: ${ta.value.trim() || '(blank)'}`;
   }).join('\n\n');
 
   const scoreText = currentScore
@@ -169,55 +178,43 @@ function buildEmailPayload(formData) {
     : 'Not auto-graded (open-ended)';
 
   const subject = `📚 ${formData.studentName} completed: ${currentSection.title}`;
-  const body    = [
+  const body = [
     `Student Name : ${formData.studentName}`,
     `Parent Email : ${formData.parentEmail}`,
     `Section      : ${currentSection.type} — ${currentSection.title}`,
     `Score        : ${scoreText}`,
     '',
-    '── Answers ──────────────────────────',
+    '── Answers ──────────────────────',
     answers,
     '',
-    '── Parent Notes ─────────────────────',
+    '── Parent Notes ──────────────────',
     formData.parentNotes || '(none)'
   ].join('\n');
 
   return { subject, body };
 }
 
-// ─────────────────────────────────────────────
-// EMAIL SUBMISSION
-// ─────────────────────────────────────────────
-
-// sendEmail: programmatically creates a hidden <form> pointing at FormSubmit,
-// appends it to the body, submits it (opens in new tab), then removes it.
-// Why a hidden form? FormSubmit requires a real multipart POST — fetch() alone
-// cannot trigger their email pipeline without their JS library.
 function sendEmail(formData, payload) {
-  const submissionUrl = `https://formsubmit.co/${encodeURIComponent(FORM_SUBMIT_TARGET)}`;
-
+  const url  = `https://formsubmit.co/${encodeURIComponent(FORM_SUBMIT_TARGET)}`;
   const form = document.createElement('form');
   form.method  = 'POST';
-  form.action  = submissionUrl;
-  form.target  = '_blank';         // Open confirmation in new tab, don't navigate away
+  form.action  = url;
+  form.target  = '_blank';
   form.style.display = 'none';
 
-  const hiddenFields = {
-    _subject  : payload.subject,
-    _captcha  : 'false',           // Disable CAPTCHA (trusted educational use)
-    _template : 'table',           // FormSubmit's table layout for email readability
-    student_name  : formData.studentName,
-    parent_email  : formData.parentEmail,
-    section       : `${currentSection.type} — ${currentSection.title}`,
-    score         : currentScore
-                      ? `${currentScore.correct} / ${currentScore.total}`
-                      : 'Not auto-graded',
-    full_report   : payload.body,
-    parent_notes  : formData.parentNotes || ''
+  const fields = {
+    _subject     : payload.subject,
+    _captcha     : 'false',
+    _template    : 'table',
+    student_name : formData.studentName,
+    parent_email : formData.parentEmail,
+    section      : `${currentSection.type} — ${currentSection.title}`,
+    score        : currentScore ? `${currentScore.correct} / ${currentScore.total}` : 'Not auto-graded',
+    full_report  : payload.body,
+    parent_notes : formData.parentNotes || ''
   };
 
-  // Attach each field as a hidden input
-  Object.entries(hiddenFields).forEach(([key, value]) => {
+  Object.entries(fields).forEach(([key, value]) => {
     const input = document.createElement('input');
     input.type  = 'hidden';
     input.name  = key;
@@ -230,22 +227,28 @@ function sendEmail(formData, payload) {
   form.remove();
 }
 
+function showConfirmationBanner(studentName, parentEmail) {
+  const emailBox = document.querySelector('.email-box');
+  if (emailBox) {
+    emailBox.innerHTML = `
+      <div class="confirmation-banner">
+        <span class="confirm-icon">✅</span>
+        <div>
+          <strong>Report sent! 🎉</strong>
+          <p>${studentName}'s results have been emailed to <em>${parentEmail}</em>.</p>
+          <p class="muted-note">Check your inbox (and spam folder) in a few minutes.</p>
+        </div>
+      </div>
+    `;
+  }
+}
+
 // ─────────────────────────────────────────────
 // EVENT LISTENERS
 // ─────────────────────────────────────────────
 
-// "Check Answers" button: grade in place without sending email.
-// Useful for mid-practice review before a final submission.
 checkAnswersButton.addEventListener('click', checkAnswers);
 
-// Form submit: triggered by "Submit & Email Results" button.
-// Flow:
-//   1. Validate name + email fields
-//   2. Auto-run checkAnswers() so the score is computed even if the student
-//      never clicked "Check Answers" manually
-//   3. Build the email payload
-//   4. Fire sendEmail() — parent receives the report automatically
-//   5. Show a confirmation banner to the student
 practiceForm.addEventListener('submit', (event) => {
   event.preventDefault();
   if (!currentSection) return;
@@ -254,42 +257,20 @@ practiceForm.addEventListener('submit', (event) => {
   const formData = Object.fromEntries(raw.entries());
 
   if (!formData.studentName || !formData.parentEmail) {
-    alert('Please fill in the student name and parent email before submitting.');
+    alert('Please enter the student name and parent email before submitting!');
     return;
   }
 
-  // Step 2: auto-check answers so the score is always included in the email
   checkAnswers();
-
-  // Step 3–4: build payload and send
   const payload = buildEmailPayload(formData);
   sendEmail(formData, payload);
-
-  // Step 5: show a friendly confirmation banner
   showConfirmationBanner(formData.studentName, formData.parentEmail);
 });
 
-// showConfirmationBanner: replaces the submit button area with a success message
-// so the student/parent knows the report was fired off.
-function showConfirmationBanner(studentName, parentEmail) {
-  const emailBox = submitBtn.closest('.email-box');
-  emailBox.innerHTML = `
-    <div class="confirmation-banner">
-      <span class="confirm-icon">✅</span>
-      <div>
-        <strong>Report sent!</strong>
-        <p>${studentName}'s practice results have been emailed to <em>${parentEmail}</em>.</p>
-        <p class="muted-note">Check your inbox (and spam folder) in a few minutes.</p>
-      </div>
-    </div>
-  `;
-}
-
-// Back button: hide the practice area and scroll back up to the section grid.
 backButton.addEventListener('click', () => {
   practiceArea.classList.add('hidden');
   window.scrollTo({
-    top: document.getElementById('practice-sections').offsetTop - 20,
+    top: document.getElementById('sections').offsetTop - 20,
     behavior: 'smooth'
   });
 });
@@ -298,7 +279,7 @@ backButton.addEventListener('click', () => {
 // BOOTSTRAP
 // ─────────────────────────────────────────────
 
-loadSections().catch((error) => {
-  console.error('Failed to load sections:', error);
+loadSections().catch((err) => {
+  console.error('Failed to load sections:', err);
   sectionGrid.innerHTML = '<p>Could not load sections. Please check content/sections.json.</p>';
 });
