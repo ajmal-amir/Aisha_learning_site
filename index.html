@@ -2,64 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ELA Practice Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>🌟 Learning Hub</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 </head>
 <body>
+
+  <!-- HERO HEADER -->
   <header class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Grade 3 English Language Arts</p>
-      <h1>ELA Practice Hub</h1>
-      <p class="subtitle">
-        A GitHub-deployable practice website with separate reading, writing, vocabulary,
-        grammar, and speaking activities.
-      </p>
-      <div class="hero-actions">
-        <a href="#practice-sections" class="btn primary">Start Practice</a>
-        <a href="#manage-content" class="btn secondary">Manage Content</a>
+    <!-- Floating decorative shapes -->
+    <svg class="shapes-bg" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <circle cx="80" cy="60" r="45" fill="#FFD166" opacity="0.5"/>
+      <rect x="160" y="30" width="50" height="50" rx="12" fill="#06D6A0" opacity="0.4" transform="rotate(20,185,55)"/>
+      <polygon points="320,20 350,80 290,80" fill="#EF476F" opacity="0.4"/>
+      <circle cx="500" cy="40" r="30" fill="#118AB2" opacity="0.35"/>
+      <rect x="620" y="10" width="60" height="60" rx="30" fill="#FF9F1C" opacity="0.4"/>
+      <polygon points="780,50 820,110 740,110" fill="#06D6A0" opacity="0.35"/>
+      <circle cx="950" cy="30" r="40" fill="#EF476F" opacity="0.35"/>
+      <rect x="1080" y="15" width="55" height="55" rx="10" fill="#FFD166" opacity="0.4" transform="rotate(-15,1107,42)"/>
+      <!-- Bottom row -->
+      <circle cx="200" cy="280" r="35" fill="#118AB2" opacity="0.3"/>
+      <polygon points="400,260 435,310 365,310" fill="#FFD166" opacity="0.35"/>
+      <circle cx="700" cy="295" r="28" fill="#06D6A0" opacity="0.35"/>
+      <rect x="900" y="255" width="48" height="48" rx="24" fill="#EF476F" opacity="0.3"/>
+      <circle cx="1130" cy="270" r="38" fill="#FF9F1C" opacity="0.35"/>
+    </svg>
+
+    <div class="hero-inner wrap">
+      <div class="hero-icon">🌟</div>
+      <h1>Learning Hub</h1>
+      <p class="hero-sub">Reading · Math · Quran · Writing · Grammar</p>
+      <p class="hero-desc">Choose a section below to start practicing. Great job showing up today! 🎉</p>
+      <div class="hero-btns">
+        <a href="#sections" class="btn primary big-btn">▶ Start Practice</a>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="panel intro-grid">
-      <div>
-        <h2>How this works</h2>
-        <p>
-          Each practice section stays separate. Open one section at a time, answer the
-          questions, and send the result summary to your email after practice.
-        </p>
+
+    <!-- SUBJECT ICON STRIP -->
+    <section class="subject-strip panel">
+      <div class="subject-chip chip-read">📖 Reading</div>
+      <div class="subject-chip chip-vocab">📝 Vocabulary</div>
+      <div class="subject-chip chip-write">✏️ Writing</div>
+      <div class="subject-chip chip-gram">🔤 Grammar</div>
+      <div class="subject-chip chip-speak">🗣️ Speaking</div>
+      <div class="subject-chip chip-math">🔢 Math</div>
+      <div class="subject-chip chip-quran">☪️ Quran</div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="panel how-grid">
+      <div class="how-title">
+        <span class="how-icon">💡</span>
+        <div>
+          <h2>How It Works</h2>
+          <p>Pick a section, answer the questions, then email your results!</p>
+        </div>
       </div>
-      <div class="mini-card">
-        <strong>Static site, dynamic content</strong>
-        <p>The website is static, but it loads activities from editable JSON files.</p>
+      <div class="how-card">
+        <div class="how-num">1️⃣</div>
+        <strong>Pick a section</strong>
+        <p>Choose any card below to open that lesson.</p>
       </div>
-      <div class="mini-card">
-        <strong>Email notifications</strong>
-        <p>Practice results can be emailed using FormSubmit or your own endpoint.</p>
+      <div class="how-card">
+        <div class="how-num">2️⃣</div>
+        <strong>Answer questions</strong>
+        <p>Type your answers, then tap Check Answers.</p>
       </div>
-      <div class="mini-card">
-        <strong>Easy updates</strong>
-        <p>Add new lessons by editing <code>content/sections.json</code>.</p>
+      <div class="how-card">
+        <div class="how-num">3️⃣</div>
+        <strong>Email your report</strong>
+        <p>Your parent gets the results automatically.</p>
       </div>
     </section>
 
-    <section id="practice-sections" class="panel">
+    <!-- SECTION CARDS -->
+    <section id="sections" class="panel">
       <div class="section-head">
-        <h2>Practice Sections</h2>
-        <p>Choose a section. Every section is separate, just like your documents.</p>
+        <div>
+          <h2>📚 All Practice Sections</h2>
+          <p>Tap any card to open it. Math is split by day!</p>
+        </div>
       </div>
       <div id="section-grid" class="card-grid"></div>
     </section>
 
+    <!-- PRACTICE AREA (hidden until a card is opened) -->
     <section id="practice-area" class="panel hidden">
       <div class="section-head">
         <div>
           <p class="eyebrow" id="active-section-type">Section</p>
           <h2 id="active-section-title">Practice</h2>
         </div>
-        <button id="back-button" class="btn secondary" type="button">← Back to Sections</button>
+        <button id="back-button" class="btn secondary" type="button">← Back</button>
       </div>
 
       <div id="section-description" class="section-description"></div>
@@ -68,61 +108,52 @@
       <form id="practice-form" class="practice-form">
         <div class="student-fields">
           <label>
-            Student name
-            <input type="text" name="studentName" placeholder="Enter student name" required />
+            <span class="field-label">👤 Student name</span>
+            <input type="text" name="studentName" placeholder="Type your name here" required />
           </label>
           <label>
-            Parent email
-            <input type="email" name="parentEmail" placeholder="Enter your email" required />
+            <span class="field-label">📧 Parent email</span>
+            <input type="email" name="parentEmail" placeholder="Parent's email address" required />
           </label>
         </div>
 
         <div class="score-box">
-          <button id="check-answers" class="btn primary" type="button">Check Answers</button>
-          <div>
-            <strong>Score:</strong>
-            <span id="score-output">Not checked yet</span>
+          <button id="check-answers" class="btn primary check-btn" type="button">✅ Check Answers</button>
+          <div class="score-display">
+            <strong>Your Score:</strong>
+            <span id="score-output" class="score-badge">Not checked yet</span>
           </div>
         </div>
 
         <label>
-          Parent notes
-          <textarea name="parentNotes" rows="4" placeholder="Add any notes you want in the emailed summary"></textarea>
+          <span class="field-label">📝 Parent notes (optional)</span>
+          <textarea name="parentNotes" rows="3" placeholder="Add any notes for the emailed report"></textarea>
         </label>
 
         <div class="email-box">
-          <p>
-            When you click send, the website opens an email-ready submission through
-            <strong>FormSubmit</strong>. Replace the email in <code>app.js</code> with your own.
-          </p>
-          <button id="send-results" class="btn primary" type="submit">Email Practice Results</button>
+          <div class="email-info">
+            <span class="email-icon">📬</span>
+            <p>When you click <strong>Submit</strong>, your answers and score are automatically emailed to your parent!</p>
+          </div>
+          <button id="send-results" class="btn primary send-btn" type="submit">📤 Submit & Email Results</button>
         </div>
       </form>
     </section>
 
-    <section id="manage-content" class="panel">
-      <div class="section-head">
-        <h2>How to add new content</h2>
-        <p>You can keep using GitHub Pages and still add lessons anytime.</p>
-      </div>
+    <!-- ADD CONTENT GUIDE -->
+    <section id="manage-content" class="panel manage-panel">
+      <h2>🛠️ How to Add New Content</h2>
       <ol class="steps">
         <li>Open <code>content/sections.json</code> in your GitHub repository.</li>
-        <li>Copy an existing section block.</li>
-        <li>Change the title, instructions, questions, and answers.</li>
-        <li>Commit the change. GitHub Pages republishes the site.</li>
+        <li>Copy an existing section block and paste it at the bottom.</li>
+        <li>Change the title, questions, and answers.</li>
+        <li>Commit the change — GitHub Pages updates automatically!</li>
       </ol>
-      <details>
-        <summary>Recommended upgrade later</summary>
-        <p>
-          If you want a friendlier admin panel instead of editing JSON manually, add a Git-based CMS
-          such as Decap CMS later. That gives you a simple content editor while still keeping the site static.
-        </p>
-      </details>
     </section>
   </main>
 
   <footer class="footer wrap">
-    <p>Built for GitHub Pages deployment.</p>
+    <p>🌟 Built with love for learning · GitHub Pages Ready</p>
   </footer>
 
   <script src="app.js"></script>
