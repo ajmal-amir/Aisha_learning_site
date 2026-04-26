@@ -1,0 +1,368 @@
+/* =====================================================================
+   math-test.css
+   Test-specific styles. The base look-and-feel comes from styles.css.
+   This file only adds what the test page needs on top of that.
+   ===================================================================== */
+
+
+/* ---------------------------------------------------------------------
+   Hide-helper. Both screens (test, locked) start hidden and JavaScript
+   removes this class to reveal them.
+   --------------------------------------------------------------------- */
+.hidden {
+  display: none !important;
+}
+
+
+/* ---------------------------------------------------------------------
+   Test-page wrapper: a touch of extra top padding so the page doesn't
+   feel cramped against the browser top edge.
+   --------------------------------------------------------------------- */
+.test-page {
+  padding-top: 24px;
+}
+
+
+/* =====================================================================
+   START SCREEN
+   ===================================================================== */
+
+/* Big friendly hero block at the top of the start screen */
+.test-hero {
+  text-align: center;
+  padding: 24px 0 16px;
+}
+.test-hero-icon {
+  font-size: 72px;
+  margin-bottom: 8px;
+}
+.test-hero h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 900;
+}
+.test-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin: 4px 0 0;
+}
+
+/* Three info tiles: Questions / Time Limit / Topics */
+.test-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+.test-info-card {
+  background: #fff7e6;          /* warm pale yellow background */
+  border: 2px solid #FFD166;
+  border-radius: 16px;
+  padding: 20px 12px;
+  text-align: center;
+}
+.info-icon {
+  font-size: 32px;
+}
+.info-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777;
+  font-weight: 700;
+  margin-top: 4px;
+}
+.info-value {
+  font-size: 28px;
+  font-weight: 900;
+  color: #222;
+}
+
+/* On narrow phones, stack the info tiles vertically */
+@media (max-width: 560px) {
+  .test-info-grid { grid-template-columns: 1fr; }
+}
+
+/* The yellow rules box that explains how the test works */
+.rules-box {
+  background: #fff8e1;
+  border-left: 6px solid #FF9F1C;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+.rules-box h3 {
+  margin-top: 0;
+  color: #b35900;
+}
+.rules-list {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+.rules-list li {
+  margin-bottom: 10px;
+}
+
+/* "Back to Learning Hub" link at the bottom of the start screen */
+.back-home {
+  text-align: center;
+  margin-top: 16px;
+}
+.back-home a {
+  color: #118AB2;
+  text-decoration: none;
+  font-weight: 700;
+}
+.back-home a:hover {
+  text-decoration: underline;
+}
+
+
+/* =====================================================================
+   TEST SCREEN — sticky bar with timer
+   ===================================================================== */
+
+/*
+  The sticky bar uses position: sticky so it pins to the top of the
+  viewport as the student scrolls through the 50 questions.
+*/
+.test-sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;                 /* sit above question cards */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  background: linear-gradient(135deg, #06D6A0 0%, #118AB2 100%);
+  color: white;
+  border-radius: 16px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Stack vertically on phones */
+@media (max-width: 560px) {
+  .test-sticky-bar { grid-template-columns: 1fr; gap: 6px; }
+}
+
+.test-sticky-bar > div {
+  text-align: center;
+}
+
+.timer-label,
+.progress-label,
+.student-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  opacity: 0.85;
+  font-weight: 700;
+}
+
+.timer-display {
+  font-size: 32px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;  /* monospaced digits — prevents the timer from jiggling each second */
+  letter-spacing: 1px;
+}
+.progress-display,
+.student-display {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/*
+  Timer warning states. Driven by JavaScript adding/removing classes:
+   - .warn   when 10 minutes or less remain (yellow flash)
+   - .danger when 5  minutes or less remain (red, pulsing)
+*/
+.timer-display.warn {
+  color: #FFD166;
+}
+.timer-display.danger {
+  color: #ffd9d9;
+  animation: pulse-danger 1s ease-in-out infinite;
+}
+@keyframes pulse-danger {
+  0%, 100% { transform: scale(1);    text-shadow: 0 0 0 rgba(255, 0, 0, 0); }
+  50%      { transform: scale(1.08); text-shadow: 0 0 18px rgba(255, 80, 80, 0.8); }
+}
+
+/* The persistent "Test in progress" reminder under the sticky bar */
+.lockdown-banner {
+  background: #fff3cd;
+  border: 2px dashed #ffb84d;
+  border-radius: 10px;
+  padding: 8px 14px;
+  text-align: center;
+  font-weight: 700;
+  color: #7a4d00;
+  margin-bottom: 16px;
+}
+
+
+/* =====================================================================
+   QUESTION CARDS
+   Each of the 50 questions renders as one of these.
+   ===================================================================== */
+.question-card {
+  background: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  transition: border-color 0.2s ease;
+}
+.question-card.answered {
+  /* Subtle green tint once the student has typed something */
+  border-color: #06D6A0;
+  background: #f3fffb;
+}
+.question-number {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+  background: #118AB2;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+.question-topic {
+  display: inline-block;
+  font-size: 11px;
+  color: #555;
+  background: #eef5f9;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-left: 4px;
+  font-weight: 700;
+}
+.question-prompt {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0 10px;
+  line-height: 1.4;
+}
+.question-card textarea {
+  width: 100%;
+  min-height: 60px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.question-card textarea:focus {
+  outline: none;
+  border-color: #118AB2;
+  box-shadow: 0 0 0 3px rgba(17, 138, 178, 0.2);
+}
+/* When auto-submission has happened, lock the textarea so it cannot be edited */
+.question-card textarea[disabled] {
+  background: #f5f5f5;
+  color: #555;
+  cursor: not-allowed;
+}
+
+
+/* =====================================================================
+   SUBMIT AREA (bottom of the test screen)
+   ===================================================================== */
+.submit-area {
+  margin-top: 24px;
+  padding: 20px;
+  background: #fffaf0;
+  border: 2px solid #FFD166;
+  border-radius: 14px;
+  text-align: center;
+}
+.submit-area .big-btn {
+  width: 100%;
+  font-size: 18px;
+  padding: 16px;
+}
+.submit-note {
+  margin: 10px 0 0;
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* =====================================================================
+   LOCKED / RESULTS SCREEN
+   Shown after the test has been submitted.
+   ===================================================================== */
+.locked-hero {
+  text-align: center;
+  padding: 24px 0 12px;
+}
+.locked-icon {
+  font-size: 80px;
+  margin-bottom: 8px;
+}
+.locked-hero h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 900;
+  color: #06D6A0;
+}
+.locked-subtitle {
+  font-size: 18px;
+  color: #555;
+}
+
+/* If the test was force-submitted by the timer, JS adds .timeout to the locked hero */
+.locked-hero.timeout h1 { color: #EF476F; }
+.locked-hero.timeout .locked-icon::before { content: "⏰"; }
+
+/* Result rows — Score, Student, Sent To, Date */
+.result-summary {
+  background: #f7f9fc;
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin: 20px 0;
+}
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px dashed #d0d8e0;
+}
+.result-row:last-child {
+  border-bottom: none;
+}
+.result-label {
+  font-weight: 700;
+  color: #555;
+}
+.result-value {
+  font-weight: 800;
+  color: #222;
+  text-align: right;
+}
+.score-pill {
+  background: linear-gradient(135deg, #06D6A0, #118AB2);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 18px;
+}
+
+/* Bottom info note on the locked screen */
+.locked-note {
+  background: #e6f7ff;
+  border-left: 6px solid #118AB2;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+.locked-note p {
+  margin: 6px 0 0;
+  color: #555;
+}

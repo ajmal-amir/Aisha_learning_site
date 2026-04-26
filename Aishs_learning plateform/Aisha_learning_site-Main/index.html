@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>🌟 Learning Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HERO HEADER -->
+  <header class="hero">
+    <!-- Floating decorative shapes -->
+    <svg class="shapes-bg" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <circle cx="80" cy="60" r="45" fill="#FFD166" opacity="0.5"/>
+      <rect x="160" y="30" width="50" height="50" rx="12" fill="#06D6A0" opacity="0.4" transform="rotate(20,185,55)"/>
+      <polygon points="320,20 350,80 290,80" fill="#EF476F" opacity="0.4"/>
+      <circle cx="500" cy="40" r="30" fill="#118AB2" opacity="0.35"/>
+      <rect x="620" y="10" width="60" height="60" rx="30" fill="#FF9F1C" opacity="0.4"/>
+      <polygon points="780,50 820,110 740,110" fill="#06D6A0" opacity="0.35"/>
+      <circle cx="950" cy="30" r="40" fill="#EF476F" opacity="0.35"/>
+      <rect x="1080" y="15" width="55" height="55" rx="10" fill="#FFD166" opacity="0.4" transform="rotate(-15,1107,42)"/>
+      <!-- Bottom row -->
+      <circle cx="200" cy="280" r="35" fill="#118AB2" opacity="0.3"/>
+      <polygon points="400,260 435,310 365,310" fill="#FFD166" opacity="0.35"/>
+      <circle cx="700" cy="295" r="28" fill="#06D6A0" opacity="0.35"/>
+      <rect x="900" y="255" width="48" height="48" rx="24" fill="#EF476F" opacity="0.3"/>
+      <circle cx="1130" cy="270" r="38" fill="#FF9F1C" opacity="0.35"/>
+    </svg>
+
+    <div class="hero-inner wrap">
+      <div class="hero-icon">🌟</div>
+      <h1>Learning Hub</h1>
+      <p class="hero-sub">Reading · Math · Quran · Writing · Grammar</p>
+      <p class="hero-desc">Choose a section below to start practicing. Great job showing up today! 🎉</p>
+      <div class="hero-btns">
+        <a href="#sections" class="btn primary big-btn">▶ Start Practice</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+        <!-- ============================================================ -->
+    <!-- MATH FINAL TEST ENTRY POINT                                  -->
+    <!-- This is a separate locked-down test page, not a regular      -->
+    <!-- section card. We give it its own panel so it stands out.     -->
+    <!-- ============================================================ -->
+    <section class="panel test-entry-panel" style="background: linear-gradient(135deg, #fff8e1 0%, #ffe8e8 100%); border: 3px solid #FF9F1C;">
+      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+        <div style="font-size: 64px;">📝</div>
+        <div style="flex: 1; min-width: 240px;">
+          <h2 style="margin: 0 0 6px;">Math Final Test</h2>
+          <p style="margin: 0 0 4px; color: #555;">
+            <strong>50 questions</strong> covering all 12 days of math practice.
+            <strong>Timed: 1 hour 30 minutes.</strong>
+          </p>
+          <p style="margin: 0; color: #888; font-size: 14px;">
+            Once you start, the page locks until you submit or time runs out.
+            Your answers save automatically.
+          </p>
+        </div>
+        <a href="math-test.html" class="btn primary big-btn" style="white-space: nowrap;">
+          Start Test ▶
+        </a>
+      </div>
+    </section>
+
+    <!-- SUBJECT ICON STRIP -->
+    <section class="subject-strip panel">
+      <div class="subject-chip chip-read">📖 Reading</div>
+      <div class="subject-chip chip-vocab">📝 Vocabulary</div>
+      <div class="subject-chip chip-write">✏️ Writing</div>
+      <div class="subject-chip chip-gram">🔤 Grammar</div>
+      <div class="subject-chip chip-speak">🗣️ Speaking</div>
+      <div class="subject-chip chip-math">🔢 Math</div>
+      <div class="subject-chip chip-quran">☪️ Quran</div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="panel how-grid">
+      <div class="how-title">
+        <span class="how-icon">💡</span>
+        <div>
+          <h2>How It Works</h2>
+          <p>Pick a section, answer the questions, then email your results!</p>
+        </div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">1️⃣</div>
+        <strong>Pick a section</strong>
+        <p>Choose any card below to open that lesson.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">2️⃣</div>
+        <strong>Answer questions</strong>
+        <p>Type your answers, then tap Check Answers.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">3️⃣</div>
+        <strong>Email your report</strong>
+        <p>Your parent gets the results automatically.</p>
+      </div>
+    </section>
+
+    <!-- SECTION CARDS -->
+    <section id="sections" class="panel">
+      <div class="section-head">
+        <div>
+          <h2>📚 All Practice Sections</h2>
+          <p>Tap any card to open it. Math is split by day!</p>
+        </div>
+      </div>
+      <div id="section-grid" class="card-grid"></div>
+    </section>
+
+    <!-- PRACTICE AREA (hidden until a card is opened) -->
+    <section id="practice-area" class="panel hidden">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" id="active-section-type">Section</p>
+          <h2 id="active-section-title">Practice</h2>
+        </div>
+        <button id="back-button" class="btn secondary" type="button">← Back</button>
+      </div>
+
+      <div id="section-description" class="section-description"></div>
+      <div id="section-content"></div>
+
+      <form id="practice-form" class="practice-form">
+        <div class="student-fields">
+          <label>
+            <span class="field-label">👤 Student name</span>
+            <input type="text" name="studentName" placeholder="Type your name here" required />
+          </label>
+          <label>
+            <span class="field-label">📧 Parent email</span>
+            <input type="email" name="parentEmail" placeholder="Parent's email address" required />
+          </label>
+        </div>
+
+        <div class="score-box">
+          <button id="check-answers" class="btn primary check-btn" type="button">✅ Check Answers</button>
+          <div class="score-display">
+            <strong>Your Score:</strong>
+            <span id="score-output" class="score-badge">Not checked yet</span>
+          </div>
+        </div>
+
+        <label>
+          <span class="field-label">📝 Parent notes (optional)</span>
+          <textarea name="parentNotes" rows="3" placeholder="Add any notes for the emailed report"></textarea>
+        </label>
+
+        <div class="email-box">
+          <div class="email-info">
+            <span class="email-icon">📬</span>
+            <p>When you click <strong>Submit</strong>, your answers and score are automatically emailed to your parent!</p>
+          </div>
+          <button id="send-results" class="btn primary send-btn" type="submit">📤 Submit & Email Results</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ADD CONTENT GUIDE -->
+    <section id="manage-content" class="panel manage-panel">
+      <h2>🛠️ How to Add New Content</h2>
+      <ol class="steps">
+        <li>Open <code>content/sections.json</code> in your GitHub repository.</li>
+        <li>Copy an existing section block and paste it at the bottom.</li>
+        <li>Change the title, questions, and answers.</li>
+        <li>Commit the change — GitHub Pages updates automatically!</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>🌟 Built with love for learning · GitHub Pages Ready</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
