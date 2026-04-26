@@ -68,7 +68,6 @@
     { "topic": "Day 12 - Tally", "prompt": "What number does 4 tally marks with a slash represent?", "acceptableAnswers": ["5"] },
     { "topic": "Day 12 - Data", "prompt": "Total animals: Dogs 10, Cats 8, Snakes 5, Rabbits 2.", "acceptableAnswers": ["25"] },
 
-    // ===== NEW 50 QUESTIONS =====
 
     { "topic": "Day 1 - Place Value", "prompt": "What is the value of 5 in 572?", "acceptableAnswers": ["500"] },
     { "topic": "Day 1 - Standard Form", "prompt": "Write 489 in words.", "acceptableAnswers": ["four hundred eighty nine"] },
