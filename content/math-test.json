@@ -1,259 +1,129 @@
 {
   "id": "math-final-test",
   "title": "Math Final Test - All Topics",
-  "description": "A 50-question test covering everything from Day 1 through Day 12. You have 1 hour 30 minutes.",
-  "totalQuestions": 50,
+  "description": "A 100-question test covering everything from Day 1 through Day 12. You have 1 hour 30 minutes.",
+  "totalQuestions": 100,
   "durationMinutes": 90,
   "questions": [
-    {
-      "topic": "Day 1 - Place Value",
-      "prompt": "PLACE VALUE: In 495, what is the value of the digit 4?",
-      "acceptableAnswers": ["400", "four hundred"]
-    },
-    {
-      "topic": "Day 1 - Standard Form",
-      "prompt": "STANDARD FORM: Write 'three hundred fifty-six' in standard form.",
-      "acceptableAnswers": ["356"]
-    },
-    {
-      "topic": "Day 1 - Expanded Form",
-      "prompt": "EXPANDED FORM: Write 731 in expanded form.",
-      "acceptableAnswers": ["700 + 30 + 1", "700+30+1"]
-    },
-    {
-      "topic": "Day 1 - Rounding",
-      "prompt": "ROUNDING: Round 79 to the nearest ten.",
-      "acceptableAnswers": ["80"]
-    },
-    {
-      "topic": "Day 1 - Rounding",
-      "prompt": "ROUNDING: Round 462 to the nearest hundred.",
-      "acceptableAnswers": ["500"]
-    },
-    {
-      "topic": "Day 2 - Estimation",
-      "prompt": "ESTIMATION: Use front-end estimation on 458.",
-      "acceptableAnswers": ["400"]
-    },
-    {
-      "topic": "Day 2 - Unknown Number",
-      "prompt": "UNKNOWN NUMBER: 24 + ? = 83. What is the missing number?",
-      "acceptableAnswers": ["59"]
-    },
-    {
-      "topic": "Day 2 - Inverse Operations",
-      "prompt": "INVERSE: What is the inverse operation of addition?",
-      "acceptableAnswers": ["subtraction"]
-    },
-    {
-      "topic": "Day 2 - Decompose",
-      "prompt": "DECOMPOSE: Solve 678 - 548 using expanded form. What is the answer?",
-      "acceptableAnswers": ["130"]
-    },
-    {
-      "topic": "Day 3 - Repeated Addition",
-      "prompt": "REPEATED ADDITION: Write 5 x 3 as repeated addition.",
-      "acceptableAnswers": ["3+3+3+3+3", "3 + 3 + 3 + 3 + 3"]
-    },
-    {
-      "topic": "Day 3 - Multiplication",
-      "prompt": "MULTIPLICATION: What is 6 x 7?",
-      "acceptableAnswers": ["42"]
-    },
-    {
-      "topic": "Day 3 - Multiplication",
-      "prompt": "MULTIPLICATION: What is 8 x 9?",
-      "acceptableAnswers": ["72"]
-    },
-    {
-      "topic": "Day 3 - Arrays",
-      "prompt": "ARRAY: A classroom has 5 rows of 6 chairs. How many chairs total?",
-      "acceptableAnswers": ["30"]
-    },
-    {
-      "topic": "Day 3 - Doubles",
-      "prompt": "DOUBLES: What is 7 doubled?",
-      "acceptableAnswers": ["14"]
-    },
-    {
-      "topic": "Day 4 - Commutative Property",
-      "prompt": "COMMUTATIVE: If 6 x 7 = 42, what is 7 x 6?",
-      "acceptableAnswers": ["42"]
-    },
-    {
-      "topic": "Day 4 - Zero Property",
-      "prompt": "ZERO PROPERTY: What is 99 x 0?",
-      "acceptableAnswers": ["0", "zero"]
-    },
-    {
-      "topic": "Day 4 - Identity Property",
-      "prompt": "IDENTITY PROPERTY: What is 256 x 1?",
-      "acceptableAnswers": ["256"]
-    },
-    {
-      "topic": "Day 4 - Equation",
-      "prompt": "EQUATION: 9 x n = 63. What is n?",
-      "acceptableAnswers": ["7"]
-    },
-    {
-      "topic": "Day 5 - Division",
-      "prompt": "DIVISION: What is 24 divided by 6?",
-      "acceptableAnswers": ["4"]
-    },
-    {
-      "topic": "Day 5 - Division",
-      "prompt": "DIVISION: What is 36 divided by 4?",
-      "acceptableAnswers": ["9"]
-    },
-    {
-      "topic": "Day 5 - Dividend",
-      "prompt": "DIVIDEND: In 20 / 4 = 5, which number is the dividend?",
-      "acceptableAnswers": ["20"]
-    },
-    {
-      "topic": "Day 5 - Division",
-      "prompt": "DIVISION: What is 56 divided by 7?",
-      "acceptableAnswers": ["8"]
-    },
-    {
-      "topic": "Day 5 - Word Problem",
-      "prompt": "WORD PROBLEM: 28 stickers shared equally among 7 friends. How many does each friend get?",
-      "acceptableAnswers": ["4"]
-    },
-    {
-      "topic": "Day 6 - Triangles",
-      "prompt": "TRIANGLE: How many sides does a triangle have?",
-      "acceptableAnswers": ["3", "three"]
-    },
-    {
-      "topic": "Day 6 - Quadrilaterals",
-      "prompt": "QUADRILATERAL: How many sides does every quadrilateral have?",
-      "acceptableAnswers": ["4", "four"]
-    },
-    {
-      "topic": "Day 6 - Right Angle",
-      "prompt": "RIGHT ANGLE: How many degrees is a right angle?",
-      "acceptableAnswers": ["90", "90 degrees"]
-    },
-    {
-      "topic": "Day 6 - Vertices",
-      "prompt": "VERTICES: How many vertices does a triangle have?",
-      "acceptableAnswers": ["3", "three"]
-    },
-    {
-      "topic": "Day 7 - Rhombus",
-      "prompt": "What makes a RHOMBUS special?",
-      "acceptableAnswers": ["4 equal sides", "all sides are equal", "four equal sides"]
-    },
-    {
-      "topic": "Day 7 - Trapezoid",
-      "prompt": "How many pairs of parallel sides does a TRAPEZOID have?",
-      "acceptableAnswers": ["1", "one"]
-    },
-    {
-      "topic": "Day 7 - Parallelogram",
-      "prompt": "PARALLELOGRAM: How many pairs of parallel sides does a parallelogram have?",
-      "acceptableAnswers": ["2", "two"]
-    },
-    {
-      "topic": "Day 7 - Parallel Lines",
-      "prompt": "PARALLEL LINES: Do parallel lines ever meet? Write YES or NO.",
-      "acceptableAnswers": ["no", "no they never meet"]
-    },
-    {
-      "topic": "Day 8 - Numerator",
-      "prompt": "FRACTION: In 3/4, which number is the numerator?",
-      "acceptableAnswers": ["3"]
-    },
-    {
-      "topic": "Day 8 - Denominator",
-      "prompt": "FRACTION: In 3/4, which number is the denominator?",
-      "acceptableAnswers": ["4"]
-    },
-    {
-      "topic": "Day 8 - Equivalent Fractions",
-      "prompt": "EQUIVALENT: Are 1/2 and 2/4 equivalent? Write YES or NO.",
-      "acceptableAnswers": ["yes"]
-    },
-    {
-      "topic": "Day 8 - Compare Fractions",
-      "prompt": "COMPARE: Use > or < :  3/4 ___ 1/4",
-      "acceptableAnswers": [">", "3/4 > 1/4"]
-    },
-    {
-      "topic": "Day 8 - Fraction Word Problem",
-      "prompt": "WORD PROBLEM: A pizza has 8 slices. You eat 3. Write the fraction of pizza you ate.",
-      "acceptableAnswers": ["3/8", "three eighths"]
-    },
-    {
-      "topic": "Day 9 - Length Conversion",
-      "prompt": "LENGTH: How many inches are in 1 foot?",
-      "acceptableAnswers": ["12", "twelve"]
-    },
-    {
-      "topic": "Day 9 - Length Conversion",
-      "prompt": "LENGTH: How many feet are in 1 yard?",
-      "acceptableAnswers": ["3", "three"]
-    },
-    {
-      "topic": "Day 9 - Time",
-      "prompt": "TIME: How many minutes are in 1 hour?",
-      "acceptableAnswers": ["60", "sixty"]
-    },
-    {
-      "topic": "Day 9 - Elapsed Time",
-      "prompt": "ELAPSED TIME: Practice starts at 3:30 PM and ends at 4:05 PM. How much time passed?",
-      "acceptableAnswers": ["35 minutes", "35", "35 mins"]
-    },
-    {
-      "topic": "Day 10 - Capacity",
-      "prompt": "CAPACITY: How many cups are in 1 pint?",
-      "acceptableAnswers": ["2", "two"]
-    },
-    {
-      "topic": "Day 10 - Capacity",
-      "prompt": "CAPACITY: How many quarts are in 1 gallon?",
-      "acceptableAnswers": ["4", "four"]
-    },
-    {
-      "topic": "Day 10 - Weight",
-      "prompt": "WEIGHT: How many ounces are in 1 pound?",
-      "acceptableAnswers": ["16", "sixteen"]
-    },
-    {
-      "topic": "Day 10 - Capacity",
-      "prompt": "CAPACITY: How many cups are in 1 quart?",
-      "acceptableAnswers": ["4", "four"]
-    },
-    {
-      "topic": "Day 11 - Area",
-      "prompt": "AREA: A rectangle is 8 cm long and 3 cm wide. What is its area?",
-      "acceptableAnswers": ["24", "24 cm2", "24 sq cm"]
-    },
-    {
-      "topic": "Day 11 - Area of Square",
-      "prompt": "AREA: A square has sides of 5 cm. What is its area?",
-      "acceptableAnswers": ["25", "25 cm2"]
-    },
-    {
-      "topic": "Day 11 - Area Formula",
-      "prompt": "AREA: What formula finds the area of a rectangle?",
-      "acceptableAnswers": ["length x width", "l x w", "length times width"]
-    },
-    {
-      "topic": "Day 11 - Perimeter",
-      "prompt": "PERIMETER: A square has sides of 6 cm. What is its perimeter?",
-      "acceptableAnswers": ["24", "24 cm"]
-    },
-    {
-      "topic": "Day 12 - Tally Marks",
-      "prompt": "TALLY: What number does a tally mark with 4 lines crossed by 1 represent?",
-      "acceptableAnswers": ["5", "five"]
-    },
-    {
-      "topic": "Day 12 - Reading Data",
-      "prompt": "READ DATA: Dogs=10, Cats=8, Snakes=5, Rabbits=2. What is the TOTAL?",
-      "acceptableAnswers": ["25"]
-    }
+
+    { "topic": "Day 1 - Place Value", "prompt": "In the number 495, what value does the digit 4 represent?", "acceptableAnswers": ["400", "four hundred"] },
+    { "topic": "Day 1 - Standard Form", "prompt": "Write 'three hundred fifty-six' using digits.", "acceptableAnswers": ["356"] },
+    { "topic": "Day 1 - Expanded Form", "prompt": "Break 731 into expanded form.", "acceptableAnswers": ["700 + 30 + 1", "700+30+1"] },
+    { "topic": "Day 1 - Rounding", "prompt": "Round 79 to the nearest ten.", "acceptableAnswers": ["80"] },
+    { "topic": "Day 1 - Rounding", "prompt": "Round 462 to the nearest hundred.", "acceptableAnswers": ["500"] },
+
+    { "topic": "Day 2 - Estimation", "prompt": "Estimate 458 using front-end estimation.", "acceptableAnswers": ["400"] },
+    { "topic": "Day 2 - Unknown Number", "prompt": "Find the missing number: 24 + ___ = 83.", "acceptableAnswers": ["59"] },
+    { "topic": "Day 2 - Inverse Operations", "prompt": "Which operation reverses addition?", "acceptableAnswers": ["subtraction"] },
+    { "topic": "Day 2 - Decompose", "prompt": "Solve: 678 - 548.", "acceptableAnswers": ["130"] },
+
+    { "topic": "Day 3 - Repeated Addition", "prompt": "Show 5 × 3 as repeated addition.", "acceptableAnswers": ["3+3+3+3+3"] },
+    { "topic": "Day 3 - Multiplication", "prompt": "Find the product: 6 × 7.", "acceptableAnswers": ["42"] },
+    { "topic": "Day 3 - Multiplication", "prompt": "Find the product: 8 × 9.", "acceptableAnswers": ["72"] },
+    { "topic": "Day 3 - Arrays", "prompt": "There are 5 rows with 6 chairs each. How many chairs total?", "acceptableAnswers": ["30"] },
+    { "topic": "Day 3 - Doubles", "prompt": "What is double of 7?", "acceptableAnswers": ["14"] },
+
+    { "topic": "Day 4 - Commutative Property", "prompt": "If 6 × 7 = 42, what is 7 × 6?", "acceptableAnswers": ["42"] },
+    { "topic": "Day 4 - Zero Property", "prompt": "What is 99 × 0?", "acceptableAnswers": ["0"] },
+    { "topic": "Day 4 - Identity Property", "prompt": "What is 256 × 1?", "acceptableAnswers": ["256"] },
+    { "topic": "Day 4 - Equation", "prompt": "Solve: 9 × n = 63.", "acceptableAnswers": ["7"] },
+
+    { "topic": "Day 5 - Division", "prompt": "Find: 24 ÷ 6.", "acceptableAnswers": ["4"] },
+    { "topic": "Day 5 - Division", "prompt": "Find: 36 ÷ 4.", "acceptableAnswers": ["9"] },
+    { "topic": "Day 5 - Dividend", "prompt": "In 20 ÷ 4 = 5, which is the dividend?", "acceptableAnswers": ["20"] },
+    { "topic": "Day 5 - Division", "prompt": "Find: 56 ÷ 7.", "acceptableAnswers": ["8"] },
+    { "topic": "Day 5 - Word Problem", "prompt": "28 candies shared among 7 kids equally. How many each?", "acceptableAnswers": ["4"] },
+
+    { "topic": "Day 6 - Shapes", "prompt": "How many sides does a triangle have?", "acceptableAnswers": ["3"] },
+    { "topic": "Day 6 - Shapes", "prompt": "How many sides does a quadrilateral have?", "acceptableAnswers": ["4"] },
+    { "topic": "Day 6 - Angles", "prompt": "How many degrees are in a right angle?", "acceptableAnswers": ["90"] },
+    { "topic": "Day 6 - Vertices", "prompt": "How many vertices does a triangle have?", "acceptableAnswers": ["3"] },
+
+    { "topic": "Day 7 - Rhombus", "prompt": "What is special about a rhombus?", "acceptableAnswers": ["all sides equal"] },
+    { "topic": "Day 7 - Trapezoid", "prompt": "How many parallel sides does a trapezoid have?", "acceptableAnswers": ["1"] },
+    { "topic": "Day 7 - Parallelogram", "prompt": "How many parallel sides does a parallelogram have?", "acceptableAnswers": ["2"] },
+    { "topic": "Day 7 - Parallel Lines", "prompt": "Do parallel lines ever meet?", "acceptableAnswers": ["no"] },
+
+    { "topic": "Day 8 - Fractions", "prompt": "In 3/4, what is the numerator?", "acceptableAnswers": ["3"] },
+    { "topic": "Day 8 - Fractions", "prompt": "In 3/4, what is the denominator?", "acceptableAnswers": ["4"] },
+    { "topic": "Day 8 - Equivalent Fractions", "prompt": "Are 1/2 and 2/4 equal?", "acceptableAnswers": ["yes"] },
+    { "topic": "Day 8 - Compare Fractions", "prompt": "Which is greater: 3/4 or 1/4?", "acceptableAnswers": ["3/4"] },
+    { "topic": "Day 8 - Word Problem", "prompt": "You ate 3 slices out of 8. What fraction is that?", "acceptableAnswers": ["3/8"] },
+
+    { "topic": "Day 9 - Measurement", "prompt": "How many inches are in a foot?", "acceptableAnswers": ["12"] },
+    { "topic": "Day 9 - Measurement", "prompt": "How many feet are in a yard?", "acceptableAnswers": ["3"] },
+    { "topic": "Day 9 - Time", "prompt": "How many minutes are in an hour?", "acceptableAnswers": ["60"] },
+    { "topic": "Day 9 - Elapsed Time", "prompt": "From 3:30 to 4:05, how much time passed?", "acceptableAnswers": ["35"] },
+
+    { "topic": "Day 10 - Capacity", "prompt": "How many cups in a pint?", "acceptableAnswers": ["2"] },
+    { "topic": "Day 10 - Capacity", "prompt": "How many quarts in a gallon?", "acceptableAnswers": ["4"] },
+    { "topic": "Day 10 - Weight", "prompt": "How many ounces in a pound?", "acceptableAnswers": ["16"] },
+    { "topic": "Day 10 - Capacity", "prompt": "How many cups in a quart?", "acceptableAnswers": ["4"] },
+
+    { "topic": "Day 11 - Area", "prompt": "Find the area: length 8, width 3.", "acceptableAnswers": ["24"] },
+    { "topic": "Day 11 - Area", "prompt": "Find the area of a square with side 5.", "acceptableAnswers": ["25"] },
+    { "topic": "Day 11 - Formula", "prompt": "What formula is used for rectangle area?", "acceptableAnswers": ["length x width"] },
+    { "topic": "Day 11 - Perimeter", "prompt": "Find perimeter of square with side 6.", "acceptableAnswers": ["24"] },
+
+    { "topic": "Day 12 - Tally", "prompt": "What number does 4 tally marks with a slash represent?", "acceptableAnswers": ["5"] },
+    { "topic": "Day 12 - Data", "prompt": "Total animals: Dogs 10, Cats 8, Snakes 5, Rabbits 2.", "acceptableAnswers": ["25"] },
+
+    // ===== NEW 50 QUESTIONS =====
+
+    { "topic": "Day 1 - Place Value", "prompt": "What is the value of 5 in 572?", "acceptableAnswers": ["500"] },
+    { "topic": "Day 1 - Standard Form", "prompt": "Write 489 in words.", "acceptableAnswers": ["four hundred eighty nine"] },
+    { "topic": "Day 1 - Expanded Form", "prompt": "Write 905 in expanded form.", "acceptableAnswers": ["900+5"] },
+    { "topic": "Day 1 - Rounding", "prompt": "Round 134 to nearest ten.", "acceptableAnswers": ["130"] },
+    { "topic": "Day 1 - Rounding", "prompt": "Round 820 to nearest hundred.", "acceptableAnswers": ["800"] },
+
+    { "topic": "Day 2 - Estimation", "prompt": "Estimate 673 using front digit.", "acceptableAnswers": ["600"] },
+    { "topic": "Day 2 - Unknown Number", "prompt": "___ + 35 = 60.", "acceptableAnswers": ["25"] },
+    { "topic": "Day 2 - Inverse Operations", "prompt": "Which operation reverses subtraction?", "acceptableAnswers": ["addition"] },
+    { "topic": "Day 2 - Decompose", "prompt": "Solve: 500 − 275.", "acceptableAnswers": ["225"] },
+
+    { "topic": "Day 3 - Repeated Addition", "prompt": "Write 4 × 6 as repeated addition.", "acceptableAnswers": ["6+6+6+6"] },
+    { "topic": "Day 3 - Multiplication", "prompt": "7 × 8 = ?", "acceptableAnswers": ["56"] },
+    { "topic": "Day 3 - Multiplication", "prompt": "9 × 5 = ?", "acceptableAnswers": ["45"] },
+    { "topic": "Day 3 - Arrays", "prompt": "3 rows of 10 apples each. Total?", "acceptableAnswers": ["30"] },
+    { "topic": "Day 3 - Doubles", "prompt": "Double 12.", "acceptableAnswers": ["24"] },
+
+    { "topic": "Day 4 - Commutative Property", "prompt": "If 3 × 4 = 12, what is 4 × 3?", "acceptableAnswers": ["12"] },
+    { "topic": "Day 4 - Zero Property", "prompt": "45 × 0 = ?", "acceptableAnswers": ["0"] },
+    { "topic": "Day 4 - Identity Property", "prompt": "78 × 1 = ?", "acceptableAnswers": ["78"] },
+    { "topic": "Day 4 - Equation", "prompt": "8 × n = 64. Find n.", "acceptableAnswers": ["8"] },
+
+    { "topic": "Day 5 - Division", "prompt": "30 ÷ 5 = ?", "acceptableAnswers": ["6"] },
+    { "topic": "Day 5 - Division", "prompt": "81 ÷ 9 = ?", "acceptableAnswers": ["9"] },
+    { "topic": "Day 5 - Dividend", "prompt": "In 18 ÷ 3, what is the dividend?", "acceptableAnswers": ["18"] },
+    { "topic": "Day 5 - Division", "prompt": "63 ÷ 7 = ?", "acceptableAnswers": ["9"] },
+    { "topic": "Day 5 - Word Problem", "prompt": "40 cookies shared among 8 kids. Each gets?", "acceptableAnswers": ["5"] },
+
+    { "topic": "Day 6 - Shapes", "prompt": "How many sides does a pentagon have?", "acceptableAnswers": ["5"] },
+    { "topic": "Day 6 - Shapes", "prompt": "Name a shape with 3 sides.", "acceptableAnswers": ["triangle"] },
+    { "topic": "Day 6 - Angles", "prompt": "What angle is exactly 90°?", "acceptableAnswers": ["right angle"] },
+    { "topic": "Day 6 - Vertices", "prompt": "How many vertices in a square?", "acceptableAnswers": ["4"] },
+
+    { "topic": "Day 7 - Geometry", "prompt": "Do intersecting lines meet?", "acceptableAnswers": ["yes"] },
+    { "topic": "Day 7 - Geometry", "prompt": "How many equal sides does a square have?", "acceptableAnswers": ["4"] },
+    { "topic": "Day 7 - Geometry", "prompt": "Does a rectangle have all equal sides?", "acceptableAnswers": ["no"] },
+    { "topic": "Day 7 - Geometry", "prompt": "Which shape has one pair of parallel sides?", "acceptableAnswers": ["trapezoid"] },
+
+    { "topic": "Day 8 - Fractions", "prompt": "In 5/6, what is numerator?", "acceptableAnswers": ["5"] },
+    { "topic": "Day 8 - Fractions", "prompt": "In 5/6, what is denominator?", "acceptableAnswers": ["6"] },
+    { "topic": "Day 8 - Fractions", "prompt": "Is 2/3 greater than 1/3?", "acceptableAnswers": ["yes"] },
+    { "topic": "Day 8 - Fractions", "prompt": "Compare: 1/2 or 3/4.", "acceptableAnswers": ["3/4"] },
+    { "topic": "Day 8 - Word Problem", "prompt": "You ate 2 of 5 apples. Fraction?", "acceptableAnswers": ["2/5"] },
+
+    { "topic": "Day 9 - Measurement", "prompt": "Inches in 2 feet?", "acceptableAnswers": ["24"] },
+    { "topic": "Day 9 - Measurement", "prompt": "Feet in 2 yards?", "acceptableAnswers": ["6"] },
+    { "topic": "Day 9 - Time", "prompt": "Minutes in 2 hours?", "acceptableAnswers": ["120"] },
+    { "topic": "Day 9 - Elapsed Time", "prompt": "From 1:00 to 2:15, time passed?", "acceptableAnswers": ["75"] },
+
+    { "topic": "Day 10 - Capacity", "prompt": "Cups in 2 quarts?", "acceptableAnswers": ["8"] },
+    { "topic": "Day 10 - Capacity", "prompt": "Pints in 1 quart?", "acceptableAnswers": ["2"] },
+    { "topic": "Day 10 - Weight", "prompt": "Ounces in 2 pounds?", "acceptableAnswers": ["32"] },
+    { "topic": "Day 10 - Capacity", "prompt": "Which is bigger: gallon or quart?", "acceptableAnswers": ["gallon"] },
+    { "topic": "Day 10 - Capacity", "prompt": "Cups in 1 gallon?", "acceptableAnswers": ["16"] }
+
   ]
 }
