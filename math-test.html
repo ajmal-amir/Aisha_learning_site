@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>📝 Math Final Test</title>
+
+  <!-- Reuse the main stylesheet so the test page matches the rest of the site -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Test-specific styles for the timer, lockdown banner, and result screen -->
+  <link rel="stylesheet" href="math-test.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!--
+    The test has THREE distinct screens, only ONE of which is visible at a time.
+    JavaScript toggles the .hidden class to switch between them.
+
+    1. #start-screen   - Shown before the test begins. Collects student name + parent email.
+    2. #test-screen    - Shown during the test. Sticky timer + 50 questions + submit button.
+    3. #locked-screen  - Shown after submission OR after time expires. Displays score and locks the page.
+  -->
+
+  <main class="wrap test-page">
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 1: START SCREEN                                       -->
+    <!-- This is the first thing the student sees. They cannot enter  -->
+    <!-- the test until they fill in name + email AND click Start.    -->
+    <!-- ============================================================ -->
+    <section id="start-screen" class="panel">
+      <div class="test-hero">
+        <div class="test-hero-icon">📝</div>
+        <h1>Math Final Test</h1>
+        <p class="test-subtitle">All Topics — Days 1 through 12</p>
+      </div>
+
+      <div class="test-info-grid">
+        <div class="test-info-card">
+          <div class="info-icon">🔢</div>
+          <div class="info-label">Questions</div>
+          <div class="info-value">50</div>
+        </div>
+        <div class="test-info-card">
+          <div class="info-icon">⏱️</div>
+          <div class="info-label">Time Limit</div>
+          <div class="info-value">1h 30m</div>
+        </div>
+        <div class="test-info-card">
+          <div class="info-icon">📚</div>
+          <div class="info-label">Topics</div>
+          <div class="info-value">12 Days</div>
+        </div>
+      </div>
+
+      <!-- Important rules. The student MUST read these before starting. -->
+      <div class="rules-box">
+        <h3>📋 Test Rules — Read Carefully</h3>
+        <ul class="rules-list">
+          <li><strong>Once you start, you cannot go back.</strong> The test will lock the page until you finish or time runs out.</li>
+          <li><strong>Your answers save automatically</strong> as you type. If you accidentally close the page or refresh, your answers will still be there when you come back.</li>
+          <li><strong>The timer keeps running</strong> even if you close the browser. Don't stop typing!</li>
+          <li><strong>When time runs out, the test will submit on its own.</strong> Whatever you typed will be sent to your parent's email.</li>
+          <li><strong>You can only take this test once.</strong> After you submit, the page will be locked.</li>
+        </ul>
+      </div>
+
+      <!-- Form to capture the student's name and the parent's email BEFORE the test starts. -->
+      <form id="start-form" class="practice-form">
+        <div class="student-fields">
+          <label>
+            <span class="field-label">👤 Your name</span>
+            <input type="text" id="student-name-input" name="studentName" placeholder="Type your name here" required />
+          </label>
+          <label>
+            <span class="field-label">📧 Parent email</span>
+            <input type="email" id="parent-email-input" name="parentEmail" placeholder="Parent's email address" required />
+          </label>
+        </div>
+
+        <button id="start-test-btn" class="btn primary big-btn" type="submit">
+          🚀 Start Test (90 minutes)
+        </button>
+
+        <p class="back-home">
+          <a href="index.html">← Back to Learning Hub</a>
+        </p>
+      </form>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 2: TEST SCREEN                                        -->
+    <!-- Hidden initially. Shown by JavaScript once the test starts.  -->
+    <!-- Contains the sticky timer + all 50 questions + submit button.-->
+    <!-- ============================================================ -->
+    <section id="test-screen" class="panel hidden">
+      <!--
+        Sticky header: stays at the top of the screen even when scrolling.
+        Shows the running timer and how many questions have been answered.
+      -->
+      <div class="test-sticky-bar">
+        <div class="timer-block">
+          <div class="timer-label">⏱️ Time Remaining</div>
+          <div id="timer-display" class="timer-display">90:00</div>
+        </div>
+        <div class="progress-block">
+          <div class="progress-label">📝 Answered</div>
+          <div class="progress-display">
+            <span id="answered-count">0</span> / <span id="total-count">50</span>
+          </div>
+        </div>
+        <div class="student-block">
+          <div class="student-label">👤 Student</div>
+          <div id="student-display" class="student-display">—</div>
+        </div>
+      </div>
+
+      <!--
+        Lockdown notice: a small persistent reminder that the test is locked.
+        This sits just below the sticky bar.
+      -->
+      <div class="lockdown-banner">
+        🔒 Test in progress — your answers are saving automatically
+      </div>
+
+      <!-- The 50 questions get rendered into this container by JavaScript. -->
+      <div id="questions-container"></div>
+
+      <!--
+        Submit area at the bottom of the test.
+        Pressing this button will grade the test and email the report.
+      -->
+      <div class="submit-area">
+        <button id="submit-test-btn" class="btn primary big-btn" type="button">
+          ✅ Submit Test & Email Results
+        </button>
+        <p class="submit-note">Make sure you've answered everything before submitting!</p>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 3: LOCKED SCREEN                                      -->
+    <!-- Shown after the test is submitted (manually or by timer).    -->
+    <!-- Displays the final score and confirms the email was sent.    -->
+    <!-- This screen is permanent — the test cannot be retaken.       -->
+    <!-- ============================================================ -->
+    <section id="locked-screen" class="panel hidden">
+      <div class="locked-hero">
+        <div class="locked-icon">🎉</div>
+        <h1 id="locked-title">Test Complete!</h1>
+        <p id="locked-subtitle" class="locked-subtitle">Great job — your results have been sent.</p>
+      </div>
+
+      <div class="result-summary">
+        <div class="result-row">
+          <span class="result-label">Final Score</span>
+          <span id="final-score" class="result-value score-pill">—</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Student</span>
+          <span id="final-student" class="result-value">—</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Sent To</span>
+          <span id="final-email" class="result-value">—</span>
+        </div>
+        <div class="result-row">
+          <span class="result-label">Date</span>
+          <span id="final-date" class="result-value">—</span>
+        </div>
+      </div>
+
+      <div class="locked-note">
+        <strong>🔒 This test is now locked.</strong>
+        <p>The results were emailed to the parent. Check your inbox (and spam folder) in a few minutes.</p>
+      </div>
+
+      <p class="back-home">
+        <a href="index.html">← Back to Learning Hub</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Test logic. Loaded at end of body so the DOM is ready when it runs. -->
+  <script src="math-test.js"></script>
+</body>
+</html>
