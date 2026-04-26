@@ -2,99 +2,58 @@
   {
     "id": "reading-1",
     "type": "📖 Reading",
-    "title": "The Lost Puppy",
+    "title": "The Kind Bird",
     "description": "Read the story, then answer the questions in your own words.",
-    "story": "One afternoon, Sara was walking home from school when she heard a small barking sound behind a tree. She looked and saw a tiny puppy shivering in the cold. The puppy had no collar and looked very hungry.\n\nSara gently picked up the puppy and took it home. She gave it some food and water. Later that evening, Sara and her father made posters to help find the puppy's owner.\n\nThe next day, a neighbor saw the poster and came to Sara's house. The puppy happily ran to the neighbor because it belonged to him. The neighbor thanked Sara for taking care of his puppy.\n\nSara felt happy because she helped someone in need.",
+    "story": "Last Saturday, Maya was playing in her backyard when she noticed a small bird on the ground. Its wing looked hurt, and it could not fly.\n\nMaya carefully placed the bird in a small box with soft cloth. She then called her uncle, who was a veterinarian. Together, they took the bird to the animal clinic. The vet wrapped the bird's wing and said it would heal in two weeks.\n\nMaya visited the bird every day, bringing seeds and water. After two weeks, the bird was strong again. Maya took the box outside, opened it, and watched the bird fly into the sky. She felt proud knowing she had saved a life.",
     "questions": [
       {
-        "prompt": "Who is the story mainly about?",
-        "acceptableAnswers": [
-          "sara"
-        ]
+        "prompt": "Who is the main character of the story?",
+        "acceptableAnswers": ["maya"]
       },
       {
-        "prompt": "What did Sara find behind the tree?",
-        "acceptableAnswers": [
-          "a puppy",
-          "tiny puppy",
-          "lost puppy"
-        ]
+        "prompt": "What did Maya find in her backyard?",
+        "acceptableAnswers": ["a hurt bird", "a small bird", "bird with hurt wing", "injured bird"]
       },
       {
-        "prompt": "Name TWO things Sara did to help the puppy.",
-        "acceptableAnswers": [
-          "gave it food and water",
-          "food and water and made posters",
-          "took it home and made posters"
-        ]
+        "prompt": "Who helped Maya take care of the bird?",
+        "acceptableAnswers": ["her uncle", "uncle the vet", "uncle who is a veterinarian", "her uncle the vet"]
       },
       {
-        "prompt": "How did Sara find the puppy's owner?",
-        "acceptableAnswers": [
-          "she made posters",
-          "posters",
-          "her father helped make posters"
-        ]
+        "prompt": "How long did it take for the bird's wing to heal?",
+        "acceptableAnswers": ["two weeks", "2 weeks"]
       },
       {
         "prompt": "What lesson does this story teach?",
-        "acceptableAnswers": [
-          "helping others",
-          "be kind",
-          "kindness matters",
-          "help others in need"
-        ]
+        "acceptableAnswers": ["kindness to animals", "be kind to animals", "help animals in need", "caring for living things"]
       }
     ]
   },
   {
     "id": "reading-2",
     "type": "📖 Reading",
-    "title": "The Ant and the Grasshopper",
+    "title": "The Lion and the Mouse",
     "description": "Read this classic fable, then answer the questions.",
-    "story": "All summer long, the ant worked hard. Every day she carried food to her nest underground. The grasshopper watched and laughed. Why do you work so hard? he sang. Come play with me instead! The ant shook her head. Winter is coming. I must prepare.\n\nWhen winter arrived, the grasshopper was cold and hungry. He had nothing stored away. He knocked on the ant's door and begged for food. The ant shared a little, but said kindly, Next summer, remember to work while the sun shines.\n\nThe grasshopper nodded and promised he would never forget that lesson again.",
+    "story": "One sunny day, a tiny mouse ran across a sleeping lion's paw. The lion woke up angrily and trapped the mouse with his huge claw. Please let me go! begged the mouse. One day I might help you in return. The lion laughed loudly. How could a tiny mouse ever help a king like him? But the lion let him go.\n\nA few weeks later, hunters caught the lion in a strong rope net. The lion roared and roared, but he could not escape. The little mouse heard the roar and remembered the lion. The mouse ran to the net and chewed through the ropes with his sharp teeth. Soon the lion was free.\n\nThank you, my small friend, said the lion. I see now that even the smallest creatures can do great things.",
     "questions": [
       {
-        "prompt": "What was the ant doing all summer?",
-        "acceptableAnswers": [
-          "carrying food",
-          "working hard",
-          "storing food",
-          "preparing for winter"
-        ]
+        "prompt": "Who are the two main characters in this story?",
+        "acceptableAnswers": ["lion and mouse", "a lion and a mouse", "the lion and the mouse"]
       },
       {
-        "prompt": "What did the grasshopper do instead of working?",
-        "acceptableAnswers": [
-          "played",
-          "sang",
-          "laughed at the ant"
-        ]
+        "prompt": "Why did the lion let the mouse go at first?",
+        "acceptableAnswers": ["the mouse promised to help him", "mouse said he might help", "mouse begged for freedom"]
       },
       {
-        "prompt": "What problem did the grasshopper have in winter?",
-        "acceptableAnswers": [
-          "he was cold and hungry",
-          "he had no food",
-          "nothing stored away"
-        ]
+        "prompt": "What problem did the lion have later in the story?",
+        "acceptableAnswers": ["he was caught in a net", "trapped by hunters", "stuck in a rope net"]
       },
       {
-        "prompt": "How did the ant respond when the grasshopper asked for help?",
-        "acceptableAnswers": [
-          "she shared a little food",
-          "shared food and gave advice",
-          "shared food and told him to prepare next time"
-        ]
+        "prompt": "How did the mouse help the lion?",
+        "acceptableAnswers": ["chewed through the ropes", "chewed the net", "bit through the rope with his teeth"]
       },
       {
         "prompt": "What is the moral (lesson) of this fable?",
-        "acceptableAnswers": [
-          "work hard and prepare",
-          "prepare for the future",
-          "dont be lazy",
-          "plan ahead"
-        ]
+        "acceptableAnswers": ["even small creatures can help", "small things matter", "kindness is repaid", "everyone can do great things"]
       }
     ]
   },
@@ -105,73 +64,44 @@
     "description": "Think carefully about word parts before you answer!",
     "questions": [
       {
-        "prompt": "What is the ROOT word in 'teacher'?",
-        "acceptableAnswers": [
-          "teach"
-        ]
+        "prompt": "What is the ROOT word in 'singer'?",
+        "acceptableAnswers": ["sing"]
       },
       {
-        "prompt": "What is the ROOT word in 'happily'?",
-        "acceptableAnswers": [
-          "happy"
-        ]
+        "prompt": "What is the ROOT word in 'kindness'?",
+        "acceptableAnswers": ["kind"]
       },
       {
-        "prompt": "What PREFIX is in 'unhappy'? What does it mean?",
-        "acceptableAnswers": [
-          "un means not",
-          "un not",
-          "un"
-        ]
+        "prompt": "What PREFIX is in 'preview'? What does it mean?",
+        "acceptableAnswers": ["pre means before", "pre before", "pre"]
       },
       {
-        "prompt": "What PREFIX is in 'redo'? What does it mean?",
-        "acceptableAnswers": [
-          "re means again",
-          "re again",
-          "re"
-        ]
+        "prompt": "What PREFIX is in 'disagree'? What does it mean?",
+        "acceptableAnswers": ["dis means not", "dis not", "dis"]
       },
       {
-        "prompt": "What SUFFIX is in 'helpful'?",
-        "acceptableAnswers": [
-          "ful"
-        ]
+        "prompt": "What SUFFIX is in 'joyful'?",
+        "acceptableAnswers": ["ful"]
       },
       {
-        "prompt": "What SUFFIX is in 'careless'?",
-        "acceptableAnswers": [
-          "less"
-        ]
+        "prompt": "What SUFFIX is in 'fearless'?",
+        "acceptableAnswers": ["less"]
       },
       {
-        "prompt": "What does 'careless' mean? Use the suffix to help you.",
-        "acceptableAnswers": [
-          "without care",
-          "not careful",
-          "showing no care"
-        ]
+        "prompt": "What does 'powerless' mean? Use the suffix to help you.",
+        "acceptableAnswers": ["without power", "having no power", "not powerful"]
       },
       {
-        "prompt": "What does 'hopeful' mean? Use the suffix to help you.",
-        "acceptableAnswers": [
-          "full of hope",
-          "having hope"
-        ]
+        "prompt": "What does 'thankful' mean? Use the suffix to help you.",
+        "acceptableAnswers": ["full of thanks", "having thanks", "feeling grateful"]
       },
       {
-        "prompt": "Add 'un' to 'safe'. Write the new word and what it means.",
-        "acceptableAnswers": [
-          "unsafe means not safe",
-          "unsafe not safe",
-          "unsafe"
-        ]
+        "prompt": "Add 'un' to 'kind'. Write the new word and what it means.",
+        "acceptableAnswers": ["unkind means not kind", "unkind not kind", "unkind"]
       },
       {
-        "prompt": "Which word means the OPPOSITE of 'kind'? (unkind / reskind / kindless)",
-        "acceptableAnswers": [
-          "unkind"
-        ]
+        "prompt": "Which word means the OPPOSITE of 'lock'? (unlock / relock / lockless)",
+        "acceptableAnswers": ["unlock"]
       }
     ]
   },
@@ -182,27 +112,27 @@
     "description": "Write complete sentences. Use your best spelling. Parent will review all answers.",
     "questions": [
       {
-        "prompt": "OPINION: Should students have homework every day? Write your opinion and TWO reasons.",
+        "prompt": "OPINION: Should children be allowed to choose their own bedtime? Write your opinion and TWO reasons.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "OPINION: Is it better to have one good friend or many friends? Give a reason.",
+        "prompt": "OPINION: Is summer or winter the better season? Give a reason for your choice.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "INFORMATIVE: Explain how to brush your teeth in 4 steps. Use first, next, then, and finally.",
+        "prompt": "INFORMATIVE: Explain how to make a sandwich in 4 steps. Use first, next, then, and finally.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "INFORMATIVE: Explain what an ant does during summer. Use facts from the story.",
+        "prompt": "INFORMATIVE: Explain how a bird builds its nest. Use facts you know.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "NARRATIVE: Write 4-6 sentences about a day you helped someone. Tell what happened and how you felt.",
+        "prompt": "NARRATIVE: Write 4-6 sentences about a time you were brave. Tell what happened and how you felt.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "NARRATIVE: Finish this story starter: 'One morning I opened my backpack and found a tiny glowing box...'",
+        "prompt": "NARRATIVE: Finish this story starter: 'I opened the old wooden door and saw a magical garden full of...'",
         "acceptableAnswers": []
       }
     ]
@@ -214,68 +144,44 @@
     "description": "Choose the correct word and type your full answer.",
     "questions": [
       {
-        "prompt": "The dog ___ barking loudly. (is / are)",
-        "acceptableAnswers": [
-          "is"
-        ]
+        "prompt": "The cat ___ sleeping on the chair. (is / are)",
+        "acceptableAnswers": ["is"]
       },
       {
-        "prompt": "The students ___ reading a book. (is / are)",
-        "acceptableAnswers": [
-          "are"
-        ]
+        "prompt": "The boys ___ running in the park. (is / are)",
+        "acceptableAnswers": ["are"]
       },
       {
-        "prompt": "She ___ going to school every day. (is / are)",
-        "acceptableAnswers": [
-          "is"
-        ]
+        "prompt": "He ___ writing a letter to his friend. (is / are)",
+        "acceptableAnswers": ["is"]
       },
       {
-        "prompt": "They ___ playing outside. (was / were)",
-        "acceptableAnswers": [
-          "were"
-        ]
+        "prompt": "We ___ at the museum yesterday. (was / were)",
+        "acceptableAnswers": ["were"]
       },
       {
-        "prompt": "He ___ eating lunch. (was / were)",
-        "acceptableAnswers": [
-          "was"
-        ]
+        "prompt": "She ___ tired after the long game. (was / were)",
+        "acceptableAnswers": ["was"]
       },
       {
-        "prompt": "Which is a COMPLETE sentence? A) The big dog.  B) The big dog ran fast.",
-        "acceptableAnswers": [
-          "b",
-          "the big dog ran fast"
-        ]
+        "prompt": "Which is a COMPLETE sentence? A) Running fast.  B) The girl runs fast.",
+        "acceptableAnswers": ["b", "the girl runs fast"]
       },
       {
-        "prompt": "Add the correct punctuation: 'Where is my pencil'",
-        "acceptableAnswers": [
-          "?",
-          "question mark"
-        ]
+        "prompt": "Add the correct punctuation: 'Wow that is amazing'",
+        "acceptableAnswers": ["!", "exclamation mark", "exclamation point"]
       },
       {
-        "prompt": "Which word is a NOUN in: The happy puppy ran home.",
-        "acceptableAnswers": [
-          "puppy",
-          "home"
-        ]
+        "prompt": "Which word is a NOUN in: The brown bear walked slowly.",
+        "acceptableAnswers": ["bear"]
       },
       {
-        "prompt": "Which word is a VERB in: Sara found a lost puppy.",
-        "acceptableAnswers": [
-          "found"
-        ]
+        "prompt": "Which word is a VERB in: The teacher writes on the board.",
+        "acceptableAnswers": ["writes"]
       },
       {
-        "prompt": "Rewrite correctly with capital letter and period: 'the ant worked hard all summer'",
-        "acceptableAnswers": [
-          "the ant worked hard all summer.",
-          "The ant worked hard all summer."
-        ]
+        "prompt": "Rewrite correctly with capital letter and period: 'my brother loves to read books'",
+        "acceptableAnswers": ["my brother loves to read books.", "My brother loves to read books."]
       }
     ]
   },
@@ -286,15 +192,15 @@
     "description": "Say each answer OUT LOUD to your parent first, then write short notes.",
     "questions": [
       {
-        "prompt": "Retell The Lost Puppy in your own words. Say at least 4 sentences out loud.",
+        "prompt": "Retell The Kind Bird in your own words. Say at least 4 sentences out loud.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "Tell your parent: What would YOU do if you found a lost animal? Give at least 2 steps.",
+        "prompt": "Tell your parent: What would YOU do if you saw an animal that needed help? Give at least 2 steps.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "Discuss: What lesson did the grasshopper learn? Do you think he really changed? Why?",
+        "prompt": "Discuss: Why was the tiny mouse able to help the powerful lion? What does this teach us?",
         "acceptableAnswers": []
       },
       {
@@ -302,7 +208,7 @@
         "acceptableAnswers": []
       },
       {
-        "prompt": "Ask your parent to say a 3-digit number. Write it in expanded form AND round it to the nearest ten.",
+        "prompt": "Ask your parent to say a 3-digit number. Write it in expanded form AND round it to the nearest hundred.",
         "acceptableAnswers": []
       }
     ]
@@ -315,136 +221,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. PLACE VALUE\nThe value of where a digit sits in a number.\n   495: 4=Hundreds(400), 9=Tens(90), 5=Ones(5)\n\n2. STANDARD FORM\nWriting a number using digits.\n   two thousand forty = 2,040\n\n3. EXPANDED FORM\nBreaking a number to show each digit's value.\n   356 = 300 + 50 + 6\n\n4. ROUNDING\nMake a number simpler by rounding to nearest ten or hundred.\n   RULE: Look at the digit to the RIGHT of where you round.\n   5 or more = round UP.  4 or less = round DOWN.\n   79 rounds UP to 80.  34 rounds DOWN to 30.  462 rounds to 500.",
     "questions": [
       {
-        "prompt": "PLACE VALUE: In 495, what is the value of the digit 4?",
-        "acceptableAnswers": [
-          "400",
-          "four hundred"
-        ]
+        "prompt": "PLACE VALUE: In 627, what is the value of the digit 6?",
+        "acceptableAnswers": ["600", "six hundred"]
       },
       {
-        "prompt": "PLACE VALUE: In 495, what is the value of the digit 9?",
-        "acceptableAnswers": [
-          "90",
-          "ninety",
-          "nine tens"
-        ]
+        "prompt": "PLACE VALUE: In 627, what is the value of the digit 2?",
+        "acceptableAnswers": ["20", "twenty", "two tens"]
       },
       {
-        "prompt": "PLACE VALUE: In 2,040, which digit is in the THOUSANDS place?",
-        "acceptableAnswers": [
-          "2",
-          "two"
-        ]
+        "prompt": "PLACE VALUE: In 3,051, which digit is in the THOUSANDS place?",
+        "acceptableAnswers": ["3", "three"]
       },
       {
-        "prompt": "STANDARD FORM: Write 'three hundred fifty-six' in standard form.",
-        "acceptableAnswers": [
-          "356"
-        ]
+        "prompt": "STANDARD FORM: Write 'two hundred forty-seven' in standard form.",
+        "acceptableAnswers": ["247"]
       },
       {
-        "prompt": "STANDARD FORM: Write 'two thousand forty' in standard form.",
-        "acceptableAnswers": [
-          "2040",
-          "2,040"
-        ]
+        "prompt": "STANDARD FORM: Write 'three thousand sixty' in standard form.",
+        "acceptableAnswers": ["3060", "3,060"]
       },
       {
-        "prompt": "EXPANDED FORM: Write 356 in expanded form.",
-        "acceptableAnswers": [
-          "300 + 50 + 6",
-          "300+50+6"
-        ]
+        "prompt": "EXPANDED FORM: Write 482 in expanded form.",
+        "acceptableAnswers": ["400 + 80 + 2", "400+80+2"]
       },
       {
-        "prompt": "EXPANDED FORM: Write 731 in expanded form.",
-        "acceptableAnswers": [
-          "700 + 30 + 1",
-          "700+30+1"
-        ]
+        "prompt": "EXPANDED FORM: Write 615 in expanded form.",
+        "acceptableAnswers": ["600 + 10 + 5", "600+10+5"]
       },
       {
-        "prompt": "ROUNDING: Round 79 to the nearest ten.",
-        "acceptableAnswers": [
-          "80"
-        ]
+        "prompt": "ROUNDING: Round 47 to the nearest ten.",
+        "acceptableAnswers": ["50"]
       },
       {
-        "prompt": "ROUNDING: Round 34 to the nearest ten.",
-        "acceptableAnswers": [
-          "30"
-        ]
+        "prompt": "ROUNDING: Round 22 to the nearest ten.",
+        "acceptableAnswers": ["20"]
       },
       {
-        "prompt": "ROUNDING: Round 462 to the nearest hundred.",
-        "acceptableAnswers": [
-          "500"
-        ]
+        "prompt": "ROUNDING: Round 358 to the nearest hundred.",
+        "acceptableAnswers": ["400"]
       },
       {
-        "prompt": "CHALLENGE: Write 2,040 in expanded form.",
-        "acceptableAnswers": [
-          "2000 + 40",
-          "2,000 + 40"
-        ]
+        "prompt": "CHALLENGE: Write 3,050 in expanded form.",
+        "acceptableAnswers": ["3000 + 50", "3,000 + 50"]
       },
       {
-        "prompt": "PLACE VALUE: In the number 2,040, what is the value of the digit 2?",
-        "acceptableAnswers": [
-          "2000",
-          "two thousand"
-        ]
+        "prompt": "PLACE VALUE: In the number 3,050, what is the value of the digit 3?",
+        "acceptableAnswers": ["3000", "three thousand"]
       },
       {
-        "prompt": "PLACE VALUE: What digit is in the TENS place in 4,387?",
-        "acceptableAnswers": [
-          "8"
-        ]
+        "prompt": "PLACE VALUE: What digit is in the TENS place in 5,294?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "PLACE VALUE: Write the number that has 5 hundreds, 3 tens, and 7 ones.",
-        "acceptableAnswers": [
-          "537"
-        ]
+        "prompt": "PLACE VALUE: Write the number that has 7 hundreds, 4 tens, and 2 ones.",
+        "acceptableAnswers": ["742"]
       },
       {
-        "prompt": "STANDARD FORM: Write 'four hundred eighteen' in standard form.",
-        "acceptableAnswers": [
-          "418"
-        ]
+        "prompt": "STANDARD FORM: Write 'six hundred twelve' in standard form.",
+        "acceptableAnswers": ["612"]
       },
       {
-        "prompt": "STANDARD FORM: Write 'one thousand two hundred six' in standard form.",
-        "acceptableAnswers": [
-          "1206",
-          "1,206"
-        ]
+        "prompt": "STANDARD FORM: Write 'two thousand five hundred eight' in standard form.",
+        "acceptableAnswers": ["2508", "2,508"]
       },
       {
-        "prompt": "EXPANDED FORM: Write 809 in expanded form.",
-        "acceptableAnswers": [
-          "800 + 9",
-          "800+9"
-        ]
+        "prompt": "EXPANDED FORM: Write 706 in expanded form.",
+        "acceptableAnswers": ["700 + 6", "700+6"]
       },
       {
-        "prompt": "EXPANDED FORM: Write 1,245 in expanded form.",
-        "acceptableAnswers": [
-          "1000 + 200 + 40 + 5",
-          "1,000 + 200 + 40 + 5"
-        ]
+        "prompt": "EXPANDED FORM: Write 1,367 in expanded form.",
+        "acceptableAnswers": ["1000 + 300 + 60 + 7", "1,000 + 300 + 60 + 7"]
       },
       {
-        "prompt": "ROUNDING: Round 145 to the nearest ten.",
-        "acceptableAnswers": [
-          "150"
-        ]
+        "prompt": "ROUNDING: Round 286 to the nearest ten.",
+        "acceptableAnswers": ["290"]
       },
       {
-        "prompt": "ROUNDING: Round 523 to the nearest hundred.",
-        "acceptableAnswers": [
-          "500"
-        ]
+        "prompt": "ROUNDING: Round 612 to the nearest hundred.",
+        "acceptableAnswers": ["600"]
       }
     ]
   },
@@ -456,126 +310,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. FRONT-END ESTIMATION\nKeep the highest place value digit, make the rest zeros.\n   458 → 400   678 → 700   311 → 300\n\n2. UNKNOWN NUMBER\nA missing number shown as ? or a letter.\n   24 + ? = 83  →  83 - 24 = 59  →  ? = 59\n   A - 42 = 200  →  200 + 42 = 242  →  A = 242\n\n3. INVERSE OPERATIONS\nThe OPPOSITE operation that UNDOES another.\n   Addition undoes Subtraction.  Multiplication undoes Division.\n\n4. DECOMPOSE (Expanded Subtraction)\n   678 - 548 = ?\n   600+70+8 minus 500+40+8 = 100+30+0 = 130",
     "questions": [
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 458.",
-        "acceptableAnswers": [
-          "400"
-        ]
+        "prompt": "ESTIMATION: Use front-end estimation on 564.",
+        "acceptableAnswers": ["500"]
       },
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 678.",
-        "acceptableAnswers": [
-          "700"
-        ]
+        "prompt": "ESTIMATION: Use front-end estimation on 391.",
+        "acceptableAnswers": ["300"]
       },
       {
-        "prompt": "UNKNOWN NUMBER: 24 + ? = 83. What is the missing number?",
-        "acceptableAnswers": [
-          "59"
-        ]
+        "prompt": "UNKNOWN NUMBER: 36 + ? = 91. What is the missing number?",
+        "acceptableAnswers": ["55"]
       },
       {
-        "prompt": "UNKNOWN NUMBER: A - 42 = 200. What is A?",
-        "acceptableAnswers": [
-          "242"
-        ]
+        "prompt": "UNKNOWN NUMBER: B - 28 = 100. What is B?",
+        "acceptableAnswers": ["128"]
       },
       {
-        "prompt": "INVERSE: What is the inverse operation of addition?",
-        "acceptableAnswers": [
-          "subtraction"
-        ]
+        "prompt": "INVERSE: What is the inverse operation of subtraction?",
+        "acceptableAnswers": ["addition"]
       },
       {
-        "prompt": "INVERSE: What is the inverse operation of multiplication?",
-        "acceptableAnswers": [
-          "division"
-        ]
+        "prompt": "INVERSE: What is the inverse operation of division?",
+        "acceptableAnswers": ["multiplication"]
       },
       {
-        "prompt": "CHECK: You solved 24 + 59 = 83. Write a subtraction equation to check it.",
-        "acceptableAnswers": [
-          "83 - 59 = 24",
-          "83 - 24 = 59"
-        ]
+        "prompt": "CHECK: You solved 36 + 55 = 91. Write a subtraction equation to check it.",
+        "acceptableAnswers": ["91 - 55 = 36", "91 - 36 = 55"]
       },
       {
-        "prompt": "DECOMPOSE: Solve 678 - 548 using expanded form. What is the answer?",
-        "acceptableAnswers": [
-          "130"
-        ]
+        "prompt": "DECOMPOSE: Solve 785 - 423 using expanded form. What is the answer?",
+        "acceptableAnswers": ["362"]
       },
       {
-        "prompt": "WORD PROBLEM: The gym has 548 members and can hold 678. How many more can join?",
-        "acceptableAnswers": [
-          "130"
-        ]
+        "prompt": "WORD PROBLEM: A library has 423 books and room for 785. How many more books can fit?",
+        "acceptableAnswers": ["362"]
       },
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 845.",
-        "acceptableAnswers": [
-          "800"
-        ]
+        "prompt": "ESTIMATION: Use front-end estimation on 728.",
+        "acceptableAnswers": ["700"]
       },
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 312.",
-        "acceptableAnswers": [
-          "300"
-        ]
+        "prompt": "ESTIMATION: Use front-end estimation on 219.",
+        "acceptableAnswers": ["200"]
       },
       {
-        "prompt": "ESTIMATION: A store has 492 apples. About how many is that using front-end estimation?",
-        "acceptableAnswers": [
-          "400"
-        ]
+        "prompt": "ESTIMATION: A class has 387 stickers. About how many is that using front-end estimation?",
+        "acceptableAnswers": ["300"]
       },
       {
-        "prompt": "UNKNOWN NUMBER: 35 + ? = 100. What is the missing number?",
-        "acceptableAnswers": [
-          "65"
-        ]
+        "prompt": "UNKNOWN NUMBER: 42 + ? = 90. What is the missing number?",
+        "acceptableAnswers": ["48"]
       },
       {
-        "prompt": "UNKNOWN NUMBER: B + 27 = 80. What is B?",
-        "acceptableAnswers": [
-          "53"
-        ]
+        "prompt": "UNKNOWN NUMBER: C + 35 = 100. What is C?",
+        "acceptableAnswers": ["65"]
       },
       {
-        "prompt": "UNKNOWN NUMBER: 150 - ? = 75. What is the missing number?",
-        "acceptableAnswers": [
-          "75"
-        ]
+        "prompt": "UNKNOWN NUMBER: 200 - ? = 80. What is the missing number?",
+        "acceptableAnswers": ["120"]
       },
       {
-        "prompt": "INVERSE: Write a related subtraction fact for 67 + 23 = 90.",
-        "acceptableAnswers": [
-          "90 - 23 = 67",
-          "90 - 67 = 23"
-        ]
+        "prompt": "INVERSE: Write a related subtraction fact for 48 + 35 = 83.",
+        "acceptableAnswers": ["83 - 35 = 48", "83 - 48 = 35"]
       },
       {
-        "prompt": "DECOMPOSE: Solve 543 - 321 using expanded form. Show your work and give the answer.",
-        "acceptableAnswers": [
-          "222"
-        ]
+        "prompt": "DECOMPOSE: Solve 654 - 432 using expanded form. What is the answer?",
+        "acceptableAnswers": ["222"]
       },
       {
-        "prompt": "WORD PROBLEM: A school library has 437 books. 215 are checked out. How many are still on the shelves?",
-        "acceptableAnswers": [
-          "222"
-        ]
+        "prompt": "WORD PROBLEM: Sara had 532 stickers. She gave 211 to friends. How many does she have left?",
+        "acceptableAnswers": ["321"]
       },
       {
-        "prompt": "WORD PROBLEM: Sara drove 365 miles on Monday and 214 miles on Tuesday. Estimate the total using front-end estimation.",
-        "acceptableAnswers": [
-          "500"
-        ]
+        "prompt": "WORD PROBLEM: Ali drove 245 miles on Monday and 167 miles on Tuesday. Estimate the total using front-end estimation.",
+        "acceptableAnswers": ["300"]
       },
       {
-        "prompt": "CHALLENGE: n - 56 = 144. What is n? (Hint: use inverse operations)",
-        "acceptableAnswers": [
-          "200"
-        ]
+        "prompt": "CHALLENGE: m - 47 = 153. What is m?",
+        "acceptableAnswers": ["200"]
       }
     ]
   },
@@ -587,133 +399,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. MULTIPLICATION\nAdding the same number over and over, but faster!\n   3 x 4 = 12 means 3 groups of 4.\n\n2. REPEATED ADDITION\n   3 x 4 = 4 + 4 + 4 = 12\n\n3. ARRAY\nObjects in ROWS (left to right) and COLUMNS (up and down).\n   3x4 array = 3 rows, 4 columns = 12 total.\n\n4. DOUBLES\nMultiplying by 2 or adding a number to itself.\n   8 + 8 = 16  and  8 x 2 = 16",
     "questions": [
       {
-        "prompt": "REPEATED ADDITION: Write 5 x 3 as repeated addition.",
-        "acceptableAnswers": [
-          "3+3+3+3+3",
-          "3 + 3 + 3 + 3 + 3"
-        ]
+        "prompt": "REPEATED ADDITION: Write 4 x 5 as repeated addition.",
+        "acceptableAnswers": ["5+5+5+5", "5 + 5 + 5 + 5"]
       },
       {
-        "prompt": "MULTIPLICATION: What is 6 x 7?",
-        "acceptableAnswers": [
-          "42"
-        ]
+        "prompt": "MULTIPLICATION: What is 5 x 8?",
+        "acceptableAnswers": ["40"]
       },
       {
-        "prompt": "MULTIPLICATION: What is 8 x 9?",
-        "acceptableAnswers": [
-          "72"
-        ]
+        "prompt": "MULTIPLICATION: What is 7 x 9?",
+        "acceptableAnswers": ["63"]
       },
       {
-        "prompt": "ARRAY: An array has 3 rows and 4 columns. Write the equation and answer.",
-        "acceptableAnswers": [
-          "3 x 4 = 12",
-          "12"
-        ]
+        "prompt": "ARRAY: An array has 4 rows and 5 columns. Write the equation and answer.",
+        "acceptableAnswers": ["4 x 5 = 20", "20"]
       },
       {
-        "prompt": "ARRAY: A classroom has 5 rows of 6 chairs. How many chairs total?",
-        "acceptableAnswers": [
-          "30"
-        ]
+        "prompt": "ARRAY: A garden has 3 rows of 7 flowers. How many flowers total?",
+        "acceptableAnswers": ["21"]
       },
       {
-        "prompt": "DOUBLES: What is 7 doubled?",
-        "acceptableAnswers": [
-          "14"
-        ]
+        "prompt": "DOUBLES: What is 8 doubled?",
+        "acceptableAnswers": ["16"]
       },
       {
-        "prompt": "DOUBLES: What is 9 x 2?",
-        "acceptableAnswers": [
-          "18"
-        ]
+        "prompt": "DOUBLES: What is 11 x 2?",
+        "acceptableAnswers": ["22"]
       },
       {
-        "prompt": "MULTIPLES: List the first 5 multiples of 6.",
-        "acceptableAnswers": [
-          "6 12 18 24 30",
-          "6, 12, 18, 24, 30"
-        ]
+        "prompt": "MULTIPLES: List the first 5 multiples of 5.",
+        "acceptableAnswers": ["5 10 15 20 25", "5, 10, 15, 20, 25"]
       },
       {
-        "prompt": "WORD PROBLEM: Sara plants 4 rows with 8 seeds each. How many seeds total?",
-        "acceptableAnswers": [
-          "32"
-        ]
+        "prompt": "WORD PROBLEM: Tom plants 6 rows with 5 seeds each. How many seeds total?",
+        "acceptableAnswers": ["30"]
       },
       {
-        "prompt": "MULTIPLICATION: What is 7 x 7?",
-        "acceptableAnswers": [
-          "49"
-        ]
+        "prompt": "MULTIPLICATION: What is 6 x 6?",
+        "acceptableAnswers": ["36"]
       },
       {
-        "prompt": "MULTIPLICATION: What is 9 x 6?",
-        "acceptableAnswers": [
-          "54"
-        ]
+        "prompt": "MULTIPLICATION: What is 8 x 7?",
+        "acceptableAnswers": ["56"]
       },
       {
-        "prompt": "MULTIPLICATION: What is 4 x 8?",
-        "acceptableAnswers": [
-          "32"
-        ]
+        "prompt": "MULTIPLICATION: What is 3 x 9?",
+        "acceptableAnswers": ["27"]
       },
       {
-        "prompt": "REPEATED ADDITION: Write 6 x 4 as repeated addition and solve.",
-        "acceptableAnswers": [
-          "4+4+4+4+4+4=24",
-          "4+4+4+4+4+4",
-          "24"
-        ]
+        "prompt": "REPEATED ADDITION: Write 7 x 3 as repeated addition and solve.",
+        "acceptableAnswers": ["3+3+3+3+3+3+3=21", "3+3+3+3+3+3+3", "21"]
       },
       {
-        "prompt": "ARRAY: Draw (describe) an array for 2 x 9. How many objects total?",
-        "acceptableAnswers": [
-          "18",
-          "2 rows 9 columns 18"
-        ]
+        "prompt": "ARRAY: Draw (describe) an array for 3 x 8. How many objects total?",
+        "acceptableAnswers": ["24", "3 rows 8 columns 24"]
       },
       {
-        "prompt": "ARRAY: A box has 4 rows and 7 columns of chocolates. How many chocolates are there?",
-        "acceptableAnswers": [
-          "28"
-        ]
+        "prompt": "ARRAY: A box has 5 rows and 6 columns of donuts. How many donuts are there?",
+        "acceptableAnswers": ["30"]
       },
       {
-        "prompt": "DOUBLES: What is 12 doubled?",
-        "acceptableAnswers": [
-          "24"
-        ]
+        "prompt": "DOUBLES: What is 15 doubled?",
+        "acceptableAnswers": ["30"]
       },
       {
-        "prompt": "MULTIPLES: Is 36 a multiple of 6? Write YES or NO and explain.",
-        "acceptableAnswers": [
-          "yes",
-          "yes 6 x 6 = 36"
-        ]
+        "prompt": "MULTIPLES: Is 28 a multiple of 7? Write YES or NO and explain.",
+        "acceptableAnswers": ["yes", "yes 7 x 4 = 28"]
       },
       {
-        "prompt": "MULTIPLES: List the first 5 multiples of 4.",
-        "acceptableAnswers": [
-          "4 8 12 16 20",
-          "4, 8, 12, 16, 20"
-        ]
+        "prompt": "MULTIPLES: List the first 5 multiples of 3.",
+        "acceptableAnswers": ["3 6 9 12 15", "3, 6, 9, 12, 15"]
       },
       {
-        "prompt": "WORD PROBLEM: A baker puts 6 cookies on each tray. She has 9 trays. How many cookies total?",
-        "acceptableAnswers": [
-          "54"
-        ]
+        "prompt": "WORD PROBLEM: Each shelf holds 7 books. The library has 8 shelves. How many books total?",
+        "acceptableAnswers": ["56"]
       },
       {
-        "prompt": "CHALLENGE: Jake earns $8 every hour. After 7 hours, how much has he earned?",
-        "acceptableAnswers": [
-          "56",
-          "$56"
-        ]
+        "prompt": "CHALLENGE: Lisa earns $9 every hour. After 6 hours, how much has she earned?",
+        "acceptableAnswers": ["54", "$54"]
       }
     ]
   },
@@ -725,134 +488,83 @@
     "story": "TODAY'S 4 TOPICS\n\n1. COMMUTATIVE PROPERTY\nOrder does NOT matter when multiplying.\n   3 x 4 = 12  AND  4 x 3 = 12 (same answer!)\n\n2. ZERO PROPERTY\nAny number x 0 = 0.\n   5 x 0 = 0.  999 x 0 = 0.\n\n3. IDENTITY PROPERTY\nAny number x 1 = that number.\n   225 x 1 = 225.  7 x 1 = 7.\n\n4. DISTRIBUTIVE PROPERTY\nBreak one factor into a sum of two smaller facts.\n   6 x 4 = (3 x 4) + (3 x 4) = 12 + 12 = 24",
     "questions": [
       {
-        "prompt": "COMMUTATIVE: If 6 x 7 = 42, what is 7 x 6?",
-        "acceptableAnswers": [
-          "42"
-        ]
+        "prompt": "COMMUTATIVE: If 5 x 8 = 40, what is 8 x 5?",
+        "acceptableAnswers": ["40"]
       },
       {
-        "prompt": "COMMUTATIVE: Write the commutative partner of 8 x 3 = 24.",
-        "acceptableAnswers": [
-          "3 x 8 = 24",
-          "3x8=24"
-        ]
+        "prompt": "COMMUTATIVE: Write the commutative partner of 7 x 4 = 28.",
+        "acceptableAnswers": ["4 x 7 = 28", "4x7=28"]
       },
       {
-        "prompt": "ZERO PROPERTY: What is 99 x 0?",
-        "acceptableAnswers": [
-          "0",
-          "zero"
-        ]
+        "prompt": "ZERO PROPERTY: What is 75 x 0?",
+        "acceptableAnswers": ["0", "zero"]
       },
       {
-        "prompt": "IDENTITY PROPERTY: What is 256 x 1?",
-        "acceptableAnswers": [
-          "256"
-        ]
+        "prompt": "IDENTITY PROPERTY: What is 482 x 1?",
+        "acceptableAnswers": ["482"]
       },
       {
         "prompt": "IDENTITY PROPERTY: What number multiplied by ANY number gives that number back?",
-        "acceptableAnswers": [
-          "1",
-          "one"
-        ]
+        "acceptableAnswers": ["1", "one"]
       },
       {
-        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 6 x 4. Show your two smaller facts.",
-        "acceptableAnswers": [
-          "24",
-          "(3x4)+(3x4)=24",
-          "3x4+3x4=24"
-        ]
+        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 8 x 4. Show your two smaller facts.",
+        "acceptableAnswers": ["32", "(4x4)+(4x4)=32", "4x4+4x4=32"]
       },
       {
-        "prompt": "EXPRESSION vs EQUATION: Is '7 x n' an expression or an equation?",
-        "acceptableAnswers": [
-          "expression"
-        ]
+        "prompt": "EXPRESSION vs EQUATION: Is '5 x m' an expression or an equation?",
+        "acceptableAnswers": ["expression"]
       },
       {
-        "prompt": "EQUATION: Solve: 7 x n = 14. What is n?",
-        "acceptableAnswers": [
-          "2"
-        ]
+        "prompt": "EQUATION: Solve: 5 x n = 25. What is n?",
+        "acceptableAnswers": ["5"]
       },
       {
-        "prompt": "COMMUTATIVE: Write two multiplication facts that show the commutative property using 5 and 9.",
-        "acceptableAnswers": [
-          "5 x 9 = 45 and 9 x 5 = 45",
-          "5x9=45 9x5=45"
-        ]
+        "prompt": "COMMUTATIVE: Write two multiplication facts that show the commutative property using 6 and 4.",
+        "acceptableAnswers": ["6 x 4 = 24 and 4 x 6 = 24", "6x4=24 4x6=24"]
       },
       {
-        "prompt": "ZERO PROPERTY: What is 1,000 x 0?",
-        "acceptableAnswers": [
-          "0",
-          "zero"
-        ]
+        "prompt": "ZERO PROPERTY: What is 500 x 0?",
+        "acceptableAnswers": ["0", "zero"]
       },
       {
-        "prompt": "IDENTITY PROPERTY: What is 1 x 874?",
-        "acceptableAnswers": [
-          "874"
-        ]
+        "prompt": "IDENTITY PROPERTY: What is 1 x 999?",
+        "acceptableAnswers": ["999"]
       },
       {
-        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 7 x 6. Break it into two smaller facts.",
-        "acceptableAnswers": [
-          "42",
-          "(7x3)+(7x3)=42",
-          "(5x6)+(2x6)=42"
-        ]
+        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 9 x 5. Break it into two smaller facts.",
+        "acceptableAnswers": ["45", "(5x5)+(4x5)=45"]
       },
       {
-        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 8 x 7.",
-        "acceptableAnswers": [
-          "56",
-          "(4x7)+(4x7)=56"
-        ]
+        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 6 x 8.",
+        "acceptableAnswers": ["48", "(3x8)+(3x8)=48"]
       },
       {
-        "prompt": "EQUATION: 9 x n = 63. What is n?",
-        "acceptableAnswers": [
-          "7"
-        ]
+        "prompt": "EQUATION: 8 x n = 56. What is n?",
+        "acceptableAnswers": ["7"]
       },
       {
-        "prompt": "EQUATION: 6 x n = 48. What is n?",
-        "acceptableAnswers": [
-          "8"
-        ]
+        "prompt": "EQUATION: 4 x n = 36. What is n?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "EQUATION: n x 5 = 45. What is n?",
-        "acceptableAnswers": [
-          "9"
-        ]
+        "prompt": "EQUATION: n x 7 = 49. What is n?",
+        "acceptableAnswers": ["7"]
       },
       {
-        "prompt": "WORD PROBLEM: Each box holds 8 crayons. There are 7 boxes. Write a multiplication equation and solve.",
-        "acceptableAnswers": [
-          "7 x 8 = 56",
-          "56"
-        ]
+        "prompt": "WORD PROBLEM: Each pack holds 6 pencils. There are 8 packs. Write a multiplication equation and solve.",
+        "acceptableAnswers": ["8 x 6 = 48", "48"]
       },
       {
-        "prompt": "WORD PROBLEM: A garden has 6 rows of flowers with 9 flowers in each row. How many flowers are there in all?",
-        "acceptableAnswers": [
-          "54"
-        ]
+        "prompt": "WORD PROBLEM: A garden has 7 rows of carrots with 8 carrots in each row. How many carrots in all?",
+        "acceptableAnswers": ["56"]
       },
       {
-        "prompt": "CHALLENGE: Maria says 5 x 0 = 5. Is she correct? Explain which property applies.",
-        "acceptableAnswers": [
-          "no zero property",
-          "no 5 x 0 = 0 zero property",
-          "incorrect zero property"
-        ]
+        "prompt": "CHALLENGE: Tony says 4 x 1 = 1. Is he correct? Explain which property applies.",
+        "acceptableAnswers": ["no identity property", "no 4 x 1 = 4 identity property", "incorrect identity property"]
       },
       {
-        "prompt": "CHALLENGE: Write your own equation using the identity property and solve it.",
+        "prompt": "CHALLENGE: Write your own equation using the zero property and solve it.",
         "acceptableAnswers": []
       }
     ]
@@ -865,131 +577,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. DIVISION\nSeparating a whole amount into EQUAL parts.\n   20 / 4 = 5 means 20 split into 4 groups = 5 in each.\n\n2. DIVIDEND / DIVISOR / QUOTIENT\n   20 / 4 = 5\n   20 = DIVIDEND (number being split)\n   4  = DIVISOR (number of groups)\n   5  = QUOTIENT (number in each group)\n\n3. FACT FAMILY\nAll related x and / facts for the same 3 numbers.\n   2 x 4 = 8 | 4 x 2 = 8 | 8 / 4 = 2 | 8 / 2 = 4\n\n4. REPEATED SUBTRACTION\nSubtract the same number over and over until you reach 0.\n   12 / 3: 12-3=9, 9-3=6, 6-3=3, 3-3=0. Answer = 4.",
     "questions": [
       {
-        "prompt": "DIVISION: What is 24 divided by 6?",
-        "acceptableAnswers": [
-          "4"
-        ]
+        "prompt": "DIVISION: What is 30 divided by 5?",
+        "acceptableAnswers": ["6"]
       },
       {
-        "prompt": "DIVISION: What is 36 divided by 4?",
-        "acceptableAnswers": [
-          "9"
-        ]
+        "prompt": "DIVISION: What is 48 divided by 6?",
+        "acceptableAnswers": ["8"]
       },
       {
-        "prompt": "DIVIDEND: In 20 / 4 = 5, which number is the dividend?",
-        "acceptableAnswers": [
-          "20"
-        ]
+        "prompt": "DIVIDEND: In 25 / 5 = 5, which number is the dividend?",
+        "acceptableAnswers": ["25"]
       },
       {
-        "prompt": "DIVISOR: In 20 / 4 = 5, which number is the divisor?",
-        "acceptableAnswers": [
-          "4"
-        ]
+        "prompt": "DIVISOR: In 25 / 5 = 5, which number is the divisor?",
+        "acceptableAnswers": ["5"]
       },
       {
-        "prompt": "QUOTIENT: In 20 / 4 = 5, which number is the quotient?",
-        "acceptableAnswers": [
-          "5"
-        ]
+        "prompt": "QUOTIENT: In 25 / 5 = 5, which number is the quotient?",
+        "acceptableAnswers": ["5"]
       },
       {
-        "prompt": "FACT FAMILY: Write all 4 facts for the numbers 3, 5, and 15.",
-        "acceptableAnswers": [
-          "3x5=15 5x3=15 15/5=3 15/3=5",
-          "3x5=15"
-        ]
+        "prompt": "FACT FAMILY: Write all 4 facts for the numbers 4, 6, and 24.",
+        "acceptableAnswers": ["4x6=24 6x4=24 24/6=4 24/4=6", "4x6=24"]
       },
       {
-        "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 12 / 3. How many times did you subtract?",
-        "acceptableAnswers": [
-          "4 times",
-          "4"
-        ]
+        "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 15 / 5. How many times did you subtract?",
+        "acceptableAnswers": ["3 times", "3"]
       },
       {
-        "prompt": "WORD PROBLEM: 28 stickers shared equally among 7 friends. How many does each friend get?",
-        "acceptableAnswers": [
-          "4"
-        ]
+        "prompt": "WORD PROBLEM: 32 cookies shared equally among 4 friends. How many does each friend get?",
+        "acceptableAnswers": ["8"]
       },
       {
-        "prompt": "DIVISION: What is 45 divided by 9?",
-        "acceptableAnswers": [
-          "5"
-        ]
+        "prompt": "DIVISION: What is 54 divided by 6?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "DIVISION: What is 56 divided by 7?",
-        "acceptableAnswers": [
-          "8"
-        ]
+        "prompt": "DIVISION: What is 64 divided by 8?",
+        "acceptableAnswers": ["8"]
       },
       {
-        "prompt": "DIVISION: What is 63 divided by 9?",
-        "acceptableAnswers": [
-          "7"
-        ]
+        "prompt": "DIVISION: What is 81 divided by 9?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "DIVISION: What is 72 divided by 8?",
-        "acceptableAnswers": [
-          "9"
-        ]
+        "prompt": "DIVISION: What is 49 divided by 7?",
+        "acceptableAnswers": ["7"]
       },
       {
-        "prompt": "DIVIDEND/DIVISOR/QUOTIENT: In 35 / 7 = 5, name the dividend, divisor, and quotient.",
-        "acceptableAnswers": [
-          "dividend 35 divisor 7 quotient 5",
-          "35 7 5"
-        ]
+        "prompt": "DIVIDEND/DIVISOR/QUOTIENT: In 42 / 6 = 7, name the dividend, divisor, and quotient.",
+        "acceptableAnswers": ["dividend 42 divisor 6 quotient 7", "42 6 7"]
       },
       {
-        "prompt": "FACT FAMILY: Write all 4 facts for the numbers 4, 7, and 28.",
-        "acceptableAnswers": [
-          "4x7=28 7x4=28 28/7=4 28/4=7",
-          "4x7=28"
-        ]
+        "prompt": "FACT FAMILY: Write all 4 facts for the numbers 5, 8, and 40.",
+        "acceptableAnswers": ["5x8=40 8x5=40 40/8=5 40/5=8", "5x8=40"]
       },
       {
-        "prompt": "FACT FAMILY: Write all 4 facts for 6, 8, and 48.",
-        "acceptableAnswers": [
-          "6x8=48 8x6=48 48/6=8 48/8=6",
-          "6x8=48"
-        ]
+        "prompt": "FACT FAMILY: Write all 4 facts for 3, 9, and 27.",
+        "acceptableAnswers": ["3x9=27 9x3=27 27/9=3 27/3=9", "3x9=27"]
       },
       {
-        "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 20 / 4. Show each step.",
-        "acceptableAnswers": [
-          "5",
-          "20-4=16 16-4=12 12-4=8 8-4=4 4-4=0 answer 5"
-        ]
+        "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 24 / 6. Show each step.",
+        "acceptableAnswers": ["4", "24-6=18 18-6=12 12-6=6 6-6=0 answer 4"]
       },
       {
-        "prompt": "WORD PROBLEM: 54 students are split equally into 9 teams. How many students are on each team?",
-        "acceptableAnswers": [
-          "6"
-        ]
+        "prompt": "WORD PROBLEM: 45 books are placed equally on 5 shelves. How many books are on each shelf?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "WORD PROBLEM: A baker has 48 muffins to put in boxes of 6. How many boxes does he need?",
-        "acceptableAnswers": [
-          "8"
-        ]
+        "prompt": "WORD PROBLEM: A baker has 36 muffins to put in boxes of 4. How many boxes does he need?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "WORD PROBLEM: 63 marbles shared equally among 7 friends. How many does each friend get?",
-        "acceptableAnswers": [
-          "9"
-        ]
+        "prompt": "WORD PROBLEM: 56 candies shared equally among 8 children. How many does each child get?",
+        "acceptableAnswers": ["7"]
       },
       {
-        "prompt": "CHALLENGE: Is 56 / 8 the same as 56 / 7? Write YES or NO and explain.",
-        "acceptableAnswers": [
-          "no",
-          "no 56/8=7 and 56/7=8 they are different"
-        ]
+        "prompt": "CHALLENGE: Is 72 / 9 the same as 72 / 8? Write YES or NO and explain.",
+        "acceptableAnswers": ["no", "no 72/9=8 and 72/8=9 they are different"]
       }
     ]
   },
@@ -1001,146 +666,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. TRIANGLES\nA 2-D closed shape with exactly 3 sides and 3 angles.\n   Equilateral Triangle = ALL 3 sides are equal.\n\n2. QUADRILATERAL\nAny polygon with FOUR sides.\n   Types: Square, Rectangle, Rhombus, Parallelogram, Trapezoid, Kite.\n\n3. ANGLE & RIGHT ANGLE\n   Angle = formed when two line segments meet at a vertex.\n   Right Angle = exactly 90 degrees (looks like a square corner).\n\n4. VERTEX (plural VERTICES)\n   The corner where two or more sides meet.\n   Triangle = 3 vertices.  Square = 4 vertices.",
     "questions": [
       {
-        "prompt": "TRIANGLE: How many sides does a triangle have?",
-        "acceptableAnswers": [
-          "3",
-          "three"
-        ]
+        "prompt": "TRIANGLE: A triangle is a closed shape with how many sides?",
+        "acceptableAnswers": ["3", "three"]
       },
       {
-        "prompt": "EQUILATERAL TRIANGLE: What is special about its sides?",
-        "acceptableAnswers": [
-          "all sides equal",
-          "all 3 sides are equal",
-          "same length"
-        ]
+        "prompt": "EQUILATERAL TRIANGLE: What does 'equilateral' mean about its sides?",
+        "acceptableAnswers": ["all sides equal", "all 3 sides are the same length", "same length sides"]
       },
       {
-        "prompt": "QUADRILATERAL: How many sides does every quadrilateral have?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "prompt": "QUADRILATERAL: A quadrilateral is a polygon with how many sides?",
+        "acceptableAnswers": ["4", "four"]
       },
       {
-        "prompt": "QUADRILATERAL: Name THREE shapes that are quadrilaterals.",
-        "acceptableAnswers": [
-          "square rectangle rhombus",
-          "square rectangle trapezoid"
-        ]
+        "prompt": "QUADRILATERAL: Name THREE different shapes that are quadrilaterals.",
+        "acceptableAnswers": ["square rectangle rhombus", "square rectangle trapezoid", "rectangle rhombus parallelogram"]
       },
       {
-        "prompt": "RIGHT ANGLE: How many degrees is a right angle?",
-        "acceptableAnswers": [
-          "90",
-          "90 degrees"
-        ]
+        "prompt": "RIGHT ANGLE: A right angle measures exactly how many degrees?",
+        "acceptableAnswers": ["90", "90 degrees"]
       },
       {
         "prompt": "VERTICES: How many vertices does a triangle have?",
-        "acceptableAnswers": [
-          "3",
-          "three"
-        ]
+        "acceptableAnswers": ["3", "three"]
       },
       {
-        "prompt": "VERTEX: What is a vertex?",
-        "acceptableAnswers": [
-          "where two sides meet",
-          "corner",
-          "endpoint where two lines meet"
-        ]
+        "prompt": "VERTEX: What is a vertex on a shape?",
+        "acceptableAnswers": ["corner", "where two sides meet", "endpoint where two lines meet"]
       },
       {
         "prompt": "WORD PROBLEM: Is a stop sign a polygon? How many sides does it have?",
-        "acceptableAnswers": [
-          "yes 8",
-          "yes eight sides",
-          "yes octagon 8"
-        ]
+        "acceptableAnswers": ["yes 8", "yes eight sides", "yes octagon 8"]
       },
       {
-        "prompt": "TRIANGLE: How many angles does a triangle have?",
-        "acceptableAnswers": [
-          "3",
-          "three"
-        ]
+        "prompt": "TRIANGLE: How many angles does every triangle have?",
+        "acceptableAnswers": ["3", "three"]
       },
       {
-        "prompt": "TRIANGLE: Can a triangle have a right angle? Write YES or NO.",
-        "acceptableAnswers": [
-          "yes",
-          "yes it can"
-        ]
+        "prompt": "TRIANGLE: Can a triangle contain a right angle? Write YES or NO.",
+        "acceptableAnswers": ["yes", "yes it can"]
       },
       {
         "prompt": "QUADRILATERAL: A shape has 4 sides and 4 right angles. Name TWO possible shapes it could be.",
-        "acceptableAnswers": [
-          "square and rectangle",
-          "rectangle and square"
-        ]
+        "acceptableAnswers": ["square and rectangle", "rectangle and square"]
       },
       {
         "prompt": "QUADRILATERAL: How many angles does every quadrilateral have?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "acceptableAnswers": ["4", "four"]
       },
       {
         "prompt": "RIGHT ANGLE: A square has how many right angles?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "acceptableAnswers": ["4", "four"]
       },
       {
         "prompt": "RIGHT ANGLE: Name a real-world object that has a right angle.",
-        "acceptableAnswers": [
-          "corner of a book",
-          "corner of a door",
-          "corner of a window",
-          "table corner"
-        ]
+        "acceptableAnswers": ["corner of a book", "corner of a door", "corner of a window", "table corner"]
       },
       {
         "prompt": "POLYGON: Is a circle a polygon? Write YES or NO and explain why.",
-        "acceptableAnswers": [
-          "no",
-          "no it has no straight sides",
-          "no it is curved"
-        ]
+        "acceptableAnswers": ["no", "no it has no straight sides", "no it is curved"]
       },
       {
-        "prompt": "VERTICES: A rectangle has how many vertices?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "prompt": "VERTICES: How many vertices does a rectangle have?",
+        "acceptableAnswers": ["4", "four"]
       },
       {
-        "prompt": "SIDE: A side of a shape must always be what kind of line?",
-        "acceptableAnswers": [
-          "straight",
-          "a straight line"
-        ]
+        "prompt": "SIDE: A side of a polygon must always be what kind of line?",
+        "acceptableAnswers": ["straight", "a straight line"]
       },
       {
-        "prompt": "WORD PROBLEM: A triangle has sides of 5 cm, 7 cm, and 4 cm. What is its perimeter?",
-        "acceptableAnswers": [
-          "16",
-          "16 cm"
-        ]
+        "prompt": "WORD PROBLEM: A triangle has sides of 6 cm, 4 cm, and 8 cm. What is its perimeter?",
+        "acceptableAnswers": ["18", "18 cm"]
       },
       {
         "prompt": "CHALLENGE: How is a triangle different from a quadrilateral? Write one sentence.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "CHALLENGE: Name a polygon that has 5 sides. What is it called?",
-        "acceptableAnswers": [
-          "pentagon"
-        ]
+        "prompt": "CHALLENGE: A polygon has 6 sides. What is it called?",
+        "acceptableAnswers": ["hexagon"]
       }
     ]
   },
@@ -1152,138 +755,80 @@
     "story": "TODAY'S 4 TOPICS\n\n1. SPECIAL QUADRILATERALS\n   Parallelogram = 2 pairs of parallel sides\n   Rhombus = 4 EQUAL sides\n   Square = 4 equal sides AND 4 right angles\n   Rectangle = 4 right angles\n   Trapezoid = only 1 pair of parallel sides\n   Kite = 2 pairs of adjacent equal sides\n\n2. REGULAR vs IRREGULAR POLYGON\n   Regular = ALL equal sides AND all equal angles\n   Irregular = sides or angles NOT all equal\n\n3. CLASSIFY\nSort shapes into groups based on shared attributes.\n\n4. PARALLEL LINES\nLines that always stay the same distance apart and NEVER cross.\n   Like train tracks!",
     "questions": [
       {
-        "prompt": "What makes a RHOMBUS special?",
-        "acceptableAnswers": [
-          "4 equal sides",
-          "all sides are equal"
-        ]
+        "prompt": "What makes a RHOMBUS special compared to other quadrilaterals?",
+        "acceptableAnswers": ["4 equal sides", "all sides are equal"]
       },
       {
         "prompt": "What makes a RECTANGLE special?",
-        "acceptableAnswers": [
-          "4 right angles",
-          "four right angles"
-        ]
+        "acceptableAnswers": ["4 right angles", "four right angles"]
       },
       {
         "prompt": "How many pairs of parallel sides does a TRAPEZOID have?",
-        "acceptableAnswers": [
-          "1",
-          "one"
-        ]
+        "acceptableAnswers": ["1", "one"]
       },
       {
         "prompt": "Is a square a REGULAR polygon? Give a reason.",
-        "acceptableAnswers": [
-          "yes all sides and angles are equal",
-          "yes equal sides and right angles"
-        ]
+        "acceptableAnswers": ["yes all sides and angles are equal", "yes equal sides and right angles"]
       },
       {
         "prompt": "Describe PARALLEL LINES in one sentence.",
-        "acceptableAnswers": [
-          "lines that never meet",
-          "lines that stay the same distance apart",
-          "lines that never cross"
-        ]
+        "acceptableAnswers": ["lines that never meet", "lines that stay the same distance apart", "lines that never cross"]
       },
       {
-        "prompt": "CLASSIFY: You have a circle, square, triangle, rectangle. Which are polygons?",
-        "acceptableAnswers": [
-          "square triangle rectangle",
-          "triangle square and rectangle"
-        ]
+        "prompt": "CLASSIFY: From this list — circle, square, triangle, rectangle — which are polygons?",
+        "acceptableAnswers": ["square triangle rectangle", "triangle square and rectangle"]
       },
       {
         "prompt": "What is the difference between a PARALLELOGRAM and a RHOMBUS?",
-        "acceptableAnswers": [
-          "rhombus has 4 equal sides",
-          "rhombus sides all equal parallelogram not"
-        ]
+        "acceptableAnswers": ["rhombus has 4 equal sides", "rhombus all sides equal parallelogram does not"]
       },
       {
         "prompt": "PARALLELOGRAM: How many pairs of parallel sides does a parallelogram have?",
-        "acceptableAnswers": [
-          "2",
-          "two"
-        ]
+        "acceptableAnswers": ["2", "two"]
       },
       {
         "prompt": "RHOMBUS: How many sides does a rhombus have, and what is special about them?",
-        "acceptableAnswers": [
-          "4 equal sides",
-          "four equal sides",
-          "all 4 sides are equal"
-        ]
+        "acceptableAnswers": ["4 equal sides", "four equal sides", "all 4 sides are equal"]
       },
       {
         "prompt": "SQUARE: How is a square different from a rhombus?",
-        "acceptableAnswers": [
-          "a square has 4 right angles",
-          "square has right angles rhombus does not always"
-        ]
+        "acceptableAnswers": ["a square has 4 right angles", "square has right angles rhombus does not always"]
       },
       {
-        "prompt": "RECTANGLE: A rectangle has 4 right angles. Are all its sides equal? Write YES or NO.",
-        "acceptableAnswers": [
-          "no",
-          "no opposite sides are equal but not all four"
-        ]
+        "prompt": "RECTANGLE: A rectangle has 4 right angles. Are all four sides equal? Write YES or NO.",
+        "acceptableAnswers": ["no", "no opposite sides are equal but not all four"]
       },
       {
         "prompt": "TRAPEZOID: What makes a trapezoid different from a parallelogram?",
-        "acceptableAnswers": [
-          "trapezoid has only 1 pair of parallel sides",
-          "parallelogram has 2 pairs"
-        ]
+        "acceptableAnswers": ["trapezoid has only 1 pair of parallel sides", "parallelogram has 2 pairs"]
       },
       {
         "prompt": "KITE: How many pairs of equal sides does a kite have?",
-        "acceptableAnswers": [
-          "2",
-          "two"
-        ]
+        "acceptableAnswers": ["2", "two"]
       },
       {
         "prompt": "REGULAR POLYGON: Name TWO examples of regular polygons.",
-        "acceptableAnswers": [
-          "equilateral triangle and square",
-          "square and equilateral triangle"
-        ]
+        "acceptableAnswers": ["equilateral triangle and square", "square and equilateral triangle"]
       },
       {
-        "prompt": "IRREGULAR POLYGON: Draw a shape in your mind with 4 unequal sides. What is it called?",
-        "acceptableAnswers": [
-          "irregular quadrilateral",
-          "irregular polygon"
-        ]
+        "prompt": "IRREGULAR POLYGON: A shape has 4 unequal sides. What is it called?",
+        "acceptableAnswers": ["irregular quadrilateral", "irregular polygon"]
       },
       {
-        "prompt": "CLASSIFY: Group these shapes — square, circle, triangle, rectangle, oval — into polygons and non-polygons.",
-        "acceptableAnswers": [
-          "polygons square triangle rectangle non-polygons circle oval"
-        ]
+        "prompt": "CLASSIFY: From this list — circle, square, triangle, oval — which are polygons?",
+        "acceptableAnswers": ["square triangle", "square and triangle"]
       },
       {
         "prompt": "PARALLEL LINES: Do parallel lines ever meet? Write YES or NO.",
-        "acceptableAnswers": [
-          "no",
-          "no they never meet"
-        ]
+        "acceptableAnswers": ["no", "no they never meet"]
       },
       {
         "prompt": "WORD PROBLEM: A shape has 4 equal sides and 4 right angles. What shape is it? Is it regular or irregular?",
-        "acceptableAnswers": [
-          "square regular",
-          "it is a square and it is regular"
-        ]
+        "acceptableAnswers": ["square regular", "it is a square and it is regular"]
       },
       {
-        "prompt": "CHALLENGE: Can a shape be both a rhombus AND a square? Explain.",
-        "acceptableAnswers": [
-          "yes if it has 4 equal sides and 4 right angles",
-          "yes a square is a special rhombus"
-        ]
+        "prompt": "CHALLENGE: Can a shape be both a rhombus AND a square at the same time? Explain.",
+        "acceptableAnswers": ["yes if it has 4 equal sides and 4 right angles", "yes a square is a special rhombus"]
       },
       {
         "prompt": "CHALLENGE: Explain in one sentence why a square is always a rectangle but a rectangle is not always a square.",
@@ -1299,146 +844,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. FRACTION\nAn amount broken into equal size pieces.\n   Written as: numerator / denominator.  Example: 1/2\n\n2. NUMERATOR\nThe TOP number. Tells HOW MANY parts we have.\n   In 3/6, numerator = 3.\n\n3. DENOMINATOR\nThe BOTTOM number. Tells the TOTAL equal parts in the whole.\n   In 3/6, denominator = 6.\n\n4. EQUIVALENT FRACTIONS\nDifferent fractions that are equal in value.\n   1/2 = 2/4 = 4/8\n   Use > or < to compare fractions.",
     "questions": [
       {
-        "prompt": "FRACTION: In 3/4, which number is the numerator?",
-        "acceptableAnswers": [
-          "3"
-        ]
+        "prompt": "FRACTION: In 5/8, which number is the numerator?",
+        "acceptableAnswers": ["5"]
       },
       {
-        "prompt": "FRACTION: In 3/4, which number is the denominator?",
-        "acceptableAnswers": [
-          "4"
-        ]
+        "prompt": "FRACTION: In 5/8, which number is the denominator?",
+        "acceptableAnswers": ["8"]
       },
       {
-        "prompt": "NUMERATOR: What does the numerator tell you?",
-        "acceptableAnswers": [
-          "how many parts",
-          "the number of parts we have"
-        ]
+        "prompt": "NUMERATOR: What does the numerator of a fraction tell you?",
+        "acceptableAnswers": ["how many parts", "the number of parts we have"]
       },
       {
-        "prompt": "DENOMINATOR: What does the denominator tell you?",
-        "acceptableAnswers": [
-          "total parts",
-          "total number of equal parts in the whole"
-        ]
+        "prompt": "DENOMINATOR: What does the denominator of a fraction tell you?",
+        "acceptableAnswers": ["total parts", "total number of equal parts in the whole"]
       },
       {
         "prompt": "UNIT FRACTION: What is a unit fraction? Give an example.",
-        "acceptableAnswers": [
-          "numerator is 1",
-          "fraction with 1 on top",
-          "1/2 or 1/3 or 1/4"
-        ]
+        "acceptableAnswers": ["numerator is 1", "fraction with 1 on top", "1/2 or 1/3 or 1/4"]
       },
       {
-        "prompt": "EQUIVALENT: Are 1/2 and 2/4 equivalent? YES or NO, and explain.",
-        "acceptableAnswers": [
-          "yes they are equal",
-          "yes same value",
-          "yes"
-        ]
+        "prompt": "EQUIVALENT: Are 1/3 and 2/6 equivalent? YES or NO, and explain.",
+        "acceptableAnswers": ["yes they are equal", "yes same value", "yes"]
       },
       {
-        "prompt": "COMPARE: Use > or < :  3/4 ___ 1/4",
-        "acceptableAnswers": [
-          ">",
-          "3/4 > 1/4"
-        ]
+        "prompt": "COMPARE: Use > or < :  2/5 ___ 4/5",
+        "acceptableAnswers": ["<", "2/5 < 4/5"]
       },
       {
-        "prompt": "COMPARE: Use > or < :  1/2 ___ 3/4",
-        "acceptableAnswers": [
-          "<",
-          "1/2 < 3/4"
-        ]
+        "prompt": "COMPARE: Use > or < :  3/4 ___ 1/2",
+        "acceptableAnswers": [">", "3/4 > 1/2"]
       },
       {
-        "prompt": "WORD PROBLEM: A pizza has 8 slices. You eat 3. Write the fraction of pizza you ate.",
-        "acceptableAnswers": [
-          "3/8",
-          "three eighths"
-        ]
+        "prompt": "WORD PROBLEM: A cake has 6 slices. You eat 4. Write the fraction of cake you ate.",
+        "acceptableAnswers": ["4/6", "2/3", "four sixths"]
       },
       {
-        "prompt": "FRACTION: Write the fraction that means 'five out of eight equal parts.'",
-        "acceptableAnswers": [
-          "5/8",
-          "five eighths"
-        ]
+        "prompt": "FRACTION: Write the fraction that means 'three out of seven equal parts.'",
+        "acceptableAnswers": ["3/7", "three sevenths"]
       },
       {
-        "prompt": "FRACTION: A chocolate bar is broken into 6 equal pieces. You eat 2. Write the fraction you ate.",
-        "acceptableAnswers": [
-          "2/6",
-          "one third",
-          "1/3"
-        ]
+        "prompt": "FRACTION: A sandwich is cut into 4 equal pieces. You eat 1. Write the fraction you ate.",
+        "acceptableAnswers": ["1/4", "one fourth", "one quarter"]
       },
       {
-        "prompt": "NUMERATOR: In the fraction 7/10, what is the numerator?",
-        "acceptableAnswers": [
-          "7"
-        ]
+        "prompt": "NUMERATOR: In the fraction 9/12, what is the numerator?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "DENOMINATOR: In the fraction 7/10, what is the denominator?",
-        "acceptableAnswers": [
-          "10"
-        ]
+        "prompt": "DENOMINATOR: In the fraction 9/12, what is the denominator?",
+        "acceptableAnswers": ["12"]
       },
       {
         "prompt": "UNIT FRACTION: Write THREE different unit fractions.",
-        "acceptableAnswers": [
-          "1/2 1/3 1/4",
-          "1/2, 1/3, 1/4"
-        ]
+        "acceptableAnswers": ["1/2 1/3 1/4", "1/2, 1/3, 1/4"]
       },
       {
-        "prompt": "EQUIVALENT: Write a fraction equivalent to 1/3.",
-        "acceptableAnswers": [
-          "2/6",
-          "3/9",
-          "4/12"
-        ]
+        "prompt": "EQUIVALENT: Write a fraction equivalent to 1/4.",
+        "acceptableAnswers": ["2/8", "3/12", "4/16"]
       },
       {
-        "prompt": "EQUIVALENT: Write a fraction equivalent to 3/4.",
-        "acceptableAnswers": [
-          "6/8",
-          "9/12"
-        ]
+        "prompt": "EQUIVALENT: Write a fraction equivalent to 2/3.",
+        "acceptableAnswers": ["4/6", "6/9", "8/12"]
       },
       {
-        "prompt": "COMPARE: Use > or < : 2/3 ___ 1/3",
-        "acceptableAnswers": [
-          ">",
-          "2/3 > 1/3"
-        ]
+        "prompt": "COMPARE: Use > or < : 3/5 ___ 1/5",
+        "acceptableAnswers": [">", "3/5 > 1/5"]
       },
       {
-        "prompt": "COMPARE: Use > or < : 2/4 ___ 1/2",
-        "acceptableAnswers": [
-          "=",
-          "2/4 = 1/2",
-          "they are equal",
-          "equivalent"
-        ]
+        "prompt": "COMPARE: Use > or < or = : 1/3 ___ 2/6",
+        "acceptableAnswers": ["=", "1/3 = 2/6", "they are equal", "equivalent"]
       },
       {
-        "prompt": "WORD PROBLEM: There are 10 students. 4 are wearing hats. Write the fraction of students wearing hats.",
-        "acceptableAnswers": [
-          "4/10",
-          "2/5"
-        ]
+        "prompt": "WORD PROBLEM: There are 12 students. 3 are wearing glasses. Write the fraction of students wearing glasses.",
+        "acceptableAnswers": ["3/12", "1/4"]
       },
       {
-        "prompt": "WORD PROBLEM: Sara ate 1/4 of a cake and her brother ate 2/4. Who ate more? How much did they eat together?",
-        "acceptableAnswers": [
-          "brother ate more and together they ate 3/4",
-          "3/4 brother ate more"
-        ]
+        "prompt": "WORD PROBLEM: Tim ate 1/3 of a pie and his sister ate 1/3. Did they eat equal amounts? How much did they eat together?",
+        "acceptableAnswers": ["yes equal and 2/3 together", "equal 2/3"]
       }
     ]
   },
@@ -1451,146 +934,83 @@
     "questions": [
       {
         "prompt": "LENGTH: How many inches are in 1 foot?",
-        "acceptableAnswers": [
-          "12",
-          "twelve"
-        ]
+        "acceptableAnswers": ["12", "twelve"]
       },
       {
         "prompt": "LENGTH: How many feet are in 1 yard?",
-        "acceptableAnswers": [
-          "3",
-          "three"
-        ]
+        "acceptableAnswers": ["3", "three"]
       },
       {
-        "prompt": "PERIMETER: A rectangle is 15 cm long and 5 cm wide. What is the perimeter?",
-        "acceptableAnswers": [
-          "40",
-          "40 cm"
-        ]
+        "prompt": "PERIMETER: A rectangle is 12 cm long and 4 cm wide. What is its perimeter?",
+        "acceptableAnswers": ["32", "32 cm"]
       },
       {
-        "prompt": "PERIMETER: A square has sides of 6 cm. What is its perimeter?",
-        "acceptableAnswers": [
-          "24",
-          "24 cm"
-        ]
+        "prompt": "PERIMETER: A square has sides of 8 cm. What is its perimeter?",
+        "acceptableAnswers": ["32", "32 cm"]
       },
       {
-        "prompt": "UNKNOWN SIDE: A rectangle has perimeter 40 cm. Two sides are 15 cm each. What are the other two sides?",
-        "acceptableAnswers": [
-          "5 cm",
-          "5",
-          "each side is 5 cm"
-        ]
+        "prompt": "UNKNOWN SIDE: A rectangle has perimeter 30 cm. Two sides are 10 cm each. What are the other two sides?",
+        "acceptableAnswers": ["5 cm", "5", "each side is 5 cm"]
       },
       {
         "prompt": "TIME: How many minutes are in 1 hour?",
-        "acceptableAnswers": [
-          "60",
-          "sixty"
-        ]
+        "acceptableAnswers": ["60", "sixty"]
       },
       {
         "prompt": "TIME: How many hours are in 1 day?",
-        "acceptableAnswers": [
-          "24",
-          "twenty-four"
-        ]
+        "acceptableAnswers": ["24", "twenty-four"]
       },
       {
-        "prompt": "ELAPSED TIME: Practice starts at 3:30 PM and ends at 4:05 PM. How much time passed?",
-        "acceptableAnswers": [
-          "35 minutes",
-          "35 mins",
-          "35"
-        ]
+        "prompt": "ELAPSED TIME: Class starts at 4:15 PM and ends at 4:50 PM. How much time passed?",
+        "acceptableAnswers": ["35 minutes", "35 mins", "35"]
       },
       {
-        "prompt": "LENGTH: How many yards are equal to 6 feet?",
-        "acceptableAnswers": [
-          "2",
-          "two"
-        ]
+        "prompt": "LENGTH: How many yards are equal to 9 feet?",
+        "acceptableAnswers": ["3", "three"]
       },
       {
-        "prompt": "LENGTH: How many inches are in 2 feet?",
-        "acceptableAnswers": [
-          "24",
-          "twenty-four"
-        ]
+        "prompt": "LENGTH: How many inches are in 3 feet?",
+        "acceptableAnswers": ["36", "thirty-six"]
       },
       {
         "prompt": "LENGTH: Order from smallest to largest: yard, inch, foot.",
-        "acceptableAnswers": [
-          "inch foot yard"
-        ]
+        "acceptableAnswers": ["inch foot yard"]
       },
       {
-        "prompt": "PERIMETER: A triangle has sides of 8 cm, 6 cm, and 10 cm. What is its perimeter?",
-        "acceptableAnswers": [
-          "24",
-          "24 cm"
-        ]
+        "prompt": "PERIMETER: A triangle has sides of 7 cm, 5 cm, and 9 cm. What is its perimeter?",
+        "acceptableAnswers": ["21", "21 cm"]
       },
       {
-        "prompt": "PERIMETER: A regular hexagon has sides of 5 cm each. What is its perimeter?",
-        "acceptableAnswers": [
-          "30",
-          "30 cm"
-        ]
+        "prompt": "PERIMETER: A regular hexagon has sides of 4 cm each. What is its perimeter?",
+        "acceptableAnswers": ["24", "24 cm"]
       },
       {
-        "prompt": "UNKNOWN SIDE: A triangle has a perimeter of 30 cm. Two sides are 12 cm and 9 cm. What is the third side?",
-        "acceptableAnswers": [
-          "9",
-          "9 cm"
-        ]
+        "prompt": "UNKNOWN SIDE: A triangle has a perimeter of 25 cm. Two sides are 8 cm and 10 cm. What is the third side?",
+        "acceptableAnswers": ["7", "7 cm"]
       },
       {
-        "prompt": "TIME: School starts at 8:15 AM and ends at 2:45 PM. How many hours and minutes is the school day?",
-        "acceptableAnswers": [
-          "6 hours 30 minutes",
-          "6h 30m",
-          "6.5 hours"
-        ]
+        "prompt": "TIME: School starts at 9:00 AM and ends at 3:30 PM. How long is the school day?",
+        "acceptableAnswers": ["6 hours 30 minutes", "6h 30m", "6.5 hours"]
       },
       {
-        "prompt": "ELAPSED TIME: A movie starts at 6:20 PM and lasts 1 hour and 45 minutes. What time does it end?",
-        "acceptableAnswers": [
-          "8:05 pm",
-          "8:05"
-        ]
+        "prompt": "ELAPSED TIME: A movie starts at 7:15 PM and lasts 2 hours and 30 minutes. What time does it end?",
+        "acceptableAnswers": ["9:45 pm", "9:45"]
       },
       {
-        "prompt": "ELAPSED TIME: Amir started reading at 4:10 PM and stopped at 5:00 PM. How long did he read?",
-        "acceptableAnswers": [
-          "50 minutes",
-          "50 mins"
-        ]
+        "prompt": "ELAPSED TIME: Aisha read from 5:00 PM to 5:45 PM. How long did she read?",
+        "acceptableAnswers": ["45 minutes", "45 mins"]
       },
       {
-        "prompt": "WORD PROBLEM: A fence surrounds a rectangular garden that is 12 m long and 7 m wide. How much fencing is needed?",
-        "acceptableAnswers": [
-          "38",
-          "38 m",
-          "38 meters"
-        ]
+        "prompt": "WORD PROBLEM: A fence surrounds a rectangular garden that is 10 m long and 6 m wide. How much fencing is needed?",
+        "acceptableAnswers": ["32", "32 m", "32 meters"]
       },
       {
-        "prompt": "WORD PROBLEM: A ribbon is 3 feet long. How many inches is that?",
-        "acceptableAnswers": [
-          "36",
-          "36 inches"
-        ]
+        "prompt": "WORD PROBLEM: A ribbon is 4 feet long. How many inches is that?",
+        "acceptableAnswers": ["48", "48 inches"]
       },
       {
-        "prompt": "CHALLENGE: Convert 2 yards and 1 foot into total inches.",
-        "acceptableAnswers": [
-          "84",
-          "84 inches"
-        ]
+        "prompt": "CHALLENGE: Convert 1 yard and 2 feet into total inches.",
+        "acceptableAnswers": ["60", "60 inches"]
       }
     ]
   },
@@ -1603,142 +1023,83 @@
     "questions": [
       {
         "prompt": "CAPACITY: How many cups are in 1 pint?",
-        "acceptableAnswers": [
-          "2",
-          "two"
-        ]
+        "acceptableAnswers": ["2", "two"]
       },
       {
         "prompt": "CAPACITY: How many pints are in 1 quart?",
-        "acceptableAnswers": [
-          "2",
-          "two"
-        ]
+        "acceptableAnswers": ["2", "two"]
       },
       {
         "prompt": "CAPACITY: How many quarts are in 1 gallon?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "acceptableAnswers": ["4", "four"]
       },
       {
         "prompt": "CAPACITY: Which is larger: a pint or a quart?",
-        "acceptableAnswers": [
-          "quart"
-        ]
+        "acceptableAnswers": ["quart"]
       },
       {
-        "prompt": "CAPACITY: You have 8 cups of juice. How many pints is that?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "prompt": "CAPACITY: You have 6 cups of juice. How many pints is that?",
+        "acceptableAnswers": ["3", "three"]
       },
       {
         "prompt": "WEIGHT: How many ounces are in 1 pound?",
-        "acceptableAnswers": [
-          "16",
-          "sixteen"
-        ]
+        "acceptableAnswers": ["16", "sixteen"]
       },
       {
         "prompt": "WEIGHT: Would you weigh a feather in ounces or pounds?",
-        "acceptableAnswers": [
-          "ounces",
-          "oz"
-        ]
+        "acceptableAnswers": ["ounces", "oz"]
       },
       {
         "prompt": "ESTIMATION: A large jug holds 1 gallon. How many quarts fill it?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "acceptableAnswers": ["4", "four"]
       },
       {
         "prompt": "CAPACITY: How many cups are in 1 quart?",
-        "acceptableAnswers": [
-          "4",
-          "four"
-        ]
+        "acceptableAnswers": ["4", "four"]
       },
       {
         "prompt": "CAPACITY: How many cups are in 1 gallon?",
-        "acceptableAnswers": [
-          "16",
-          "sixteen"
-        ]
+        "acceptableAnswers": ["16", "sixteen"]
       },
       {
-        "prompt": "CAPACITY: Which holds more: 2 pints or 1 quart?",
-        "acceptableAnswers": [
-          "they are equal",
-          "same",
-          "2 pints equals 1 quart"
-        ]
+        "prompt": "CAPACITY: Which holds more: 4 pints or 2 quarts?",
+        "acceptableAnswers": ["they are equal", "same", "4 pints equals 2 quarts"]
       },
       {
-        "prompt": "CAPACITY: Sara needs 1 gallon of milk. She only has pint containers. How many pints does she need?",
-        "acceptableAnswers": [
-          "8",
-          "eight"
-        ]
+        "prompt": "CAPACITY: How many pints are in 2 gallons?",
+        "acceptableAnswers": ["16", "sixteen"]
       },
       {
         "prompt": "CAPACITY: Order from smallest to largest: gallon, pint, cup, quart.",
-        "acceptableAnswers": [
-          "cup pint quart gallon"
-        ]
+        "acceptableAnswers": ["cup pint quart gallon"]
       },
       {
-        "prompt": "WEIGHT: How many ounces are in 2 pounds?",
-        "acceptableAnswers": [
-          "32",
-          "thirty-two"
-        ]
+        "prompt": "WEIGHT: How many ounces are in 3 pounds?",
+        "acceptableAnswers": ["48", "forty-eight"]
       },
       {
-        "prompt": "WEIGHT: A watermelon weighs 96 ounces. How many pounds is that?",
-        "acceptableAnswers": [
-          "6",
-          "six"
-        ]
+        "prompt": "WEIGHT: A watermelon weighs 64 ounces. How many pounds is that?",
+        "acceptableAnswers": ["4", "four"]
       },
       {
-        "prompt": "WEIGHT: Would you measure a pencil in ounces or pounds?",
-        "acceptableAnswers": [
-          "ounces",
-          "oz"
-        ]
+        "prompt": "WEIGHT: Would you measure a pencil's weight in ounces or pounds?",
+        "acceptableAnswers": ["ounces", "oz"]
       },
       {
-        "prompt": "ESTIMATION: Would you measure a swimming pool's water in cups or gallons?",
-        "acceptableAnswers": [
-          "gallons"
-        ]
+        "prompt": "ESTIMATION: Would you measure the water in a swimming pool in cups or gallons?",
+        "acceptableAnswers": ["gallons"]
       },
       {
-        "prompt": "WORD PROBLEM: A recipe needs 3 quarts of juice. The store only sells juice by the pint. How many pints must you buy?",
-        "acceptableAnswers": [
-          "6",
-          "six"
-        ]
+        "prompt": "WORD PROBLEM: A recipe needs 2 quarts of juice. The store only sells juice by the pint. How many pints must you buy?",
+        "acceptableAnswers": ["4", "four"]
       },
       {
-        "prompt": "WORD PROBLEM: Tom's backpack weighs 2 pounds and 4 ounces. How many total ounces is that?",
-        "acceptableAnswers": [
-          "36",
-          "thirty-six"
-        ]
+        "prompt": "WORD PROBLEM: Tom's backpack weighs 3 pounds and 2 ounces. How many total ounces is that?",
+        "acceptableAnswers": ["50", "fifty"]
       },
       {
-        "prompt": "CHALLENGE: Which is heavier: 20 ounces or 1 pound? Explain.",
-        "acceptableAnswers": [
-          "20 ounces",
-          "20 ounces because 1 pound is 16 ounces",
-          "20 oz is heavier"
-        ]
+        "prompt": "CHALLENGE: Which is heavier: 25 ounces or 1 pound? Explain.",
+        "acceptableAnswers": ["25 ounces", "25 ounces because 1 pound is 16 ounces", "25 oz is heavier"]
       }
     ]
   },
@@ -1750,144 +1111,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. SQUARE UNIT\nA square with an area of 1. Used to measure area.\n   Written as cm2, in2, ft2, etc.\n\n2. AREA\nThe SPACE INSIDE a shape.\n   Area of Rectangle = Length x Width\n   8 cm x 3 cm = 24 cm2\n\n3. PERIMETER (Review)\nDistance AROUND the outside.\n   P = L+W+L+W or P = 2L + 2W\n   8 cm x 3 cm rectangle: P = 8+3+8+3 = 22 cm\n\n4. AREA MODEL\nA rectangle drawn to show a multiplication problem.\n   Used for distributive property too!\n   6 x 4 split as (3x4)+(3x4) = 12+12 = 24",
     "questions": [
       {
-        "prompt": "SQUARE UNIT: What is a square unit used for?",
-        "acceptableAnswers": [
-          "measuring area",
-          "to measure area"
-        ]
+        "prompt": "SQUARE UNIT: What is a square unit used for measuring?",
+        "acceptableAnswers": ["measuring area", "to measure area", "area"]
       },
       {
-        "prompt": "AREA: What formula finds the area of a rectangle?",
-        "acceptableAnswers": [
-          "length x width",
-          "l x w",
-          "length times width"
-        ]
+        "prompt": "AREA: What formula is used to find the area of a rectangle?",
+        "acceptableAnswers": ["length x width", "l x w", "length times width"]
       },
       {
-        "prompt": "AREA: A rectangle is 8 cm long and 3 cm wide. What is its area?",
-        "acceptableAnswers": [
-          "24",
-          "24 cm2",
-          "24 sq cm"
-        ]
+        "prompt": "AREA: A rectangle is 10 cm long and 4 cm wide. What is its area?",
+        "acceptableAnswers": ["40", "40 cm2", "40 sq cm"]
       },
       {
-        "prompt": "AREA: A square has sides of 5 cm. What is its area?",
-        "acceptableAnswers": [
-          "25",
-          "25 cm2"
-        ]
+        "prompt": "AREA: A square has sides of 7 cm. What is its area?",
+        "acceptableAnswers": ["49", "49 cm2"]
       },
       {
-        "prompt": "PERIMETER: A rectangle is 8 cm long and 3 cm wide. What is its perimeter?",
-        "acceptableAnswers": [
-          "22",
-          "22 cm"
-        ]
+        "prompt": "PERIMETER: A rectangle is 10 cm long and 4 cm wide. What is its perimeter?",
+        "acceptableAnswers": ["28", "28 cm"]
       },
       {
         "prompt": "DIFFERENCE: What is the difference between area and perimeter?",
-        "acceptableAnswers": [
-          "area is inside perimeter is around",
-          "area is space inside perimeter is distance around"
-        ]
+        "acceptableAnswers": ["area is inside perimeter is around", "area is space inside perimeter is distance around"]
       },
       {
-        "prompt": "AREA: What is 6 x 7? (Think of it as an area problem.)",
-        "acceptableAnswers": [
-          "42"
-        ]
+        "prompt": "AREA: What is 5 x 9? (Think of it as the area of a 5-by-9 rectangle.)",
+        "acceptableAnswers": ["45"]
       },
       {
-        "prompt": "WORD PROBLEM: A garden is 9 feet long and 4 feet wide. What is its area? What is its perimeter?",
-        "acceptableAnswers": [
-          "area 36 perimeter 26",
-          "36 sq ft and 26 ft"
-        ]
+        "prompt": "WORD PROBLEM: A garden is 8 feet long and 5 feet wide. What is its area? What is its perimeter?",
+        "acceptableAnswers": ["area 40 perimeter 26", "40 sq ft and 26 ft"]
       },
       {
-        "prompt": "AREA: A classroom floor is 10 m long and 8 m wide. What is its area?",
-        "acceptableAnswers": [
-          "80",
-          "80 sq m",
-          "80 m2"
-        ]
+        "prompt": "AREA: A classroom floor is 12 m long and 6 m wide. What is its area?",
+        "acceptableAnswers": ["72", "72 sq m", "72 m2"]
       },
       {
-        "prompt": "AREA: A square tile has sides of 4 cm. What is its area?",
-        "acceptableAnswers": [
-          "16",
-          "16 cm2",
-          "16 sq cm"
-        ]
+        "prompt": "AREA: A square tile has sides of 6 cm. What is its area?",
+        "acceptableAnswers": ["36", "36 cm2", "36 sq cm"]
       },
       {
-        "prompt": "AREA: A rectangle has an area of 36 sq cm and a length of 9 cm. What is its width?",
-        "acceptableAnswers": [
-          "4",
-          "4 cm"
-        ]
+        "prompt": "AREA: A rectangle has an area of 48 sq cm and a length of 8 cm. What is its width?",
+        "acceptableAnswers": ["6", "6 cm"]
       },
       {
-        "prompt": "PERIMETER: A square has a perimeter of 32 cm. What is the length of each side?",
-        "acceptableAnswers": [
-          "8",
-          "8 cm"
-        ]
+        "prompt": "PERIMETER: A square has a perimeter of 24 cm. What is the length of each side?",
+        "acceptableAnswers": ["6", "6 cm"]
       },
       {
-        "prompt": "PERIMETER: A shape has sides of 3 cm, 5 cm, 3 cm, and 5 cm. What is its perimeter? What shape is it?",
-        "acceptableAnswers": [
-          "16 cm rectangle",
-          "perimeter 16 rectangle"
-        ]
+        "prompt": "PERIMETER: A shape has sides of 4 cm, 7 cm, 4 cm, and 7 cm. What is its perimeter? What shape is it?",
+        "acceptableAnswers": ["22 cm rectangle", "perimeter 22 rectangle"]
       },
       {
-        "prompt": "AREA MODEL: Draw an area model for 5 x 8 (in your head). What is the answer?",
-        "acceptableAnswers": [
-          "40"
-        ]
+        "prompt": "AREA MODEL: Imagine an area model for 6 x 9. What is the answer?",
+        "acceptableAnswers": ["54"]
       },
       {
-        "prompt": "AREA MODEL: Use an area model to show 7 x 6 broken into (4 x 6) + (3 x 6). What is the answer?",
-        "acceptableAnswers": [
-          "42",
-          "24+18=42"
-        ]
+        "prompt": "AREA MODEL: Use an area model to show 5 x 7 broken into (3 x 7) + (2 x 7). What is the answer?",
+        "acceptableAnswers": ["35", "21+14=35"]
       },
       {
-        "prompt": "AREA vs PERIMETER: A garden has area 24 sq m and perimeter 20 m. Which tells you the SPACE inside?",
-        "acceptableAnswers": [
-          "area",
-          "area 24 sq m"
-        ]
+        "prompt": "AREA vs PERIMETER: A garden has area 30 sq m and perimeter 22 m. Which tells you the SPACE inside?",
+        "acceptableAnswers": ["area", "area 30 sq m"]
       },
       {
-        "prompt": "WORD PROBLEM: A bedroom is 5 m long and 4 m wide. What is its area? What is its perimeter?",
-        "acceptableAnswers": [
-          "area 20 perimeter 18",
-          "20 sq m and 18 m"
-        ]
+        "prompt": "WORD PROBLEM: A bedroom is 6 m long and 5 m wide. What is its area? What is its perimeter?",
+        "acceptableAnswers": ["area 30 perimeter 22", "30 sq m and 22 m"]
       },
       {
-        "prompt": "WORD PROBLEM: You want to put a border around a square picture with sides of 7 cm. How much border do you need?",
-        "acceptableAnswers": [
-          "28",
-          "28 cm"
-        ]
+        "prompt": "WORD PROBLEM: You want to put a border around a square picture with sides of 9 cm. How much border do you need?",
+        "acceptableAnswers": ["36", "36 cm"]
       },
       {
-        "prompt": "CHALLENGE: Two rectangles each have an area of 12 sq cm but different perimeters. Give two examples.",
+        "prompt": "CHALLENGE: Two rectangles each have an area of 18 sq cm but different perimeters. Give two examples.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "CHALLENGE: A rectangle has a perimeter of 24 cm. If one side is 4 cm, what is its area?",
-        "acceptableAnswers": [
-          "32",
-          "32 sq cm",
-          "32 cm2"
-        ]
+        "prompt": "CHALLENGE: A rectangle has a perimeter of 20 cm. If one side is 6 cm, what is its area?",
+        "acceptableAnswers": ["24", "24 sq cm", "24 cm2"]
       }
     ]
   },
@@ -1899,137 +1200,84 @@
     "story": "TODAY'S 4 TOPICS\n\n1. TALLY MARKS & FREQUENCY TABLE\n   Tally mark = a way to count (4 lines + 1 crossing = 5)\n   Frequency table = organized table showing how often things occurred.\n\n2. BAR GRAPH\nRepresents data with vertical or horizontal bars.\n   X Axis = BOTTOM horizontal line of the graph.\n   Y Axis = SIDE vertical line of the graph.\n\n3. PICTURE GRAPH\nUses pictures/symbols to show data.\n   Each symbol has a KEY showing how many it represents.\n   Example: smiley face = 2 votes\n\n4. READING DATA\n   HOW MANY MORE = subtract the two values\n   HOW MANY TOTAL = add all values\n   Dogs=10, Cats=8, Snakes=5, Rabbits=2 → Total = 25",
     "questions": [
       {
-        "prompt": "TALLY: What number does a tally mark with 4 lines crossed by 1 represent?",
-        "acceptableAnswers": [
-          "5",
-          "five"
-        ]
+        "prompt": "TALLY: What number is shown by 4 lines crossed by 1 line?",
+        "acceptableAnswers": ["5", "five"]
       },
       {
         "prompt": "FREQUENCY TABLE: What does a frequency table show?",
-        "acceptableAnswers": [
-          "how many times something happened",
-          "organized data and how often things occurred"
-        ]
+        "acceptableAnswers": ["how many times something happened", "organized data and how often things occurred"]
       },
       {
         "prompt": "BAR GRAPH: What is the X Axis?",
-        "acceptableAnswers": [
-          "the bottom horizontal line",
-          "bottom line",
-          "horizontal line"
-        ]
+        "acceptableAnswers": ["the bottom horizontal line", "bottom line", "horizontal line"]
       },
       {
         "prompt": "BAR GRAPH: What is the Y Axis?",
-        "acceptableAnswers": [
-          "the side vertical line",
-          "side line",
-          "vertical line"
-        ]
+        "acceptableAnswers": ["the side vertical line", "side line", "vertical line"]
       },
       {
-        "prompt": "PICTURE GRAPH: If 1 smiley = 2 votes and Soccer shows 3 smileys, how many votes did Soccer get?",
-        "acceptableAnswers": [
-          "6",
-          "six"
-        ]
+        "prompt": "PICTURE GRAPH: If 1 star = 4 votes and Basketball shows 5 stars, how many votes did Basketball get?",
+        "acceptableAnswers": ["20", "twenty"]
       },
       {
-        "prompt": "READ DATA: Dogs=10, Cats=8, Snakes=5, Rabbits=2. What is the TOTAL?",
-        "acceptableAnswers": [
-          "25"
-        ]
+        "prompt": "READ DATA: Cats=12, Dogs=9, Birds=6, Fish=3. What is the TOTAL?",
+        "acceptableAnswers": ["30"]
       },
       {
-        "prompt": "READ DATA: How many MORE votes did Dogs get than Rabbits?",
-        "acceptableAnswers": [
-          "8"
-        ]
+        "prompt": "READ DATA: How many MORE votes did Cats get than Fish?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "WORD PROBLEM: Winter=3, Spring=3, Summer=8, Fall=2. How many total students voted?",
-        "acceptableAnswers": [
-          "16"
-        ]
+        "prompt": "WORD PROBLEM: Spring=5, Summer=10, Fall=4, Winter=6. How many total students voted?",
+        "acceptableAnswers": ["25"]
       },
       {
-        "prompt": "TALLY: Count this tally: |||| |||| | (that is 4+4+1). What is the total?",
-        "acceptableAnswers": [
-          "9",
-          "nine"
-        ]
+        "prompt": "TALLY: Count this tally: |||| |||| ||| (that is 4+4+3). What is the total?",
+        "acceptableAnswers": ["11", "eleven"]
       },
       {
-        "prompt": "FREQUENCY TABLE: In a survey, Winter=3, Spring=3, Summer=8, Fall=2. Which season got the most votes?",
-        "acceptableAnswers": [
-          "summer"
-        ]
+        "prompt": "FREQUENCY TABLE: Spring=5, Summer=10, Fall=4, Winter=6. Which season got the most votes?",
+        "acceptableAnswers": ["summer"]
       },
       {
-        "prompt": "FREQUENCY TABLE: Using the same data, which got the fewest votes?",
-        "acceptableAnswers": [
-          "fall"
-        ]
+        "prompt": "FREQUENCY TABLE: Using the same data, which season got the fewest votes?",
+        "acceptableAnswers": ["fall"]
       },
       {
-        "prompt": "BAR GRAPH: A bar for 'dogs' reaches 10 on the Y axis. A bar for 'cats' reaches 6. How many MORE students chose dogs?",
-        "acceptableAnswers": [
-          "4"
-        ]
+        "prompt": "BAR GRAPH: A bar for 'dogs' reaches 12 on the Y axis. A bar for 'cats' reaches 7. How many MORE students chose dogs?",
+        "acceptableAnswers": ["5"]
       },
       {
-        "prompt": "BAR GRAPH: Reading a bar graph with dogs=10, cats=8, snakes=5, rabbits=2 — what is the difference between the highest and lowest?",
-        "acceptableAnswers": [
-          "8"
-        ]
+        "prompt": "BAR GRAPH: With Cats=12, Dogs=9, Birds=6, Fish=3 — what is the difference between the highest and lowest?",
+        "acceptableAnswers": ["9"]
       },
       {
-        "prompt": "PICTURE GRAPH: If each 🐾 = 3 votes and cats show 4 paw prints, how many votes did cats get?",
-        "acceptableAnswers": [
-          "12",
-          "twelve"
-        ]
+        "prompt": "PICTURE GRAPH: If each 🐶 = 4 votes and dogs show 5 dog symbols, how many votes did dogs get?",
+        "acceptableAnswers": ["20", "twenty"]
       },
       {
-        "prompt": "PICTURE GRAPH: In the sports graph: Baseball=4 smileys, Soccer=3, Football=4, Hockey=5. Each smiley = 2 votes. Which sport has the most votes?",
-        "acceptableAnswers": [
-          "hockey",
-          "hockey 10 votes"
-        ]
+        "prompt": "PICTURE GRAPH: In the sports graph: Tennis=3 stars, Swimming=4, Soccer=5. Each star = 3 votes. Which sport has the most votes?",
+        "acceptableAnswers": ["soccer", "soccer 15 votes"]
       },
       {
-        "prompt": "READ DATA: Dogs=10, Cats=8, Snakes=5, Rabbits=2. How many FEWER votes did Snakes get than Dogs?",
-        "acceptableAnswers": [
-          "5"
-        ]
+        "prompt": "READ DATA: Cats=12, Dogs=9, Birds=6, Fish=3. How many FEWER votes did Birds get than Cats?",
+        "acceptableAnswers": ["6"]
       },
       {
-        "prompt": "READ DATA: Using the Favorite Animals graph, what fraction of total votes went to Cats?",
-        "acceptableAnswers": [
-          "8/25",
-          "8 out of 25"
-        ]
+        "prompt": "READ DATA: Using the same Favorite Animals data, what fraction of total votes went to Dogs?",
+        "acceptableAnswers": ["9/30", "3/10"]
       },
       {
-        "prompt": "WORD PROBLEM: You survey 20 students about their favorite color. Red=7, Blue=5, Green=4, Yellow=4. How many did NOT pick Red?",
-        "acceptableAnswers": [
-          "13"
-        ]
+        "prompt": "WORD PROBLEM: You survey 25 students about their favorite color. Blue=8, Red=7, Green=6, Yellow=4. How many did NOT pick Blue?",
+        "acceptableAnswers": ["17"]
       },
       {
-        "prompt": "WORD PROBLEM: Make a tally chart for these scores: 8, 5, 8, 6, 5, 8, 6, 5. How many times did 8 appear?",
-        "acceptableAnswers": [
-          "3",
-          "three"
-        ]
+        "prompt": "WORD PROBLEM: Make a tally chart for these scores: 7, 9, 7, 8, 9, 7, 8, 7. How many times did 7 appear?",
+        "acceptableAnswers": ["4", "four"]
       },
       {
-        "prompt": "CHALLENGE: Look at this data: Apples=15, Bananas=10, Oranges=5. If you made a picture graph where each picture = 5, how many pictures would Apples get?",
-        "acceptableAnswers": [
-          "3",
-          "three"
-        ]
+        "prompt": "CHALLENGE: Look at this data: Apples=20, Bananas=15, Oranges=10. If you made a picture graph where each picture = 5, how many pictures would Apples get?",
+        "acceptableAnswers": ["4", "four"]
       }
     ]
   },
@@ -2042,111 +1290,62 @@
     "questions": [
       {
         "prompt": "What is the name of Surah 78 and what does it mean?",
-        "acceptableAnswers": [
-          "an naba the great news",
-          "surah an-naba the great news",
-          "an-naba great news"
-        ]
+        "acceptableAnswers": ["an-naba the great news", "an naba great news", "surah an-naba the great news"]
       },
       {
-        "prompt": "AYAT 1-2: What great news are people asking about?",
-        "acceptableAnswers": [
-          "the day of judgment",
-          "resurrection",
-          "yawm al fasl"
-        ]
+        "prompt": "AYAT 4-5: 'Kalla saya-lamoon' is repeated. What does it warn people about?",
+        "acceptableAnswers": ["they will know", "they are going to know", "they will find out"]
       },
       {
-        "prompt": "AYAT 6-7: Name TWO of Allah's signs in these ayat.",
-        "acceptableAnswers": [
-          "earth as resting place and mountains as stakes",
-          "earth and mountains"
-        ]
+        "prompt": "AYAH 6: According to this ayah, what did Allah make as a resting place?",
+        "acceptableAnswers": ["the earth", "earth"]
       },
       {
-        "prompt": "AYAH 9: What did Allah make our sleep into?",
-        "acceptableAnswers": [
-          "a means of rest",
-          "rest",
-          "subaata"
-        ]
+        "prompt": "AYAH 8: According to this ayah, how were people created?",
+        "acceptableAnswers": ["in pairs", "pairs", "azwaj"]
       },
       {
-        "prompt": "AYAH 12: How many heavens did Allah build above us?",
-        "acceptableAnswers": [
-          "7",
-          "seven"
-        ]
+        "prompt": "AYAH 10: According to this ayah, what did Allah make the night as?",
+        "acceptableAnswers": ["clothing", "libas", "covering"]
       },
       {
-        "prompt": "AYAH 13: What is described as a blazing lamp?",
-        "acceptableAnswers": [
-          "the sun",
-          "sun"
-        ]
+        "prompt": "AYAH 11: According to this ayah, what did Allah make the day for?",
+        "acceptableAnswers": ["livelihood", "earning", "work", "ma-ash"]
       },
       {
-        "prompt": "AYAH 17: What is Yawm Al-Fasl?",
-        "acceptableAnswers": [
-          "the day of judgment",
-          "day of judgment",
-          "the day of decision"
-        ]
+        "prompt": "AYAH 14: What does Allah send down from the rain clouds?",
+        "acceptableAnswers": ["pouring water", "water", "rain"]
       },
       {
-        "prompt": "AYAT 21-22: Who is Hell (Jahannam) waiting for?",
-        "acceptableAnswers": [
-          "the transgressors",
-          "wrongdoers",
-          "those who did wrong"
-        ]
+        "prompt": "AYAT 19-20: What happens to the mountains on the Day of Judgment?",
+        "acceptableAnswers": ["become a mirage", "removed and become mirage", "they disappear"]
+      },
+      {
+        "prompt": "AYAH 23: How long will the transgressors stay in Hell?",
+        "acceptableAnswers": ["for ages", "ages unending", "a very long time"]
       },
       {
         "prompt": "AYAH 26 MEMORIZE: Write the full transliteration of Ayah 26.",
-        "acceptableAnswers": [
-          "jaza an wifaqa",
-          "jaza-an wifaqaa",
-          "jazaan wifaqaa"
-        ]
+        "acceptableAnswers": ["jaza an wifaqa", "jaza-an wifaqaa", "jazaan wifaqaa"]
       },
       {
         "prompt": "AYAH 26: What does Jaza-an mean?",
-        "acceptableAnswers": [
-          "a recompense",
-          "recompense",
-          "reward or punishment",
-          "a reward"
-        ]
+        "acceptableAnswers": ["a recompense", "recompense", "reward or punishment", "a reward"]
       },
       {
         "prompt": "AYAH 26: What does Wifaqaa mean?",
-        "acceptableAnswers": [
-          "fitting",
-          "appropriate"
-        ]
+        "acceptableAnswers": ["fitting", "appropriate"]
       },
       {
-        "prompt": "AYAT 31-32: What will the righteous (muttaqeen) receive?",
-        "acceptableAnswers": [
-          "gardens and grapevines",
-          "gardens",
-          "paradise"
-        ]
+        "prompt": "AYAH 32: What two things will the righteous (muttaqeen) receive?",
+        "acceptableAnswers": ["gardens and grapevines", "gardens and vineyards", "gardens"]
       },
       {
-        "prompt": "AYAH 40: What will the disbeliever wish on the Day of Judgment?",
-        "acceptableAnswers": [
-          "to be dust",
-          "that he were dust",
-          "i wish i were dust"
-        ]
-      },
-      {
-        "prompt": "REFLECTION: Which part of Surah An-Naba was most meaningful to you and why? Write 2-3 sentences.",
+        "prompt": "REFLECTION: Why is it important for us to remember the Day of Judgment? Write 2-3 sentences.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "RECITATION: Say Ayah 26 five times from memory to your parent, then write it here.",
+        "prompt": "RECITATION: Practice saying Ayah 26 five times from memory to your parent, then write it here.",
         "acceptableAnswers": []
       }
     ]
