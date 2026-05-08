@@ -558,8 +558,8 @@ function submitTest({ reason }) {
     submittedAt: new Date().toISOString(),
     reason: reason || 'manual'
   };
-  localStorage.setItem(STORAGE_KEY_RESULT,    JSON.stringify(resultPayload));
-  localStorage.setItem(STORAGE_KEY_SUBMITTED, 'true');
+  // localStorage.setItem(STORAGE_KEY_RESULT,    JSON.stringify(resultPayload));
+  // localStorage.setItem(STORAGE_KEY_SUBMITTED, 'true');
 
   // Send the email. We do this BEFORE removing the lock so that even if
   // the email pop-up takes focus, the page itself remains locked.
@@ -569,7 +569,7 @@ function submitTest({ reason }) {
   uninstallPageLock();
 
   // Wipe in-progress data (but keep the result + submitted flag).
-  clearTestStateExceptResult();
+  // clearTestStateExceptResult();
 
   // Show the locked / results screen.
   showLockedScreen({
@@ -737,19 +737,19 @@ function decideInitialScreen() {
 
   // Case A — the test has already been submitted. Show the locked screen
   // forever (or until the parent manually clears localStorage).
-  if (submitted === 'true') {
-    const info   = loadStudentInfo()                                      || { name: '—', email: '—' };
-    const result = JSON.parse(localStorage.getItem(STORAGE_KEY_RESULT) || '{}');
-    showLockedScreen({
-      name:        info.name,
-      email:       info.email,
-      score:       result.score   || 0,
-      total:       result.total   || 0,
-      submittedAt: result.submittedAt,
-      reason:      result.reason
-    });
-    return;
-  }
+  // if (submitted === 'true') {
+  //   const info   = loadStudentInfo()                                      || { name: '—', email: '—' };
+  //   const result = JSON.parse(localStorage.getItem(STORAGE_KEY_RESULT) || '{}');
+  //   showLockedScreen({
+  //     name:        info.name,
+  //     email:       info.email,
+  //     score:       result.score   || 0,
+  //     total:       result.total   || 0,
+  //     submittedAt: result.submittedAt,
+  //     reason:      result.reason
+  //   });
+  //   return;
+  // }
 
   // Case B — a test is in progress (start time recorded but not submitted).
   if (startTime) {
