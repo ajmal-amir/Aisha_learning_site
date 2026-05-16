@@ -271,6 +271,111 @@
 
 
 /* =====================================================================
+   PASSAGE BLOCKS
+   Shown above the questions that belong to that passage.
+   ===================================================================== */
+.passage-block {
+  background: #fffff5;
+  border: 2px solid #e8dfc0;
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin-bottom: 16px;
+  margin-top: 28px;
+}
+.passage-block:first-child {
+  margin-top: 0;
+}
+.passage-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.passage-number {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+  background: #FF9F1C;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.passage-type {
+  font-size: 11px;
+  color: #777;
+  font-weight: 700;
+  font-style: italic;
+}
+.passage-title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 6px 0 10px;
+  color: #333;
+}
+.passage-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  white-space: pre-line;
+}
+.passage-moral {
+  margin: 12px 0 0;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px dashed #d0c8a8;
+  padding-top: 10px;
+}
+
+
+/* =====================================================================
+   MULTIPLE-CHOICE OPTIONS
+   Clickable radio-button labels inside a question card.
+   ===================================================================== */
+.mc-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.mc-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.mc-option:hover {
+  border-color: #118AB2;
+  background: #f0f9ff;
+}
+.mc-option.selected {
+  border-color: #06D6A0;
+  background: #f0fff8;
+}
+.mc-option input[type="radio"] {
+  margin-top: 3px;
+  accent-color: #118AB2;
+  flex-shrink: 0;
+}
+.mc-option input[type="radio"]:disabled {
+  cursor: not-allowed;
+}
+.mc-letter {
+  font-weight: 800;
+  color: #118AB2;
+  min-width: 20px;
+  flex-shrink: 0;
+}
+.mc-text {
+  flex: 1;
+}
+
+
+/* =====================================================================
    SUBMIT AREA (bottom of the test screen)
    ===================================================================== */
 .submit-area {

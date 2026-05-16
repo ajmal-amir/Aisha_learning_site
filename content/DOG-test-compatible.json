@@ -1,0 +1,804 @@
+{
+  "id": "dog-reading-practice-test",
+  "title": "DOG Practice Test - Reading Comprehension",
+  "description": "A 40-question reading practice test modeled after the attached packet format: 5 passages, 8 multiple-choice questions per passage. The information is different from the original document.",
+  "totalQuestions": 40,
+  "durationMinutes": 90,
+  "format": "passage-based-multiple-choice",
+  "directions": "Read each passage carefully. Then answer the questions by choosing A, B, C, or D.",
+  "passages": [
+    {
+      "passageNumber": 1,
+      "type": "Fiction (Historical Fiction)",
+      "title": "The Radio in the Window",
+      "text": "In 1944, Nora lived with her parents in a small town in North Carolina. Her father worked at the train station, and her older cousin David had gone away to serve during World War II. Every evening after supper, Nora helped Mama wash dishes, then hurried to the front room where the family radio sat beside the window.\n\nMost nights, the radio played music or news reports. Nora listened carefully, hoping to hear something that might tell her David was safe. Mama always told her, “News travels slowly, but hope can travel fast.” Nora did not fully understand what Mama meant, but she liked the sound of it.\n\nOne rainy Thursday, the announcer read a short message from soldiers overseas. Nora heard David’s unit mentioned. Her heart beat quickly. The message did not name David, but it said that the unit was safe after a difficult journey. Mama reached for Nora’s hand, and they both smiled with tears in their eyes.\n\nThe next morning, Nora wrote David a letter. She told him about the rain, the garden, and the way Mama’s biscuits filled the kitchen with warmth. At the end she wrote, “We heard good news, and we are keeping hope by the window.” When she placed the letter in the mailbox, Nora felt a little braver than before."
+    },
+    {
+      "passageNumber": 2,
+      "type": "Informational Text (Science)",
+      "title": "The Busy Life of Sea Turtles",
+      "text": "Sea turtles are reptiles that live mostly in the ocean. They have strong flippers that help them swim long distances. Unlike land turtles, sea turtles cannot pull their heads and flippers inside their shells. Their bodies are built for moving through water.\n\nFemale sea turtles return to sandy beaches to lay eggs. At night, a mother turtle crawls out of the ocean, digs a nest in the sand, and lays many eggs. Then she covers the nest and returns to the sea. Weeks later, baby turtles hatch and crawl toward the ocean. They use moonlight and the bright horizon over the water to guide them.\n\nSea turtles help keep ocean habitats healthy. Some eat seagrass, which helps the grass grow strong. Others eat jellyfish, sponges, or small sea animals. Each kind of sea turtle has a role in the ocean ecosystem.\n\nToday, sea turtles face dangers from pollution, fishing nets, and bright lights near beaches. Plastic bags can look like jellyfish in the water, and turtles may try to eat them. People can help by cleaning beaches, reducing plastic waste, and keeping nesting beaches dark at night."
+    },
+    {
+      "passageNumber": 3,
+      "type": "Literature (Fable)",
+      "title": "The Dog and the Little Sparrow",
+      "text": "One spring morning, a young dog named Milo chased butterflies across a field. He barked happily and ran so fast that he did not notice a tiny sparrow sitting near a fallen branch.\n\n“Please be careful,” chirped the sparrow. “My wing is hurt, and I cannot fly away.”\n\nMilo stopped at once. He was excited to keep playing, but he knew the little bird needed help. Gently, he nudged the branch aside and sat nearby to keep other animals away. When the farmer’s daughter walked past, Milo barked softly until she noticed the sparrow. She picked up the bird and placed it safely in a small basket.\n\nA few weeks later, Milo wandered too far from the farmhouse. The sky grew dark, and he could not find the path home. Suddenly, a sparrow flew above him, chirping again and again. Milo followed the sound through the tall grass until he saw the warm lights of the farmhouse.\n\nThe sparrow landed on the fence and sang a bright song. Milo wagged his tail. He understood that kindness, once given, often finds its way back.",
+      "moral": "Kindness given to others may return when you need it most."
+    },
+    {
+      "passageNumber": 4,
+      "type": "Informational Text (History)",
+      "title": "The First School Bus",
+      "text": "Long ago, many children walked several miles to school each day. Some rode horses or wagons, but many students had no easy way to travel. During cold mornings or rainy weather, getting to school could be difficult.\n\nIn the late 1800s, some communities began using wagons to carry children to school. These early school vehicles were sometimes called school wagons. Horses pulled them along dirt roads. The ride was slow and bumpy, but it helped more children arrive safely.\n\nAs automobiles became more common, motorized school buses replaced horse-drawn wagons. Over time, school buses became stronger, safer, and easier to recognize. Many buses were painted yellow because the bright color helped drivers see them clearly.\n\nToday, school buses carry millions of students. They have stop signs, flashing lights, and safety rules to protect children. The school bus changed how students traveled and made it easier for many children to attend school regularly."
+    },
+    {
+      "passageNumber": 5,
+      "type": "Literature (Poetry)",
+      "title": "A Rainy Afternoon",
+      "text": "Rain taps softly on the glass,\nSilver drops slide down,\nClouds wear coats of quiet gray\nAbove the sleepy town.\n\nPuddles shimmer near the road,\nBoots splash through the street,\nA robin shakes its little wings\nAnd sings a song so sweet.\n\nInside, the kettle hums with warmth,\nA book waits by the chair,\nThe world feels calm and washed and new,\nWith music in the air.\n\nRainy days may dim the sky,\nYet gentle wonders grow;\nA quiet heart can hear the song\nThat raindrops softly know."
+    }
+  ],
+  "questions": [
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "What is the main reason Nora listened to the radio every evening?\nA. She wanted to hear music.\nB. She hoped to hear news about David.\nC. She wanted to learn how radios worked.\nD. She was waiting for a weather report.",
+      "options": {
+        "A": "She wanted to hear music.",
+        "B": "She hoped to hear news about David.",
+        "C": "She wanted to learn how radios worked.",
+        "D": "She was waiting for a weather report."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "She hoped to hear news about David.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. She hoped to hear news about David.",
+        "She hoped to hear news about David."
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "Which detail from the passage shows the historical time period?\nA. Nora helped wash dishes.\nB. The family had a garden.\nC. David served during World War II.\nD. Nora placed a letter in the mailbox.",
+      "options": {
+        "A": "Nora helped wash dishes.",
+        "B": "The family had a garden.",
+        "C": "David served during World War II.",
+        "D": "Nora placed a letter in the mailbox."
+      },
+      "correctChoice": "C",
+      "correctAnswer": "David served during World War II.",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. David served during World War II.",
+        "David served during World War II."
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "What does Mama most likely mean when she says, “hope can travel fast”?\nA. Hope can help people feel strong even while waiting.\nB. Letters always arrive quickly.\nC. Radios can send messages faster than trains.\nD. Nora should run to the mailbox.",
+      "options": {
+        "A": "Hope can help people feel strong even while waiting.",
+        "B": "Letters always arrive quickly.",
+        "C": "Radios can send messages faster than trains.",
+        "D": "Nora should run to the mailbox."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Hope can help people feel strong even while waiting.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Hope can help people feel strong even while waiting.",
+        "Hope can help people feel strong even while waiting."
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "Which event happened last in the story?\nA. Nora listened to the radio.\nB. Mama held Nora’s hand.\nC. Nora wrote a letter to David.\nD. The announcer read the message.",
+      "options": {
+        "A": "Nora listened to the radio.",
+        "B": "Mama held Nora’s hand.",
+        "C": "Nora wrote a letter to David.",
+        "D": "The announcer read the message."
+      },
+      "correctChoice": "C",
+      "correctAnswer": "Nora wrote a letter to David.",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. Nora wrote a letter to David.",
+        "Nora wrote a letter to David."
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "What is the main theme of this passage?\nA. Families can stay hopeful during hard times.\nB. Radios are hard to use.\nC. Train stations are busy places.\nD. Rainy days are always sad.",
+      "options": {
+        "A": "Families can stay hopeful during hard times.",
+        "B": "Radios are hard to use.",
+        "C": "Train stations are busy places.",
+        "D": "Rainy days are always sad."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Families can stay hopeful during hard times.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Families can stay hopeful during hard times.",
+        "Families can stay hopeful during hard times."
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "What is the genre of this passage?\nA. Poetry\nB. Historical fiction\nC. Science fiction\nD. Biography",
+      "options": {
+        "A": "Poetry",
+        "B": "Historical fiction",
+        "C": "Science fiction",
+        "D": "Biography"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Historical fiction",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Historical fiction",
+        "Historical fiction"
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "Which sentence best shows Nora felt relieved?\nA. Nora helped Mama wash dishes.\nB. Her heart beat quickly.\nC. Mama reached for Nora’s hand, and they both smiled with tears in their eyes.\nD. The family radio sat beside the window.",
+      "options": {
+        "A": "Nora helped Mama wash dishes.",
+        "B": "Her heart beat quickly.",
+        "C": "Mama reached for Nora’s hand, and they both smiled with tears in their eyes.",
+        "D": "The family radio sat beside the window."
+      },
+      "correctChoice": "C",
+      "correctAnswer": "Mama reached for Nora’s hand, and they both smiled with tears in their eyes.",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. Mama reached for Nora’s hand, and they both smiled with tears in their eyes.",
+        "Mama reached for Nora’s hand, and they both smiled with tears in their eyes."
+      ]
+    },
+    {
+      "passageNumber": 1,
+      "topic": "Passage 1 - Fiction",
+      "prompt": "Based on the passage, which word best describes Nora?\nA. Careless\nB. Hopeful\nC. Lazy\nD. Angry",
+      "options": {
+        "A": "Careless",
+        "B": "Hopeful",
+        "C": "Lazy",
+        "D": "Angry"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Hopeful",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Hopeful",
+        "Hopeful"
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "What is the main idea of the passage?\nA. Sea turtles are helpful ocean animals that need protection.\nB. Sea turtles only live on beaches.\nC. All sea turtles eat the same food.\nD. Baby turtles are larger than adult turtles.",
+      "options": {
+        "A": "Sea turtles are helpful ocean animals that need protection.",
+        "B": "Sea turtles only live on beaches.",
+        "C": "All sea turtles eat the same food.",
+        "D": "Baby turtles are larger than adult turtles."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Sea turtles are helpful ocean animals that need protection.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Sea turtles are helpful ocean animals that need protection.",
+        "Sea turtles are helpful ocean animals that need protection."
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "Which sentence supports the idea that sea turtles help ocean habitats?\nA. They have strong flippers.\nB. Some eat seagrass, which helps the grass grow strong.\nC. Female sea turtles return to sandy beaches.\nD. The ride was slow and bumpy.",
+      "options": {
+        "A": "They have strong flippers.",
+        "B": "Some eat seagrass, which helps the grass grow strong.",
+        "C": "Female sea turtles return to sandy beaches.",
+        "D": "The ride was slow and bumpy."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Some eat seagrass, which helps the grass grow strong.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Some eat seagrass, which helps the grass grow strong.",
+        "Some eat seagrass, which helps the grass grow strong."
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "Where do female sea turtles lay their eggs?\nA. In coral reefs\nB. In trees\nC. In nests on sandy beaches\nD. Under rocks in rivers",
+      "options": {
+        "A": "In coral reefs",
+        "B": "In trees",
+        "C": "In nests on sandy beaches",
+        "D": "Under rocks in rivers"
+      },
+      "correctChoice": "C",
+      "correctAnswer": "In nests on sandy beaches",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. In nests on sandy beaches",
+        "In nests on sandy beaches"
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "Which text feature would best help show a baby turtle’s path to the ocean?\nA. Glossary\nB. Diagram\nC. Index\nD. Table of contents",
+      "options": {
+        "A": "Glossary",
+        "B": "Diagram",
+        "C": "Index",
+        "D": "Table of contents"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Diagram",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Diagram",
+        "Diagram"
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "The word “pollution” in the passage most likely means:\nA. Something that makes the environment dirty or unsafe\nB. A kind of baby turtle\nC. A bright moon over the water\nD. A healthy ocean plant",
+      "options": {
+        "A": "Something that makes the environment dirty or unsafe",
+        "B": "A kind of baby turtle",
+        "C": "A bright moon over the water",
+        "D": "A healthy ocean plant"
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Something that makes the environment dirty or unsafe",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Something that makes the environment dirty or unsafe",
+        "Something that makes the environment dirty or unsafe"
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "Which detail from the passage is a fact, not an opinion?\nA. Sea turtles are the cutest reptiles.\nB. Female sea turtles lay eggs in the sand.\nC. The ocean is more fun than the beach.\nD. Baby turtles are better than fish.",
+      "options": {
+        "A": "Sea turtles are the cutest reptiles.",
+        "B": "Female sea turtles lay eggs in the sand.",
+        "C": "The ocean is more fun than the beach.",
+        "D": "Baby turtles are better than fish."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Female sea turtles lay eggs in the sand.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Female sea turtles lay eggs in the sand.",
+        "Female sea turtles lay eggs in the sand."
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "What can people do to help sea turtles?\nA. Leave plastic on the beach\nB. Keep bright lights near nesting beaches\nC. Clean beaches and reduce plastic waste\nD. Take turtle eggs home",
+      "options": {
+        "A": "Leave plastic on the beach",
+        "B": "Keep bright lights near nesting beaches",
+        "C": "Clean beaches and reduce plastic waste",
+        "D": "Take turtle eggs home"
+      },
+      "correctChoice": "C",
+      "correctAnswer": "Clean beaches and reduce plastic waste",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. Clean beaches and reduce plastic waste",
+        "Clean beaches and reduce plastic waste"
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "topic": "Passage 2 - Informational Text",
+      "prompt": "What might happen if bright lights shine near nesting beaches?\nA. Baby turtles may become confused.\nB. All turtles will fly.\nC. The ocean will disappear.\nD. Seagrass will stop needing sunlight.",
+      "options": {
+        "A": "Baby turtles may become confused.",
+        "B": "All turtles will fly.",
+        "C": "The ocean will disappear.",
+        "D": "Seagrass will stop needing sunlight."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Baby turtles may become confused.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Baby turtles may become confused.",
+        "Baby turtles may become confused."
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "What is the moral of this story?\nA. Never walk through tall grass.\nB. Kindness can come back to help you.\nC. Dogs should chase butterflies all day.\nD. Sparrows are always noisy.",
+      "options": {
+        "A": "Never walk through tall grass.",
+        "B": "Kindness can come back to help you.",
+        "C": "Dogs should chase butterflies all day.",
+        "D": "Sparrows are always noisy."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Kindness can come back to help you.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Kindness can come back to help you.",
+        "Kindness can come back to help you."
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "Which detail shows Milo’s kindness?\nA. He chased butterflies.\nB. He barked happily.\nC. He sat nearby to keep other animals away.\nD. He wandered far from the farmhouse.",
+      "options": {
+        "A": "He chased butterflies.",
+        "B": "He barked happily.",
+        "C": "He sat nearby to keep other animals away.",
+        "D": "He wandered far from the farmhouse."
+      },
+      "correctChoice": "C",
+      "correctAnswer": "He sat nearby to keep other animals away.",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. He sat nearby to keep other animals away.",
+        "He sat nearby to keep other animals away."
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "Why did the sparrow help Milo later?\nA. Milo had helped the sparrow earlier.\nB. The farmer told the sparrow to help.\nC. Milo promised the sparrow a treat.\nD. The sparrow wanted to chase butterflies.",
+      "options": {
+        "A": "Milo had helped the sparrow earlier.",
+        "B": "The farmer told the sparrow to help.",
+        "C": "Milo promised the sparrow a treat.",
+        "D": "The sparrow wanted to chase butterflies."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Milo had helped the sparrow earlier.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Milo had helped the sparrow earlier.",
+        "Milo had helped the sparrow earlier."
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "Which word best describes the sparrow at the beginning?\nA. Trapped\nB. Proud\nC. Greedy\nD. Sleepy",
+      "options": {
+        "A": "Trapped",
+        "B": "Proud",
+        "C": "Greedy",
+        "D": "Sleepy"
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Trapped",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Trapped",
+        "Trapped"
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "How do Milo’s actions in the beginning affect the end of the story?\nA. They cause the sparrow to leave forever.\nB. They lead the sparrow to guide Milo home.\nC. They make the farmhouse disappear.\nD. They make Milo stop liking butterflies.",
+      "options": {
+        "A": "They cause the sparrow to leave forever.",
+        "B": "They lead the sparrow to guide Milo home.",
+        "C": "They make the farmhouse disappear.",
+        "D": "They make Milo stop liking butterflies."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "They lead the sparrow to guide Milo home.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. They lead the sparrow to guide Milo home.",
+        "They lead the sparrow to guide Milo home."
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "What is the genre of this story?\nA. Biography\nB. Fable\nC. Informational text\nD. Poetry",
+      "options": {
+        "A": "Biography",
+        "B": "Fable",
+        "C": "Informational text",
+        "D": "Poetry"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Fable",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Fable",
+        "Fable"
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "Which event happened first?\nA. Milo got lost.\nB. The sparrow guided Milo home.\nC. Milo chased butterflies across a field.\nD. The farmer’s daughter picked up the sparrow.",
+      "options": {
+        "A": "Milo got lost.",
+        "B": "The sparrow guided Milo home.",
+        "C": "Milo chased butterflies across a field.",
+        "D": "The farmer’s daughter picked up the sparrow."
+      },
+      "correctChoice": "C",
+      "correctAnswer": "Milo chased butterflies across a field.",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. Milo chased butterflies across a field.",
+        "Milo chased butterflies across a field."
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "topic": "Passage 3 - Fable",
+      "prompt": "Which detail supports the theme?\nA. Milo chased butterflies.\nB. Milo helped the sparrow, and later the sparrow helped Milo.\nC. The sky grew dark.\nD. The farmhouse had warm lights.",
+      "options": {
+        "A": "Milo chased butterflies.",
+        "B": "Milo helped the sparrow, and later the sparrow helped Milo.",
+        "C": "The sky grew dark.",
+        "D": "The farmhouse had warm lights."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Milo helped the sparrow, and later the sparrow helped Milo.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Milo helped the sparrow, and later the sparrow helped Milo.",
+        "Milo helped the sparrow, and later the sparrow helped Milo."
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "What is the main idea of the passage?\nA. School buses helped students get to school more safely and easily.\nB. All children used to ride horses to school.\nC. Yellow is the only color used for vehicles.\nD. Wagons were faster than modern buses.",
+      "options": {
+        "A": "School buses helped students get to school more safely and easily.",
+        "B": "All children used to ride horses to school.",
+        "C": "Yellow is the only color used for vehicles.",
+        "D": "Wagons were faster than modern buses."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "School buses helped students get to school more safely and easily.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. School buses helped students get to school more safely and easily.",
+        "School buses helped students get to school more safely and easily."
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "Which sentence shows what early school vehicles were like?\nA. They have stop signs today.\nB. Horses pulled them along dirt roads.\nC. They carry millions of students today.\nD. They were painted bright blue.",
+      "options": {
+        "A": "They have stop signs today.",
+        "B": "Horses pulled them along dirt roads.",
+        "C": "They carry millions of students today.",
+        "D": "They were painted bright blue."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Horses pulled them along dirt roads.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Horses pulled them along dirt roads.",
+        "Horses pulled them along dirt roads."
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "The word “regularly” most likely means:\nA. Only one time\nB. In a usual or repeated way\nC. Very slowly\nD. Without any help",
+      "options": {
+        "A": "Only one time",
+        "B": "In a usual or repeated way",
+        "C": "Very slowly",
+        "D": "Without any help"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "In a usual or repeated way",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. In a usual or repeated way",
+        "In a usual or repeated way"
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "Which event happened first?\nA. Motorized school buses replaced wagons.\nB. Many children walked several miles to school.\nC. Buses were given flashing lights.\nD. School buses carried millions of students.",
+      "options": {
+        "A": "Motorized school buses replaced wagons.",
+        "B": "Many children walked several miles to school.",
+        "C": "Buses were given flashing lights.",
+        "D": "School buses carried millions of students."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Many children walked several miles to school.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Many children walked several miles to school.",
+        "Many children walked several miles to school."
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "What was one effect of school buses?\nA. Fewer children could attend school.\nB. Children had an easier way to travel to school.\nC. Roads became dirtier.\nD. Schools stopped teaching students.",
+      "options": {
+        "A": "Fewer children could attend school.",
+        "B": "Children had an easier way to travel to school.",
+        "C": "Roads became dirtier.",
+        "D": "Schools stopped teaching students."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Children had an easier way to travel to school.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Children had an easier way to travel to school.",
+        "Children had an easier way to travel to school."
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "Which text feature would help readers see how an early school wagon looked?\nA. Glossary\nB. Photograph or diagram\nC. Index\nD. Title page",
+      "options": {
+        "A": "Glossary",
+        "B": "Photograph or diagram",
+        "C": "Index",
+        "D": "Title page"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Photograph or diagram",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Photograph or diagram",
+        "Photograph or diagram"
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "Which detail from the passage shows a change over time?\nA. Some children walked several miles.\nB. Motorized school buses replaced horse-drawn wagons.\nC. Rainy weather could be difficult.\nD. Students attend school.",
+      "options": {
+        "A": "Some children walked several miles.",
+        "B": "Motorized school buses replaced horse-drawn wagons.",
+        "C": "Rainy weather could be difficult.",
+        "D": "Students attend school."
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Motorized school buses replaced horse-drawn wagons.",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Motorized school buses replaced horse-drawn wagons.",
+        "Motorized school buses replaced horse-drawn wagons."
+      ]
+    },
+    {
+      "passageNumber": 4,
+      "topic": "Passage 4 - Informational Text",
+      "prompt": "Which would be the best heading for paragraph 3?\nA. From Wagons to Motorized Buses\nB. Why Children Like Recess\nC. How to Paint a House\nD. The Fastest Train",
+      "options": {
+        "A": "From Wagons to Motorized Buses",
+        "B": "Why Children Like Recess",
+        "C": "How to Paint a House",
+        "D": "The Fastest Train"
+      },
+      "correctChoice": "A",
+      "correctAnswer": "From Wagons to Motorized Buses",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. From Wagons to Motorized Buses",
+        "From Wagons to Motorized Buses"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "What is the main theme of the poem?\nA. Rainy afternoons can be calm and beautiful.\nB. Rainy days are always frightening.\nC. Birds never sing in the rain.\nD. The sun is brighter than the moon.",
+      "options": {
+        "A": "Rainy afternoons can be calm and beautiful.",
+        "B": "Rainy days are always frightening.",
+        "C": "Birds never sing in the rain.",
+        "D": "The sun is brighter than the moon."
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Rainy afternoons can be calm and beautiful.",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Rainy afternoons can be calm and beautiful.",
+        "Rainy afternoons can be calm and beautiful."
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "Which words from the poem help you hear sounds?\nA. Silver drops\nB. Boots splash\nC. Quiet gray\nD. Sleepy town",
+      "options": {
+        "A": "Silver drops",
+        "B": "Boots splash",
+        "C": "Quiet gray",
+        "D": "Sleepy town"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Boots splash",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Boots splash",
+        "Boots splash"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "Which line shows the poet’s sense of sight?\nA. Rain taps softly on the glass\nB. Silver drops slide down\nC. The kettle hums with warmth\nD. A quiet heart can hear the song",
+      "options": {
+        "A": "Rain taps softly on the glass",
+        "B": "Silver drops slide down",
+        "C": "The kettle hums with warmth",
+        "D": "A quiet heart can hear the song"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Silver drops slide down",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Silver drops slide down",
+        "Silver drops slide down"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "The word “gentle” in the poem most likely means:\nA. Rough\nB. Soft and calm\nC. Loud\nD. Angry",
+      "options": {
+        "A": "Rough",
+        "B": "Soft and calm",
+        "C": "Loud",
+        "D": "Angry"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Soft and calm",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Soft and calm",
+        "Soft and calm"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "Which two senses does the poet use most in the poem?\nA. Taste and smell\nB. Sight and hearing\nC. Touch and taste\nD. Smell and taste",
+      "options": {
+        "A": "Taste and smell",
+        "B": "Sight and hearing",
+        "C": "Touch and taste",
+        "D": "Smell and taste"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Sight and hearing",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Sight and hearing",
+        "Sight and hearing"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "Which word best describes the mood of the poem?\nA. Peaceful\nB. Angry\nC. Scary\nD. Silly",
+      "options": {
+        "A": "Peaceful",
+        "B": "Angry",
+        "C": "Scary",
+        "D": "Silly"
+      },
+      "correctChoice": "A",
+      "correctAnswer": "Peaceful",
+      "acceptableAnswers": [
+        "A",
+        "a",
+        "A. Peaceful",
+        "Peaceful"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "Which line best supports the mood you chose in Q38?\nA. Rain taps softly on the glass\nB. Boots splash through the street\nC. The world feels calm and washed and new\nD. A robin shakes its little wings",
+      "options": {
+        "A": "Rain taps softly on the glass",
+        "B": "Boots splash through the street",
+        "C": "The world feels calm and washed and new",
+        "D": "A robin shakes its little wings"
+      },
+      "correctChoice": "C",
+      "correctAnswer": "The world feels calm and washed and new",
+      "acceptableAnswers": [
+        "C",
+        "c",
+        "C. The world feels calm and washed and new",
+        "The world feels calm and washed and new"
+      ]
+    },
+    {
+      "passageNumber": 5,
+      "topic": "Passage 5 - Poetry",
+      "prompt": "What is the genre of this text?\nA. Informational text\nB. Poetry\nC. Historical fiction\nD. Fable",
+      "options": {
+        "A": "Informational text",
+        "B": "Poetry",
+        "C": "Historical fiction",
+        "D": "Fable"
+      },
+      "correctChoice": "B",
+      "correctAnswer": "Poetry",
+      "acceptableAnswers": [
+        "B",
+        "b",
+        "B. Poetry",
+        "Poetry"
+      ]
+    }
+  ]
+}

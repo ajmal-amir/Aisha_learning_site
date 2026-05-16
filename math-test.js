@@ -42,8 +42,13 @@
    These never change at runtime. Tweak here to adjust test behavior.
    ===================================================================== */
 
-// Where to fetch the 50 questions from. Same folder convention as the rest of the app.
-const TEST_DATA_URL = './content/math-test.json';
+// ⚙️ SINGLE CONFIG POINT — change ONLY this filename to switch tests.
+// Example: 'math-test.json', 'DOG-test.json', 'science-quiz.json', etc.
+// The file must live inside the ./content/ folder.
+const TEST_CONTENT_FILE = 'DOG-test-compatible.json';
+
+// Everything below is derived automatically — no other edits needed.
+const TEST_DATA_URL = `./content/${TEST_CONTENT_FILE}`;
 
 // Where the email goes. Matches the address used in app.js for consistency.
 const FORM_SUBMIT_TARGET = 'qasim.aimal@gmail.com';
@@ -56,13 +61,15 @@ const TEST_DURATION_MINUTES = 90;
 // elapsed/remaining time precisely.
 const TEST_DURATION_MS = TEST_DURATION_MINUTES * 60 * 1000;
 
-// localStorage keys. Using one prefix ('mathTest_') makes them easy to find
-// in DevTools and easy to clear in bulk if we ever need to.
-const STORAGE_KEY_ANSWERS    = 'mathTest_answers';     // object: { 0: "string", 1: "string", ... }
-const STORAGE_KEY_START      = 'mathTest_startTime';   // number: ms timestamp when test started
-const STORAGE_KEY_SUBMITTED  = 'mathTest_submitted';   // string: "true" once submitted
-const STORAGE_KEY_STUDENT    = 'mathTest_studentInfo'; // object: { name, email }
-const STORAGE_KEY_RESULT     = 'mathTest_finalResult'; // object: { score, total, submittedAt, reason }
+// localStorage keys. Derived from the content filename so that switching to
+// a different test (e.g. DOG-test.json) automatically gets its own storage
+// namespace — no stale answers bleed across different tests.
+const _STORAGE_PREFIX = TEST_CONTENT_FILE.replace(/\.json$/i, '') + '_';
+const STORAGE_KEY_ANSWERS    = _STORAGE_PREFIX + 'answers';     // object: { 0: "string", 1: "string", ... }
+const STORAGE_KEY_START      = _STORAGE_PREFIX + 'startTime';   // number: ms timestamp when test started
+const STORAGE_KEY_SUBMITTED  = _STORAGE_PREFIX + 'submitted';   // string: "true" once submitted
+const STORAGE_KEY_STUDENT    = _STORAGE_PREFIX + 'studentInfo'; // object: { name, email }
+const STORAGE_KEY_RESULT     = _STORAGE_PREFIX + 'finalResult'; // object: { score, total, submittedAt, reason }
 
 // Timer warning thresholds (in ms). When time-remaining drops below these
 // values, we change the timer's CSS class to give the student a visual
@@ -93,7 +100,8 @@ let lockedTitleEl, lockedSubtitleEl, lockedHeroEl;
    localStorage copy because reading from memory is faster, but the
    localStorage copy is the source of truth across page reloads.
    ===================================================================== */
-let testQuestions = [];        // populated from math-test.json
+let testQuestions = [];        // populated from the content JSON
+let testPassages  = [];        // populated from the content JSON (if present)
 let answers       = {};        // { questionIndex: studentTypedString }
 let timerInterval = null;      // setInterval handle so we can clear it later
 let pageLockInstalled = false; // tracks whether beforeunload+popstate handlers are attached
@@ -168,17 +176,36 @@ function clearTestStateExceptResult() {
    Fetch and parse the JSON. This runs once when the page first opens.
    ===================================================================== */
 async function loadTestData() {
-  // Use fetch + await for clean async/await flow.
-  // If the JSON file is missing or malformed, we want a clear error
-  // message rather than a silent failure.
   const response = await fetch(TEST_DATA_URL);
   if (!response.ok) {
     throw new Error(`Failed to load test data: HTTP ${response.status}`);
   }
   const data = await response.json();
-  // The JSON has a top-level `questions` array. We pull that out and
-  // store it in our module-level state.
   testQuestions = data.questions;
+  testPassages  = data.passages || [];
+
+  // If the JSON specifies its own title/description/duration, apply them to
+  // the start screen so the same HTML works for any content file.
+  if (data.title) {
+    const heroH1 = document.querySelector('.test-hero h1');
+    if (heroH1) heroH1.textContent = data.title;
+    document.title = `📝 ${data.title}`;
+  }
+  if (data.description) {
+    const sub = document.querySelector('.test-subtitle');
+    if (sub) sub.textContent = data.description;
+  }
+  if (data.directions) {
+    const directionsEl = document.getElementById('test-directions');
+    if (directionsEl) directionsEl.textContent = data.directions;
+  }
+  // Update the info cards to reflect the actual content
+  const qCountEl = document.querySelector('.test-info-card:nth-child(1) .info-value');
+  if (qCountEl) qCountEl.textContent = String(testQuestions.length);
+  const passCountEl = document.querySelector('.test-info-card:nth-child(3) .info-value');
+  if (passCountEl && testPassages.length) {
+    passCountEl.textContent = `${testPassages.length} Passages`;
+  }
 }
 
 
@@ -282,80 +309,145 @@ function populateStudentDisplay() {
    ===================================================================== */
 
 function renderQuestions() {
-  // Clear any previous content (defensive — in case render is called twice).
   questionsContainer.innerHTML = '';
-
-  // Tell the sticky bar how many questions there are total.
   totalCountEl.textContent = String(testQuestions.length);
 
-  // Loop through each question and build a card for it.
+  // Build a lookup: passageNumber -> passage object
+  const passageMap = {};
+  testPassages.forEach((p) => { passageMap[p.passageNumber] = p; });
+
+  // Track which passages we've already rendered so we don't repeat them.
+  const renderedPassages = new Set();
+
   testQuestions.forEach((question, index) => {
+    // If this question belongs to a passage we haven't shown yet, render it.
+    if (question.passageNumber && passageMap[question.passageNumber] && !renderedPassages.has(question.passageNumber)) {
+      renderedPassages.add(question.passageNumber);
+      const passage = passageMap[question.passageNumber];
+      const passageBlock = document.createElement('div');
+      passageBlock.className = 'passage-block';
+      passageBlock.innerHTML = `
+        <div class="passage-header">
+          <span class="passage-number">Passage ${passage.passageNumber}</span>
+          <span class="passage-type">${escapeHtml(passage.type || '')}</span>
+        </div>
+        <h3 class="passage-title">${escapeHtml(passage.title || '')}</h3>
+        <div class="passage-text">${escapeHtml(passage.text || '').replace(/\n/g, '<br>')}</div>
+        ${passage.moral ? `<p class="passage-moral"><em>Moral: ${escapeHtml(passage.moral)}</em></p>` : ''}
+      `;
+      questionsContainer.appendChild(passageBlock);
+    }
+
+    // Build the question card.
     const card = document.createElement('div');
     card.className = 'question-card';
     card.dataset.questionIndex = String(index);
 
-    // Note we use data-question-index (not innerHTML id) so the same
-    // pattern as the existing app.js works here too.
+    // Decide input type: if the question has `options`, render radio buttons;
+    // otherwise fall back to a textarea (works for both math and MC formats).
+    let inputHtml = '';
+    if (question.options && typeof question.options === 'object') {
+      // Multiple-choice radio buttons
+      const entries = Object.entries(question.options);
+      inputHtml = `<div class="mc-options" data-question-index="${index}">` +
+        entries.map(([letter, text]) => `
+          <label class="mc-option">
+            <input type="radio" name="q${index}" value="${escapeHtml(letter)}" data-question-index="${index}" />
+            <span class="mc-letter">${escapeHtml(letter)}</span>
+            <span class="mc-text">${escapeHtml(text)}</span>
+          </label>
+        `).join('') +
+        `</div>`;
+    } else {
+      // Free-text textarea (original math-test style)
+      inputHtml = `
+        <textarea
+          rows="2"
+          data-question-index="${index}"
+          placeholder="Type your answer here..."
+          autocomplete="off"
+          spellcheck="false"></textarea>
+      `;
+    }
+
+    // For MC prompts, only show the question stem (text before the options list).
+    // The prompt may contain "A. ...\nB. ..." already — strip those since we
+    // render them as clickable buttons.
+    let promptText = question.prompt || '';
+    if (question.options) {
+      // Remove lines that start with A. / B. / C. / D. (the options block)
+      promptText = promptText.replace(/\n[A-D]\.\s.*/g, '').trim();
+    }
+
     card.innerHTML = `
       <span class="question-number">Q${index + 1}</span>
       <span class="question-topic">${escapeHtml(question.topic || '')}</span>
-      <p class="question-prompt">${escapeHtml(question.prompt)}</p>
-      <textarea
-        rows="2"
-        data-question-index="${index}"
-        placeholder="Type your answer here..."
-        autocomplete="off"
-        spellcheck="false"></textarea>
+      <p class="question-prompt">${escapeHtml(promptText)}</p>
+      ${inputHtml}
     `;
 
     questionsContainer.appendChild(card);
   });
 
-  // After all the textareas exist in the DOM, wire up a single 'input'
-  // listener that handles ALL of them (event delegation — more efficient
-  // than attaching 50 individual listeners).
+  // Wire up event delegation for BOTH textareas and radio buttons.
   questionsContainer.addEventListener('input', handleAnswerInput);
+  questionsContainer.addEventListener('change', handleAnswerInput);
 }
 
 function handleAnswerInput(event) {
-  // event.target is the textarea that the student is typing into.
-  const textarea = event.target;
-  if (textarea.tagName !== 'TEXTAREA') return; // ignore other elements
+  const el = event.target;
+  let index, value;
 
-  const index = parseInt(textarea.dataset.questionIndex, 10);
-  const value = textarea.value;
+  if (el.tagName === 'TEXTAREA') {
+    index = parseInt(el.dataset.questionIndex, 10);
+    value = el.value;
+  } else if (el.tagName === 'INPUT' && el.type === 'radio') {
+    index = parseInt(el.dataset.questionIndex, 10);
+    value = el.value; // the letter: "A", "B", etc.
+    // Highlight the selected option label
+    const optionsContainer = el.closest('.mc-options');
+    optionsContainer.querySelectorAll('.mc-option').forEach((lbl) => lbl.classList.remove('selected'));
+    el.closest('.mc-option').classList.add('selected');
+  } else {
+    return;
+  }
 
-  // Update both our in-memory mirror and localStorage. We do this on
-  // EVERY keystroke. localStorage is synchronous and fast for small
-  // payloads, so debouncing isn't strictly necessary at this scale.
   answers[index] = value;
   saveAnswersToStorage();
 
-  // Visual cue: green-tint the card if the student has typed anything.
-  const card = textarea.closest('.question-card');
-  if (value.trim().length > 0) {
+  const card = el.closest('.question-card');
+  if (value && value.trim().length > 0) {
     card.classList.add('answered');
   } else {
     card.classList.remove('answered');
   }
 
-  // Update the "Answered: X / 50" counter in the sticky bar.
   updateAnsweredCount();
 }
 
 function restoreAnswersToTextareas() {
-  // After a refresh / browser reopen, copy values from `answers` back
-  // into each textarea so the student sees what they had typed.
   Object.keys(answers).forEach((indexStr) => {
+    const savedValue = answers[indexStr];
+    if (!savedValue || !savedValue.trim()) return;
+
+    // Try textarea first (math-style questions)
     const textarea = questionsContainer.querySelector(
       `textarea[data-question-index="${indexStr}"]`
     );
     if (textarea) {
-      textarea.value = answers[indexStr];
-      // Mark the card as answered if the saved value is non-empty.
-      if (answers[indexStr].trim().length > 0) {
-        textarea.closest('.question-card').classList.add('answered');
-      }
+      textarea.value = savedValue;
+      textarea.closest('.question-card').classList.add('answered');
+      return;
+    }
+
+    // Try radio buttons (multiple-choice questions)
+    const radio = questionsContainer.querySelector(
+      `input[type="radio"][name="q${indexStr}"][value="${savedValue}"]`
+    );
+    if (radio) {
+      radio.checked = true;
+      radio.closest('.mc-option').classList.add('selected');
+      radio.closest('.question-card').classList.add('answered');
     }
   });
 }
@@ -531,16 +623,20 @@ function submitTest({ reason }) {
     timerInterval = null;
   }
 
-  // Disable every textarea so the student can't keep editing after submit.
+  // Disable all inputs so the student can't keep editing after submit.
   questionsContainer.querySelectorAll('textarea').forEach((ta) => {
     ta.disabled = true;
   });
+  questionsContainer.querySelectorAll('input[type="radio"]').forEach((r) => {
+    r.disabled = true;
+  });
 
-  // Re-read answers from the textareas one more time, just in case the
-  // last keystroke didn't fire 'input' (rare race condition with timer
-  // expiry).
+  // Re-read answers one more time (handles both textareas and radios).
   questionsContainer.querySelectorAll('textarea').forEach((ta) => {
     answers[ta.dataset.questionIndex] = ta.value;
+  });
+  questionsContainer.querySelectorAll('input[type="radio"]:checked').forEach((r) => {
+    answers[r.dataset.questionIndex] = r.value;
   });
   saveAnswersToStorage();
 
@@ -558,8 +654,6 @@ function submitTest({ reason }) {
     submittedAt: new Date().toISOString(),
     reason: reason || 'manual'
   };
-  // localStorage.setItem(STORAGE_KEY_RESULT,    JSON.stringify(resultPayload));
-  // localStorage.setItem(STORAGE_KEY_SUBMITTED, 'true');
 
   // Send the email. We do this BEFORE removing the lock so that even if
   // the email pop-up takes focus, the page itself remains locked.
@@ -568,8 +662,9 @@ function submitTest({ reason }) {
   // Remove the page lock — the student can leave normally now.
   uninstallPageLock();
 
-  // Wipe in-progress data (but keep the result + submitted flag).
-  // clearTestStateExceptResult();
+  // Wipe in-progress data so the next page load shows a fresh start screen
+  // (the test is no longer locked — it can be retaken).
+  clearTestStateExceptResult();
 
   // Show the locked / results screen.
   showLockedScreen({
@@ -628,18 +723,23 @@ function normalize(text) {
    ===================================================================== */
 
 function sendEmail(info, result, reason) {
-  // Build a human-readable plain-text version of all answers.
   const answersText = testQuestions.map((q, i) => {
     const a = (answers[i] || '').trim() || '(blank)';
-    return `Q${i + 1} [${q.topic}]: ${q.prompt}\n  Answer: ${a}`;
+    // For MC questions, also show the correct answer
+    const correct = q.correctChoice ? ` [Correct: ${q.correctChoice}]` : '';
+    // Strip option lines from prompt for cleaner email
+    let prompt = q.prompt || '';
+    if (q.options) prompt = prompt.replace(/\n[A-D]\.\s.*/g, '').trim();
+    return `Q${i + 1} [${q.topic}]: ${prompt}\n  Answer: ${a}${correct}`;
   }).join('\n\n');
 
-  // Different subject line if the test was force-submitted by the timer.
   const reasonLabel = reason === 'timeout'
     ? '(time expired)'
     : '(submitted by student)';
 
-  const subject = `Math Final Test — ${info.name} ${reasonLabel}`;
+  // Use the JSON title if available, otherwise fall back to generic
+  const testTitle = document.querySelector('.test-hero h1')?.textContent || 'Test';
+  const subject = `${testTitle} — ${info.name} ${reasonLabel}`;
 
   const body = [
     `Student Name : ${info.name}`,
@@ -732,26 +832,13 @@ function showLockedScreen({ name, email, score, total, submittedAt, reason }) {
    ===================================================================== */
 
 function decideInitialScreen() {
-  const submitted  = localStorage.getItem(STORAGE_KEY_SUBMITTED);
   const startTime  = localStorage.getItem(STORAGE_KEY_START);
 
-  // Case A — the test has already been submitted. Show the locked screen
-  // forever (or until the parent manually clears localStorage).
-  // if (submitted === 'true') {
-  //   const info   = loadStudentInfo()                                      || { name: '—', email: '—' };
-  //   const result = JSON.parse(localStorage.getItem(STORAGE_KEY_RESULT) || '{}');
-  //   showLockedScreen({
-  //     name:        info.name,
-  //     email:       info.email,
-  //     score:       result.score   || 0,
-  //     total:       result.total   || 0,
-  //     submittedAt: result.submittedAt,
-  //     reason:      result.reason
-  //   });
-  //   return;
-  // }
+  // NOTE: Lock removed — the test can be retaken any time.
+  // After each submission, in-progress data is cleared automatically
+  // so the next page load lands back on the start screen.
 
-  // Case B — a test is in progress (start time recorded but not submitted).
+  // Case A — a test is in progress (start time recorded).
   if (startTime) {
     const startTimeMs = parseInt(startTime, 10);
     const elapsed     = Date.now() - startTimeMs;
