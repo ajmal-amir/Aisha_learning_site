@@ -45,7 +45,7 @@
 // ⚙️ SINGLE CONFIG POINT — change ONLY this filename to switch tests.
 // Example: 'math-test.json', 'DOG-test.json', 'science-quiz.json', etc.
 // The file must live inside the ./content/ folder.
-const TEST_CONTENT_FILE = 'DOG-test-compatible.json';
+const TEST_CONTENT_FILE = 'math-test.json';
 
 // Everything below is derived automatically — no other edits needed.
 const TEST_DATA_URL = `./content/${TEST_CONTENT_FILE}`;

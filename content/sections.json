@@ -2,58 +2,99 @@
   {
     "id": "reading-1",
     "type": "📖 Reading",
-    "title": "The Kind Bird",
+    "title": "The Lost Puppy",
     "description": "Read the story, then answer the questions in your own words.",
-    "story": "Last Saturday, Maya was playing in her backyard when she noticed a small bird on the ground. Its wing looked hurt, and it could not fly.\n\nMaya carefully placed the bird in a small box with soft cloth. She then called her uncle, who was a veterinarian. Together, they took the bird to the animal clinic. The vet wrapped the bird's wing and said it would heal in two weeks.\n\nMaya visited the bird every day, bringing seeds and water. After two weeks, the bird was strong again. Maya took the box outside, opened it, and watched the bird fly into the sky. She felt proud knowing she had saved a life.",
+    "story": "One afternoon, Sara was walking home from school when she heard a small barking sound behind a tree. She looked and saw a tiny puppy shivering in the cold. The puppy had no collar and looked very hungry.\n\nSara gently picked up the puppy and took it home. She gave it some food and water. Later that evening, Sara and her father made posters to help find the puppy's owner.\n\nThe next day, a neighbor saw the poster and came to Sara's house. The puppy happily ran to the neighbor because it belonged to him. The neighbor thanked Sara for taking care of his puppy.\n\nSara felt happy because she helped someone in need.",
     "questions": [
       {
-        "prompt": "Who is the main character of the story?",
-        "acceptableAnswers": ["maya"]
+        "prompt": "Who is the story mainly about?",
+        "acceptableAnswers": [
+          "sara"
+        ]
       },
       {
-        "prompt": "What did Maya find in her backyard?",
-        "acceptableAnswers": ["a hurt bird", "a small bird", "bird with hurt wing", "injured bird"]
+        "prompt": "What did Sara find behind the tree?",
+        "acceptableAnswers": [
+          "a puppy",
+          "tiny puppy",
+          "lost puppy"
+        ]
       },
       {
-        "prompt": "Who helped Maya take care of the bird?",
-        "acceptableAnswers": ["her uncle", "uncle the vet", "uncle who is a veterinarian", "her uncle the vet"]
+        "prompt": "Name TWO things Sara did to help the puppy.",
+        "acceptableAnswers": [
+          "gave it food and water",
+          "food and water and made posters",
+          "took it home and made posters"
+        ]
       },
       {
-        "prompt": "How long did it take for the bird's wing to heal?",
-        "acceptableAnswers": ["two weeks", "2 weeks"]
+        "prompt": "How did Sara find the puppy's owner?",
+        "acceptableAnswers": [
+          "she made posters",
+          "posters",
+          "her father helped make posters"
+        ]
       },
       {
         "prompt": "What lesson does this story teach?",
-        "acceptableAnswers": ["kindness to animals", "be kind to animals", "help animals in need", "caring for living things"]
+        "acceptableAnswers": [
+          "helping others",
+          "be kind",
+          "kindness matters",
+          "help others in need"
+        ]
       }
     ]
   },
   {
     "id": "reading-2",
     "type": "📖 Reading",
-    "title": "The Lion and the Mouse",
+    "title": "The Ant and the Grasshopper",
     "description": "Read this classic fable, then answer the questions.",
-    "story": "One sunny day, a tiny mouse ran across a sleeping lion's paw. The lion woke up angrily and trapped the mouse with his huge claw. Please let me go! begged the mouse. One day I might help you in return. The lion laughed loudly. How could a tiny mouse ever help a king like him? But the lion let him go.\n\nA few weeks later, hunters caught the lion in a strong rope net. The lion roared and roared, but he could not escape. The little mouse heard the roar and remembered the lion. The mouse ran to the net and chewed through the ropes with his sharp teeth. Soon the lion was free.\n\nThank you, my small friend, said the lion. I see now that even the smallest creatures can do great things.",
+    "story": "All summer long, the ant worked hard. Every day she carried food to her nest underground. The grasshopper watched and laughed. Why do you work so hard? he sang. Come play with me instead! The ant shook her head. Winter is coming. I must prepare.\n\nWhen winter arrived, the grasshopper was cold and hungry. He had nothing stored away. He knocked on the ant's door and begged for food. The ant shared a little, but said kindly, Next summer, remember to work while the sun shines.\n\nThe grasshopper nodded and promised he would never forget that lesson again.",
     "questions": [
       {
-        "prompt": "Who are the two main characters in this story?",
-        "acceptableAnswers": ["lion and mouse", "a lion and a mouse", "the lion and the mouse"]
+        "prompt": "What was the ant doing all summer?",
+        "acceptableAnswers": [
+          "carrying food",
+          "working hard",
+          "storing food",
+          "preparing for winter"
+        ]
       },
       {
-        "prompt": "Why did the lion let the mouse go at first?",
-        "acceptableAnswers": ["the mouse promised to help him", "mouse said he might help", "mouse begged for freedom"]
+        "prompt": "What did the grasshopper do instead of working?",
+        "acceptableAnswers": [
+          "played",
+          "sang",
+          "laughed at the ant"
+        ]
       },
       {
-        "prompt": "What problem did the lion have later in the story?",
-        "acceptableAnswers": ["he was caught in a net", "trapped by hunters", "stuck in a rope net"]
+        "prompt": "What problem did the grasshopper have in winter?",
+        "acceptableAnswers": [
+          "he was cold and hungry",
+          "he had no food",
+          "nothing stored away"
+        ]
       },
       {
-        "prompt": "How did the mouse help the lion?",
-        "acceptableAnswers": ["chewed through the ropes", "chewed the net", "bit through the rope with his teeth"]
+        "prompt": "How did the ant respond when the grasshopper asked for help?",
+        "acceptableAnswers": [
+          "she shared a little food",
+          "shared food and gave advice",
+          "shared food and told him to prepare next time"
+        ]
       },
       {
         "prompt": "What is the moral (lesson) of this fable?",
-        "acceptableAnswers": ["even small creatures can help", "small things matter", "kindness is repaid", "everyone can do great things"]
+        "acceptableAnswers": [
+          "work hard and prepare",
+          "prepare for the future",
+          "dont be lazy",
+          "plan ahead"
+        ]
       }
     ]
   },
@@ -64,44 +105,73 @@
     "description": "Think carefully about word parts before you answer!",
     "questions": [
       {
-        "prompt": "What is the ROOT word in 'singer'?",
-        "acceptableAnswers": ["sing"]
+        "prompt": "What is the ROOT word in 'teacher'?",
+        "acceptableAnswers": [
+          "teach"
+        ]
       },
       {
-        "prompt": "What is the ROOT word in 'kindness'?",
-        "acceptableAnswers": ["kind"]
+        "prompt": "What is the ROOT word in 'happily'?",
+        "acceptableAnswers": [
+          "happy"
+        ]
       },
       {
-        "prompt": "What PREFIX is in 'preview'? What does it mean?",
-        "acceptableAnswers": ["pre means before", "pre before", "pre"]
+        "prompt": "What PREFIX is in 'unhappy'? What does it mean?",
+        "acceptableAnswers": [
+          "un means not",
+          "un not",
+          "un"
+        ]
       },
       {
-        "prompt": "What PREFIX is in 'disagree'? What does it mean?",
-        "acceptableAnswers": ["dis means not", "dis not", "dis"]
+        "prompt": "What PREFIX is in 'redo'? What does it mean?",
+        "acceptableAnswers": [
+          "re means again",
+          "re again",
+          "re"
+        ]
       },
       {
-        "prompt": "What SUFFIX is in 'joyful'?",
-        "acceptableAnswers": ["ful"]
+        "prompt": "What SUFFIX is in 'helpful'?",
+        "acceptableAnswers": [
+          "ful"
+        ]
       },
       {
-        "prompt": "What SUFFIX is in 'fearless'?",
-        "acceptableAnswers": ["less"]
+        "prompt": "What SUFFIX is in 'careless'?",
+        "acceptableAnswers": [
+          "less"
+        ]
       },
       {
-        "prompt": "What does 'powerless' mean? Use the suffix to help you.",
-        "acceptableAnswers": ["without power", "having no power", "not powerful"]
+        "prompt": "What does 'careless' mean? Use the suffix to help you.",
+        "acceptableAnswers": [
+          "without care",
+          "not careful",
+          "showing no care"
+        ]
       },
       {
-        "prompt": "What does 'thankful' mean? Use the suffix to help you.",
-        "acceptableAnswers": ["full of thanks", "having thanks", "feeling grateful"]
+        "prompt": "What does 'hopeful' mean? Use the suffix to help you.",
+        "acceptableAnswers": [
+          "full of hope",
+          "having hope"
+        ]
       },
       {
-        "prompt": "Add 'un' to 'kind'. Write the new word and what it means.",
-        "acceptableAnswers": ["unkind means not kind", "unkind not kind", "unkind"]
+        "prompt": "Add 'un' to 'safe'. Write the new word and what it means.",
+        "acceptableAnswers": [
+          "unsafe means not safe",
+          "unsafe not safe",
+          "unsafe"
+        ]
       },
       {
-        "prompt": "Which word means the OPPOSITE of 'lock'? (unlock / relock / lockless)",
-        "acceptableAnswers": ["unlock"]
+        "prompt": "Which word means the OPPOSITE of 'kind'? (unkind / reskind / kindless)",
+        "acceptableAnswers": [
+          "unkind"
+        ]
       }
     ]
   },
@@ -112,27 +182,27 @@
     "description": "Write complete sentences. Use your best spelling. Parent will review all answers.",
     "questions": [
       {
-        "prompt": "OPINION: Should children be allowed to choose their own bedtime? Write your opinion and TWO reasons.",
+        "prompt": "OPINION: Should students have homework every day? Write your opinion and TWO reasons.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "OPINION: Is summer or winter the better season? Give a reason for your choice.",
+        "prompt": "OPINION: Is it better to have one good friend or many friends? Give a reason.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "INFORMATIVE: Explain how to make a sandwich in 4 steps. Use first, next, then, and finally.",
+        "prompt": "INFORMATIVE: Explain how to brush your teeth in 4 steps. Use first, next, then, and finally.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "INFORMATIVE: Explain how a bird builds its nest. Use facts you know.",
+        "prompt": "INFORMATIVE: Explain what an ant does during summer. Use facts from the story.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "NARRATIVE: Write 4-6 sentences about a time you were brave. Tell what happened and how you felt.",
+        "prompt": "NARRATIVE: Write 4-6 sentences about a day you helped someone. Tell what happened and how you felt.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "NARRATIVE: Finish this story starter: 'I opened the old wooden door and saw a magical garden full of...'",
+        "prompt": "NARRATIVE: Finish this story starter: 'One morning I opened my backpack and found a tiny glowing box...'",
         "acceptableAnswers": []
       }
     ]
@@ -144,44 +214,68 @@
     "description": "Choose the correct word and type your full answer.",
     "questions": [
       {
-        "prompt": "The cat ___ sleeping on the chair. (is / are)",
-        "acceptableAnswers": ["is"]
+        "prompt": "The dog ___ barking loudly. (is / are)",
+        "acceptableAnswers": [
+          "is"
+        ]
       },
       {
-        "prompt": "The boys ___ running in the park. (is / are)",
-        "acceptableAnswers": ["are"]
+        "prompt": "The students ___ reading a book. (is / are)",
+        "acceptableAnswers": [
+          "are"
+        ]
       },
       {
-        "prompt": "He ___ writing a letter to his friend. (is / are)",
-        "acceptableAnswers": ["is"]
+        "prompt": "She ___ going to school every day. (is / are)",
+        "acceptableAnswers": [
+          "is"
+        ]
       },
       {
-        "prompt": "We ___ at the museum yesterday. (was / were)",
-        "acceptableAnswers": ["were"]
+        "prompt": "They ___ playing outside. (was / were)",
+        "acceptableAnswers": [
+          "were"
+        ]
       },
       {
-        "prompt": "She ___ tired after the long game. (was / were)",
-        "acceptableAnswers": ["was"]
+        "prompt": "He ___ eating lunch. (was / were)",
+        "acceptableAnswers": [
+          "was"
+        ]
       },
       {
-        "prompt": "Which is a COMPLETE sentence? A) Running fast.  B) The girl runs fast.",
-        "acceptableAnswers": ["b", "the girl runs fast"]
+        "prompt": "Which is a COMPLETE sentence? A) The big dog.  B) The big dog ran fast.",
+        "acceptableAnswers": [
+          "b",
+          "the big dog ran fast"
+        ]
       },
       {
-        "prompt": "Add the correct punctuation: 'Wow that is amazing'",
-        "acceptableAnswers": ["!", "exclamation mark", "exclamation point"]
+        "prompt": "Add the correct punctuation: 'Where is my pencil'",
+        "acceptableAnswers": [
+          "?",
+          "question mark"
+        ]
       },
       {
-        "prompt": "Which word is a NOUN in: The brown bear walked slowly.",
-        "acceptableAnswers": ["bear"]
+        "prompt": "Which word is a NOUN in: The happy puppy ran home.",
+        "acceptableAnswers": [
+          "puppy",
+          "home"
+        ]
       },
       {
-        "prompt": "Which word is a VERB in: The teacher writes on the board.",
-        "acceptableAnswers": ["writes"]
+        "prompt": "Which word is a VERB in: Sara found a lost puppy.",
+        "acceptableAnswers": [
+          "found"
+        ]
       },
       {
-        "prompt": "Rewrite correctly with capital letter and period: 'my brother loves to read books'",
-        "acceptableAnswers": ["my brother loves to read books.", "My brother loves to read books."]
+        "prompt": "Rewrite correctly with capital letter and period: 'the ant worked hard all summer'",
+        "acceptableAnswers": [
+          "the ant worked hard all summer.",
+          "The ant worked hard all summer."
+        ]
       }
     ]
   },
@@ -192,15 +286,15 @@
     "description": "Say each answer OUT LOUD to your parent first, then write short notes.",
     "questions": [
       {
-        "prompt": "Retell The Kind Bird in your own words. Say at least 4 sentences out loud.",
+        "prompt": "Retell The Lost Puppy in your own words. Say at least 4 sentences out loud.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "Tell your parent: What would YOU do if you saw an animal that needed help? Give at least 2 steps.",
+        "prompt": "Tell your parent: What would YOU do if you found a lost animal? Give at least 2 steps.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "Discuss: Why was the tiny mouse able to help the powerful lion? What does this teach us?",
+        "prompt": "Discuss: What lesson did the grasshopper learn? Do you think he really changed? Why?",
         "acceptableAnswers": []
       },
       {
@@ -208,7 +302,7 @@
         "acceptableAnswers": []
       },
       {
-        "prompt": "Ask your parent to say a 3-digit number. Write it in expanded form AND round it to the nearest hundred.",
+        "prompt": "Ask your parent to say a 3-digit number. Write it in expanded form AND round it to the nearest ten.",
         "acceptableAnswers": []
       }
     ]
@@ -216,1137 +310,1874 @@
   {
     "id": "math-day1",
     "type": "🔢 Math Day 1",
-    "title": "Place Value, Standard & Expanded Form, Rounding",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. PLACE VALUE\nThe value of where a digit sits in a number.\n   495: 4=Hundreds(400), 9=Tens(90), 5=Ones(5)\n\n2. STANDARD FORM\nWriting a number using digits.\n   two thousand forty = 2,040\n\n3. EXPANDED FORM\nBreaking a number to show each digit's value.\n   356 = 300 + 50 + 6\n\n4. ROUNDING\nMake a number simpler by rounding to nearest ten or hundred.\n   RULE: Look at the digit to the RIGHT of where you round.\n   5 or more = round UP.  4 or less = round DOWN.\n   79 rounds UP to 80.  34 rounds DOWN to 30.  462 rounds to 500.",
+    "title": "What Are Fractions?",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Fractions Are Parts\nhttps://www.youtube.com/watch?v=CA9XLJpQp3c\n(Copy the link into your browser and watch before you start!)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nFRACTION — A fraction shows a part of a whole.\n   Imagine a pizza cut into 4 equal slices.\n   If you eat 1 slice, you ate 1/4 (one-fourth) of the pizza.\n   The pizza = the WHOLE. Your slice = the PART.\n\nNUMERATOR — The TOP number of a fraction.\n   It tells HOW MANY equal parts you have.\n   In 3/8 → the numerator is 3 (you have 3 parts).\n\nDENOMINATOR — The BOTTOM number of a fraction.\n   It tells how many EQUAL PARTS the whole is cut into.\n   In 3/8 → the denominator is 8 (the whole is cut into 8 parts).\n\nREMEMBER:\n   Denominator = Down (it is the number on the bottom!)\n   3/8 means: 3 parts OUT OF 8 equal parts total.\n\nEXAMPLES:\n   1/2 = one-half (whole cut into 2, you have 1)\n   3/4 = three-fourths (whole cut into 4, you have 3)\n   5/6 = five-sixths (whole cut into 6, you have 5)",
     "questions": [
       {
-        "prompt": "PLACE VALUE: In 627, what is the value of the digit 6?",
-        "acceptableAnswers": ["600", "six hundred"]
+        "prompt": "In the fraction 3/8, which number is the NUMERATOR?",
+        "acceptableAnswers": [
+          "3"
+        ]
       },
       {
-        "prompt": "PLACE VALUE: In 627, what is the value of the digit 2?",
-        "acceptableAnswers": ["20", "twenty", "two tens"]
+        "prompt": "In the fraction 3/8, which number is the DENOMINATOR?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "PLACE VALUE: In 3,051, which digit is in the THOUSANDS place?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "What does the NUMERATOR tell you?",
+        "acceptableAnswers": [
+          "how many parts you have",
+          "the number of parts",
+          "how many equal parts we have"
+        ]
       },
       {
-        "prompt": "STANDARD FORM: Write 'two hundred forty-seven' in standard form.",
-        "acceptableAnswers": ["247"]
+        "prompt": "What does the DENOMINATOR tell you?",
+        "acceptableAnswers": [
+          "how many equal parts the whole is cut into",
+          "total equal parts",
+          "total number of equal parts"
+        ]
       },
       {
-        "prompt": "STANDARD FORM: Write 'three thousand sixty' in standard form.",
-        "acceptableAnswers": ["3060", "3,060"]
+        "prompt": "A pie is cut into 6 equal slices. You eat 2 slices. Write the fraction of pie you ate.",
+        "acceptableAnswers": [
+          "2/6",
+          "two sixths",
+          "1/3"
+        ]
       },
       {
-        "prompt": "EXPANDED FORM: Write 482 in expanded form.",
-        "acceptableAnswers": ["400 + 80 + 2", "400+80+2"]
+        "prompt": "A chocolate bar has 10 pieces. You break off 3 pieces. Write the fraction you have.",
+        "acceptableAnswers": [
+          "3/10",
+          "three tenths"
+        ]
       },
       {
-        "prompt": "EXPANDED FORM: Write 615 in expanded form.",
-        "acceptableAnswers": ["600 + 10 + 5", "600+10+5"]
+        "prompt": "Write the fraction for: 5 parts out of 8 equal parts.",
+        "acceptableAnswers": [
+          "5/8",
+          "five eighths"
+        ]
       },
       {
-        "prompt": "ROUNDING: Round 47 to the nearest ten.",
-        "acceptableAnswers": ["50"]
+        "prompt": "Write the fraction for: 1 part out of 4 equal parts.",
+        "acceptableAnswers": [
+          "1/4",
+          "one fourth",
+          "one quarter"
+        ]
       },
       {
-        "prompt": "ROUNDING: Round 22 to the nearest ten.",
-        "acceptableAnswers": ["20"]
+        "prompt": "A class has 20 students. 7 of them have glasses. Write the fraction of students who have glasses.",
+        "acceptableAnswers": [
+          "7/20",
+          "seven twentieths"
+        ]
       },
       {
-        "prompt": "ROUNDING: Round 358 to the nearest hundred.",
-        "acceptableAnswers": ["400"]
+        "prompt": "In the fraction 9/10, what is the denominator?",
+        "acceptableAnswers": [
+          "10"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Write 3,050 in expanded form.",
-        "acceptableAnswers": ["3000 + 50", "3,000 + 50"]
+        "prompt": "In the fraction 9/10, what is the numerator?",
+        "acceptableAnswers": [
+          "9"
+        ]
       },
       {
-        "prompt": "PLACE VALUE: In the number 3,050, what is the value of the digit 3?",
-        "acceptableAnswers": ["3000", "three thousand"]
+        "prompt": "A ribbon is cut into 5 equal parts. You use 4 of them. Write the fraction you used.",
+        "acceptableAnswers": [
+          "4/5",
+          "four fifths"
+        ]
       },
       {
-        "prompt": "PLACE VALUE: What digit is in the TENS place in 5,294?",
-        "acceptableAnswers": ["9"]
+        "prompt": "Look at this fraction: 7/12. How many equal parts is the whole cut into?",
+        "acceptableAnswers": [
+          "12",
+          "twelve"
+        ]
       },
       {
-        "prompt": "PLACE VALUE: Write the number that has 7 hundreds, 4 tens, and 2 ones.",
-        "acceptableAnswers": ["742"]
+        "prompt": "Look at this fraction: 7/12. How many parts do you have?",
+        "acceptableAnswers": [
+          "7",
+          "seven"
+        ]
       },
       {
-        "prompt": "STANDARD FORM: Write 'six hundred twelve' in standard form.",
-        "acceptableAnswers": ["612"]
+        "prompt": "A bag has 8 marbles. 3 are red. Write the fraction of marbles that are red.",
+        "acceptableAnswers": [
+          "3/8",
+          "three eighths"
+        ]
       },
       {
-        "prompt": "STANDARD FORM: Write 'two thousand five hundred eight' in standard form.",
-        "acceptableAnswers": ["2508", "2,508"]
+        "prompt": "Nadia ate 2 out of 8 equal slices of watermelon. Write the fraction she ate.",
+        "acceptableAnswers": [
+          "2/8",
+          "one fourth",
+          "1/4"
+        ]
       },
       {
-        "prompt": "EXPANDED FORM: Write 706 in expanded form.",
-        "acceptableAnswers": ["700 + 6", "700+6"]
+        "prompt": "A shape is divided into 3 equal parts. You shade 1 part. Write the fraction shaded.",
+        "acceptableAnswers": [
+          "1/3",
+          "one third"
+        ]
       },
       {
-        "prompt": "EXPANDED FORM: Write 1,367 in expanded form.",
-        "acceptableAnswers": ["1000 + 300 + 60 + 7", "1,000 + 300 + 60 + 7"]
+        "prompt": "WORD PROBLEM: A garden is divided into 10 equal rows. 6 rows have flowers. Write the fraction of the garden that has flowers.",
+        "acceptableAnswers": [
+          "6/10",
+          "three fifths",
+          "3/5"
+        ]
       },
       {
-        "prompt": "ROUNDING: Round 286 to the nearest ten.",
-        "acceptableAnswers": ["290"]
+        "prompt": "WORD PROBLEM: Lena has 12 crayons. 5 are broken. Write the fraction of crayons that are NOT broken.",
+        "acceptableAnswers": [
+          "7/12",
+          "seven twelfths"
+        ]
       },
       {
-        "prompt": "ROUNDING: Round 612 to the nearest hundred.",
-        "acceptableAnswers": ["600"]
+        "prompt": "CHALLENGE: If a fraction has the same numerator AND denominator (like 4/4), how much of the whole does it represent?",
+        "acceptableAnswers": [
+          "the whole",
+          "1",
+          "one whole",
+          "all of it"
+        ]
       }
     ]
   },
   {
     "id": "math-day2",
     "type": "🔢 Math Day 2",
-    "title": "Estimation, Unknown Numbers & Inverse Operations",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. FRONT-END ESTIMATION\nKeep the highest place value digit, make the rest zeros.\n   458 → 400   678 → 700   311 → 300\n\n2. UNKNOWN NUMBER\nA missing number shown as ? or a letter.\n   24 + ? = 83  →  83 - 24 = 59  →  ? = 59\n   A - 42 = 200  →  200 + 42 = 242  →  A = 242\n\n3. INVERSE OPERATIONS\nThe OPPOSITE operation that UNDOES another.\n   Addition undoes Subtraction.  Multiplication undoes Division.\n\n4. DECOMPOSE (Expanded Subtraction)\n   678 - 548 = ?\n   600+70+8 minus 500+40+8 = 100+30+0 = 130",
+    "title": "Types of Fractions: Proper, Improper & Mixed Numbers",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Types of Fractions\nhttps://www.youtube.com/watch?v=17IgK9b6P2M\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nPROPER FRACTION — The numerator is SMALLER than the denominator.\n   The fraction is LESS than 1 whole.\n   Examples: 1/2  3/4  5/8  2/3\n   Think: proper = small top, big bottom.\n\nIMPROPER FRACTION — The numerator is EQUAL TO or LARGER than the denominator.\n   The fraction equals OR is MORE than 1 whole.\n   Examples: 5/4  7/3  9/9  11/6\n   Think: improper = big top (or equal top and bottom).\n\nMIXED NUMBER — A WHOLE NUMBER combined with a proper fraction.\n   It shows the same amount as an improper fraction but in a friendlier way.\n   Examples: 1 1/2 (one and a half)   2 3/4 (two and three-fourths)\n\nCONVERTING IMPROPER ↔ MIXED:\n   IMPROPER → MIXED: Divide numerator by denominator.\n      7/3 → 7 ÷ 3 = 2 remainder 1 → write as 2 1/3\n   MIXED → IMPROPER: Multiply whole × denominator, then add numerator.\n      2 1/3 → (2×3)+1 = 7 → write as 7/3",
     "questions": [
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 564.",
-        "acceptableAnswers": ["500"]
+        "prompt": "Is 3/4 a PROPER or IMPROPER fraction?",
+        "acceptableAnswers": [
+          "proper"
+        ]
       },
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 391.",
-        "acceptableAnswers": ["300"]
+        "prompt": "Is 9/4 a PROPER or IMPROPER fraction?",
+        "acceptableAnswers": [
+          "improper"
+        ]
       },
       {
-        "prompt": "UNKNOWN NUMBER: 36 + ? = 91. What is the missing number?",
-        "acceptableAnswers": ["55"]
+        "prompt": "Is 6/6 a PROPER or IMPROPER fraction?",
+        "acceptableAnswers": [
+          "improper",
+          "improper because numerator equals denominator"
+        ]
       },
       {
-        "prompt": "UNKNOWN NUMBER: B - 28 = 100. What is B?",
-        "acceptableAnswers": ["128"]
+        "prompt": "Write 7/3 as a MIXED NUMBER. (Hint: 7 ÷ 3 = ?)",
+        "acceptableAnswers": [
+          "2 1/3",
+          "2 and 1/3"
+        ]
       },
       {
-        "prompt": "INVERSE: What is the inverse operation of subtraction?",
-        "acceptableAnswers": ["addition"]
+        "prompt": "Write 9/4 as a MIXED NUMBER.",
+        "acceptableAnswers": [
+          "2 1/4",
+          "2 and 1/4"
+        ]
       },
       {
-        "prompt": "INVERSE: What is the inverse operation of division?",
-        "acceptableAnswers": ["multiplication"]
+        "prompt": "Write 11/3 as a MIXED NUMBER.",
+        "acceptableAnswers": [
+          "3 2/3",
+          "3 and 2/3"
+        ]
       },
       {
-        "prompt": "CHECK: You solved 36 + 55 = 91. Write a subtraction equation to check it.",
-        "acceptableAnswers": ["91 - 55 = 36", "91 - 36 = 55"]
+        "prompt": "Write the mixed number 1 1/2 as an IMPROPER fraction. (Hint: 1×2+1=3)",
+        "acceptableAnswers": [
+          "3/2"
+        ]
       },
       {
-        "prompt": "DECOMPOSE: Solve 785 - 423 using expanded form. What is the answer?",
-        "acceptableAnswers": ["362"]
+        "prompt": "Write the mixed number 2 3/4 as an IMPROPER fraction.",
+        "acceptableAnswers": [
+          "11/4"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A library has 423 books and room for 785. How many more books can fit?",
-        "acceptableAnswers": ["362"]
+        "prompt": "Write the mixed number 3 1/5 as an IMPROPER fraction.",
+        "acceptableAnswers": [
+          "16/5"
+        ]
       },
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 728.",
-        "acceptableAnswers": ["700"]
+        "prompt": "Name the type: 5/5. (proper, improper, or mixed number?)",
+        "acceptableAnswers": [
+          "improper"
+        ]
       },
       {
-        "prompt": "ESTIMATION: Use front-end estimation on 219.",
-        "acceptableAnswers": ["200"]
+        "prompt": "Name the type: 2 3/8. (proper, improper, or mixed number?)",
+        "acceptableAnswers": [
+          "mixed number",
+          "mixed"
+        ]
       },
       {
-        "prompt": "ESTIMATION: A class has 387 stickers. About how many is that using front-end estimation?",
-        "acceptableAnswers": ["300"]
+        "prompt": "Name the type: 4/9. (proper, improper, or mixed number?)",
+        "acceptableAnswers": [
+          "proper"
+        ]
       },
       {
-        "prompt": "UNKNOWN NUMBER: 42 + ? = 90. What is the missing number?",
-        "acceptableAnswers": ["48"]
+        "prompt": "Write 13/5 as a MIXED NUMBER.",
+        "acceptableAnswers": [
+          "2 3/5",
+          "2 and 3/5"
+        ]
       },
       {
-        "prompt": "UNKNOWN NUMBER: C + 35 = 100. What is C?",
-        "acceptableAnswers": ["65"]
+        "prompt": "Write the mixed number 4 1/3 as an IMPROPER fraction.",
+        "acceptableAnswers": [
+          "13/3"
+        ]
       },
       {
-        "prompt": "UNKNOWN NUMBER: 200 - ? = 80. What is the missing number?",
-        "acceptableAnswers": ["120"]
+        "prompt": "Which fraction is greater than 1 whole: 3/4 or 5/4?",
+        "acceptableAnswers": [
+          "5/4"
+        ]
       },
       {
-        "prompt": "INVERSE: Write a related subtraction fact for 48 + 35 = 83.",
-        "acceptableAnswers": ["83 - 35 = 48", "83 - 48 = 35"]
+        "prompt": "Which fraction is less than 1 whole: 7/8 or 8/7?",
+        "acceptableAnswers": [
+          "7/8"
+        ]
       },
       {
-        "prompt": "DECOMPOSE: Solve 654 - 432 using expanded form. What is the answer?",
-        "acceptableAnswers": ["222"]
+        "prompt": "WORD PROBLEM: Zara ate 7/4 of a brownie (she had more than one piece). Write this as a mixed number.",
+        "acceptableAnswers": [
+          "1 3/4",
+          "1 and 3/4"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Sara had 532 stickers. She gave 211 to friends. How many does she have left?",
-        "acceptableAnswers": ["321"]
+        "prompt": "WORD PROBLEM: A recipe needs 2 1/2 cups of flour. Write this as an improper fraction.",
+        "acceptableAnswers": [
+          "5/2"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Ali drove 245 miles on Monday and 167 miles on Tuesday. Estimate the total using front-end estimation.",
-        "acceptableAnswers": ["300"]
+        "prompt": "WORD PROBLEM: Omar ran 9/2 laps around the track. How many full laps did he complete? Write the mixed number.",
+        "acceptableAnswers": [
+          "4 1/2",
+          "4 and 1/2"
+        ]
       },
       {
-        "prompt": "CHALLENGE: m - 47 = 153. What is m?",
-        "acceptableAnswers": ["200"]
+        "prompt": "CHALLENGE: Why is 4/4 called an improper fraction even though it equals exactly 1? Explain in one sentence.",
+        "acceptableAnswers": [
+          "because the numerator equals the denominator",
+          "because numerator is not less than denominator",
+          "it equals a whole number"
+        ]
       }
     ]
   },
   {
     "id": "math-day3",
     "type": "🔢 Math Day 3",
-    "title": "Multiplication: Arrays, Repeated Addition & Doubles",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. MULTIPLICATION\nAdding the same number over and over, but faster!\n   3 x 4 = 12 means 3 groups of 4.\n\n2. REPEATED ADDITION\n   3 x 4 = 4 + 4 + 4 = 12\n\n3. ARRAY\nObjects in ROWS (left to right) and COLUMNS (up and down).\n   3x4 array = 3 rows, 4 columns = 12 total.\n\n4. DOUBLES\nMultiplying by 2 or adding a number to itself.\n   8 + 8 = 16  and  8 x 2 = 16",
+    "title": "Equivalent Fractions",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Equivalent Fractions (search on YouTube or visit mathantics.com)\nhttps://www.youtube.com/watch?v=jFPCkFnSqjk\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nEQUIVALENT FRACTIONS — Fractions that look different but have the SAME VALUE.\n   1/2 = 2/4 = 3/6 = 4/8   (all equal one-half!)\n   Think: same SIZE slice, just cut into more pieces.\n\nHOW TO FIND EQUIVALENT FRACTIONS:\n   Multiply OR divide BOTH top and bottom by the SAME number.\n\n   MULTIPLY UP:   1/3 × 2/2 = 2/6    (multiply top AND bottom by 2)\n                  1/3 × 3/3 = 3/9    (multiply top AND bottom by 3)\n\n   DIVIDE DOWN:   6/8 ÷ 2/2 = 3/4    (divide top AND bottom by 2)\n                  4/6 ÷ 2/2 = 2/3    (divide top AND bottom by 2)\n\nREMEMBER: You must do the SAME thing to both top and bottom!\n   This is like multiplying or dividing by 1, so the value never changes.",
     "questions": [
       {
-        "prompt": "REPEATED ADDITION: Write 4 x 5 as repeated addition.",
-        "acceptableAnswers": ["5+5+5+5", "5 + 5 + 5 + 5"]
+        "prompt": "Are 1/2 and 2/4 equivalent? Write YES or NO.",
+        "acceptableAnswers": [
+          "yes"
+        ]
       },
       {
-        "prompt": "MULTIPLICATION: What is 5 x 8?",
-        "acceptableAnswers": ["40"]
+        "prompt": "Are 2/3 and 3/4 equivalent? Write YES or NO.",
+        "acceptableAnswers": [
+          "no"
+        ]
       },
       {
-        "prompt": "MULTIPLICATION: What is 7 x 9?",
-        "acceptableAnswers": ["63"]
+        "prompt": "Write an equivalent fraction for 1/2 by multiplying by 3/3.",
+        "acceptableAnswers": [
+          "3/6"
+        ]
       },
       {
-        "prompt": "ARRAY: An array has 4 rows and 5 columns. Write the equation and answer.",
-        "acceptableAnswers": ["4 x 5 = 20", "20"]
+        "prompt": "Write an equivalent fraction for 1/4 by multiplying by 2/2.",
+        "acceptableAnswers": [
+          "2/8"
+        ]
       },
       {
-        "prompt": "ARRAY: A garden has 3 rows of 7 flowers. How many flowers total?",
-        "acceptableAnswers": ["21"]
+        "prompt": "Write an equivalent fraction for 2/3 by multiplying by 3/3.",
+        "acceptableAnswers": [
+          "6/9"
+        ]
       },
       {
-        "prompt": "DOUBLES: What is 8 doubled?",
-        "acceptableAnswers": ["16"]
+        "prompt": "Simplify 4/8 by dividing top and bottom by 4. What do you get?",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "DOUBLES: What is 11 x 2?",
-        "acceptableAnswers": ["22"]
+        "prompt": "Simplify 6/9 by dividing top and bottom by 3. What do you get?",
+        "acceptableAnswers": [
+          "2/3"
+        ]
       },
       {
-        "prompt": "MULTIPLES: List the first 5 multiples of 5.",
-        "acceptableAnswers": ["5 10 15 20 25", "5, 10, 15, 20, 25"]
+        "prompt": "Simplify 8/12 by dividing top and bottom by 4. What do you get?",
+        "acceptableAnswers": [
+          "2/3"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Tom plants 6 rows with 5 seeds each. How many seeds total?",
-        "acceptableAnswers": ["30"]
+        "prompt": "Fill in the blank: 1/3 = ?/9",
+        "acceptableAnswers": [
+          "3",
+          "3/9"
+        ]
       },
       {
-        "prompt": "MULTIPLICATION: What is 6 x 6?",
-        "acceptableAnswers": ["36"]
+        "prompt": "Fill in the blank: 3/4 = ?/12",
+        "acceptableAnswers": [
+          "9",
+          "9/12"
+        ]
       },
       {
-        "prompt": "MULTIPLICATION: What is 8 x 7?",
-        "acceptableAnswers": ["56"]
+        "prompt": "Fill in the blank: 2/5 = ?/10",
+        "acceptableAnswers": [
+          "4",
+          "4/10"
+        ]
       },
       {
-        "prompt": "MULTIPLICATION: What is 3 x 9?",
-        "acceptableAnswers": ["27"]
+        "prompt": "Fill in the blank: 4/6 = 2/?",
+        "acceptableAnswers": [
+          "3",
+          "2/3"
+        ]
       },
       {
-        "prompt": "REPEATED ADDITION: Write 7 x 3 as repeated addition and solve.",
-        "acceptableAnswers": ["3+3+3+3+3+3+3=21", "3+3+3+3+3+3+3", "21"]
+        "prompt": "Are 3/4 and 6/8 equivalent? Write YES or NO and explain.",
+        "acceptableAnswers": [
+          "yes",
+          "yes 3/4 x 2/2 = 6/8",
+          "yes they are the same value"
+        ]
       },
       {
-        "prompt": "ARRAY: Draw (describe) an array for 3 x 8. How many objects total?",
-        "acceptableAnswers": ["24", "3 rows 8 columns 24"]
+        "prompt": "Are 2/5 and 4/9 equivalent? Write YES or NO.",
+        "acceptableAnswers": [
+          "no"
+        ]
       },
       {
-        "prompt": "ARRAY: A box has 5 rows and 6 columns of donuts. How many donuts are there?",
-        "acceptableAnswers": ["30"]
+        "prompt": "List TWO fractions that are equivalent to 1/2.",
+        "acceptableAnswers": [
+          "2/4 and 3/6",
+          "2/4 3/6",
+          "3/6 and 4/8"
+        ]
       },
       {
-        "prompt": "DOUBLES: What is 15 doubled?",
-        "acceptableAnswers": ["30"]
+        "prompt": "List TWO fractions that are equivalent to 2/3.",
+        "acceptableAnswers": [
+          "4/6 and 6/9",
+          "4/6 6/9",
+          "6/9 and 8/12"
+        ]
       },
       {
-        "prompt": "MULTIPLES: Is 28 a multiple of 7? Write YES or NO and explain.",
-        "acceptableAnswers": ["yes", "yes 7 x 4 = 28"]
+        "prompt": "WORD PROBLEM: Sara says 2/4 of her sandwich is gone. Leila says she ate 1/2 of hers. Did they eat the same fraction? Write YES or NO.",
+        "acceptableAnswers": [
+          "yes",
+          "yes 2/4 equals 1/2"
+        ]
       },
       {
-        "prompt": "MULTIPLES: List the first 5 multiples of 3.",
-        "acceptableAnswers": ["3 6 9 12 15", "3, 6, 9, 12, 15"]
+        "prompt": "WORD PROBLEM: A recipe uses 3/6 cup of sugar. Write this fraction in its simplest form.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Each shelf holds 7 books. The library has 8 shelves. How many books total?",
-        "acceptableAnswers": ["56"]
+        "prompt": "WORD PROBLEM: Tariq walked 4/8 of a mile. Write the simplest equivalent fraction.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Lisa earns $9 every hour. After 6 hours, how much has she earned?",
-        "acceptableAnswers": ["54", "$54"]
+        "prompt": "CHALLENGE: If 3/4 = n/12, what is n?",
+        "acceptableAnswers": [
+          "9"
+        ]
       }
     ]
   },
   {
     "id": "math-day4",
     "type": "🔢 Math Day 4",
-    "title": "Multiplication Properties",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. COMMUTATIVE PROPERTY\nOrder does NOT matter when multiplying.\n   3 x 4 = 12  AND  4 x 3 = 12 (same answer!)\n\n2. ZERO PROPERTY\nAny number x 0 = 0.\n   5 x 0 = 0.  999 x 0 = 0.\n\n3. IDENTITY PROPERTY\nAny number x 1 = that number.\n   225 x 1 = 225.  7 x 1 = 7.\n\n4. DISTRIBUTIVE PROPERTY\nBreak one factor into a sum of two smaller facts.\n   6 x 4 = (3 x 4) + (3 x 4) = 12 + 12 = 24",
+    "title": "Simplifying Fractions",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Simplifying Fractions\nhttps://www.youtube.com/watch?v=AtBUQH8Tkqc\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nSIMPLEST FORM / SIMPLIFYING — Making a fraction as small and simple as possible.\n   A fraction is in SIMPLEST FORM when there is no number (except 1)\n   that divides evenly into BOTH the top and bottom.\n\nGREATEST COMMON FACTOR (GCF) — The biggest number that divides evenly\n   into BOTH the numerator and denominator.\n   This is the number you divide by to simplify.\n\nSTEP-BY-STEP:\n   1. Find the GCF of the numerator and denominator.\n   2. Divide BOTH by the GCF.\n   3. The result is the fraction in simplest form.\n\nEXAMPLES:\n   Simplify 4/8:\n      Factors of 4: 1, 2, 4\n      Factors of 8: 1, 2, 4, 8\n      GCF = 4  →  4÷4 / 8÷4  =  1/2  ✓\n\n   Simplify 6/9:\n      GCF of 6 and 9 = 3  →  6÷3 / 9÷3  =  2/3  ✓\n\n   Simplify 10/15:\n      GCF of 10 and 15 = 5  →  10÷5 / 15÷5  =  2/3  ✓\n\nTIP: If both numbers are even, start by dividing by 2.",
     "questions": [
       {
-        "prompt": "COMMUTATIVE: If 5 x 8 = 40, what is 8 x 5?",
-        "acceptableAnswers": ["40"]
+        "prompt": "What is the GCF of 4 and 8?",
+        "acceptableAnswers": [
+          "4"
+        ]
       },
       {
-        "prompt": "COMMUTATIVE: Write the commutative partner of 7 x 4 = 28.",
-        "acceptableAnswers": ["4 x 7 = 28", "4x7=28"]
+        "prompt": "What is the GCF of 6 and 9?",
+        "acceptableAnswers": [
+          "3"
+        ]
       },
       {
-        "prompt": "ZERO PROPERTY: What is 75 x 0?",
-        "acceptableAnswers": ["0", "zero"]
+        "prompt": "What is the GCF of 10 and 15?",
+        "acceptableAnswers": [
+          "5"
+        ]
       },
       {
-        "prompt": "IDENTITY PROPERTY: What is 482 x 1?",
-        "acceptableAnswers": ["482"]
+        "prompt": "Simplify 2/4 to its simplest form.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "IDENTITY PROPERTY: What number multiplied by ANY number gives that number back?",
-        "acceptableAnswers": ["1", "one"]
+        "prompt": "Simplify 4/8 to its simplest form.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 8 x 4. Show your two smaller facts.",
-        "acceptableAnswers": ["32", "(4x4)+(4x4)=32", "4x4+4x4=32"]
+        "prompt": "Simplify 3/9 to its simplest form.",
+        "acceptableAnswers": [
+          "1/3"
+        ]
       },
       {
-        "prompt": "EXPRESSION vs EQUATION: Is '5 x m' an expression or an equation?",
-        "acceptableAnswers": ["expression"]
+        "prompt": "Simplify 6/8 to its simplest form.",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "EQUATION: Solve: 5 x n = 25. What is n?",
-        "acceptableAnswers": ["5"]
+        "prompt": "Simplify 4/6 to its simplest form.",
+        "acceptableAnswers": [
+          "2/3"
+        ]
       },
       {
-        "prompt": "COMMUTATIVE: Write two multiplication facts that show the commutative property using 6 and 4.",
-        "acceptableAnswers": ["6 x 4 = 24 and 4 x 6 = 24", "6x4=24 4x6=24"]
+        "prompt": "Simplify 5/10 to its simplest form.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "ZERO PROPERTY: What is 500 x 0?",
-        "acceptableAnswers": ["0", "zero"]
+        "prompt": "Simplify 8/12 to its simplest form.",
+        "acceptableAnswers": [
+          "2/3"
+        ]
       },
       {
-        "prompt": "IDENTITY PROPERTY: What is 1 x 999?",
-        "acceptableAnswers": ["999"]
+        "prompt": "Simplify 6/10 to its simplest form.",
+        "acceptableAnswers": [
+          "3/5"
+        ]
       },
       {
-        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 9 x 5. Break it into two smaller facts.",
-        "acceptableAnswers": ["45", "(5x5)+(4x5)=45"]
+        "prompt": "Simplify 9/12 to its simplest form.",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "DISTRIBUTIVE: Use the distributive property to solve 6 x 8.",
-        "acceptableAnswers": ["48", "(3x8)+(3x8)=48"]
+        "prompt": "Is 3/7 already in simplest form? Write YES or NO and explain why.",
+        "acceptableAnswers": [
+          "yes",
+          "yes gcf is 1",
+          "yes no common factor except 1"
+        ]
       },
       {
-        "prompt": "EQUATION: 8 x n = 56. What is n?",
-        "acceptableAnswers": ["7"]
+        "prompt": "Is 4/10 in simplest form? Write YES or NO.",
+        "acceptableAnswers": [
+          "no",
+          "no it can be simplified to 2/5"
+        ]
       },
       {
-        "prompt": "EQUATION: 4 x n = 36. What is n?",
-        "acceptableAnswers": ["9"]
+        "prompt": "Simplify 10/20 to its simplest form.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "EQUATION: n x 7 = 49. What is n?",
-        "acceptableAnswers": ["7"]
+        "prompt": "Simplify 12/16 to its simplest form.",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Each pack holds 6 pencils. There are 8 packs. Write a multiplication equation and solve.",
-        "acceptableAnswers": ["8 x 6 = 48", "48"]
+        "prompt": "WORD PROBLEM: Lena ate 6 out of 9 grapes. Write and simplify the fraction she ate.",
+        "acceptableAnswers": [
+          "6/9 simplifies to 2/3",
+          "2/3"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A garden has 7 rows of carrots with 8 carrots in each row. How many carrots in all?",
-        "acceptableAnswers": ["56"]
+        "prompt": "WORD PROBLEM: A class of 12 students has 8 who brought lunch. Write and simplify the fraction who brought lunch.",
+        "acceptableAnswers": [
+          "8/12 simplifies to 2/3",
+          "2/3"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Tony says 4 x 1 = 1. Is he correct? Explain which property applies.",
-        "acceptableAnswers": ["no identity property", "no 4 x 1 = 4 identity property", "incorrect identity property"]
+        "prompt": "WORD PROBLEM: Ali finished 10 out of 15 math problems. Write and simplify the fraction he finished.",
+        "acceptableAnswers": [
+          "10/15 simplifies to 2/3",
+          "2/3"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Write your own equation using the zero property and solve it.",
-        "acceptableAnswers": []
+        "prompt": "CHALLENGE: What is the GCF of 12 and 18? Use it to simplify 12/18.",
+        "acceptableAnswers": [
+          "gcf 6 simplifies to 2/3",
+          "6 and 2/3",
+          "2/3"
+        ]
       }
     ]
   },
   {
     "id": "math-day5",
     "type": "🔢 Math Day 5",
-    "title": "Division: Fact Families & Repeated Subtraction",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. DIVISION\nSeparating a whole amount into EQUAL parts.\n   20 / 4 = 5 means 20 split into 4 groups = 5 in each.\n\n2. DIVIDEND / DIVISOR / QUOTIENT\n   20 / 4 = 5\n   20 = DIVIDEND (number being split)\n   4  = DIVISOR (number of groups)\n   5  = QUOTIENT (number in each group)\n\n3. FACT FAMILY\nAll related x and / facts for the same 3 numbers.\n   2 x 4 = 8 | 4 x 2 = 8 | 8 / 4 = 2 | 8 / 2 = 4\n\n4. REPEATED SUBTRACTION\nSubtract the same number over and over until you reach 0.\n   12 / 3: 12-3=9, 9-3=6, 6-3=3, 3-3=0. Answer = 4.",
+    "title": "Comparing Fractions",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Comparing Fractions\nhttps://www.youtube.com/watch?v=KNdUJQ_qd4U\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nCOMPARING FRACTIONS — Finding out which fraction is bigger, smaller, or equal.\n   Use the symbols:  >  (greater than)  <  (less than)  =  (equal to)\n\nRULE 1 — SAME DENOMINATOR:\n   When the denominators are the SAME, just compare the numerators!\n   3/8  vs  5/8  →  3 < 5  so  3/8 < 5/8\n\nRULE 2 — SAME NUMERATOR:\n   When the numerators are the SAME, the fraction with the SMALLER denominator is BIGGER.\n   (Fewer cuts = bigger pieces!)\n   1/3  vs  1/5  →  thirds are bigger than fifths  so  1/3 > 1/5\n\nRULE 3 — DIFFERENT TOP AND BOTTOM:\n   Find a COMMON DENOMINATOR first, then compare.\n   2/3 vs 3/4:\n      Common denominator = 12\n      2/3 = 8/12   and   3/4 = 9/12\n      8/12 < 9/12   so   2/3 < 3/4\n\nBENCHMARK: Compare to 1/2 to get a quick sense.\n   Less than 1/2 = small.   More than 1/2 = large.",
     "questions": [
       {
-        "prompt": "DIVISION: What is 30 divided by 5?",
-        "acceptableAnswers": ["6"]
+        "prompt": "Compare using > or < :  3/8  ___  5/8",
+        "acceptableAnswers": [
+          "<",
+          "3/8 < 5/8"
+        ]
       },
       {
-        "prompt": "DIVISION: What is 48 divided by 6?",
-        "acceptableAnswers": ["8"]
+        "prompt": "Compare using > or < :  7/10  ___  3/10",
+        "acceptableAnswers": [
+          ">",
+          "7/10 > 3/10"
+        ]
       },
       {
-        "prompt": "DIVIDEND: In 25 / 5 = 5, which number is the dividend?",
-        "acceptableAnswers": ["25"]
+        "prompt": "Compare using > or < :  1/3  ___  1/5  (same numerator — think about which piece is bigger)",
+        "acceptableAnswers": [
+          ">",
+          "1/3 > 1/5"
+        ]
       },
       {
-        "prompt": "DIVISOR: In 25 / 5 = 5, which number is the divisor?",
-        "acceptableAnswers": ["5"]
+        "prompt": "Compare using > or < :  1/4  ___  1/6",
+        "acceptableAnswers": [
+          ">",
+          "1/4 > 1/6"
+        ]
       },
       {
-        "prompt": "QUOTIENT: In 25 / 5 = 5, which number is the quotient?",
-        "acceptableAnswers": ["5"]
+        "prompt": "Compare: 2/3 and 3/4. First find a common denominator (12), then compare.",
+        "acceptableAnswers": [
+          "2/3 < 3/4",
+          "<",
+          "less than"
+        ]
       },
       {
-        "prompt": "FACT FAMILY: Write all 4 facts for the numbers 4, 6, and 24.",
-        "acceptableAnswers": ["4x6=24 6x4=24 24/6=4 24/4=6", "4x6=24"]
+        "prompt": "Compare: 1/2 and 2/4. Are they equal? Write YES or NO.",
+        "acceptableAnswers": [
+          "yes",
+          "=",
+          "they are equal"
+        ]
       },
       {
-        "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 15 / 5. How many times did you subtract?",
-        "acceptableAnswers": ["3 times", "3"]
+        "prompt": "Compare using > or < :  3/5  ___  4/5",
+        "acceptableAnswers": [
+          "<",
+          "3/5 < 4/5"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: 32 cookies shared equally among 4 friends. How many does each friend get?",
-        "acceptableAnswers": ["8"]
+        "prompt": "Compare using > or < :  5/6  ___  5/8  (same numerator)",
+        "acceptableAnswers": [
+          ">",
+          "5/6 > 5/8"
+        ]
       },
       {
-        "prompt": "DIVISION: What is 54 divided by 6?",
-        "acceptableAnswers": ["9"]
+        "prompt": "Compare: 3/4 and 5/8. Convert 3/4 to eighths first.",
+        "acceptableAnswers": [
+          "3/4 > 5/8",
+          ">",
+          "greater than"
+        ]
       },
       {
-        "prompt": "DIVISION: What is 64 divided by 8?",
-        "acceptableAnswers": ["8"]
+        "prompt": "Compare using > or < :  2/5  ___  4/10",
+        "acceptableAnswers": [
+          "=",
+          "2/5 = 4/10",
+          "they are equal"
+        ]
       },
       {
-        "prompt": "DIVISION: What is 81 divided by 9?",
-        "acceptableAnswers": ["9"]
+        "prompt": "Order these fractions from SMALLEST to LARGEST: 3/4, 1/4, 2/4",
+        "acceptableAnswers": [
+          "1/4 2/4 3/4",
+          "1/4, 2/4, 3/4"
+        ]
       },
       {
-        "prompt": "DIVISION: What is 49 divided by 7?",
-        "acceptableAnswers": ["7"]
+        "prompt": "Order these fractions from SMALLEST to LARGEST: 1/2, 1/6, 1/3",
+        "acceptableAnswers": [
+          "1/6 1/3 1/2",
+          "1/6, 1/3, 1/2"
+        ]
       },
       {
-        "prompt": "DIVIDEND/DIVISOR/QUOTIENT: In 42 / 6 = 7, name the dividend, divisor, and quotient.",
-        "acceptableAnswers": ["dividend 42 divisor 6 quotient 7", "42 6 7"]
+        "prompt": "Is 3/4 greater than or less than 1/2? Write > or <.",
+        "acceptableAnswers": [
+          ">",
+          "3/4 > 1/2"
+        ]
       },
       {
-        "prompt": "FACT FAMILY: Write all 4 facts for the numbers 5, 8, and 40.",
-        "acceptableAnswers": ["5x8=40 8x5=40 40/8=5 40/5=8", "5x8=40"]
+        "prompt": "Is 2/8 greater than or less than 1/2? Write > or <.",
+        "acceptableAnswers": [
+          "<",
+          "2/8 < 1/2"
+        ]
       },
       {
-        "prompt": "FACT FAMILY: Write all 4 facts for 3, 9, and 27.",
-        "acceptableAnswers": ["3x9=27 9x3=27 27/9=3 27/3=9", "3x9=27"]
+        "prompt": "Compare: 3/5 and 7/10. Convert 3/5 to tenths first.",
+        "acceptableAnswers": [
+          "3/5 < 7/10",
+          "<",
+          "less than",
+          "6/10 < 7/10"
+        ]
       },
       {
-        "prompt": "REPEATED SUBTRACTION: Use repeated subtraction to solve 24 / 6. Show each step.",
-        "acceptableAnswers": ["4", "24-6=18 18-6=12 12-6=6 6-6=0 answer 4"]
+        "prompt": "Which fraction is LARGEST: 3/8, 3/4, or 3/6?",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: 45 books are placed equally on 5 shelves. How many books are on each shelf?",
-        "acceptableAnswers": ["9"]
+        "prompt": "WORD PROBLEM: Nadia drank 2/3 of her water. Sara drank 3/4 of hers. Who drank MORE? (Find a common denominator: 12)",
+        "acceptableAnswers": [
+          "sara",
+          "sara drank more",
+          "sara 3/4 > 2/3"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A baker has 36 muffins to put in boxes of 4. How many boxes does he need?",
-        "acceptableAnswers": ["9"]
+        "prompt": "WORD PROBLEM: A cat ate 5/8 of its food. A dog ate 3/4 of its food. Who ate MORE? (Convert 3/4 to eighths)",
+        "acceptableAnswers": [
+          "dog",
+          "dog ate more",
+          "dog 3/4 = 6/8 > 5/8"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: 56 candies shared equally among 8 children. How many does each child get?",
-        "acceptableAnswers": ["7"]
+        "prompt": "WORD PROBLEM: Amir read 2/3 of a book. His sister read 3/5 of the same book. Who read MORE?",
+        "acceptableAnswers": [
+          "amir",
+          "amir read more",
+          "2/3 > 3/5"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Is 72 / 9 the same as 72 / 8? Write YES or NO and explain.",
-        "acceptableAnswers": ["no", "no 72/9=8 and 72/8=9 they are different"]
+        "prompt": "CHALLENGE: Between 5/6 and 7/8, which is closer to 1 whole? Use a common denominator to prove it.",
+        "acceptableAnswers": [
+          "7/8",
+          "7/8 is closer to 1",
+          "7/8 because 21/24 > 20/24"
+        ]
       }
     ]
   },
   {
     "id": "math-day6",
     "type": "🔢 Math Day 6",
-    "title": "2D Shapes: Triangles, Quadrilaterals & Angles",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. TRIANGLES\nA 2-D closed shape with exactly 3 sides and 3 angles.\n   Equilateral Triangle = ALL 3 sides are equal.\n\n2. QUADRILATERAL\nAny polygon with FOUR sides.\n   Types: Square, Rectangle, Rhombus, Parallelogram, Trapezoid, Kite.\n\n3. ANGLE & RIGHT ANGLE\n   Angle = formed when two line segments meet at a vertex.\n   Right Angle = exactly 90 degrees (looks like a square corner).\n\n4. VERTEX (plural VERTICES)\n   The corner where two or more sides meet.\n   Triangle = 3 vertices.  Square = 4 vertices.",
+    "title": "Fractions on a Number Line",
+    "description": "Read the Key Vocabulary and answer the questions. Use the number line in your head or draw one on paper!",
+    "story": "📺 WATCH FIRST!\nKhan Academy — Fractions on a Number Line\nhttps://www.youtube.com/watch?v=Vmu3X4FVbSY\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nNUMBER LINE — A line with numbers in order, evenly spaced.\n   Fractions live BETWEEN 0 and 1 (and beyond 1)!\n\nHOW TO PLACE A FRACTION:\n   The denominator tells you HOW MANY equal parts to split the space between whole numbers.\n   The numerator tells you HOW MANY of those parts to count.\n\nEXAMPLE: Place 3/4 on a number line:\n   The denominator is 4, so split 0 to 1 into 4 equal parts.\n   Count 3 parts from 0:  0 --- 1/4 --- 2/4 --- 3/4 --- 4/4(=1)\n   3/4 is 3 steps from 0.\n\nEXAMPLE: Place 5/3 on a number line:\n   5/3 is an improper fraction (bigger than 1).\n   5/3 = 1 whole + 2/3 more → it sits between 1 and 2 on the number line.\n\nFRACTIONS BETWEEN WHOLE NUMBERS:\n   All proper fractions (like 1/4, 2/3) are between 0 and 1.\n   1 1/2 is between 1 and 2.  2 3/4 is between 2 and 3.",
     "questions": [
       {
-        "prompt": "TRIANGLE: A triangle is a closed shape with how many sides?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "On a number line from 0 to 1, I split it into 4 equal parts. What fraction is the FIRST mark after 0?",
+        "acceptableAnswers": [
+          "1/4",
+          "one fourth"
+        ]
       },
       {
-        "prompt": "EQUILATERAL TRIANGLE: What does 'equilateral' mean about its sides?",
-        "acceptableAnswers": ["all sides equal", "all 3 sides are the same length", "same length sides"]
+        "prompt": "On a number line from 0 to 1, I split it into 4 equal parts. What fraction is the mark JUST BEFORE 1?",
+        "acceptableAnswers": [
+          "3/4",
+          "three fourths"
+        ]
       },
       {
-        "prompt": "QUADRILATERAL: A quadrilateral is a polygon with how many sides?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "On a number line from 0 to 1, I split it into 3 equal parts. What is the MIDDLE mark?",
+        "acceptableAnswers": [
+          "1/3",
+          "one third"
+        ]
       },
       {
-        "prompt": "QUADRILATERAL: Name THREE different shapes that are quadrilaterals.",
-        "acceptableAnswers": ["square rectangle rhombus", "square rectangle trapezoid", "rectangle rhombus parallelogram"]
+        "prompt": "On a number line, where does 1/2 always sit?",
+        "acceptableAnswers": [
+          "halfway between 0 and 1",
+          "exactly in the middle",
+          "between 0 and 1"
+        ]
       },
       {
-        "prompt": "RIGHT ANGLE: A right angle measures exactly how many degrees?",
-        "acceptableAnswers": ["90", "90 degrees"]
+        "prompt": "What fraction goes at the mark halfway between 0 and 1/2 on a number line?",
+        "acceptableAnswers": [
+          "1/4",
+          "one fourth"
+        ]
       },
       {
-        "prompt": "VERTICES: How many vertices does a triangle have?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "On a number line from 0 to 1 split into 8 equal parts, what fraction is the 5th mark?",
+        "acceptableAnswers": [
+          "5/8"
+        ]
       },
       {
-        "prompt": "VERTEX: What is a vertex on a shape?",
-        "acceptableAnswers": ["corner", "where two sides meet", "endpoint where two lines meet"]
+        "prompt": "On a number line from 0 to 1 split into 6 equal parts, what fraction is the 2nd mark?",
+        "acceptableAnswers": [
+          "2/6",
+          "1/3"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Is a stop sign a polygon? How many sides does it have?",
-        "acceptableAnswers": ["yes 8", "yes eight sides", "yes octagon 8"]
+        "prompt": "Between which two whole numbers does the fraction 7/5 sit on a number line?",
+        "acceptableAnswers": [
+          "1 and 2",
+          "between 1 and 2"
+        ]
       },
       {
-        "prompt": "TRIANGLE: How many angles does every triangle have?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "Between which two whole numbers does 9/4 sit?",
+        "acceptableAnswers": [
+          "2 and 3",
+          "between 2 and 3"
+        ]
       },
       {
-        "prompt": "TRIANGLE: Can a triangle contain a right angle? Write YES or NO.",
-        "acceptableAnswers": ["yes", "yes it can"]
+        "prompt": "On a number line, is 2/5 closer to 0 or closer to 1?",
+        "acceptableAnswers": [
+          "closer to 0",
+          "0"
+        ]
       },
       {
-        "prompt": "QUADRILATERAL: A shape has 4 sides and 4 right angles. Name TWO possible shapes it could be.",
-        "acceptableAnswers": ["square and rectangle", "rectangle and square"]
+        "prompt": "On a number line, is 4/5 closer to 0 or closer to 1?",
+        "acceptableAnswers": [
+          "closer to 1",
+          "1"
+        ]
       },
       {
-        "prompt": "QUADRILATERAL: How many angles does every quadrilateral have?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "Which point on the number line is FARTHER from 0: 1/4 or 3/4?",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "RIGHT ANGLE: A square has how many right angles?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "If you have a number line from 0 to 2 split into halves, list all the marks in order.",
+        "acceptableAnswers": [
+          "0 1/2 1 3/2 2",
+          "0, 1/2, 1, 1 1/2, 2"
+        ]
       },
       {
-        "prompt": "RIGHT ANGLE: Name a real-world object that has a right angle.",
-        "acceptableAnswers": ["corner of a book", "corner of a door", "corner of a window", "table corner"]
+        "prompt": "On a number line, 3/4 and 6/8 land on the same mark. TRUE or FALSE?",
+        "acceptableAnswers": [
+          "true",
+          "yes they are equivalent"
+        ]
       },
       {
-        "prompt": "POLYGON: Is a circle a polygon? Write YES or NO and explain why.",
-        "acceptableAnswers": ["no", "no it has no straight sides", "no it is curved"]
+        "prompt": "I am a fraction on the number line. I am more than 1/2 but less than 1. My denominator is 4. What fraction am I? (There are two answers.)",
+        "acceptableAnswers": [
+          "3/4",
+          "3/4 or 2/4",
+          "3/4 is greater than 1/2 and less than 1"
+        ]
       },
       {
-        "prompt": "VERTICES: How many vertices does a rectangle have?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "Yasmin says 0/5 is the same point as 0 on the number line. Is she correct? Write YES or NO.",
+        "acceptableAnswers": [
+          "yes",
+          "yes 0/5 = 0"
+        ]
       },
       {
-        "prompt": "SIDE: A side of a polygon must always be what kind of line?",
-        "acceptableAnswers": ["straight", "a straight line"]
+        "prompt": "WORD PROBLEM: On a hiking trail of 1 mile, markers are placed at each 1/4 mile. How many markers are there between start and finish (not counting start)?",
+        "acceptableAnswers": [
+          "4",
+          "four"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A triangle has sides of 6 cm, 4 cm, and 8 cm. What is its perimeter?",
-        "acceptableAnswers": ["18", "18 cm"]
+        "prompt": "WORD PROBLEM: Rami finished 5/8 of a race. Layla finished 3/8. On a number line, who is FURTHER from the start?",
+        "acceptableAnswers": [
+          "rami",
+          "rami is further",
+          "rami 5/8 > 3/8"
+        ]
       },
       {
-        "prompt": "CHALLENGE: How is a triangle different from a quadrilateral? Write one sentence.",
-        "acceptableAnswers": []
+        "prompt": "WORD PROBLEM: On a ribbon cut into 6 equal parts, I color up to the 4th mark. Write the fraction colored and simplify it.",
+        "acceptableAnswers": [
+          "4/6 simplifies to 2/3",
+          "2/3"
+        ]
       },
       {
-        "prompt": "CHALLENGE: A polygon has 6 sides. What is it called?",
-        "acceptableAnswers": ["hexagon"]
+        "prompt": "CHALLENGE: On a number line, name a fraction that is between 1/3 and 1/2. (Hint: find a common denominator of 6)",
+        "acceptableAnswers": [
+          "2/5",
+          "5/12",
+          "any fraction between 1/3 and 1/2"
+        ]
       }
     ]
   },
   {
     "id": "math-day7",
     "type": "🔢 Math Day 7",
-    "title": "Special Quadrilaterals, Polygons & Parallel Lines",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. SPECIAL QUADRILATERALS\n   Parallelogram = 2 pairs of parallel sides\n   Rhombus = 4 EQUAL sides\n   Square = 4 equal sides AND 4 right angles\n   Rectangle = 4 right angles\n   Trapezoid = only 1 pair of parallel sides\n   Kite = 2 pairs of adjacent equal sides\n\n2. REGULAR vs IRREGULAR POLYGON\n   Regular = ALL equal sides AND all equal angles\n   Irregular = sides or angles NOT all equal\n\n3. CLASSIFY\nSort shapes into groups based on shared attributes.\n\n4. PARALLEL LINES\nLines that always stay the same distance apart and NEVER cross.\n   Like train tracks!",
+    "title": "Adding Fractions with the Same Denominator",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Adding and Subtracting Fractions\nhttps://www.youtube.com/watch?v=5juto2ze8Lg\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nADDING FRACTIONS — When adding fractions with the SAME denominator:\n   Step 1: Keep the denominator THE SAME.\n   Step 2: Add ONLY the numerators.\n   Step 3: Simplify if possible.\n\n   THINK: The denominator tells you the size of each piece.\n          If pieces are the same size, just count (add) them!\n\nEXAMPLES:\n   2/5 + 1/5 = 3/5  (add tops: 2+1=3, keep bottom: 5)\n   3/8 + 4/8 = 7/8\n   4/6 + 2/6 = 6/6 = 1 (the fraction equals 1 whole!)\n\nIF THE SUM IS IMPROPER, convert to a mixed number:\n   5/4 + 3/4 = 8/4 = 2 (divide 8 by 4)\n   3/4 + 3/4 = 6/4 = 1 2/4 = 1 1/2\n\nDO NOT add the denominators!\n   2/5 + 1/5 ≠ 3/10   (this is WRONG!)\n   2/5 + 1/5 = 3/5    (this is CORRECT!)",
     "questions": [
       {
-        "prompt": "What makes a RHOMBUS special compared to other quadrilaterals?",
-        "acceptableAnswers": ["4 equal sides", "all sides are equal"]
+        "prompt": "1/5 + 2/5 = ?",
+        "acceptableAnswers": [
+          "3/5"
+        ]
       },
       {
-        "prompt": "What makes a RECTANGLE special?",
-        "acceptableAnswers": ["4 right angles", "four right angles"]
+        "prompt": "3/8 + 2/8 = ?",
+        "acceptableAnswers": [
+          "5/8"
+        ]
       },
       {
-        "prompt": "How many pairs of parallel sides does a TRAPEZOID have?",
-        "acceptableAnswers": ["1", "one"]
+        "prompt": "2/6 + 3/6 = ?",
+        "acceptableAnswers": [
+          "5/6"
+        ]
       },
       {
-        "prompt": "Is a square a REGULAR polygon? Give a reason.",
-        "acceptableAnswers": ["yes all sides and angles are equal", "yes equal sides and right angles"]
+        "prompt": "1/4 + 2/4 = ?",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "Describe PARALLEL LINES in one sentence.",
-        "acceptableAnswers": ["lines that never meet", "lines that stay the same distance apart", "lines that never cross"]
+        "prompt": "3/10 + 4/10 = ?",
+        "acceptableAnswers": [
+          "7/10"
+        ]
       },
       {
-        "prompt": "CLASSIFY: From this list — circle, square, triangle, rectangle — which are polygons?",
-        "acceptableAnswers": ["square triangle rectangle", "triangle square and rectangle"]
+        "prompt": "2/9 + 5/9 = ?",
+        "acceptableAnswers": [
+          "7/9"
+        ]
       },
       {
-        "prompt": "What is the difference between a PARALLELOGRAM and a RHOMBUS?",
-        "acceptableAnswers": ["rhombus has 4 equal sides", "rhombus all sides equal parallelogram does not"]
+        "prompt": "4/7 + 2/7 = ?",
+        "acceptableAnswers": [
+          "6/7"
+        ]
       },
       {
-        "prompt": "PARALLELOGRAM: How many pairs of parallel sides does a parallelogram have?",
-        "acceptableAnswers": ["2", "two"]
+        "prompt": "3/6 + 3/6 = ? (Simplify your answer!)",
+        "acceptableAnswers": [
+          "1",
+          "6/6",
+          "one whole"
+        ]
       },
       {
-        "prompt": "RHOMBUS: How many sides does a rhombus have, and what is special about them?",
-        "acceptableAnswers": ["4 equal sides", "four equal sides", "all 4 sides are equal"]
+        "prompt": "5/8 + 4/8 = ? (Write as a mixed number if needed)",
+        "acceptableAnswers": [
+          "9/8",
+          "1 1/8",
+          "1 and 1/8"
+        ]
       },
       {
-        "prompt": "SQUARE: How is a square different from a rhombus?",
-        "acceptableAnswers": ["a square has 4 right angles", "square has right angles rhombus does not always"]
+        "prompt": "3/4 + 3/4 = ? (Simplify if needed)",
+        "acceptableAnswers": [
+          "6/4",
+          "1 2/4",
+          "1 1/2",
+          "1 and 1/2"
+        ]
       },
       {
-        "prompt": "RECTANGLE: A rectangle has 4 right angles. Are all four sides equal? Write YES or NO.",
-        "acceptableAnswers": ["no", "no opposite sides are equal but not all four"]
+        "prompt": "7/10 + 6/10 = ? (Write as a mixed number)",
+        "acceptableAnswers": [
+          "13/10",
+          "1 3/10",
+          "1 and 3/10"
+        ]
       },
       {
-        "prompt": "TRAPEZOID: What makes a trapezoid different from a parallelogram?",
-        "acceptableAnswers": ["trapezoid has only 1 pair of parallel sides", "parallelogram has 2 pairs"]
+        "prompt": "1/3 + 1/3 = ?",
+        "acceptableAnswers": [
+          "2/3"
+        ]
       },
       {
-        "prompt": "KITE: How many pairs of equal sides does a kite have?",
-        "acceptableAnswers": ["2", "two"]
+        "prompt": "4/12 + 5/12 = ?",
+        "acceptableAnswers": [
+          "9/12",
+          "3/4"
+        ]
       },
       {
-        "prompt": "REGULAR POLYGON: Name TWO examples of regular polygons.",
-        "acceptableAnswers": ["equilateral triangle and square", "square and equilateral triangle"]
+        "prompt": "1/8 + 3/8 + 2/8 = ?",
+        "acceptableAnswers": [
+          "6/8",
+          "3/4"
+        ]
       },
       {
-        "prompt": "IRREGULAR POLYGON: A shape has 4 unequal sides. What is it called?",
-        "acceptableAnswers": ["irregular quadrilateral", "irregular polygon"]
+        "prompt": "3/5 + 4/5 = ? (Write as a mixed number)",
+        "acceptableAnswers": [
+          "7/5",
+          "1 2/5",
+          "1 and 2/5"
+        ]
       },
       {
-        "prompt": "CLASSIFY: From this list — circle, square, triangle, oval — which are polygons?",
-        "acceptableAnswers": ["square triangle", "square and triangle"]
+        "prompt": "2/4 + 1/4 = ? (Simplify your answer!)",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "PARALLEL LINES: Do parallel lines ever meet? Write YES or NO.",
-        "acceptableAnswers": ["no", "no they never meet"]
+        "prompt": "WORD PROBLEM: Layla ate 1/6 of a cake in the morning and 3/6 after lunch. How much of the cake did she eat in total?",
+        "acceptableAnswers": [
+          "4/6",
+          "2/3"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A shape has 4 equal sides and 4 right angles. What shape is it? Is it regular or irregular?",
-        "acceptableAnswers": ["square regular", "it is a square and it is regular"]
+        "prompt": "WORD PROBLEM: Omar walked 2/5 mile to the park, then 2/5 mile to the store. How far did he walk in total?",
+        "acceptableAnswers": [
+          "4/5",
+          "four fifths"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Can a shape be both a rhombus AND a square at the same time? Explain.",
-        "acceptableAnswers": ["yes if it has 4 equal sides and 4 right angles", "yes a square is a special rhombus"]
+        "prompt": "WORD PROBLEM: A pitcher has 3/8 cup of juice. Lena pours in another 4/8 cup. How much juice is in the pitcher now?",
+        "acceptableAnswers": [
+          "7/8"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Explain in one sentence why a square is always a rectangle but a rectangle is not always a square.",
-        "acceptableAnswers": []
+        "prompt": "WORD PROBLEM: Ahmed did 3/10 of his homework in the morning and 5/10 in the afternoon. What fraction is left? (Hint: how much has he done total? Subtract from 10/10)",
+        "acceptableAnswers": [
+          "2/10",
+          "1/5"
+        ]
       }
     ]
   },
   {
     "id": "math-day8",
     "type": "🔢 Math Day 8",
-    "title": "Fractions: Numerator, Denominator & Equivalents",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. FRACTION\nAn amount broken into equal size pieces.\n   Written as: numerator / denominator.  Example: 1/2\n\n2. NUMERATOR\nThe TOP number. Tells HOW MANY parts we have.\n   In 3/6, numerator = 3.\n\n3. DENOMINATOR\nThe BOTTOM number. Tells the TOTAL equal parts in the whole.\n   In 3/6, denominator = 6.\n\n4. EQUIVALENT FRACTIONS\nDifferent fractions that are equal in value.\n   1/2 = 2/4 = 4/8\n   Use > or < to compare fractions.",
+    "title": "Subtracting Fractions with the Same Denominator",
+    "description": "Watch the video first (same video as Day 7), then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Adding and Subtracting Fractions\nhttps://www.youtube.com/watch?v=5juto2ze8Lg\n(Rewatch or continue from where you stopped.)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nSUBTRACTING FRACTIONS — When subtracting fractions with the SAME denominator:\n   Step 1: Keep the denominator THE SAME.\n   Step 2: Subtract ONLY the numerators.\n   Step 3: Simplify if possible.\n\nEXAMPLES:\n   5/8 - 2/8 = 3/8   (subtract tops: 5-2=3, keep bottom: 8)\n   7/9 - 4/9 = 3/9 = 1/3   (then simplify!)\n   1 - 3/4 = 4/4 - 3/4 = 1/4   (write 1 as 4/4 first)\n\nSUBTRACTING FROM A WHOLE NUMBER:\n   To subtract a fraction from 1, rewrite 1 as n/n first.\n   1 - 2/5 = 5/5 - 2/5 = 3/5\n   1 - 7/8 = 8/8 - 7/8 = 1/8",
     "questions": [
       {
-        "prompt": "FRACTION: In 5/8, which number is the numerator?",
-        "acceptableAnswers": ["5"]
+        "prompt": "4/5 - 1/5 = ?",
+        "acceptableAnswers": [
+          "3/5"
+        ]
       },
       {
-        "prompt": "FRACTION: In 5/8, which number is the denominator?",
-        "acceptableAnswers": ["8"]
+        "prompt": "7/8 - 3/8 = ?",
+        "acceptableAnswers": [
+          "4/8",
+          "1/2"
+        ]
       },
       {
-        "prompt": "NUMERATOR: What does the numerator of a fraction tell you?",
-        "acceptableAnswers": ["how many parts", "the number of parts we have"]
+        "prompt": "6/9 - 2/9 = ?",
+        "acceptableAnswers": [
+          "4/9"
+        ]
       },
       {
-        "prompt": "DENOMINATOR: What does the denominator of a fraction tell you?",
-        "acceptableAnswers": ["total parts", "total number of equal parts in the whole"]
+        "prompt": "5/6 - 2/6 = ?",
+        "acceptableAnswers": [
+          "3/6",
+          "1/2"
+        ]
       },
       {
-        "prompt": "UNIT FRACTION: What is a unit fraction? Give an example.",
-        "acceptableAnswers": ["numerator is 1", "fraction with 1 on top", "1/2 or 1/3 or 1/4"]
+        "prompt": "8/10 - 3/10 = ?",
+        "acceptableAnswers": [
+          "5/10",
+          "1/2"
+        ]
       },
       {
-        "prompt": "EQUIVALENT: Are 1/3 and 2/6 equivalent? YES or NO, and explain.",
-        "acceptableAnswers": ["yes they are equal", "yes same value", "yes"]
+        "prompt": "3/4 - 1/4 = ?",
+        "acceptableAnswers": [
+          "2/4",
+          "1/2"
+        ]
       },
       {
-        "prompt": "COMPARE: Use > or < :  2/5 ___ 4/5",
-        "acceptableAnswers": ["<", "2/5 < 4/5"]
+        "prompt": "5/7 - 3/7 = ?",
+        "acceptableAnswers": [
+          "2/7"
+        ]
       },
       {
-        "prompt": "COMPARE: Use > or < :  3/4 ___ 1/2",
-        "acceptableAnswers": [">", "3/4 > 1/2"]
+        "prompt": "9/12 - 3/12 = ? (Simplify your answer!)",
+        "acceptableAnswers": [
+          "6/12",
+          "1/2"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A cake has 6 slices. You eat 4. Write the fraction of cake you ate.",
-        "acceptableAnswers": ["4/6", "2/3", "four sixths"]
+        "prompt": "1 - 3/4 = ? (Hint: write 1 as 4/4 first)",
+        "acceptableAnswers": [
+          "1/4"
+        ]
       },
       {
-        "prompt": "FRACTION: Write the fraction that means 'three out of seven equal parts.'",
-        "acceptableAnswers": ["3/7", "three sevenths"]
+        "prompt": "1 - 2/5 = ? (Hint: write 1 as 5/5 first)",
+        "acceptableAnswers": [
+          "3/5"
+        ]
       },
       {
-        "prompt": "FRACTION: A sandwich is cut into 4 equal pieces. You eat 1. Write the fraction you ate.",
-        "acceptableAnswers": ["1/4", "one fourth", "one quarter"]
+        "prompt": "1 - 1/3 = ?",
+        "acceptableAnswers": [
+          "2/3"
+        ]
       },
       {
-        "prompt": "NUMERATOR: In the fraction 9/12, what is the numerator?",
-        "acceptableAnswers": ["9"]
+        "prompt": "1 - 7/8 = ?",
+        "acceptableAnswers": [
+          "1/8"
+        ]
       },
       {
-        "prompt": "DENOMINATOR: In the fraction 9/12, what is the denominator?",
-        "acceptableAnswers": ["12"]
+        "prompt": "7/10 - 3/10 = ?",
+        "acceptableAnswers": [
+          "4/10",
+          "2/5"
+        ]
       },
       {
-        "prompt": "UNIT FRACTION: Write THREE different unit fractions.",
-        "acceptableAnswers": ["1/2 1/3 1/4", "1/2, 1/3, 1/4"]
+        "prompt": "11/12 - 5/12 = ?",
+        "acceptableAnswers": [
+          "6/12",
+          "1/2"
+        ]
       },
       {
-        "prompt": "EQUIVALENT: Write a fraction equivalent to 1/4.",
-        "acceptableAnswers": ["2/8", "3/12", "4/16"]
+        "prompt": "5/6 - 5/6 = ?",
+        "acceptableAnswers": [
+          "0",
+          "0/6",
+          "zero"
+        ]
       },
       {
-        "prompt": "EQUIVALENT: Write a fraction equivalent to 2/3.",
-        "acceptableAnswers": ["4/6", "6/9", "8/12"]
+        "prompt": "4/4 - 3/4 = ?",
+        "acceptableAnswers": [
+          "1/4"
+        ]
       },
       {
-        "prompt": "COMPARE: Use > or < : 3/5 ___ 1/5",
-        "acceptableAnswers": [">", "3/5 > 1/5"]
+        "prompt": "WORD PROBLEM: A pizza had 7/8 left. Tariq ate 3/8 of it. How much is left?",
+        "acceptableAnswers": [
+          "4/8",
+          "1/2"
+        ]
       },
       {
-        "prompt": "COMPARE: Use > or < or = : 1/3 ___ 2/6",
-        "acceptableAnswers": ["=", "1/3 = 2/6", "they are equal", "equivalent"]
+        "prompt": "WORD PROBLEM: A bucket was 5/6 full of water. 2/6 spilled. How full is it now?",
+        "acceptableAnswers": [
+          "3/6",
+          "1/2"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: There are 12 students. 3 are wearing glasses. Write the fraction of students wearing glasses.",
-        "acceptableAnswers": ["3/12", "1/4"]
+        "prompt": "WORD PROBLEM: Sara had 1 whole cake. She gave away 3/8 of it. What fraction does she still have?",
+        "acceptableAnswers": [
+          "5/8"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Tim ate 1/3 of a pie and his sister ate 1/3. Did they eat equal amounts? How much did they eat together?",
-        "acceptableAnswers": ["yes equal and 2/3 together", "equal 2/3"]
+        "prompt": "WORD PROBLEM: Rami finished 7/10 of his reading. What fraction does he still have to read?",
+        "acceptableAnswers": [
+          "3/10"
+        ]
       }
     ]
   },
   {
     "id": "math-day9",
     "type": "🔢 Math Day 9",
-    "title": "Measurement: Length & Time",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. LENGTH UNITS\n   Inches (in) — 12 inches = 1 foot\n   Quarter inch = 1/4 of an inch\n   Half inch = 1/2 of an inch\n   Feet (ft) = 12 inches\n   Yards (yd) = 3 feet (football field = 100 yards!)\n\n2. PERIMETER\nThe distance AROUND a shape. Add all sides!\n   Rectangle 15cm x 5cm: 15+5+15+5 = 40 cm\n\n3. TIME\n   Minute = 60 seconds\n   Hour = 60 minutes\n   1 day = 24 hours\n\n4. ELAPSED TIME\nHow much time has passed between start and end.\n   Start 3:30 PM, End 4:05 PM = 35 minutes elapsed.",
+    "title": "What Is Algebra? Variables & Expressions",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — What Is Algebra?\nhttps://www.youtube.com/watch?v=NybHckSEQBI\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nALGEBRA — A branch of math where we use LETTERS to stand for unknown numbers.\n   Think of a letter as a mystery box 📦 hiding a number inside.\n   Your job is to figure out what number is in the box!\n\nVARIABLE — A LETTER that stands for an unknown number.\n   x, n, a, b, y are all common variables.\n   Example: x + 3 = 7  →  x is the unknown number.\n\nEXPRESSION — A math phrase with numbers, variables, and operations.\n   It has NO equals sign.\n   Examples: 3x     n + 5     8 - y     2a\n\nEQUATION — A math SENTENCE with an equals sign (=).\n   It says two things are EQUAL.\n   Examples: n + 5 = 12     3x = 18     y - 4 = 6\n\nEVALUATING — Finding the value of an expression when you know the variable.\n   If n = 4:   n + 7 = 4 + 7 = 11\n   If x = 3:   5x = 5 × 3 = 15\n\nNOTE: In algebra, a number next to a letter means MULTIPLY.\n   3x means 3 × x     5n means 5 × n",
     "questions": [
       {
-        "prompt": "LENGTH: How many inches are in 1 foot?",
-        "acceptableAnswers": ["12", "twelve"]
+        "prompt": "In the equation n + 5 = 12, what is n called?",
+        "acceptableAnswers": [
+          "variable",
+          "the variable",
+          "unknown"
+        ]
       },
       {
-        "prompt": "LENGTH: How many feet are in 1 yard?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "Is '3x + 7' an expression or an equation?",
+        "acceptableAnswers": [
+          "expression"
+        ]
       },
       {
-        "prompt": "PERIMETER: A rectangle is 12 cm long and 4 cm wide. What is its perimeter?",
-        "acceptableAnswers": ["32", "32 cm"]
+        "prompt": "Is 'n + 5 = 12' an expression or an equation?",
+        "acceptableAnswers": [
+          "equation"
+        ]
       },
       {
-        "prompt": "PERIMETER: A square has sides of 8 cm. What is its perimeter?",
-        "acceptableAnswers": ["32", "32 cm"]
+        "prompt": "What does the variable x stand for in algebra?",
+        "acceptableAnswers": [
+          "an unknown number",
+          "a mystery number",
+          "unknown value"
+        ]
       },
       {
-        "prompt": "UNKNOWN SIDE: A rectangle has perimeter 30 cm. Two sides are 10 cm each. What are the other two sides?",
-        "acceptableAnswers": ["5 cm", "5", "each side is 5 cm"]
+        "prompt": "If n = 4, what is the value of n + 7?",
+        "acceptableAnswers": [
+          "11"
+        ]
       },
       {
-        "prompt": "TIME: How many minutes are in 1 hour?",
-        "acceptableAnswers": ["60", "sixty"]
+        "prompt": "If x = 3, what is the value of 5x? (Remember: 5x means 5 × x)",
+        "acceptableAnswers": [
+          "15"
+        ]
       },
       {
-        "prompt": "TIME: How many hours are in 1 day?",
-        "acceptableAnswers": ["24", "twenty-four"]
+        "prompt": "If a = 6, what is the value of a + 9?",
+        "acceptableAnswers": [
+          "15"
+        ]
       },
       {
-        "prompt": "ELAPSED TIME: Class starts at 4:15 PM and ends at 4:50 PM. How much time passed?",
-        "acceptableAnswers": ["35 minutes", "35 mins", "35"]
+        "prompt": "If n = 8, what is the value of n - 5?",
+        "acceptableAnswers": [
+          "3"
+        ]
       },
       {
-        "prompt": "LENGTH: How many yards are equal to 9 feet?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "If y = 7, what is the value of 4y?",
+        "acceptableAnswers": [
+          "28"
+        ]
       },
       {
-        "prompt": "LENGTH: How many inches are in 3 feet?",
-        "acceptableAnswers": ["36", "thirty-six"]
+        "prompt": "If b = 10, what is the value of b ÷ 2?",
+        "acceptableAnswers": [
+          "5"
+        ]
       },
       {
-        "prompt": "LENGTH: Order from smallest to largest: yard, inch, foot.",
-        "acceptableAnswers": ["inch foot yard"]
+        "prompt": "Write an expression for: 'a number n plus 6'",
+        "acceptableAnswers": [
+          "n + 6"
+        ]
       },
       {
-        "prompt": "PERIMETER: A triangle has sides of 7 cm, 5 cm, and 9 cm. What is its perimeter?",
-        "acceptableAnswers": ["21", "21 cm"]
+        "prompt": "Write an expression for: '5 times a number x'",
+        "acceptableAnswers": [
+          "5x",
+          "5 x x",
+          "5 times x"
+        ]
       },
       {
-        "prompt": "PERIMETER: A regular hexagon has sides of 4 cm each. What is its perimeter?",
-        "acceptableAnswers": ["24", "24 cm"]
+        "prompt": "Write an expression for: 'a number y minus 4'",
+        "acceptableAnswers": [
+          "y - 4"
+        ]
       },
       {
-        "prompt": "UNKNOWN SIDE: A triangle has a perimeter of 25 cm. Two sides are 8 cm and 10 cm. What is the third side?",
-        "acceptableAnswers": ["7", "7 cm"]
+        "prompt": "Which of these is an EQUATION? A) n + 5   B) n + 5 = 9",
+        "acceptableAnswers": [
+          "b",
+          "n + 5 = 9"
+        ]
       },
       {
-        "prompt": "TIME: School starts at 9:00 AM and ends at 3:30 PM. How long is the school day?",
-        "acceptableAnswers": ["6 hours 30 minutes", "6h 30m", "6.5 hours"]
+        "prompt": "Which of these is an EXPRESSION? A) 3x   B) 3x = 15",
+        "acceptableAnswers": [
+          "a",
+          "3x"
+        ]
       },
       {
-        "prompt": "ELAPSED TIME: A movie starts at 7:15 PM and lasts 2 hours and 30 minutes. What time does it end?",
-        "acceptableAnswers": ["9:45 pm", "9:45"]
+        "prompt": "If n = 12, what is n ÷ 4?",
+        "acceptableAnswers": [
+          "3"
+        ]
       },
       {
-        "prompt": "ELAPSED TIME: Aisha read from 5:00 PM to 5:45 PM. How long did she read?",
-        "acceptableAnswers": ["45 minutes", "45 mins"]
+        "prompt": "WORD PROBLEM: Mia has some stickers. She gets 8 more and now has 15 total. Write an equation for this. Use n for the unknown.",
+        "acceptableAnswers": [
+          "n + 8 = 15"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A fence surrounds a rectangular garden that is 10 m long and 6 m wide. How much fencing is needed?",
-        "acceptableAnswers": ["32", "32 m", "32 meters"]
+        "prompt": "WORD PROBLEM: A bag has n apples. If you remove 3, there are 7 left. Write an equation.",
+        "acceptableAnswers": [
+          "n - 3 = 7"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A ribbon is 4 feet long. How many inches is that?",
-        "acceptableAnswers": ["48", "48 inches"]
+        "prompt": "WORD PROBLEM: Sara earns $x per hour. After 5 hours she has $35. Write an equation.",
+        "acceptableAnswers": [
+          "5x = 35",
+          "x times 5 = 35"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Convert 1 yard and 2 feet into total inches.",
-        "acceptableAnswers": ["60", "60 inches"]
+        "prompt": "CHALLENGE: If 3n = 24, can you guess the value of n? (What times 3 equals 24?)",
+        "acceptableAnswers": [
+          "8"
+        ]
       }
     ]
   },
   {
     "id": "math-day10",
     "type": "🔢 Math Day 10",
-    "title": "Measurement: Capacity & Weight",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. CAPACITY (Liquid Measurement)\n   Cup (c) = 8 fluid ounces (smallest)\n   Pint (pt) = 2 cups\n   Quart (qt) = 2 pints = 4 cups\n   Gallon (gal) = 4 quarts (LARGEST)\n   Memory: G has 4 Qs, each Q has 2 Ps, each P has 2 Cs!\n\n2. WEIGHT\n   Ounces (oz) = small unit\n   Pounds (lb) = 16 ounces = 1 pound\n\n3. COMPARING\n   1 gallon > 1 quart > 1 pint > 1 cup\n\n4. ESTIMATION\n   Think about which unit makes sense!\n   A soup can weighs about 1 pound.\n   A water bottle holds about 2 cups.",
+    "title": "Solving Addition & Subtraction Equations",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Solving Basic Equations Part 1 (Addition & Subtraction)\nhttps://www.youtube.com/watch?v=l3XzepN03KQ\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nSOLVING AN EQUATION — Finding the value of the variable that makes the equation TRUE.\n\nTHE GOLDEN RULE OF ALGEBRA:\n   Whatever you do to ONE side of the equation, you MUST do to the OTHER side too!\n   This keeps the equation balanced (like a scale ⚖️).\n\nSOLVING x + a = b:\n   SUBTRACT a from BOTH sides to get x alone.\n   x + 5 = 12\n   x + 5 - 5 = 12 - 5\n   x = 7  ✓\n   CHECK: 7 + 5 = 12 ✓\n\nSOLVING x - a = b:\n   ADD a to BOTH sides to get x alone.\n   x - 4 = 9\n   x - 4 + 4 = 9 + 4\n   x = 13  ✓\n   CHECK: 13 - 4 = 9 ✓\n\nALWAYS CHECK your answer by substituting it back into the original equation!\n\nINVERSE OPERATIONS:\n   Addition ↔ Subtraction  (they undo each other)",
     "questions": [
       {
-        "prompt": "CAPACITY: How many cups are in 1 pint?",
-        "acceptableAnswers": ["2", "two"]
+        "prompt": "Solve: n + 3 = 10. What is n?",
+        "acceptableAnswers": [
+          "7"
+        ]
       },
       {
-        "prompt": "CAPACITY: How many pints are in 1 quart?",
-        "acceptableAnswers": ["2", "two"]
+        "prompt": "Solve: n + 7 = 15. What is n?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "CAPACITY: How many quarts are in 1 gallon?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "Solve: x + 12 = 20. What is x?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "CAPACITY: Which is larger: a pint or a quart?",
-        "acceptableAnswers": ["quart"]
+        "prompt": "Solve: y + 6 = 14. What is y?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "CAPACITY: You have 6 cups of juice. How many pints is that?",
-        "acceptableAnswers": ["3", "three"]
+        "prompt": "Solve: a + 25 = 50. What is a?",
+        "acceptableAnswers": [
+          "25"
+        ]
       },
       {
-        "prompt": "WEIGHT: How many ounces are in 1 pound?",
-        "acceptableAnswers": ["16", "sixteen"]
+        "prompt": "Solve: n - 4 = 9. What is n?",
+        "acceptableAnswers": [
+          "13"
+        ]
       },
       {
-        "prompt": "WEIGHT: Would you weigh a feather in ounces or pounds?",
-        "acceptableAnswers": ["ounces", "oz"]
+        "prompt": "Solve: x - 8 = 7. What is x?",
+        "acceptableAnswers": [
+          "15"
+        ]
       },
       {
-        "prompt": "ESTIMATION: A large jug holds 1 gallon. How many quarts fill it?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "Solve: y - 11 = 6. What is y?",
+        "acceptableAnswers": [
+          "17"
+        ]
       },
       {
-        "prompt": "CAPACITY: How many cups are in 1 quart?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "Solve: b - 15 = 30. What is b?",
+        "acceptableAnswers": [
+          "45"
+        ]
       },
       {
-        "prompt": "CAPACITY: How many cups are in 1 gallon?",
-        "acceptableAnswers": ["16", "sixteen"]
+        "prompt": "Solve: n - 7 = 0. What is n?",
+        "acceptableAnswers": [
+          "7"
+        ]
       },
       {
-        "prompt": "CAPACITY: Which holds more: 4 pints or 2 quarts?",
-        "acceptableAnswers": ["they are equal", "same", "4 pints equals 2 quarts"]
+        "prompt": "Solve: 14 + n = 22. What is n?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "CAPACITY: How many pints are in 2 gallons?",
-        "acceptableAnswers": ["16", "sixteen"]
+        "prompt": "Solve: 6 + x = 19. What is x?",
+        "acceptableAnswers": [
+          "13"
+        ]
       },
       {
-        "prompt": "CAPACITY: Order from smallest to largest: gallon, pint, cup, quart.",
-        "acceptableAnswers": ["cup pint quart gallon"]
+        "prompt": "Solve: 30 - n = 12. What is n?",
+        "acceptableAnswers": [
+          "18"
+        ]
       },
       {
-        "prompt": "WEIGHT: How many ounces are in 3 pounds?",
-        "acceptableAnswers": ["48", "forty-eight"]
+        "prompt": "Solve: 100 - n = 64. What is n?",
+        "acceptableAnswers": [
+          "36"
+        ]
       },
       {
-        "prompt": "WEIGHT: A watermelon weighs 64 ounces. How many pounds is that?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "Check the answer: Does n = 5 solve n + 8 = 13? Write YES or NO.",
+        "acceptableAnswers": [
+          "yes",
+          "yes 5 + 8 = 13"
+        ]
       },
       {
-        "prompt": "WEIGHT: Would you measure a pencil's weight in ounces or pounds?",
-        "acceptableAnswers": ["ounces", "oz"]
+        "prompt": "Check the answer: Does x = 4 solve x - 6 = 2? Write YES or NO.",
+        "acceptableAnswers": [
+          "no",
+          "no 4 - 6 = -2 not 2"
+        ]
       },
       {
-        "prompt": "ESTIMATION: Would you measure the water in a swimming pool in cups or gallons?",
-        "acceptableAnswers": ["gallons"]
+        "prompt": "WORD PROBLEM: Ali had some marbles. He lost 9 and now has 14. Write and solve an equation to find how many he started with.",
+        "acceptableAnswers": [
+          "n - 9 = 14 so n = 23",
+          "23"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A recipe needs 2 quarts of juice. The store only sells juice by the pint. How many pints must you buy?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "WORD PROBLEM: Layla baked some cookies. She gave 15 to her friends and has 12 left. Write and solve an equation.",
+        "acceptableAnswers": [
+          "n - 15 = 12 so n = 27",
+          "27"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Tom's backpack weighs 3 pounds and 2 ounces. How many total ounces is that?",
-        "acceptableAnswers": ["50", "fifty"]
+        "prompt": "WORD PROBLEM: A class has 18 students. Some students went home sick and 13 are still at school. Write and solve an equation.",
+        "acceptableAnswers": [
+          "18 - n = 13 so n = 5",
+          "5"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Which is heavier: 25 ounces or 1 pound? Explain.",
-        "acceptableAnswers": ["25 ounces", "25 ounces because 1 pound is 16 ounces", "25 oz is heavier"]
+        "prompt": "CHALLENGE: Solve: n + 47 = 100. What is n?",
+        "acceptableAnswers": [
+          "53"
+        ]
       }
     ]
   },
   {
     "id": "math-day11",
     "type": "🔢 Math Day 11",
-    "title": "Area, Perimeter & Square Units",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. SQUARE UNIT\nA square with an area of 1. Used to measure area.\n   Written as cm2, in2, ft2, etc.\n\n2. AREA\nThe SPACE INSIDE a shape.\n   Area of Rectangle = Length x Width\n   8 cm x 3 cm = 24 cm2\n\n3. PERIMETER (Review)\nDistance AROUND the outside.\n   P = L+W+L+W or P = 2L + 2W\n   8 cm x 3 cm rectangle: P = 8+3+8+3 = 22 cm\n\n4. AREA MODEL\nA rectangle drawn to show a multiplication problem.\n   Used for distributive property too!\n   6 x 4 split as (3x4)+(3x4) = 12+12 = 24",
+    "title": "Solving Multiplication & Division Equations",
+    "description": "Watch the video first, then read the Key Vocabulary and answer the questions.",
+    "story": "📺 WATCH FIRST!\nMath Antics — Solving Basic Equations Part 2 (Multiplication & Division)\nhttps://www.youtube.com/watch?v=Qyd_v3DGzTM\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nKEY VOCABULARY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nSOLVING a × n = b  (multiplication equation):\n   DIVIDE both sides by a to get n alone.\n   4 × n = 28\n   4 × n ÷ 4 = 28 ÷ 4\n   n = 7  ✓\n   CHECK: 4 × 7 = 28 ✓\n\nSOLVING n ÷ a = b  (division equation):\n   MULTIPLY both sides by a to get n alone.\n   n ÷ 3 = 5\n   n ÷ 3 × 3 = 5 × 3\n   n = 15  ✓\n   CHECK: 15 ÷ 3 = 5 ✓\n\nINVERSE OPERATIONS:\n   Multiplication ↔ Division  (they undo each other)\n\nREMEMBER:\n   3n means 3 × n\n   To undo multiplication, DIVIDE.\n   To undo division, MULTIPLY.\n   ALWAYS check your answer by substituting back in!",
     "questions": [
       {
-        "prompt": "SQUARE UNIT: What is a square unit used for measuring?",
-        "acceptableAnswers": ["measuring area", "to measure area", "area"]
+        "prompt": "Solve: 3n = 12. What is n?",
+        "acceptableAnswers": [
+          "4"
+        ]
       },
       {
-        "prompt": "AREA: What formula is used to find the area of a rectangle?",
-        "acceptableAnswers": ["length x width", "l x w", "length times width"]
+        "prompt": "Solve: 5n = 35. What is n?",
+        "acceptableAnswers": [
+          "7"
+        ]
       },
       {
-        "prompt": "AREA: A rectangle is 10 cm long and 4 cm wide. What is its area?",
-        "acceptableAnswers": ["40", "40 cm2", "40 sq cm"]
+        "prompt": "Solve: 6x = 48. What is x?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "AREA: A square has sides of 7 cm. What is its area?",
-        "acceptableAnswers": ["49", "49 cm2"]
+        "prompt": "Solve: 9y = 81. What is y?",
+        "acceptableAnswers": [
+          "9"
+        ]
       },
       {
-        "prompt": "PERIMETER: A rectangle is 10 cm long and 4 cm wide. What is its perimeter?",
-        "acceptableAnswers": ["28", "28 cm"]
+        "prompt": "Solve: 7n = 56. What is n?",
+        "acceptableAnswers": [
+          "8"
+        ]
       },
       {
-        "prompt": "DIFFERENCE: What is the difference between area and perimeter?",
-        "acceptableAnswers": ["area is inside perimeter is around", "area is space inside perimeter is distance around"]
+        "prompt": "Solve: 4n = 36. What is n?",
+        "acceptableAnswers": [
+          "9"
+        ]
       },
       {
-        "prompt": "AREA: What is 5 x 9? (Think of it as the area of a 5-by-9 rectangle.)",
-        "acceptableAnswers": ["45"]
+        "prompt": "Solve: n ÷ 3 = 7. What is n?",
+        "acceptableAnswers": [
+          "21"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A garden is 8 feet long and 5 feet wide. What is its area? What is its perimeter?",
-        "acceptableAnswers": ["area 40 perimeter 26", "40 sq ft and 26 ft"]
+        "prompt": "Solve: n ÷ 5 = 6. What is n?",
+        "acceptableAnswers": [
+          "30"
+        ]
       },
       {
-        "prompt": "AREA: A classroom floor is 12 m long and 6 m wide. What is its area?",
-        "acceptableAnswers": ["72", "72 sq m", "72 m2"]
+        "prompt": "Solve: x ÷ 4 = 8. What is x?",
+        "acceptableAnswers": [
+          "32"
+        ]
       },
       {
-        "prompt": "AREA: A square tile has sides of 6 cm. What is its area?",
-        "acceptableAnswers": ["36", "36 cm2", "36 sq cm"]
+        "prompt": "Solve: y ÷ 9 = 4. What is y?",
+        "acceptableAnswers": [
+          "36"
+        ]
       },
       {
-        "prompt": "AREA: A rectangle has an area of 48 sq cm and a length of 8 cm. What is its width?",
-        "acceptableAnswers": ["6", "6 cm"]
+        "prompt": "Solve: n ÷ 6 = 7. What is n?",
+        "acceptableAnswers": [
+          "42"
+        ]
       },
       {
-        "prompt": "PERIMETER: A square has a perimeter of 24 cm. What is the length of each side?",
-        "acceptableAnswers": ["6", "6 cm"]
+        "prompt": "Solve: 8n = 72. What is n?",
+        "acceptableAnswers": [
+          "9"
+        ]
       },
       {
-        "prompt": "PERIMETER: A shape has sides of 4 cm, 7 cm, 4 cm, and 7 cm. What is its perimeter? What shape is it?",
-        "acceptableAnswers": ["22 cm rectangle", "perimeter 22 rectangle"]
+        "prompt": "Solve: 2n = 18. What is n?",
+        "acceptableAnswers": [
+          "9"
+        ]
       },
       {
-        "prompt": "AREA MODEL: Imagine an area model for 6 x 9. What is the answer?",
-        "acceptableAnswers": ["54"]
+        "prompt": "Solve: n ÷ 2 = 11. What is n?",
+        "acceptableAnswers": [
+          "22"
+        ]
       },
       {
-        "prompt": "AREA MODEL: Use an area model to show 5 x 7 broken into (3 x 7) + (2 x 7). What is the answer?",
-        "acceptableAnswers": ["35", "21+14=35"]
+        "prompt": "Check: Does n = 6 solve 7n = 42? Write YES or NO.",
+        "acceptableAnswers": [
+          "yes",
+          "yes 7 x 6 = 42"
+        ]
       },
       {
-        "prompt": "AREA vs PERIMETER: A garden has area 30 sq m and perimeter 22 m. Which tells you the SPACE inside?",
-        "acceptableAnswers": ["area", "area 30 sq m"]
+        "prompt": "Check: Does n = 8 solve n ÷ 4 = 2? Write YES or NO.",
+        "acceptableAnswers": [
+          "no",
+          "no 8 / 4 = 2 wait that is correct... yes",
+          "yes"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: A bedroom is 6 m long and 5 m wide. What is its area? What is its perimeter?",
-        "acceptableAnswers": ["area 30 perimeter 22", "30 sq m and 22 m"]
+        "prompt": "WORD PROBLEM: Each shelf holds 8 books. The library has 64 books total. Write and solve an equation to find the number of shelves.",
+        "acceptableAnswers": [
+          "8n = 64 so n = 8",
+          "8"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: You want to put a border around a square picture with sides of 9 cm. How much border do you need?",
-        "acceptableAnswers": ["36", "36 cm"]
+        "prompt": "WORD PROBLEM: Nadia shares her stickers equally among 5 friends. Each friend gets 9. Write and solve an equation to find how many stickers Nadia started with.",
+        "acceptableAnswers": [
+          "n / 5 = 9 so n = 45",
+          "45"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Two rectangles each have an area of 18 sq cm but different perimeters. Give two examples.",
-        "acceptableAnswers": []
+        "prompt": "WORD PROBLEM: Tickets cost $6 each. Amir spent $54 on tickets. Write and solve an equation to find how many tickets he bought.",
+        "acceptableAnswers": [
+          "6n = 54 so n = 9",
+          "9"
+        ]
       },
       {
-        "prompt": "CHALLENGE: A rectangle has a perimeter of 20 cm. If one side is 6 cm, what is its area?",
-        "acceptableAnswers": ["24", "24 sq cm", "24 cm2"]
+        "prompt": "CHALLENGE: Solve: 12n = 144. What is n?",
+        "acceptableAnswers": [
+          "12"
+        ]
       }
     ]
   },
   {
     "id": "math-day12",
     "type": "🔢 Math Day 12",
-    "title": "Data & Graphs",
-    "description": "Read the Key Vocabulary box, then answer each question.",
-    "story": "TODAY'S 4 TOPICS\n\n1. TALLY MARKS & FREQUENCY TABLE\n   Tally mark = a way to count (4 lines + 1 crossing = 5)\n   Frequency table = organized table showing how often things occurred.\n\n2. BAR GRAPH\nRepresents data with vertical or horizontal bars.\n   X Axis = BOTTOM horizontal line of the graph.\n   Y Axis = SIDE vertical line of the graph.\n\n3. PICTURE GRAPH\nUses pictures/symbols to show data.\n   Each symbol has a KEY showing how many it represents.\n   Example: smiley face = 2 votes\n\n4. READING DATA\n   HOW MANY MORE = subtract the two values\n   HOW MANY TOTAL = add all values\n   Dogs=10, Cats=8, Snakes=5, Rabbits=2 → Total = 25",
+    "title": "Word Problems: Fractions & Equations",
+    "description": "Review Day — Use everything you have learned about fractions AND equations. Read each problem carefully and show your thinking!",
+    "story": "📺 REVIEW VIDEOS — Watch if you need a refresher!\n\nFractions Review:\nhttps://www.youtube.com/watch?v=CA9XLJpQp3c  (What Are Fractions)\nhttps://www.youtube.com/watch?v=5juto2ze8Lg  (Adding & Subtracting Fractions)\n\nEquations Review:\nhttps://www.youtube.com/watch?v=l3XzepN03KQ  (Solving Part 1 — Add/Subtract)\nhttps://www.youtube.com/watch?v=Qyd_v3DGzTM  (Solving Part 2 — Multiply/Divide)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nSTRATEGY FOR WORD PROBLEMS\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nStep 1 — READ the problem twice.\nStep 2 — FIND what you know and what you need to find.\nStep 3 — WRITE an equation using a variable for the unknown.\nStep 4 — SOLVE the equation.\nStep 5 — CHECK — does your answer make sense?",
     "questions": [
       {
-        "prompt": "TALLY: What number is shown by 4 lines crossed by 1 line?",
-        "acceptableAnswers": ["5", "five"]
+        "prompt": "FRACTIONS: Maya ate 3/8 of a pie. Her brother ate 2/8. How much of the pie did they eat together?",
+        "acceptableAnswers": [
+          "5/8"
+        ]
       },
       {
-        "prompt": "FREQUENCY TABLE: What does a frequency table show?",
-        "acceptableAnswers": ["how many times something happened", "organized data and how often things occurred"]
+        "prompt": "FRACTIONS: A jug was 7/10 full of juice. Lena drank 4/10. How much juice is left?",
+        "acceptableAnswers": [
+          "3/10"
+        ]
       },
       {
-        "prompt": "BAR GRAPH: What is the X Axis?",
-        "acceptableAnswers": ["the bottom horizontal line", "bottom line", "horizontal line"]
+        "prompt": "FRACTIONS: Simplify the answer 6/8 to its simplest form.",
+        "acceptableAnswers": [
+          "3/4"
+        ]
       },
       {
-        "prompt": "BAR GRAPH: What is the Y Axis?",
-        "acceptableAnswers": ["the side vertical line", "side line", "vertical line"]
+        "prompt": "FRACTIONS: Omar has 3/5 of a dollar. He spends 1/5. How much does he have left? Simplify if possible.",
+        "acceptableAnswers": [
+          "2/5"
+        ]
       },
       {
-        "prompt": "PICTURE GRAPH: If 1 star = 4 votes and Basketball shows 5 stars, how many votes did Basketball get?",
-        "acceptableAnswers": ["20", "twenty"]
+        "prompt": "FRACTIONS: Write 9/6 as a mixed number.",
+        "acceptableAnswers": [
+          "1 3/6",
+          "1 1/2",
+          "1 and 1/2"
+        ]
       },
       {
-        "prompt": "READ DATA: Cats=12, Dogs=9, Birds=6, Fish=3. What is the TOTAL?",
-        "acceptableAnswers": ["30"]
+        "prompt": "FRACTIONS: Which is greater: 5/6 or 3/4? (Find a common denominator of 12)",
+        "acceptableAnswers": [
+          "5/6",
+          "5/6 > 3/4"
+        ]
       },
       {
-        "prompt": "READ DATA: How many MORE votes did Cats get than Fish?",
-        "acceptableAnswers": ["9"]
+        "prompt": "FRACTIONS: A recipe uses 2/4 cup of milk. Write this in simplest form.",
+        "acceptableAnswers": [
+          "1/2"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Spring=5, Summer=10, Fall=4, Winter=6. How many total students voted?",
-        "acceptableAnswers": ["25"]
+        "prompt": "FRACTIONS: Tariq walks 3/8 of a mile to school and 5/8 of a mile back. How far does he walk in total?",
+        "acceptableAnswers": [
+          "8/8",
+          "1",
+          "one whole mile",
+          "1 mile"
+        ]
       },
       {
-        "prompt": "TALLY: Count this tally: |||| |||| ||| (that is 4+4+3). What is the total?",
-        "acceptableAnswers": ["11", "eleven"]
+        "prompt": "EQUATIONS: Solve: n + 14 = 30. What is n?",
+        "acceptableAnswers": [
+          "16"
+        ]
       },
       {
-        "prompt": "FREQUENCY TABLE: Spring=5, Summer=10, Fall=4, Winter=6. Which season got the most votes?",
-        "acceptableAnswers": ["summer"]
+        "prompt": "EQUATIONS: Solve: x - 9 = 18. What is x?",
+        "acceptableAnswers": [
+          "27"
+        ]
       },
       {
-        "prompt": "FREQUENCY TABLE: Using the same data, which season got the fewest votes?",
-        "acceptableAnswers": ["fall"]
+        "prompt": "EQUATIONS: Solve: 6n = 54. What is n?",
+        "acceptableAnswers": [
+          "9"
+        ]
       },
       {
-        "prompt": "BAR GRAPH: A bar for 'dogs' reaches 12 on the Y axis. A bar for 'cats' reaches 7. How many MORE students chose dogs?",
-        "acceptableAnswers": ["5"]
+        "prompt": "EQUATIONS: Solve: n ÷ 7 = 8. What is n?",
+        "acceptableAnswers": [
+          "56"
+        ]
       },
       {
-        "prompt": "BAR GRAPH: With Cats=12, Dogs=9, Birds=6, Fish=3 — what is the difference between the highest and lowest?",
-        "acceptableAnswers": ["9"]
+        "prompt": "EQUATION WORD PROBLEM: Sara has some money. She spends $12 and has $19 left. Write and solve an equation to find how much she started with.",
+        "acceptableAnswers": [
+          "n - 12 = 19 so n = 31",
+          "31"
+        ]
       },
       {
-        "prompt": "PICTURE GRAPH: If each 🐶 = 4 votes and dogs show 5 dog symbols, how many votes did dogs get?",
-        "acceptableAnswers": ["20", "twenty"]
+        "prompt": "EQUATION WORD PROBLEM: Pencils come in packs of 6. Amir buys n packs and has 42 pencils. Write and solve an equation.",
+        "acceptableAnswers": [
+          "6n = 42 so n = 7",
+          "7"
+        ]
       },
       {
-        "prompt": "PICTURE GRAPH: In the sports graph: Tennis=3 stars, Swimming=4, Soccer=5. Each star = 3 votes. Which sport has the most votes?",
-        "acceptableAnswers": ["soccer", "soccer 15 votes"]
+        "prompt": "EQUATION WORD PROBLEM: 5 friends share some apples equally. Each friend gets 8. Write and solve an equation to find the total apples.",
+        "acceptableAnswers": [
+          "n / 5 = 8 so n = 40",
+          "40"
+        ]
       },
       {
-        "prompt": "READ DATA: Cats=12, Dogs=9, Birds=6, Fish=3. How many FEWER votes did Birds get than Cats?",
-        "acceptableAnswers": ["6"]
+        "prompt": "MIXED: A rope is 3/4 metre long. After cutting off 1/4 metre, how much is left? Write a subtraction equation and solve it.",
+        "acceptableAnswers": [
+          "3/4 - 1/4 = 2/4 = 1/2",
+          "1/2",
+          "2/4"
+        ]
       },
       {
-        "prompt": "READ DATA: Using the same Favorite Animals data, what fraction of total votes went to Dogs?",
-        "acceptableAnswers": ["9/30", "3/10"]
+        "prompt": "MIXED: A student solved n + 5 = 12 and got n = 8. Is this correct? Show your check.",
+        "acceptableAnswers": [
+          "no",
+          "no 8 + 5 = 13 not 12",
+          "incorrect n should be 7"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: You survey 25 students about their favorite color. Blue=8, Red=7, Green=6, Yellow=4. How many did NOT pick Blue?",
-        "acceptableAnswers": ["17"]
+        "prompt": "MIXED: A jar is 3/5 full. After adding more water it becomes 1 whole jar full. How much water was added? (Use subtraction or an equation)",
+        "acceptableAnswers": [
+          "2/5",
+          "3/5 + n = 1 so n = 2/5"
+        ]
       },
       {
-        "prompt": "WORD PROBLEM: Make a tally chart for these scores: 7, 9, 7, 8, 9, 7, 8, 7. How many times did 7 appear?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "CHALLENGE: Ahmed read 2/6 of a book on Monday and 3/6 on Tuesday. What fraction of the book is left to read? Simplify your answer.",
+        "acceptableAnswers": [
+          "1/6"
+        ]
       },
       {
-        "prompt": "CHALLENGE: Look at this data: Apples=20, Bananas=15, Oranges=10. If you made a picture graph where each picture = 5, how many pictures would Apples get?",
-        "acceptableAnswers": ["4", "four"]
+        "prompt": "CHALLENGE: Nadia earns $n per week. After 8 weeks she has $120. Write and solve an equation to find her weekly earnings.",
+        "acceptableAnswers": [
+          "8n = 120 so n = 15",
+          "$15",
+          "15"
+        ]
       }
     ]
   },
   {
-    "id": "quran-naba",
+    "id": "quran-naziat",
     "type": "☪️ Quran",
-    "title": "Surah An-Naba — Complete (All 40 Ayat)",
-    "description": "Read ALL 40 ayat with your parent. Read Arabic, transliteration, and meaning. Then answer the questions!",
-    "story": "SURAH AN-NABA (The Great News) Surah 78\nRead each ayah aloud with your parent!\n\n── PART 1: THE QUESTION (Ayat 1-5) ──\n1. Amma yatasaa-aloon — About what are they asking one another?\n2. Anil naba-il azeem — About the great news\n3. Allathee hum feehi mukhtalifoon — That over which they disagree\n4. Kalla saya-lamoon — No! They are going to know.\n5. Thumma kalla saya-lamoon — Then, no! They are going to know.\n\n── PART 2: ALLAH'S SIGNS (Ayat 6-16) ──\n6. Alam naj-alil arda mihadaa — Have We not made the earth a resting place?\n7. Wal jibala awtadaa — And the mountains as stakes?\n8. Wa khalaqnakum azwajaa — And We created you in pairs.\n9. Wa ja-alna nawmakum subataa — And made your sleep a means of rest.\n10. Wa ja-alnal layla libasaa — And made the night as clothing.\n11. Wa ja-alnan nahara ma-ashaa — And made the day for livelihood.\n12. Wa banayna fawqakum sab-an shidadaa — And built above you seven strong heavens.\n13. Wa ja-alna sirajan wahajaa — And made a blazing lamp (the sun).\n14. Wa anzalna minal mu-sirati ma-an thajjajaa — And sent down from the rain clouds pouring water.\n15. Linukhrija bihi habban wa nabataa — That We may bring forth grain and vegetation.\n16. Wa jannatin alfafaa — And gardens of entwined growth.\n\n── PART 3: THE DAY OF JUDGMENT (Ayat 17-20) ──\n17. Inna yawmal fasli kana meqataa — Indeed, the Day of Judgment is an appointed time.\n18. Yawma yunfakhu fis suri fata-toona afwajaa — The Day the Horn is blown and you come in multitudes.\n19. Wa futihatil sama-u fakanat abwabaa — And the heaven is opened and becomes gateways.\n20. Wa suyyiratil jibalu fakanat sarabaa — And the mountains are removed and become a mirage.\n\n── PART 4: THE PUNISHMENT (Ayat 21-30) ──\n21. Inna jahannama kanat mirsadaa — Indeed, Hell has been lying in wait\n22. Lil tagheena ma-abaa — For the transgressors, a place of return.\n23. Labiteena feeha ahqabaa — In which they will remain for ages unending.\n24. La yathooqoona feeha bardan wa la sharabaa — They will taste no coolness, nor any drink\n25. Illa hameeman wa ghassaqaa — Except scalding water and foul purulence.\n26. Jaza-an Wifaqaa — A fitting recompense.\n   ★ MEMORIZE AYAH 26: Jaza-an (recompense) + Wifaqaa (fitting)\n27. Innahum kaanu la yarjoona hisabaa — Indeed, they were not expecting an account.\n28. Wa kaththabu bi-ayatina kiththabaa — And denied Our signs with emphatic denial.\n29. Wa kulla shay-in ahsaynahu kitabaa — But all things We have enumerated in writing.\n30. Fathooqoo falan nazeedakum illa ataabaa — So taste the penalty; We will increase only your torment.\n\n── PART 5: REWARD FOR THE RIGHTEOUS (Ayat 31-36) ──\n31. Inna lil muttaqeena mafazaa — Indeed, for the righteous is attainment\n32. Hada-iqa wa a-naabaa — Gardens and grapevines.\n33. Wa kawa-iba atrabaa — And companions of equal age.\n34. Wa ka-san dihaqaa — And a full cup.\n35. La yasma-oona feeha laghwan wa la kiththabaa — No ill speech or falsehood will they hear.\n36. Jaza-am mir rabbika ataa-an hisabaa — A generous reward from your Lord.\n\n── PART 6: THE FINAL TRUTH (Ayat 37-40) ──\n37. Rabb is-samawati wal ardi wa ma baynahuma ar-rahmani la yamlikoona minhu khitabaa — Lord of the heavens and earth, the Most Merciful. None can speak without His permission.\n38. Yawma yaqoomur roohu wal mala-ikatu saffan — The Day the Spirit and angels stand in rows. None speak except whom the Most Merciful permits.\n39. Thalikal yawmul haqq — That is the True Day; whoever wills may return to his Lord.\n40. Inna antharnakum ataaban qareeban yawma yanthorul mar-o ma qaddamat yadahu wa yaqoolul kafiru ya laytani kuntu turabaa — We warned you of a near punishment. On that Day a man sees what his hands have done, and the disbeliever says: I wish I were dust!",
+    "title": "Surah An-Nazi'at — Complete (All 46 Ayat)",
+    "description": "Read ALL 46 ayat with your parent. Read the transliteration and meaning aloud for each ayah. Then answer the questions!",
+    "story": "SURAH AN-NAZI'AT (Those Who Pull Out) — Surah 79 — All 46 Ayat\n\n── PART 1: THE POWERFUL ANGELS (Ayat 1-5) ──\n1. Wan-nazi'ati gharqa — By those [angels] who extract [souls] forcefully\n2. Wan-nashitati nashta — And [by] those who remove [them] gently\n3. Was-sabihati sabha — And [by] those who glide [through the heavens]\n4. Fas-sabiqati sabqa — And those who race ahead\n5. Fal-mudabbirati amra — And those who carry out Allah's command\n\n── PART 2: THE DAY OF JUDGMENT (Ayat 6-14) ──\n6. Yawma tarjufur-rajifah — On the Day the earth will tremble with a great shaking\n7. Tatba'uhar-radifah — Followed by a second shaking\n8. Quloobun yawma-ithin wajifah — Hearts that Day will be trembling\n9. Absaruha khashi'ah — Their eyes cast down in humility\n10. Yaqooloona a-inna lamar-dooduna fil-hafirah — [The disbelievers say] Will we really be brought back to our former state?\n11. A-itha kunna 'izaman-nakhirah — Even after we have become crumbled bones?\n12. Qaloo tilka ithan karratun khasirah — They say that would be a losing return!\n13. Fa-innama hiya zajratun wahidah — It will be only ONE blast\n14. Fa-itha hum bis-sahirah — And suddenly they will be on the open plain\n\n── PART 3: THE STORY OF MUSA AND FIRAUN (Ayat 15-26) ──\n15. Hal ataka hadeesu musa — Has the story of Musa (Moses) reached you?\n16. Ith nadahu rabbuhoo bil-wadil-muqaddasi tuwa — When his Lord called to him in the sacred valley of Tuwa\n17. Ithhab ila fir'awna innahu tagha — Go to Pharaoh (Firaun) — indeed he has transgressed!\n18. Faqul hal laka ila an tazakka — And say to him: Would you like to purify yourself?\n19. Wa-ahdiyaka ila rabbika fatakhsha — And I will guide you to your Lord so you may fear Him.\n20. Fa-arahu al-ayatal-kubra — So Musa showed Firaun the greatest sign (miracle)\n21. Fa-kaththaba wa 'asa — But Firaun denied it and disobeyed\n22. Thumma adbara yas'a — Then he turned away, striving [against Allah]\n23. Fahashara fanaada — He gathered his people and announced\n24. Faqala ana rabbukumul-a'la — I am your most exalted lord!\n25. Fa-akhadhahul-lahu nakalal-akhirati wal-oola — So Allah punished him severely as a warning for the last and the first\n26. Inna fee thalika la-'ibratan liman yakhsha — Indeed in that is a lesson for whoever fears Allah\n\n── PART 4: ALLAH'S CREATION (Ayat 27-33) ──\n27. A-antum ashaddu khalqan amis-sama? Banaha — Are you harder to create, or is the heaven? Allah constructed it!\n28. Rafa'a samkaha fasawwaha — He raised its height and proportioned it perfectly\n29. Wa-aghtasha laylaha wa-akhraja duhaha — He darkened its night and brought out its light\n30. Wal-arda ba'da thalika dahaha — And after that He spread out the earth\n31. Akhraja minha ma'aha wa-mar'aha — He brought out from it its water and its pastures\n32. Wal-jibala arsaha — And the mountains He set firmly in place\n33. Mata'al-lakum wa-li-an'amikum — As provision for you and your animals\n\n── PART 5: THE FINAL JUDGMENT (Ayat 34-41) ──\n34. Fa-itha ja'atit-tammatul-kubra — But when the greatest catastrophe comes\n35. Yawma yatathakkarul-insanu ma sa'a — The Day when man will remember everything he did\n36. Wa-burrizatil-jaheemu liman yara — And Hellfire will be shown to all who can see\n37. Fa-amma man tagha — As for he who transgressed\n38. Wa-athara al-hayatad-dunya — And preferred the life of this world\n39. Fa-innal-jaheema hiyal-ma'wa — Then indeed Hellfire will be his home\n40. Wa-amma man khafa maqama rabbihi wa-nahannafsا 'anil-hawa — But as for he who feared standing before his Lord and restrained his desires\n41. Fa-innal-jannata hiyal-ma'wa — Then indeed Paradise will be his home\n\n── PART 6: THE HOUR (Ayat 42-46) ──\n42. Yas-aloonaka 'anis-sa'ati ayyana mursaha — They ask you: When is the Hour [of Judgment]?\n43. Feema anta min thikraha — Who are you to say when it is?\n44. Ila rabbika muntahaha — Its knowledge rests only with your Lord\n45. Innama anta munthiru man yakhshaha — You are only a warner for those who fear it\n46. Ka-annahum yawma yarawna ha lam yalbathu illa 'ashiyyatan aw duha — On the Day they see it, it will feel as if they only stayed [in this world] for an afternoon or a morning",
     "questions": [
       {
-        "prompt": "What is the name of Surah 78 and what does it mean?",
-        "acceptableAnswers": ["an-naba the great news", "an naba great news", "surah an-naba the great news"]
+        "prompt": "What is the name of Surah 79 and what does it mean in English?",
+        "acceptableAnswers": [
+          "an-naziat those who pull out",
+          "an naziat those who pull out",
+          "surah an-naziat"
+        ]
       },
       {
-        "prompt": "AYAT 4-5: 'Kalla saya-lamoon' is repeated. What does it warn people about?",
-        "acceptableAnswers": ["they will know", "they are going to know", "they will find out"]
+        "prompt": "AYAT 1-5: The surah opens by swearing by a group of beings. Who are these beings?",
+        "acceptableAnswers": [
+          "angels",
+          "the angels"
+        ]
       },
       {
-        "prompt": "AYAH 6: According to this ayah, what did Allah make as a resting place?",
-        "acceptableAnswers": ["the earth", "earth"]
+        "prompt": "AYAH 6: What will happen to the earth on that Day?",
+        "acceptableAnswers": [
+          "it will tremble",
+          "shake",
+          "great trembling"
+        ]
       },
       {
-        "prompt": "AYAH 8: According to this ayah, how were people created?",
-        "acceptableAnswers": ["in pairs", "pairs", "azwaj"]
+        "prompt": "AYAH 13: How many blasts will bring about the Day of Judgment?",
+        "acceptableAnswers": [
+          "one",
+          "1",
+          "one blast"
+        ]
       },
       {
-        "prompt": "AYAH 10: According to this ayah, what did Allah make the night as?",
-        "acceptableAnswers": ["clothing", "libas", "covering"]
+        "prompt": "AYAH 15: Which Prophet's story is told in this Surah?",
+        "acceptableAnswers": [
+          "musa",
+          "moses",
+          "prophet musa"
+        ]
       },
       {
-        "prompt": "AYAH 11: According to this ayah, what did Allah make the day for?",
-        "acceptableAnswers": ["livelihood", "earning", "work", "ma-ash"]
+        "prompt": "AYAH 16: In which valley did Allah call to Prophet Musa?",
+        "acceptableAnswers": [
+          "tuwa",
+          "the sacred valley of tuwa",
+          "wadi tuwa"
+        ]
       },
       {
-        "prompt": "AYAH 14: What does Allah send down from the rain clouds?",
-        "acceptableAnswers": ["pouring water", "water", "rain"]
+        "prompt": "AYAH 17: To whom did Allah send Prophet Musa?",
+        "acceptableAnswers": [
+          "firaun",
+          "pharaoh",
+          "fir'awn"
+        ]
       },
       {
-        "prompt": "AYAT 19-20: What happens to the mountains on the Day of Judgment?",
-        "acceptableAnswers": ["become a mirage", "removed and become mirage", "they disappear"]
+        "prompt": "AYAH 24: What shocking claim did Firaun make?",
+        "acceptableAnswers": [
+          "he said i am your most exalted lord",
+          "he claimed to be lord",
+          "i am your lord"
+        ]
       },
       {
-        "prompt": "AYAH 23: How long will the transgressors stay in Hell?",
-        "acceptableAnswers": ["for ages", "ages unending", "a very long time"]
+        "prompt": "AYAH 25: What did Allah do to Firaun as a punishment?",
+        "acceptableAnswers": [
+          "allah seized and punished him severely",
+          "severe punishment",
+          "he punished him as a warning"
+        ]
       },
       {
-        "prompt": "AYAH 26 MEMORIZE: Write the full transliteration of Ayah 26.",
-        "acceptableAnswers": ["jaza an wifaqa", "jaza-an wifaqaa", "jazaan wifaqaa"]
+        "prompt": "AYAH 26: What lesson does the story of Firaun teach us?",
+        "acceptableAnswers": [
+          "a lesson for those who fear allah",
+          "whoever fears allah should learn from this",
+          "it is a warning"
+        ]
       },
       {
-        "prompt": "AYAH 26: What does Jaza-an mean?",
-        "acceptableAnswers": ["a recompense", "recompense", "reward or punishment", "a reward"]
+        "prompt": "AYAH 27: What does Allah say is harder to create — humans or the heaven?",
+        "acceptableAnswers": [
+          "the heaven",
+          "sky",
+          "heaven"
+        ]
       },
       {
-        "prompt": "AYAH 26: What does Wifaqaa mean?",
-        "acceptableAnswers": ["fitting", "appropriate"]
+        "prompt": "AYAH 30: After creating the heaven, what did Allah do with the earth?",
+        "acceptableAnswers": [
+          "he spread it out",
+          "spread the earth",
+          "expanded it"
+        ]
       },
       {
-        "prompt": "AYAH 32: What two things will the righteous (muttaqeen) receive?",
-        "acceptableAnswers": ["gardens and grapevines", "gardens and vineyards", "gardens"]
+        "prompt": "AYAH 32: What did Allah set firmly in the earth?",
+        "acceptableAnswers": [
+          "the mountains",
+          "mountains"
+        ]
       },
       {
-        "prompt": "REFLECTION: Why is it important for us to remember the Day of Judgment? Write 2-3 sentences.",
+        "prompt": "AYAT 37-39: What will be the home of someone who transgressed and preferred worldly life?",
+        "acceptableAnswers": [
+          "hellfire",
+          "jahannam",
+          "hell"
+        ]
+      },
+      {
+        "prompt": "AYAT 40-41: What TWO things must a person do to earn Paradise according to these ayat?",
+        "acceptableAnswers": [
+          "fear allah and restrain desires",
+          "fear standing before allah and control desires",
+          "khafa maqama and restrained nafs"
+        ]
+      },
+      {
+        "prompt": "AYAH 44: Who is the ONLY one who knows when the Hour (Day of Judgment) will come?",
+        "acceptableAnswers": [
+          "allah",
+          "only allah",
+          "allah alone"
+        ]
+      },
+      {
+        "prompt": "AYAH 46: On the Day of Judgment, how will the time spent in this world feel to people?",
+        "acceptableAnswers": [
+          "like an afternoon or morning",
+          "very short",
+          "like one day or less"
+        ]
+      },
+      {
+        "prompt": "COMPARE: Both Surah An-Naba AND Surah An-Nazi'at talk about the Day of Judgment. Name ONE thing that happens on that Day that appears in BOTH surahs.",
         "acceptableAnswers": []
       },
       {
-        "prompt": "RECITATION: Practice saying Ayah 26 five times from memory to your parent, then write it here.",
+        "prompt": "REFLECTION: The story of Firaun is told as a WARNING. What is the lesson you learned from it? Write 2-3 sentences.",
         "acceptableAnswers": []
+      },
+      {
+        "prompt": "RECITATION: Read Ayat 40-41 (about the person who feared Allah and earned Paradise) to your parent 3 times, then write the transliteration of just Ayah 41 here.",
+        "acceptableAnswers": [
+          "fa-innal-jannata hiyal-ma'wa",
+          "innal jannata hiyal mawa",
+          "fa innal jannata"
+        ]
       }
     ]
   }
